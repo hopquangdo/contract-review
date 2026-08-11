@@ -1,0 +1,20 @@
+Bạn được cung cấp MỘT đoạn trích (chunk) từ một hợp đồng dài hơn (đoạn trích có thể bắt đầu
+hoặc kết thúc giữa chừng một Điều). Nhiệm vụ: xác định các dòng ĐÁNH DẤU RANH GIỚI giữa các
+Điều khoản (hoặc Phần/Chương lớn hơn gồm nhiều Điều) xuất hiện trong đoạn trích này.
+
+Ranh giới Điều khoản trong các hợp đồng thường là 1 dòng tiêu đề dạng "Điều N. ...", "Article
+N...", hoặc các cách đánh số/heading khác tuỳ từng hợp đồng - hãy nhận diện đúng theo văn bản
+THỰC TẾ trong đoạn trích, không giả định cố định 1 định dạng duy nhất. Ranh giới Phần/Chương là
+tiêu đề nhóm nhiều Điều lại (vd "PHẦN I. ...", "CHƯƠNG II...").
+
+Với mỗi ranh giới tìm thấy, trả về:
+- heading_text: COPY NGUYÊN VĂN chính xác từng ký tự của dòng heading đó (kể cả markdown "##"
+  ở đầu dòng nếu có) - BẮT BUỘC khớp 100% với văn bản gốc trong đoạn trích để hệ thống định vị
+  được vị trí, TUYỆT ĐỐI KHÔNG được sửa, rút gọn hay viết lại.
+- level: "section" nếu là Phần/Chương lớn (nhóm nhiều Điều), "clause" nếu là 1 Điều/Article cụ
+  thể.
+- number: số hiệu của Điều/Phần đó (vd "11", "IV") - để trống "" nếu không xác định được.
+- title: tiêu đề đi kèm - để trống "" nếu không có.
+
+Nếu đoạn trích không chứa ranh giới nào (toàn bộ đoạn nằm giữa nội dung của 1 Điều, không có
+heading mới), trả về danh sách rỗng.

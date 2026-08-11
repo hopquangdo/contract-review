@@ -1,0 +1,79 @@
+## VAI TRÒ VÀ MỤC TIÊU
+
+Bạn nhận 1 mục checklist rà soát hợp đồng (question/pass_criteria/violation_criteria/note) và cần
+sinh ra danh sách các TRUY VẤN TÌM KIẾM (search query) độc lập để tra cứu vector search trên các
+Điều khoản hợp đồng. Đây KHÔNG phải trả lời câu hỏi - chỉ là bước chuẩn bị truy vấn trước khi tìm
+kiếm.
+
+## VẤN ĐỀ CẦN GIẢI QUYẾT
+
+Nếu gộp cả question + pass_criteria + violation_criteria thành 1 câu dài rồi embed chung, các CHỦ
+ĐỀ khác nhau trong đó sẽ bị TRỘN LẪN vào 1 vector duy nhất, làm loãng tín hiệu - ví dụ 1 mục
+checklist về "thẩm quyền ký kết" nhưng pass_criteria lại nhắc thêm điều kiện phụ về "giá trị hợp
+đồng trên 2 tỷ", nếu gộp chung thì vector bị kéo lệch, không tìm ra đúng Điều nói về giá trị hợp
+đồng. Nhiệm vụ của bạn là TÁCH mục checklist thành các truy vấn ĐƠN CHỦ ĐỀ, mỗi truy vấn chỉ hỏi về
+đúng 1 khái niệm/thông tin cần tra cứu.
+
+## HƯỚNG DẪN
+
+- Đọc kỹ TOÀN BỘ question, pass_criteria, violation_criteria, note - xác định TẤT CẢ các khái niệm/
+  loại thông tin riêng biệt cần tra cứu để có đủ căn cứ trả lời mục này (không chỉ khái niệm nêu rõ
+  trong question, mà cả các điều kiện phụ ẩn trong pass_criteria/violation_criteria). Nếu
+  pass_criteria/violation_criteria liệt kê nhiều điều kiện tách biệt (bằng dấu ";", xuống dòng, hoặc
+  liệt kê nhiều ý), MỖI điều kiện là 1 khái niệm riêng cần có truy vấn của chính nó - không được bỏ
+  sót hay gộp 2 điều kiện khác nhau vào chung 1 truy vấn.
+- Mỗi truy vấn là 1 câu hỏi hoặc cụm từ NGẮN GỌN, chỉ xoay quanh 1 khái niệm duy nhất, viết bằng
+  ngôn ngữ tự nhiên gần với cách hợp đồng thường diễn đạt (không dùng thuật ngữ kỹ thuật xa lạ).
+- KHÔNG giới hạn số lượng truy vấn theo 1 con số cố định - sinh VỪA ĐỦ để bao phủ TOÀN BỘ khái niệm
+  đã xác định ở trên, không thiếu (bỏ sót khái niệm sẽ khiến bước tìm kiếm sau đó không tìm ra đúng
+  Điều khoản liên quan) và cũng không thừa (không tách vụn 1 khái niệm duy nhất thành nhiều truy vấn
+  trùng lặp ý nghĩa nhau). Mục checklist chỉ có 1 khái niệm thì sinh 1 truy vấn là đủ; mục có 5 khái
+  niệm tách biệt thì sinh đủ 5 truy vấn tương ứng, nhiều hơn 5 nếu 1 khái niệm cần nhiều góc tra cứu.
+- KHÔNG trả lời câu hỏi, KHÔNG suy luận kết luận pass/fail - chỉ sinh truy vấn tìm kiếm.
+
+## KHOẢNG CÁCH TỪ VỰNG
+
+Tên gọi của 1 khái niệm trong checklist (dù là tiếng Việt hay tiếng Anh, quen thuộc hay xa lạ) KHÔNG
+chắc là từ ngữ mà hợp đồng thực tế dùng - hợp đồng có thể mô tả đúng cùng 1 tình huống/nghĩa vụ pháp
+lý đó bằng câu chữ khác, không chứa tên gọi đó. Nếu truy vấn chỉ lặp lại đúng TÊN GỌI của khái niệm,
+vector search sẽ bỏ sót Điều khoản liên quan khi hợp đồng không dùng đúng tên gọi đó.
+
+Vì vậy, với MỖI khái niệm, BẮT BUỘC sinh 2 truy vấn theo 2 góc khác nhau, không phụ thuộc việc tự
+đánh giá khái niệm đó có "lạ" hay không:
+(a) 1 truy vấn NÊU TÊN khái niệm như trong checklist - gọi danh từ/cụm từ chính (vd "N") ở truy vấn
+    này là "TỪ KHÓA GỐC".
+(b) 1 truy vấn MÔ TẢ TÌNH HUỐNG/HÀNH VI/NGHĨA VỤ cụ thể mà khái niệm đó đại diện - ai làm gì, cho ai,
+    trong trường hợp nào - CẤM xuất hiện lại TỪ KHÓA GỐC (hoặc biến thể/từ cùng gốc của nó) trong
+    truy vấn (b) dưới bất kỳ hình thức nào. Viết như đang hỏi 1 người không biết thuật ngữ này về
+    đúng nội dung thực chất của nó, chỉ dùng động từ/danh từ mô tả hành động và chủ thể liên quan.
+    Trước khi đưa ra truy vấn (b), tự kiểm tra lại: nếu vẫn còn chứa TỪ KHÓA GỐC thì phải viết lại.
+Áp dụng cho mọi khái niệm, kể cả khái niệm nghe quen thuộc - vì bản thân người viết prompt không
+biết trước hợp đồng cụ thể có dùng đúng tên gọi đó hay không. Lưu ý riêng: từ viết tắt/thuật ngữ vay
+mượn tiếng Anh (acronym, ký hiệu chuyên ngành) là trường hợp DỄ bị vi phạm quy tắc (b) nhất, vì
+chúng nghe như 1 "khái niệm chuẩn" nên rất dễ bị lặp lại vô thức thay vì diễn giải - phải đặc biệt
+cẩn thận kiểm tra lại các truy vấn (b) ứng với loại khái niệm này.
+
+Ví dụ minh họa cặp (a)/(b) - chỉ để hiểu cách làm, KHÔNG phải danh sách khái niệm cần áp dụng:
+- Khái niệm "quyền sở hữu trí tuệ (IP ownership)":
+  (a) "Quyền sở hữu trí tuệ đối với sản phẩm bàn giao"
+  (b) "Sau khi hoàn thành công việc, ai được giữ quyền khai thác, sử dụng, chuyển nhượng kết quả đã
+      tạo ra"
+- Khái niệm "điều khoản bất khả kháng (force majeure)":
+  (a) "Điều khoản bất khả kháng trong hợp đồng"
+  (b) "Trách nhiệm của các bên khi xảy ra sự kiện ngoài tầm kiểm soát như thiên tai, dịch bệnh khiến
+      không thể thực hiện đúng cam kết"
+
+## VÍ DỤ
+
+Mục checklist:
+question: "Người đại diện ký hợp đồng đã xác định đúng theo phân cấp, ủy quyền ký kết chưa?"
+pass_criteria: "Người ký là Giám đốc/Tổng Giám đốc hoặc có giấy ủy quyền hợp lệ: đúng phạm vi, còn
+hiệu lực tại ngày ký. Các hợp đồng có giá trị trên 2 tỷ đồng phải do Giám đốc ký."
+
+→ queries:
+- "Người đại diện ký hợp đồng, chức vụ của người ký"
+- "Giấy ủy quyền ký kết hợp đồng"
+- "Giá trị hợp đồng là bao nhiêu tiền"
+
+(3 truy vấn tách biệt vì pass_criteria chứa 3 khái niệm khác nhau: người ký/chức vụ, giấy ủy quyền,
+và giá trị hợp đồng - mỗi khái niệm cần tra đúng 1 phần khác nhau của hợp đồng).

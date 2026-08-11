@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #fafafa;
+  --color-panel: #ffffff;
+  --color-border: rgba(0, 0, 0, 0.08);
+  --color-text: #1a1a1a;
+  --color-muted: #6b7280;
+  --color-accent: #ed1c24;
+  --color-accent-dark: #c4141b;
+  --color-accent-tint: rgba(237, 28, 36, 0.07);
+  /* "ok"/"fail"/"warn"/"neutral" thay vì "green"/"red"/"amber"/"gray" - tránh đè lên bảng màu mặc
+     định của Tailwind (red-500, green-500... vẫn cần dùng nguyên bản ở chỗ khác nếu cần). */
+  --color-ok: #047857;
+  --color-ok-bg: rgba(5, 150, 105, 0.1);
+  --color-fail: #b91c1c;
+  --color-fail-bg: rgba(239, 68, 68, 0.1);
+  --color-warn: #b45309;
+  --color-warn-bg: rgba(217, 119, 6, 0.1);
+  --color-neutral: #6b7280;
+  --color-neutral-bg: rgba(107, 114, 128, 0.1);
+  --font-sans: "Inter", -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+  border-top-color: var(--color-accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+
+.markdown-body p {
+  margin: 0.4rem 0;
+}
+.markdown-body ul,
+.markdown-body ol {
+  margin: 0.4rem 0;
+  padding-left: 1.2rem;
+}
+.markdown-body table {
+  border-collapse: collapse;
+  font-size: 0.75rem;
+}
+.markdown-body td,
+.markdown-body th {
+  border: 1px solid var(--color-border);
+  padding: 0.25rem 0.5rem;
+}

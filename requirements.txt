@@ -1,5 +1,11 @@
+fastapi == 0.141.1
+uvicorn[standard] == 0.52.1
+python-multipart >= 0.0.9
 neo4j-rust-ext == 5.25.0.0
-neo4j-graphrag == 1.0.0
-semantic-kernel == 1.11.0
-streamlit == 1.39.0
-openai == 1.51.2
+langchain-neo4j >= 0.4
+pydantic == 2.9.2
+python-dotenv == 1.2.2
+langchain-openai >= 0.2
+langgraph >= 0.2
+langchain-core >= 0.3
+docling >= 2.0

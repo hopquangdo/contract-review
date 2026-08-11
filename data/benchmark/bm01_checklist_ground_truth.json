@@ -1,0 +1,280 @@
+{
+  "contract_file": "BM 01 - Hop dong cung cap dich vu phat trien phan mem.md",
+  "checklist_source": "Checklist_Tham_Dinh_Hop_Dong_Dau_Ra (V1)_260716.pdf",
+  "note": "Ground truth được tạo thủ công bằng cách đọc toàn bộ hợp đồng (không qua retrieval), dùng để đánh giá độc lập hệ thống chấm checklist tự động (bao gồm cả chất lượng retrieval).",
+  "scoring_philosophy": "strict",
+  "items": [
+    {
+      "id": "CL-01",
+      "category": "Thẩm quyền ký kết",
+      "question": "Người đại diện ký hợp đồng đã xác định đúng theo phân cấp, ủy quyền ký kết chưa?",
+      "pass_criteria": "Người ký là Giám đốc/Tổng Giám đốc hoặc có giấy ủy quyền hợp lệ: đúng phạm vi, còn hiệu lực tại ngày ký.",
+      "violation_criteria": "Người ký không có thẩm quyền, không có ủy quyền. Phó Giám đốc hoặc Người khác ký hợp đồng giá trị trên 2 tỷ đồng. Ngày giấy ủy quyền sau ngày ký hợp đồng.",
+      "note": "Các hợp đồng có giá trị trên 2 tỷ đồng phải do Giám đốc ký.",
+      "severity": "high",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Phần mở đầu hợp đồng: 'BÊN CUNG CẤP DỊCH VỤ: ... Đại diện: Ông Bùi Trình, Chức vụ: Giám đốc' và 'BÊN SỬ DỤNG DỊCH VỤ: CÔNG TY TNHH VIVAPLAST ... Đại diện: Ông Nguyễn Văn A, Chức vụ: Phó Giám đốc'. Điều 15.1(a): Tổng giá trị hợp đồng dự kiến 10.000.000.000 VNĐ (Mười tỷ đồng), tức trên 2 tỷ đồng. Không có bất kỳ dòng nào trong phần thông tin các bên hoặc phần chữ ký đề cập đến giấy ủy quyền (số hiệu, ngày cấp, phạm vi ủy quyền) cho người đại diện của cả hai bên.",
+        "relevant_clauses": ["Phần mở đầu (thông tin các bên)", "Điều 15.1"],
+        "reason": "Áp dụng quy trình nghiêm ngặt: kiểm tra từng bên ký kết. Phía VTIT: Ông Bùi Trình, Giám đốc — đáp ứng điều kiện 'hợp đồng trên 2 tỷ đồng phải do Giám đốc ký' (nêu tại note). Phía Khách hàng: Ông Nguyễn Văn A, Phó Giám đốc, ký một hợp đồng trị giá 10 tỷ đồng (trên 2 tỷ) — khớp trực tiếp với điều kiện bị coi là vi phạm ('Phó Giám đốc... ký hợp đồng giá trị trên 2 tỷ đồng'). Không có bất kỳ dòng nào trong toàn văn hợp đồng đề cập giấy ủy quyền (số hiệu, ngày cấp, phạm vi, hiệu lực) cho Ông Nguyễn Văn A để bù đắp việc thiếu thẩm quyền theo phân cấp. Vì rơi vào một điều kiện vi phạm rõ ràng và không có bằng chứng về ủy quyền hợp lệ, kết luận là không đạt cho toàn bộ mục này, không có khái niệm 'đạt một phần' cho riêng bên VTIT.",
+        "confidence": 90
+      }
+    },
+    {
+      "id": "CL-02",
+      "category": "Ngành nghề kinh doanh",
+      "question": "Công ty có được thực hiện các công việc, dịch vụ hoặc bán các hàng hóa theo hợp đồng không?",
+      "pass_criteria": "Dịch vụ/hàng hóa theo Hợp đồng thuộc 1 trong các ngành nghề đã đăng ký: Bán buôn thiết bị và linh kiện điện tử, viễn thông (Mã ngành: 4652); Vận tải hành khách đường bộ khác (Mã ngành: 4932); Vận tải hàng hóa bằng đường bộ (Mã ngành: 4933); Kinh doanh bất động sản, quyền sử dụng đất thuộc chủ sở hữu, chủ sử dụng hoặc đi thuê (Mã ngành: 6810); Hoạt động của các cơ sở thể thao (Mã ngành: 9311); Hoạt động của các câu lạc bộ thể thao (Mã ngành: 9312); Hoạt động viễn thông khác (Mã ngành: 6190); Đại lý, môi giới, đấu giá hàng hóa (Mã ngành: 4610); Hoạt động kiến trúc và tư vấn kỹ thuật có liên quan (Mã ngành: 7110); Nghiên cứu khoa học và phát triển công nghệ trong lĩnh vực khoa học kỹ thuật và công nghệ (Mã ngành: 7212); Nghiên cứu thị trường và thăm dò dư luận (Mã ngành: 7320); Bán buôn máy móc, thiết bị và phụ tùng máy khác (Mã ngành: 4659); Lắp đặt hệ thống điện (Mã ngành: 4321); Lắp đặt máy móc và thiết bị công nghiệp (Mã ngành: 3320); Cho thuê máy móc, thiết bị và đồ dùng hữu hình khác không kèm người điều khiển (Mã ngành: 7730); Hoạt động dịch vụ hỗ trợ kinh doanh khác còn lại chưa được phân vào đâu (Mã ngành: 8299); Giáo dục khác chưa được phân vào đâu (Mã ngành: 8559); Quảng cáo (Mã ngành: 7310); Đại lý lữ hành (Mã ngành: 7911); Tư vấn máy tính và quản lý cơ sở hạ tầng máy tính (Mã ngành: 6220); Hoạt động bất động sản khác trên cơ sở phí hoặc hợp đồng (Mã ngành: 6829); Lập trình máy tính khác – ngành nghề kinh doanh chính (Mã ngành: 6219); Hoạt động dịch vụ máy tính và công nghệ thông tin khác (Mã ngành: 6290); Hoạt động bán lẻ dịch vụ viễn thông và dịch vụ trung gian cho hoạt động viễn thông (Mã ngành: 6120); Dịch vụ trung gian cho hoạt động bất động sản (Mã ngành: 6821); Hoạt động môi giới và tiếp thị bằng sáng chế (Mã ngành: 7491); Sửa chữa, bảo dưỡng máy tính, thiết bị thông tin và truyền thông (Mã ngành: 9510); Cung ứng lao động tạm thời (Mã ngành: 7821); Hoạt động thư viện (Mã ngành: 9111); Phát triển trò chơi điện tử, phần mềm trò chơi điện tử và các công cụ phần mềm trò chơi điện tử (Mã ngành: 6211); Hoạt động hành chính và hỗ trợ văn phòng (Mã ngành: 8210); Sửa chữa, bảo dưỡng máy móc, thiết bị (Mã ngành: 3312); Hoạt động chuyên môn, khoa học và công nghệ khác chưa được phân vào đâu (Mã ngành: 7499); Xuất bản phần mềm khác (Mã ngành: 5829); Bán lẻ thiết bị công nghệ thông tin và truyền thông (Mã ngành: 4740); Hoạt động hỗ trợ giáo dục khác (Mã ngành: 8569); Hoạt động tư vấn quản lý kinh doanh và hoạt động tư vấn quản lý khác (Mã ngành: 7020); Cơ sở hạ tầng công nghệ thông tin, xử lý dữ liệu, lưu trữ và các hoạt động liên quan (Mã ngành: 6310); Hoạt động viễn thông có dây, không dây và vệ tinh (Mã ngành: 6110); Hoạt động cổng tìm kiếm web và các dịch vụ thông tin khác (Mã ngành: 6390); Bán buôn máy tính, thiết bị ngoại vi và phần mềm (Mã ngành: 4651); Sửa chữa, bảo dưỡng thiết bị điện tử và quang học (Mã ngành: 3313); Cung ứng nguồn nhân lực khác (Mã ngành: 7822); Hoạt động lưu trữ (Mã ngành: 9112).",
+      "violation_criteria": "Dịch vụ không thuộc ngành nghề công ty đã đăng ký. Thực hiện dịch vụ thuộc ngành có điều kiện mà chưa có giấy phép.",
+      "note": "Hàng hóa, dịch vụ theo hợp đồng thuộc danh mục ngành nghề kinh doanh có điều kiện theo quy định của pháp luật Việt Nam (cần tra cứu trên google).",
+      "severity": "high",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 1.1, 1.2(b): Đối tượng hợp đồng là 'Dịch vụ phần mềm' - dịch vụ phát triển, triển khai, tùy biến, bàn giao phần mềm. Điều 14.1: phạm vi cụ thể dẫn chiếu Phụ lục 01 (không có trong tài liệu hợp đồng được cung cấp). Hợp đồng không chứa Giấy chứng nhận đăng ký doanh nghiệp hoặc bất kỳ trích dẫn mã ngành nghề kinh doanh nào của VTIT để đối chiếu với danh sách ~40 mã ngành nêu trong tiêu chí đạt (trong đó có Mã ngành 6219 - Lập trình máy tính khác, là ngành khớp về bản chất với 'Dịch vụ phần mềm' nêu tại Điều 1.2(b), nhưng đây chỉ là suy luận theo tên gọi, không phải xác nhận trực tiếp từ tài liệu đăng ký kinh doanh).",
+        "relevant_clauses": ["Điều 1.1", "Điều 1.2", "Điều 14.1"],
+        "reason": "Tiêu chí đạt yêu cầu xác nhận trực tiếp rằng dịch vụ theo hợp đồng thuộc 1 trong các mã ngành đã đăng ký của VTIT (cần đối chiếu với Giấy chứng nhận đăng ký doanh nghiệp). Văn bản hợp đồng chỉ mô tả bản chất dịch vụ (phát triển phần mềm) nhưng không có tài liệu đăng ký kinh doanh đi kèm để đối chiếu; việc dịch vụ 'nghe có vẻ khớp' với mã ngành 6219 trong danh sách không thay thế được việc xác minh chính thức VTIT có đăng ký mã ngành đó hay không. Vì tài liệu bắt buộc để chứng minh điều kiện đạt không có trong các điều khoản được cung cấp, theo nguyên tắc thiếu tài liệu tham chiếu = không đáp ứng, kết luận là không đạt. Riêng phần lưu ý về việc dịch vụ có thuộc danh mục ngành nghề kinh doanh có điều kiện theo pháp luật Việt Nam hay không là nội dung cần tra cứu bên ngoài hợp đồng (quy định pháp luật hiện hành về ngành nghề kinh doanh có điều kiện) — không tự kết luận vì nằm ngoài phạm vi văn bản hợp đồng được cung cấp để xác minh.",
+        "confidence": 65
+      }
+    },
+    {
+      "id": "CL-03",
+      "category": "Sở hữu trí tuệ",
+      "question": "Điều khoản bản quyền, sở hữu trí tuệ đã đầy đủ chưa? Xác định đúng đối tượng chưa?",
+      "pass_criteria": "Xác định rõ chủ sở hữu quyền tác giả với sản phẩm tạo ra theo hợp đồng (thuộc Công ty); phạm vi VTIT được giữ lại; phạm vi license cấp cho khách hàng (độc quyền/không độc quyền, thời hạn, lãnh thổ); có điều khoản về source code; bảo đảm không vi phạm IP bên thứ ba; có điều khoản quyền sở hữu được chuyển giao khi khách hàng thanh toán 100% giá trị.",
+      "violation_criteria": "Không thỏa thuận hoặc thỏa thuận không đầy đủ: phạm vi VTIT được giữ lại; phạm vi license cấp cho khách hàng (độc quyền/không độc quyền, thời hạn, lãnh thổ); có điều khoản về source code; bảo đảm không vi phạm IP bên thứ ba → Khả năng xảy ra tranh chấp giữa các bên.",
+      "note": "Chỉ quy định chung 'IP thuộc bên A' mà không liệt kê rõ đối tượng (phần mềm, tài liệu, dữ liệu...) — cần làm rõ.",
+      "severity": "high",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 5.5, Mô hình 1 (Client-owned IP) được chọn: 'toàn bộ quyền sở hữu trí tuệ ... đối với Sản phẩm bàn giao ... sẽ thuộc về Khách hàng' (Điều 5.5, Mô hình 1, điểm a). Điều 5.1: VTIT cam kết không vi phạm IP bên thứ ba. Điều 5.2: quyền SHTT chuyển giao đầy đủ cho Khách hàng sau khi bàn giao và Khách hàng thanh toán đầy đủ. Điều 5.3, 5.5 Mô hình 1(c): VTIT được giữ Background IP và quyền tái sử dụng thành phần không đặc thù.",
+        "relevant_clauses": ["Điều 5.1", "Điều 5.2", "Điều 5.3", "Điều 5.5"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt: (1) 'chủ sở hữu quyền tác giả với sản phẩm tạo ra thuộc Công ty' — KHÔNG đáp ứng, vì Điều 5.5 Mô hình 1 quy định toàn bộ quyền sở hữu trí tuệ đối với Sản phẩm bàn giao thuộc về Khách hàng, không thuộc VTIT; (2) 'phạm vi license cấp cho khách hàng (độc quyền/không độc quyền, thời hạn, lãnh thổ)' — KHÔNG có, vì đây là mô hình chuyển giao sở hữu chứ không phải cấp license nên không tồn tại điều khoản license cho khách hàng; các điều kiện còn lại (cam kết không vi phạm IP bên thứ ba tại 5.1, điều khoản về source code tại 1.2c, chuyển giao khi thanh toán đủ tại 5.2) có bằng chứng trực tiếp nhưng không đủ để bù cho hai điều kiện bắt buộc bị thiếu. Vì thiếu ít nhất hai điều kiện bắt buộc trong tiêu chí đạt, kết luận là không đạt, không có khái niệm đạt một phần dù việc soạn thảo nhìn chung khá chặt chẽ.",
+        "confidence": 80
+      }
+    },
+    {
+      "id": "CL-04",
+      "category": "Bảo vệ dữ liệu cá nhân",
+      "question": "Điều khoản bảo mật thông tin và bảo vệ dữ liệu cá nhân có đảm bảo tuân thủ quy định pháp luật không?",
+      "pass_criteria": "Xác định hợp đồng có hoạt động chuyển giao dữ liệu cá nhân giữa các bên hay không; nếu có chuyển giao thì xác định rõ loại dữ liệu xử lý; có mục đích, thời gian lưu trữ, cam kết xóa sau hợp đồng; có cam kết phối hợp thực hiện quyền của chủ thể dữ liệu và yêu cầu cơ quan nhà nước có thẩm quyền. Nếu không có hoạt động chuyển giao dữ liệu cá nhân thì cần có quy định hợp đồng này không có hoạt động chuyển giao dữ liệu cá nhân.",
+      "violation_criteria": "Chuyển dữ liệu cá nhân ra nước ngoài mà không đánh giá tác động/thông báo → phạt đến 5% tổng doanh thu năm tài chính tại Việt Nam.",
+      "note": "Điều khoản bảo vệ dữ liệu cá nhân không cụ thể, không phân biệt dữ liệu thông thường và dữ liệu nhạy cảm (sức khỏe, tài chính, sinh trắc học), không phân biệt dữ liệu có chuyển xuyên biên giới hay không. Căn cứ pháp lý: Luật Bảo vệ dữ liệu cá nhân; Luật An ninh mạng hiện hành.",
+      "severity": "high",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 6.5: 'Các Bên có nghĩa vụ tuân thủ Thỏa thuận về Bảo vệ dữ liệu cá nhân theo Phụ lục 03 đính kèm Hợp đồng này.' Điều 6.4: 'Các Bên cam kết tuyệt đối tuân thủ các quy định bảo mật chung như Phụ lục 02 của Hợp đồng này.' Không có điều khoản nào trong văn bản chính xác nhận hợp đồng không có hoạt động chuyển giao dữ liệu cá nhân, cũng không có điều khoản nào tự quy định loại dữ liệu, mục đích, thời gian lưu trữ, cam kết xóa sau hợp đồng, hoặc cơ chế phối hợp thực hiện quyền chủ thể dữ liệu.",
+        "relevant_clauses": ["Điều 6.4", "Điều 6.5"],
+        "reason": "Tiêu chí đạt yêu cầu xác định rõ (a) có hoạt động chuyển giao dữ liệu cá nhân hay không, và nếu có thì phải nêu loại dữ liệu, mục đích, thời gian lưu trữ, cam kết xóa, cơ chế phối hợp quyền chủ thể dữ liệu; hoặc (b) nếu không có chuyển giao thì phải có xác nhận rõ ràng về việc đó. Văn bản hợp đồng chính không đáp ứng cả hai nhánh: không xác nhận rõ ràng việc không có chuyển giao dữ liệu cá nhân, đồng thời cũng không tự quy định các nội dung chi tiết bắt buộc mà chỉ dẫn chiếu sang Phụ lục 02, 03 - các phụ lục này không nằm trong phạm vi tài liệu được cung cấp để xác minh. Theo nguyên tắc thiếu tài liệu tham chiếu bắt buộc = không đáp ứng, kết luận không đạt. Lý do không đạt là thiếu tài liệu tham chiếu (Phụ lục 02, 03), không phải phát hiện vi phạm thực chất về nội dung. Riêng câu hỏi liệu cơ chế xử lý vi phạm hiện hành có khớp với mức phạt hành chính tối đa 5% doanh thu theo Luật Bảo vệ dữ liệu cá nhân hay không là nội dung thuộc quy định pháp luật bên ngoài hợp đồng, không tự kết luận vì nằm ngoài phạm vi văn bản hợp đồng được cung cấp để xác minh.",
+        "confidence": 75
+      }
+    },
+    {
+      "id": "CL-05",
+      "category": "Bảo mật thông tin",
+      "question": "Điều khoản bảo mật thông tin có đảm bảo quyền lợi của Công ty không?",
+      "pass_criteria": "Xác nhận hợp đồng có đầy đủ các nội dung sau: định nghĩa thông tin mật; nghĩa vụ và thời hạn bảo mật; các trường hợp ngoại lệ; VTIT được tiết lộ thông tin cho nhà thầu; VTIT có quyền sử dụng thông tin hợp đồng để chứng minh năng lực.",
+      "violation_criteria": "Chỉ quy định trách nhiệm bảo mật của VTIT mà không quy định trách nhiệm bảo mật của Bên A.",
+      "note": "Quy định bồi thường thiệt hại khi vi phạm bảo mật thông tin với mức bồi thường cố định thì cần cảnh báo.",
+      "severity": "medium",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 1.2(m) định nghĩa 'Thông tin mật'. Điều 6.1: nghĩa vụ bảo mật áp dụng cho 'Các Bên', không nêu mốc thời hạn cụ thể (chỉ nói 'trong quá trình thực hiện và sau khi kết thúc Hợp đồng'). Điều 6.2(a-d): các trường hợp ngoại lệ, trong đó điểm (d) cho phép tiết lộ cho 'công ty mẹ, công ty thành viên, cán bộ, nhân viên, người làm công, đại lý, bên tư vấn, cung cấp dịch vụ' - không dùng từ 'nhà thầu'/'nhà thầu phụ'. Điều 6.3: cho phép Bên Sử dụng nêu tên, phạm vi dịch vụ, giá trị hợp đồng trong hồ sơ năng lực với điều kiện ràng buộc.",
+        "relevant_clauses": ["Điều 1.2", "Điều 6.1", "Điều 6.2", "Điều 6.3"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt: định nghĩa thông tin mật có (1.2m) - đạt; các trường hợp ngoại lệ có (6.2) - đạt; quyền dùng thông tin hợp đồng chứng minh năng lực có (6.3) - đạt. Tuy nhiên hai điều kiện sau không có bằng chứng trực tiếp rõ ràng: (1) 'thời hạn bảo mật' - hợp đồng chỉ nói nghĩa vụ áp dụng 'trong quá trình thực hiện và sau khi kết thúc Hợp đồng' mà không xác định mốc thời gian/thời hạn cụ thể, còn mập mờ; (2) 'VTIT được tiết lộ thông tin cho nhà thầu' - Điều 6.2(d) liệt kê 'đại lý, bên tư vấn, cung cấp dịch vụ' nhưng không nêu rõ hoặc trực tiếp bao gồm 'nhà thầu/nhà thầu phụ', nên còn mập mờ, có thể hiểu theo nhiều cách chứ không phải bằng chứng trực tiếp rõ ràng. Vì thiếu bằng chứng trực tiếp cho hai điều kiện bắt buộc này, và khi còn nghi ngờ phải kết luận không đạt (không được hưởng lợi từ sự nghi ngờ), mục này đánh giá là không đạt.",
+        "confidence": 60
+      }
+    },
+    {
+      "id": "CL-06",
+      "category": "Kiểm soát xuất nhập khẩu",
+      "question": "Việc kiểm soát xuất khẩu, nhập khẩu phần mềm/hàng hóa (nếu có) có tuân thủ quy định pháp luật không?",
+      "pass_criteria": "Đã kiểm tra các mặt hàng cung cấp theo Hợp đồng không thuộc phạm vi điều chỉnh của Quy định Kiểm soát Xuất khẩu Hoa Kỳ (U.S. Export Administration Regulations – EAR). Trong trường hợp có bán hàng hóa, thiết bị thì Hợp đồng đã có điều khoản yêu cầu Bên A không xuất khẩu hàng hóa và không sử dụng cho mục đích quân sự.",
+      "violation_criteria": "Các mặt hàng cung cấp theo Hợp đồng thuộc phạm vi điều chỉnh của Quy định Kiểm soát Xuất khẩu Hoa Kỳ (EAR).",
+      "note": "Cần tìm đề xuất trên mạng.",
+      "severity": "medium",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 14.3: 'phạm vi Dịch vụ không bao gồm: (i) cung cấp hạ tầng (máy chủ, đường truyền, thiết bị, bản quyền bên thứ ba)...'. Toàn bộ hợp đồng chỉ đề cập cung cấp 'Dịch vụ phát triển phần mềm', không có điều khoản mua bán hàng hóa/thiết bị vật lý xuất nhập khẩu. Không có bất kỳ điều khoản nào xác nhận trực tiếp rằng dịch vụ/sản phẩm theo hợp đồng không thuộc phạm vi điều chỉnh của Quy định Kiểm soát Xuất khẩu Hoa Kỳ (EAR).",
+        "relevant_clauses": ["Điều 14.3", "Điều 1.2(b)"],
+        "reason": "Tiêu chí đạt yêu cầu xác nhận trực tiếp (đã kiểm tra) rằng các mặt hàng cung cấp theo hợp đồng không thuộc phạm vi điều chỉnh EAR. Hợp đồng không có bất kỳ điều khoản nào đề cập đến EAR hoặc kiểm soát xuất khẩu nói chung; việc đây là hợp đồng dịch vụ phần mềm không tự động chứng minh việc không thuộc phạm vi EAR (phần mềm vẫn có thể chịu điều chỉnh của EAR tùy tính năng/mã hóa). Vì không tìm thấy bằng chứng trực tiếp cho điều kiện bắt buộc trong văn bản hợp đồng, kết luận là không đạt. Việc xác định chính xác các mặt hàng/dịch vụ phần mềm theo Hợp đồng có thực sự thuộc phạm vi điều chỉnh EAR hay không đòi hỏi tra cứu, đối chiếu quy định pháp luật/danh mục kiểm soát xuất khẩu của Hoa Kỳ nằm ngoài phạm vi văn bản hợp đồng — không tự bịa kết luận về vấn đề này, chỉ ghi nhận là thiếu bằng chứng xác nhận từ hợp đồng.",
+        "confidence": 45
+      }
+    },
+    {
+      "id": "CL-07",
+      "category": "Phạt vi phạm và bồi thường thiệt hại",
+      "question": "Điều khoản phạt, bồi thường thiệt hại có đảm bảo bảo vệ quyền lợi của Công ty không?",
+      "pass_criteria": "Mức phạt vi phạm ≤ 8% giá trị phần nghĩa vụ vi phạm; có điều khoản bồi thường thiệt hại thực tế; có giới hạn trách nhiệm phạt và bồi thường tối đa (liability cap); loại trừ thiệt hại gián tiếp/mất lợi nhuận.",
+      "violation_criteria": "Mức phạt vượt 8% giá trị phần vi phạm → phần vượt vô hiệu theo luật. Không thỏa thuận phạt = mất quyền phạt, chỉ được bồi thường thiệt hại thực tế (phải chứng minh).",
+      "note": "Mức phạt áp dụng một chiều bất lợi cho Công ty, không có quy định phạt và bồi thường cho Bên A hoặc không có giới hạn trách nhiệm tối đa — cần bổ sung.",
+      "severity": "high",
+      "ground_truth": {
+        "status": "pass",
+        "evidence": "Điều 11.2(a,b): VTIT chịu phạt 0,05% giá trị phần chậm/không đạt, tổng mức phạt không quá 8%. Điều 11.2(c): bên tự ý chấm dứt trái quy định chịu phạt 8% giá trị bị vi phạm (áp dụng cho cả 2 bên). Điều 11.2(d): Khách hàng chậm thanh toán chịu phạt 0,1%/ngày, tổng không quá 8% giá trị thanh toán chậm. Điều 11.3: bồi thường thiệt hại thực tế, trực tiếp, có chứng từ; loại trừ thiệt hại gián tiếp (mất dữ liệu, doanh thu, lợi nhuận, cơ hội kinh doanh...). Điều 11.4: tổng mức phạt và bồi thường của VTIT không vượt quá tổng giá trị hợp đồng đã thực hiện và nghiệm thu (liability cap).",
+        "relevant_clauses": ["Điều 11.1", "Điều 11.2", "Điều 11.3", "Điều 11.4"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt, tất cả đều có bằng chứng trực tiếp: mức phạt vi phạm ≤ 8% giá trị phần nghĩa vụ vi phạm (11.2 a,b,c,d, đều ghi rõ giới hạn 8%); có điều khoản bồi thường thiệt hại thực tế (11.3); có giới hạn trách nhiệm phạt và bồi thường tối đa (11.4, không vượt tổng giá trị hợp đồng đã thực hiện và nghiệm thu); loại trừ thiệt hại gián tiếp/mất lợi nhuận (11.3, 11.4). Chế tài áp dụng cho cả hai Bên (VTIT tại 11.2a,b; Khách hàng tại 11.2c,d, 15.4), không rơi vào vi phạm nào của checklist. Tất cả điều kiện bắt buộc đều đạt, kết luận đạt.",
+        "confidence": 90
+      }
+    },
+    {
+      "id": "CL-08",
+      "category": "Chấm dứt hợp đồng",
+      "question": "Căn cứ, hậu quả chấm dứt hợp đồng có bảo vệ quyền lợi của Công ty khi xảy ra tranh chấp không?",
+      "pass_criteria": "Xác định rõ vi phạm cơ bản (material breach) dẫn đến chấm dứt ngay; chấm dứt thuận tiện (for convenience) yêu cầu thông báo trước tối thiểu 30 ngày và thanh toán phần đã hoàn thành; các điều khoản tiếp tục hiệu lực sau chấm dứt (bảo mật, sở hữu trí tuệ, thanh toán) được liệt kê rõ.",
+      "violation_criteria": "Khách hàng có thể chấm dứt bất kỳ lúc nào mà không bồi thường. Không có điều khoản về hậu quả chấm dứt hợp đồng.",
+      "note": "Điều kiện chấm dứt mơ hồ hoặc chỉ có lợi cho khách hàng — cần bổ sung quyền chấm dứt tương xứng cho Công ty.",
+      "severity": "high",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 12.2: liệt kê các vi phạm cơ bản dẫn đến quyền chấm dứt của 'Một trong Hai Bên' (không thanh toán quá 30 ngày, từ chối bàn giao, vi phạm cam đoan bảo đảm, VTIT được chấm dứt nếu KH mất khả năng thanh toán, vi phạm nghiêm trọng), có thời hạn khắc phục tối thiểu 15 ngày làm việc trước khi chấm dứt chính thức. Điều 12.4: hậu quả khi hợp đồng chấm dứt trước hạn không do lỗi VTIT (quyền được thanh toán phần đã thực hiện, chi phí dở dang, không bị coi vi phạm). Không tìm thấy điều khoản liệt kê rõ các điều khoản 'tiếp tục có hiệu lực sau khi chấm dứt' (surviving clauses) như bảo mật (Điều 6), sở hữu trí tuệ (Điều 5), nghĩa vụ thanh toán.",
+        "relevant_clauses": ["Điều 12.1", "Điều 12.2", "Điều 12.3", "Điều 12.4"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt: 'vi phạm cơ bản dẫn đến chấm dứt ngay' có bằng chứng (12.2) nhưng thực chất yêu cầu thời gian khắc phục tối thiểu 15 ngày làm việc trước khi chấm dứt, không phải chấm dứt ngay; 'chấm dứt thuận tiện (for convenience) yêu cầu báo trước tối thiểu 30 ngày và thanh toán phần đã hoàn thành' - KHÔNG có cơ chế chấm dứt thuận tiện nào trong hợp đồng, chỉ có chấm dứt do vi phạm hoặc theo thỏa thuận cả hai bên (12.1b); 'các điều khoản tiếp tục hiệu lực sau chấm dứt (bảo mật, SHTT, thanh toán) được liệt kê rõ' - KHÔNG tìm thấy bất kỳ điều khoản nào liệt kê các điều khoản 'surviving' sau khi chấm dứt. Vì thiếu hai trong ba điều kiện bắt buộc, kết luận không đạt.",
+        "confidence": 80
+      }
+    },
+    {
+      "id": "CL-09",
+      "category": "Nhà thầu phụ",
+      "question": "Hợp đồng có cấm sử dụng nhà thầu phụ không?",
+      "pass_criteria": "Hợp đồng cho phép thầu phụ: có yêu cầu thông báo/chấp thuận trước bằng văn bản; có điều khoản đối với nhà thầu phụ.",
+      "violation_criteria": "Hợp đồng cấm thầu phụ mà Công ty vẫn sử dụng → vi phạm hợp đồng, khách hàng có quyền chấm dứt và yêu cầu bồi thường. Công ty vẫn chịu toàn bộ trách nhiệm dù thầu phụ gây ra lỗi.",
+      "note": "Hợp đồng cấm thầu phụ nhưng thực tế Công ty cần thuê ngoài một phần công việc — cần đàm phán điều chỉnh trước khi ký.",
+      "severity": "medium",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 9.3: 'Việc một Bên thuê hoặc giao cho bên thứ ba thực hiện một phần hoặc toàn bộ công việc theo Hợp đồng không được coi là hành vi chuyển nhượng Hợp đồng và không vi phạm nghĩa vụ tại Hợp đồng này, với điều kiện Bên đó vẫn phải chịu trách nhiệm hoàn toàn và trực tiếp trước Bên còn lại về kết quả công việc, chất lượng dịch vụ và các nghĩa vụ khác theo Hợp đồng.' Không có câu chữ nào trong Điều 9 (hoặc bất kỳ điều nào khác) yêu cầu thông báo hoặc xin chấp thuận trước bằng văn bản khi thuê thầu phụ.",
+        "relevant_clauses": ["Điều 9.1", "Điều 9.3"],
+        "reason": "Tiêu chí đạt gồm hai điều kiện bắt buộc: (1) hợp đồng cho phép thầu phụ - có bằng chứng (9.3); (2) có yêu cầu thông báo/chấp thuận trước bằng văn bản đối với việc thuê thầu phụ - KHÔNG có bằng chứng, Điều 9.3 chỉ yêu cầu bên thuê thầu phụ chịu trách nhiệm hoàn toàn, không yêu cầu thông báo hay xin chấp thuận trước. Điều 9.1 chỉ áp dụng yêu cầu chấp thuận bằng văn bản cho việc 'chuyển nhượng' quyền/nghĩa vụ, khác bản chất với việc thuê thầu phụ thực hiện công việc tại 9.3. Vì thiếu điều kiện bắt buộc thứ hai, không được bù đắp bằng lập luận 'có lợi hơn cho VTIT', kết luận không đạt.",
+        "confidence": 75
+      }
+    },
+    {
+      "id": "CL-10",
+      "category": "Thanh toán",
+      "question": "Điều khoản thanh toán đã phù hợp và bảo vệ quyền lợi cho Công ty không?",
+      "pass_criteria": "Có đặt cọc/tạm ứng trước khi khởi công (đề xuất 20–30%); thanh toán theo milestone rõ ràng; thời hạn thanh toán xác định ngày cụ thể; có lãi chậm thanh toán; Công ty có quyền tạm dừng dịch vụ nếu chậm thanh toán quá thời hạn.",
+      "violation_criteria": "Điều khoản thanh toán gây bất lợi cho Công ty hoặc có những điều kiện về hồ sơ thanh toán phức tạp. Hồ sơ thanh toán phức tạp: đề nghị thanh toán, hóa đơn, nhiều loại biên bản nghiệm thu, chứng chỉ, các tài liệu không có trong quá trình nghiệm thu, các tài liệu đơn phương của Bên A. Điều kiện thanh toán chỉ được thực hiện sau khi khách hàng nhận thanh toán từ bên thứ ba.",
+      "note": "Thời hạn thanh toán ngắn (dưới 30 ngày) hoặc điều kiện thanh toán phụ thuộc vào xác nhận chủ quan của khách hàng. Hồ sơ thanh toán phức tạp: đề nghị thanh toán, hóa đơn, nhiều loại biên bản nghiệm thu, chứng chỉ. Điều kiện thanh toán chỉ được thực hiện sau khi khách hàng nhận thanh toán từ bên thứ ba.",
+      "severity": "high",
+      "ground_truth": {
+        "status": "pass",
+        "evidence": "Điều 15.3(a): tạm ứng 30% giá trị hợp đồng trong vòng 05 ngày làm việc sau khi có hồ sơ tạm ứng. Điều 15.3(c,d): thanh toán lần 1 (65%) sau HOC, thanh toán lần 2 (5%) sau FAC, mỗi lần trong vòng 05 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ. Điều 15.4: lãi chậm trả 0,05%/ngày. Điều 4.1(b): VTIT có quyền từ chối/tạm dừng công việc nếu Khách hàng không thanh toán đầy đủ, đúng hạn.",
+        "relevant_clauses": ["Điều 15.3", "Điều 15.4", "Điều 4.1"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt, tất cả có bằng chứng trực tiếp: đặt cọc/tạm ứng trước khi khởi công 30% (trong khoảng đề xuất 20-30%, Điều 15.3a); thanh toán theo milestone rõ ràng (tạm ứng - HOC 65% - FAC 5%, Điều 15.3); thời hạn thanh toán xác định cụ thể là 05 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ; có lãi chậm thanh toán 0,05%/ngày (15.4); VTIT có quyền từ chối/tạm dừng công việc nếu Khách hàng không thanh toán đầy đủ, đúng hạn (4.1b). Không rơi vào vi phạm nào (hồ sơ thanh toán không phức tạp - chỉ gồm HOC/PAC/FAC và đề nghị thanh toán/hóa đơn thông thường; không phụ thuộc bên thứ ba). Tất cả điều kiện bắt buộc đều đạt.",
+        "confidence": 90
+      }
+    },
+    {
+      "id": "CL-11",
+      "category": "Thuế",
+      "question": "Giá trị hợp đồng đã bao gồm, xác định đúng thuế, thuế suất chưa?",
+      "pass_criteria": "Ghi rõ giá chưa thuế và thuế GTGT riêng biệt; thuế suất đúng quy định (dịch vụ phát triển phần mềm nội địa: 0%; dịch vụ khác liên quan đến phần mềm: 10%); ghi rõ bên nào chịu thuế nhà thầu nếu có yếu tố nước ngoài.",
+      "violation_criteria": "Không xác định thuế suất hoặc sai thuế suất GTGT. Điều khoản điều chỉnh thuế gây bất lợi cho Công ty hoặc không cho điều chỉnh thuế suất.",
+      "note": "Giá ghi 'đã bao gồm tất cả các loại thuế' nhưng không xác định cụ thể. Xác định thuế suất là 8%. Điều khoản điều chỉnh thuế gây bất lợi cho Công ty. Cần tìm đề xuất trên mạng.",
+      "severity": "medium",
+      "ground_truth": {
+        "status": "pass",
+        "evidence": "Điều 15.1(a): bảng chi tiết giá có dòng riêng 'Thuế GTGT: 0'. Điều 15.1(b): 'Dịch vụ phát triển phần mềm là đối tượng không chịu thuế GTGT theo quy định pháp luật hiện hành tại thời điểm ký kết Hợp đồng. Trường hợp có phát sinh nghĩa vụ nộp thuế GTGT đối với Dịch vụ thì Khách hàng có trách nhiệm thanh toán phần thuế GTGT phát sinh bổ sung này cho VTIT...'",
+        "relevant_clauses": ["Điều 15.1"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt trong phạm vi có thể xác minh từ hợp đồng: 'ghi rõ giá chưa thuế và thuế GTGT riêng biệt' - đạt, bảng giá tại 15.1(a) tách dòng riêng cho Thành tiền và Thuế GTGT (=0); 'thuế suất đúng quy định (dịch vụ phát triển phần mềm nội địa: 0%)' - Điều 15.1(b) xác nhận trực tiếp dịch vụ phát triển phần mềm không chịu thuế GTGT, khớp mức 0%; 'ghi rõ bên nào chịu thuế nhà thầu nếu có yếu tố nước ngoài' - không áp dụng vì cả hai bên đều là doanh nghiệp Việt Nam (Mã số thuế Việt Nam), không có yếu tố nước ngoài nên điều kiện này không bị kích hoạt. Việc thuế suất 0% mà hợp đồng nêu có thực sự đúng theo quy định pháp luật thuế GTGT hiện hành tại thời điểm ký (19/3/2026) hay không là nội dung cần tra cứu văn bản pháp luật thuế bên ngoài hợp đồng — không tự kết luận về tính đúng/sai của quy định pháp luật này, chỉ xác nhận rằng nội dung hợp đồng nội tại nhất quán, có ghi rõ ràng và không rơi vào vi phạm nào nêu trong checklist (không phải mức 8% như note cảnh báo, có điều khoản xử lý khi phát sinh nghĩa vụ thuế bổ sung). Kết luận đạt trên cơ sở các yếu tố xác minh được từ văn bản hợp đồng.",
+        "confidence": 70
+      }
+    },
+    {
+      "id": "CL-12",
+      "category": "Điều khoản thương mại",
+      "question": "Các điều khoản thương mại (giá trị hợp đồng, điều kiện thanh toán, thời hạn thanh toán…) đã phù hợp chưa?",
+      "pass_criteria": "Có cơ chế điều chỉnh giá khi phát sinh thêm phạm vi (change order phải ký phụ lục); đồng tiền thanh toán và tỷ giá quy đổi ghi rõ. Xác định rõ ràng loại giá hợp đồng, ví dụ: đơn giá cố định, đơn giá thay đổi, giá T&M, OSDC.",
+      "violation_criteria": "Không có điều khoản change order → khách hàng yêu cầu thêm việc mà Công ty phải thực hiện không được tính phí thêm. Thay đổi giá không có căn cứ hợp đồng. Quy định sử dụng đồng ngoại tệ thanh toán nếu Bên A là doanh nghiệp Việt Nam.",
+      "note": "Giá cố định (fixed price) nhưng phạm vi công việc mơ hồ.",
+      "severity": "medium",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 14.4: 'Mọi yêu cầu thay đổi/điều chỉnh phạm vi, chỉ tiêu kỹ thuật, khối lượng công việc, hạng mục bàn giao hoặc tiến độ ... chỉ có hiệu lực khi được hai bên lập thành văn bản (phụ lục/phiếu thay đổi/yêu cầu thay đổi)...'. Điều 15.1(a): bảng giá theo khối lượng (MM) x đơn giá (10.000.000 VNĐ/MM), tổng giá trị 10 tỷ VNĐ. Điều 15.2: thanh toán bằng chuyển khoản, ghi 'Ngân hàng ACB', 'Số tài khoản: 66668888', không có bất kỳ dòng nào nêu tỷ giá quy đổi.",
+        "relevant_clauses": ["Điều 14.4", "Điều 15.1", "Điều 15.2"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt: (1) cơ chế điều chỉnh giá khi phát sinh thêm phạm vi (change order ký phụ lục) - có bằng chứng trực tiếp, đạt (14.4); (2) 'đồng tiền thanh toán và tỷ giá quy đổi ghi rõ' - đồng tiền thanh toán là VNĐ có ghi rõ, nhưng tỷ giá quy đổi HOÀN TOÀN không được đề cập ở bất kỳ đâu trong hợp đồng, đây là một điều kiện ghép (đồng tiền VÀ tỷ giá) nên thiếu một vế là không đáp ứng đầy đủ điều kiện; (3) loại giá hợp đồng (đơn giá theo khối lượng MM) được xác định - đạt. Vì điều kiện (2) không được đáp ứng đầy đủ (thiếu tỷ giá quy đổi), tổng thể mục này không đạt.",
+        "confidence": 60
+      }
+    },
+    {
+      "id": "CL-13",
+      "category": "SLA",
+      "question": "Khách hàng yêu cầu phạm vi công việc, cam kết dịch vụ hoặc SLA nào?",
+      "pass_criteria": "SLA định nghĩa bằng chỉ số đo lường được (uptime %, thời gian phản hồi P1/P2/P3); cơ chế đo lường rõ ràng; hậu quả vi phạm SLA có giới hạn tối đa (đề xuất service credit ≤ 10–15% phí tháng vi phạm).",
+      "violation_criteria": "SLA không có giới hạn service credit → khách hàng có thể yêu cầu bồi thường không giới hạn. SLA được đánh giá là vượt quá khả năng thực tế dựa trên giá trị hợp đồng và thời gian thực hiện.",
+      "note": "SLA uptime ≥ 99,9% mà hạ tầng hiện tại chưa đáp ứng — cần đánh giá khả thi trước khi cam kết ký kết.",
+      "severity": "medium",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 18.3, 18.4: chỉ có cam kết phản hồi bảo hành trong vòng [12] giờ làm việc và khắc phục lỗi tối đa [12] giờ làm việc (đối với lỗi nghiêm trọng), không có SLA vận hành dịch vụ liên tục (uptime %) hay phân loại mức độ ưu tiên P1/P2/P3. Không có điều khoản nào về service credit hoặc giới hạn bồi thường riêng khi vi phạm cam kết thời gian phản hồi/khắc phục.",
+        "relevant_clauses": ["Điều 18.3", "Điều 18.4"],
+        "reason": "Tiêu chí đạt yêu cầu: SLA định nghĩa bằng chỉ số đo lường được (uptime %, thời gian phản hồi theo P1/P2/P3); cơ chế đo lường rõ ràng; hậu quả vi phạm SLA có giới hạn tối đa (service credit). Hợp đồng không có bất kỳ điều khoản SLA nào theo đúng nghĩa (không có uptime, không phân loại mức độ ưu tiên P1/P2/P3, không có cơ chế đo lường, không có service credit). Chỉ có cam kết thời gian phản hồi/khắc phục trong giai đoạn bảo hành với giá trị còn để trong ngoặc vuông '[12]' - dấu hiệu placeholder chưa hoàn thiện, càng cho thấy chưa đáp ứng đầy đủ và chắc chắn. Vì không tìm thấy bằng chứng trực tiếp cho các điều kiện bắt buộc của tiêu chí đạt, kết luận không đạt.",
+        "confidence": 70
+      }
+    },
+    {
+      "id": "CL-14",
+      "category": "Khả thi cam kết dịch vụ",
+      "question": "Các cam kết với khách hàng về bảo mật, hỗ trợ vận hành, nhân sự hoặc thời gian phản hồi có khả thi không?",
+      "pass_criteria": "Tất cả cam kết đã đối chiếu với năng lực thực tế (nhân sự, hạ tầng, ca trực); cam kết ngoài giờ hành chính có phụ phí hoặc giới hạn số lần/tháng; nhân sự chủ chốt được chỉ định và có quy trình thay thế.",
+      "violation_criteria": "Cam kết vượt khả năng thực tế. Cam kết ngoài giờ không có phụ phí. Cam kết về trách nhiệm vượt ngoài giá trị của hợp đồng.",
+      "note": "Cam kết hỗ trợ 24/7 nhưng chưa có kế hoạch nhân sự trực.",
+      "severity": "medium",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 18.3: 'VTIT có trách nhiệm phản hồi trong vòng [12] giờ làm việc kể từ thời điểm nhận được yêu cầu'. Điều 18.4: 'VTIT sẽ triển khai việc khắc phục trong thời hạn tối đa [12] giờ làm việc đối với lỗi mức độ nghiêm trọng'. Điều 18.6: bảo hành chủ yếu qua remote, chi phí onsite do Khách hàng chịu trừ lỗi do VTIT. Không có điều khoản nào về nhân sự chủ chốt, ca trực, hoặc phụ phí hỗ trợ ngoài giờ hành chính.",
+        "relevant_clauses": ["Điều 18.3", "Điều 18.4", "Điều 18.6"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt: (1) 'cam kết đã đối chiếu với năng lực thực tế' - không có bằng chứng nào trong hợp đồng cho thấy điều này; (2) 'cam kết ngoài giờ hành chính có phụ phí hoặc giới hạn số lần/tháng' - không có điều khoản nào về phụ phí ngoài giờ; (3) 'nhân sự chủ chốt được chỉ định và có quy trình thay thế' - không tìm thấy. Ngoài ra các mốc thời gian phản hồi/khắc phục tại 18.3, 18.4 còn để trong ngoặc vuông '[12]', là dấu hiệu giá trị mẫu/placeholder chưa hoàn thiện, càng không đủ cơ sở khẳng định tính khả thi. Vì không tìm thấy bằng chứng trực tiếp cho bất kỳ điều kiện bắt buộc nào của tiêu chí đạt, kết luận không đạt.",
+        "confidence": 65
+      }
+    },
+    {
+      "id": "CL-15",
+      "category": "Phạm vi và nghiệm thu",
+      "question": "Phạm vi công việc, deliverables, tiêu chí nghiệm thu và timeline có đủ rõ ràng không?",
+      "pass_criteria": "Deliverables liệt kê cụ thể, đo lường được; tiêu chí nghiệm thu định lượng (số test case, % pass rate, chỉ số hiệu năng); thời hạn nghiệm thu xác định số ngày; có điều khoản nghiệm thu rõ ràng; cơ chế xử lý defect phân loại theo mức độ.",
+      "violation_criteria": "Không có tiêu chí nghiệm thu → khách hàng toàn quyền từ chối, Công ty không được thanh toán. Không có deeming acceptance → dự án treo vô hạn. Chỉ nghiệm thu sau khi bên thứ ba thực hiện nghiệm thu.",
+      "note": "Tiêu chí nghiệm thu định tính ('đáp ứng yêu cầu kinh doanh') mà không có thước đo cụ thể.",
+      "severity": "high",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 17.1-17.3: quy trình bàn giao/nghiệm thu 3 giai đoạn (HOC trong 3 ngày làm việc, PAC sau kiểm thử trong 3 ngày, FAC sau chạy thử tối đa 5 ngày, ký FAC trong 3 ngày). Điều 17.6: cơ chế deeming acceptance - nếu Khách hàng không phản hồi trong 5 ngày làm việc thì coi như đã chấp thuận. Điều 17.7: nghiệm thu từng phần. Điều 14.1, 14.2: phạm vi công việc, hạng mục bàn giao (deliverables), chỉ tiêu kỹ thuật và tiêu chí nghiệm thu cụ thể đều dẫn chiếu tại Phụ lục 01 (không có trong tài liệu được cung cấp).",
+        "relevant_clauses": ["Điều 14.1", "Điều 14.2", "Điều 17.1", "Điều 17.2", "Điều 17.3", "Điều 17.6", "Điều 17.7"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt: 'thời hạn nghiệm thu xác định số ngày' và 'có điều khoản nghiệm thu rõ ràng' - có bằng chứng trực tiếp (17.1-17.3, 17.6); nhưng 'deliverables liệt kê cụ thể, đo lường được' và 'tiêu chí nghiệm thu định lượng (số test case, % pass rate, chỉ số hiệu năng)' - hoàn toàn KHÔNG có trong văn bản hợp đồng chính, toàn bộ nội dung này được dẫn chiếu sang Phụ lục 01 vốn không nằm trong tài liệu được cung cấp để xác minh. Theo nguyên tắc tài liệu tham chiếu bắt buộc không có trong các điều khoản được cung cấp thì coi là không đáp ứng, và thiếu một điều kiện bắt buộc là không đạt, kết luận mục này không đạt. Lý do không đạt chủ yếu là thiếu tài liệu tham chiếu (Phụ lục 01) chứ không phải bản thân quy trình nghiệm thu có khiếm khuyết.",
+        "confidence": 65
+      }
+    },
+    {
+      "id": "CL-16",
+      "category": "Tiến độ dự án",
+      "question": "Tiến độ dự án, milestone và thời gian phản hồi/yêu cầu hỗ trợ có khả thi không?",
+      "pass_criteria": "Milestone gắn ngày cụ thể hoặc điều kiện rõ ràng; có điều khoản điều chỉnh tiến độ khi khách hàng chậm cung cấp thông tin/phê duyệt; bất khả kháng được định nghĩa rõ và có thủ tục thông báo trong 7–15 ngày.",
+      "violation_criteria": "Milestone cố định mà không có cơ chế điều chỉnh → Công ty bị phạt chậm tiến độ dù nguyên nhân từ phía khách hàng. Không có điều khoản bất khả kháng → Công ty vẫn chịu phạt khi xảy ra sự kiện ngoài tầm kiểm soát.",
+      "note": "Tiến độ phụ thuộc vào bên thứ ba (khách hàng cung cấp dữ liệu, API…) nhưng không có điều khoản giãn tiến độ tương ứng.",
+      "severity": "high",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 16.1: thời gian cung cấp dịch vụ 365 ngày kể từ ngày hợp đồng có hiệu lực. Điều 16.4: 'Trường hợp VTIT chậm cung cấp dịch vụ do các nguyên nhân khách quan hoặc do Khách hàng... thì VTIT có quyền đề nghị điều chỉnh thời gian cung cấp dịch vụ tương ứng... VTIT sẽ không bị coi là vi phạm Hợp đồng'. Điều 17.8: gia hạn thời hạn tương ứng nếu Khách hàng chậm cung cấp tài liệu/dữ liệu/môi trường. Điều 8.1: Sự kiện Bất khả kháng được định nghĩa rõ. Điều 8.2: 'Bên bị ảnh hưởng phải thông báo bằng văn bản cho Bên còn lại trong vòng 03 (ba) ngày làm việc kể từ ngày xảy ra sự kiện'.",
+        "relevant_clauses": ["Điều 16.1", "Điều 16.4", "Điều 17.8", "Điều 8.1", "Điều 8.2"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt: 'milestone gắn ngày cụ thể hoặc điều kiện rõ ràng' - đạt (theo sự kiện HOC/PAC/FAC); 'có điều khoản điều chỉnh tiến độ khi khách hàng chậm cung cấp thông tin/phê duyệt' - đạt (16.4, 17.8); 'bất khả kháng được định nghĩa rõ và có thủ tục thông báo trong 7-15 ngày' - phần định nghĩa đạt (8.1), nhưng thủ tục thông báo quy định là 03 ngày làm việc (Điều 8.2), KHÔNG nằm trong khoảng 7-15 ngày mà tiêu chí đạt yêu cầu cụ thể. Vì điều kiện về thời hạn thông báo bất khả kháng không khớp với con số cụ thể trong tiêu chí đạt (03 ngày nằm ngoài khoảng 7-15 ngày), không được tự ý coi 'nhanh hơn vẫn đạt' vì đó là nới lỏng tiêu chí đã quy định rõ, kết luận không đạt.",
+        "confidence": 65
+      }
+    },
+    {
+      "id": "CL-17",
+      "category": "Nhân sự, bàn giao và bảo hành",
+      "question": "Các điều khoản về nhân sự chủ chốt, bàn giao, nghiệm thu, hỗ trợ sau nghiệm thu đã phù hợp chưa?",
+      "pass_criteria": "Đầu mối phụ trách của các bên được chỉ định (tên hoặc vai trò); quy trình thay thế yêu cầu thông báo trước 15–30 ngày; danh mục tài liệu bàn giao liệt kê đầy đủ; thời gian và phạm vi bảo hành xác định rõ (đề xuất tối thiểu 12 tháng); có điều khoản non-solicitation cấm khách hàng tuyển dụng nhân sự Công ty trong và sau Hợp đồng tối thiểu 12 tháng.",
+      "violation_criteria": "Không có điều khoản non-solicitation → khách hàng tuyển dụng nhân sự chủ chốt, Công ty mất năng lực thực hiện. Không có danh mục bàn giao cụ thể → tranh chấp về mức độ hoàn thành, chậm thanh toán đợt cuối. Không có quy định Đầu mối phụ trách của các bên.",
+      "note": "Bảo hành chỉ quy định thời gian mà không xác định phạm vi.",
+      "severity": "high",
+      "ground_truth": {
+        "status": "fail",
+        "evidence": "Điều 7.2: cam kết không lôi kéo, tuyển dụng nhân sự VTIT trong thời gian thực hiện hợp đồng và trong vòng 12 tháng kể từ khi hợp đồng chấm dứt/hết hạn - đúng non-solicitation, đúng thời hạn tối thiểu 12 tháng đề xuất. Điều 18.1: bảo hành [12] tháng kể từ ngày ký FAC, chỉ áp dụng với chức năng/sản phẩm do VTIT phát triển trực tiếp. Điều 18.2: phạm vi bảo hành được xác định (loại trừ lỗi không do VTIT gây ra). Điều 3.2(b): Khách hàng cử cán bộ đầu mối làm việc với VTIT, nhưng không thấy quy định đầu mối cụ thể phía VTIT hoặc quy trình thông báo thay thế nhân sự (15-30 ngày). Danh mục tài liệu bàn giao cụ thể không có trong văn bản chính, dẫn chiếu Phụ lục 01.",
+        "relevant_clauses": ["Điều 3.2", "Điều 7.2", "Điều 18.1", "Điều 18.2"],
+        "reason": "Kiểm tra từng điều kiện của tiêu chí đạt: 'đầu mối phụ trách của các bên được chỉ định' - CHỈ có đầu mối phía Khách hàng (Điều 3.2b: 'Cử cán bộ có chuyên môn... làm đầu mối'), KHÔNG có quy định đầu mối cụ thể phía VTIT, nên điều kiện này không đáp ứng đầy đủ cho 'các bên' (cả hai bên); 'quy trình thay thế yêu cầu thông báo trước 15-30 ngày' - KHÔNG tìm thấy bất kỳ điều khoản nào về quy trình thay thế nhân sự chủ chốt; 'danh mục tài liệu bàn giao liệt kê đầy đủ' - KHÔNG có trong văn bản chính, dẫn chiếu Phụ lục 01 (không được cung cấp); 'thời gian và phạm vi bảo hành xác định rõ' - đạt (Điều 18.1, 18.2, tối thiểu 12 tháng); 'có điều khoản non-solicitation cấm khách hàng tuyển dụng nhân sự tối thiểu 12 tháng' - đạt (Điều 7.2). Vì thiếu ba điều kiện bắt buộc (đầu mối phía VTIT, quy trình thay thế nhân sự, danh mục tài liệu bàn giao cụ thể), kết luận không đạt dù hai điều kiện còn lại đáp ứng tốt.",
+        "confidence": 75
+      }
+    }
+  ]
+}

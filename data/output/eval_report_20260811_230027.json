@@ -1,0 +1,276 @@
+{
+  "summary": {
+    "total_items": 17,
+    "conclusive_items_evaluated": 17,
+    "status_accuracy": 0.765,
+    "mean_retrieval_recall": 0.971,
+    "mean_retrieval_precision": 0.185,
+    "missing_in_system_output": []
+  },
+  "items": [
+    {
+      "item_id": "CL-01",
+      "category": "Thẩm quyền ký kết",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.091,
+        "hit": [
+          "15"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-02",
+      "category": "Ngành nghề kinh doanh",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.2,
+        "hit": [
+          "1",
+          "14"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-03",
+      "category": "Sở hữu trí tuệ",
+      "ground_truth_status": "fail",
+      "system_status": "pass",
+      "status_match": false,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.167,
+        "hit": [
+          "5"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-04",
+      "category": "Bảo vệ dữ liệu cá nhân",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.5,
+        "hit": [
+          "6"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-05",
+      "category": "Bảo mật thông tin",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.222,
+        "hit": [
+          "1",
+          "6"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-06",
+      "category": "Kiểm soát xuất nhập khẩu",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 0.5,
+        "precision": 0.125,
+        "hit": [
+          "1"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-07",
+      "category": "Phạt vi phạm và bồi thường thiệt hại",
+      "ground_truth_status": "pass",
+      "system_status": "fail",
+      "status_match": false,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.25,
+        "hit": [
+          "11"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-08",
+      "category": "Chấm dứt hợp đồng",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.111,
+        "hit": [
+          "12"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-09",
+      "category": "Nhà thầu phụ",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.091,
+        "hit": [
+          "9"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-10",
+      "category": "Thanh toán",
+      "ground_truth_status": "pass",
+      "system_status": "pass",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.222,
+        "hit": [
+          "15",
+          "4"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-11",
+      "category": "Thuế",
+      "ground_truth_status": "pass",
+      "system_status": "fail",
+      "status_match": false,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.167,
+        "hit": [
+          "15"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-12",
+      "category": "Điều khoản thương mại",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.182,
+        "hit": [
+          "14",
+          "15"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-13",
+      "category": "SLA",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.091,
+        "hit": [
+          "18"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-14",
+      "category": "Khả thi cam kết dịch vụ",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.077,
+        "hit": [
+          "18"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-15",
+      "category": "Phạm vi và nghiệm thu",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.143,
+        "hit": [
+          "14",
+          "17"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-16",
+      "category": "Tiến độ dự án",
+      "ground_truth_status": "fail",
+      "system_status": "pass",
+      "status_match": false,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.231,
+        "hit": [
+          "16",
+          "17",
+          "8"
+        ]
+      },
+      "missing_in_system_output": false
+    },
+    {
+      "item_id": "CL-17",
+      "category": "Nhân sự, bàn giao và bảo hành",
+      "ground_truth_status": "fail",
+      "system_status": "fail",
+      "status_match": true,
+      "retrieval": {
+        "recall": 1.0,
+        "precision": 0.273,
+        "hit": [
+          "18",
+          "3",
+          "7"
+        ]
+      },
+      "missing_in_system_output": false
+    }
+  ]
+}
