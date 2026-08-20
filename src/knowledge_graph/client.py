@@ -14,6 +14,11 @@ _graph: Neo4jGraph | None = None
 
 
 def get_graph() -> Neo4jGraph:
+    """Trả về instance Neo4jGraph dùng chung (singleton) cho toàn ứng dụng, khởi tạo lười.
+
+    Returns:
+        Instance Neo4jGraph đã kết nối, `refresh_schema=False` (không tự đọc schema Neo4j).
+    """
     global _graph
     if _graph is None:
         logger.info("Khởi tạo Neo4jGraph, uri=%s, user=%s", NEO4J_URI, NEO4J_USERNAME)

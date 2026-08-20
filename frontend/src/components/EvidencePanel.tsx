@@ -3,7 +3,7 @@ import { marked } from "marked";
 import type { ClauseGroup, ClauseItem } from "../types";
 
 function scoreLabel(score: number | null): string {
-  return score === null || score === undefined ? "Điều mở đầu · context nền" : `Độ liên quan ${score}`;
+  return score === null || score === undefined ? "Opening article · background context" : `Relevance ${score}`;
 }
 
 // Hiển thị đúng cấu trúc graph thật: 1 Clause -[:HAS_EXCERPT]-> nhiều Excerpt, mỗi Excerpt là 1
@@ -25,7 +25,7 @@ function ExcerptsView({ clause }: { clause: ClauseItem }) {
           >
             {matched && (
               <span className="inline-block text-[0.68rem] font-semibold text-accent-dark bg-accent/12 rounded-full px-2 py-0.5 mb-1">
-                khớp · {ex.score}
+                matched · {ex.score}
               </span>
             )}
             <div className="markdown-body text-[0.79rem] leading-relaxed" dangerouslySetInnerHTML={{ __html: html }} />
@@ -67,21 +67,23 @@ function EvidenceItem({ group, defaultOpen }: { group: ClauseGroup; defaultOpen:
   );
 }
 
-export default function EvidencePanel({ groups }: { groups: ClauseGroup[] | null }) {
+// "inline" = chỉ render danh sách (không tự bọc <aside>/header) - dùng khi đã có wrapper riêng lo
+// phần khung/tab (xem EvidenceAside.tsx). Không truyền "inline" giữ nguyên hành vi cũ (đứng độc lập).
+export default function EvidencePanel({ groups, inline }: { groups: ClauseGroup[] | null; inline?: boolean }) {
+  const list = !groups || groups.length === 0 ? (
+    <div className="text-muted text-sm leading-relaxed">Click "View citation" on a result to see the full content here.</div>
+  ) : (
+    groups.map((g, i) => <EvidenceItem key={i} group={g} defaultOpen={i === 0} />)
+  );
+
+  if (inline) return <>{list}</>;
+
   return (
     <aside className="w-[30rem] shrink-0 flex flex-col border border-border rounded-2xl bg-white overflow-hidden max-[1100px]:hidden">
       <div className="h-[4.5rem] shrink-0 px-4 flex items-center border-b border-border">
         <h3 className="text-xs uppercase tracking-wider text-muted m-0">Evidence</h3>
       </div>
-      <div className="flex-1 overflow-y-auto p-4">
-        {!groups || groups.length === 0 ? (
-          <div className="text-muted text-sm leading-relaxed">
-            Bấm "Xem trích dẫn" trên 1 kết quả để xem nội dung đầy đủ ở đây.
-          </div>
-        ) : (
-          groups.map((g, i) => <EvidenceItem key={i} group={g} defaultOpen={i === 0} />)
-        )}
-      </div>
+      <div className="flex-1 overflow-y-auto p-4">{list}</div>
     </aside>
   );
 }

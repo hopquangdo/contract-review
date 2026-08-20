@@ -30,26 +30,35 @@ from fastapi import FastAPI  # noqa: E402
 from fastapi.middleware.cors import CORSMiddleware  # noqa: E402
 
 from api.routes import checklist, contracts  # noqa: E402
+from config.settings import EVALUATOR_MODEL, GRAPH_EXTRACTION_MODEL, QUERY_GENERATION_MODEL  # noqa: E402
 from knowledge_graph.client import get_graph  # noqa: E402
 from llm.client import get_chat_model  # noqa: E402
 from llm.embeddings import get_embeddings  # noqa: E402
-from rag.retrieval.vector_retriever import get_vector_store  # noqa: E402
+from knowledge_graph.graph import Graph  # noqa: E402
 
 logger = logging.getLogger(__name__)
+_graph = Graph()
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Khởi tạo sẵn kết nối Neo4j + client LLM/embedding lúc app start (tránh request đầu tiên
-    của người dùng phải chờ khởi tạo), đóng driver Neo4j lúc app tắt."""
+    """Khởi tạo sẵn kết nối Neo4j và các client LLM/embedding lúc app start, đóng driver Neo4j lúc app tắt.
+
+    Warm-up trước nhằm tránh request đầu tiên của người dùng phải chờ khởi tạo.
+
+    Args:
+        app: Instance FastAPI đang được khởi động (không dùng trực tiếp, bắt buộc theo
+            chữ ký contextmanager của FastAPI lifespan).
+    """
     get_graph()
-    get_chat_model()
+    for model in {GRAPH_EXTRACTION_MODEL, QUERY_GENERATION_MODEL, EVALUATOR_MODEL}:
+        get_chat_model(model)
     get_embeddings()
     try:
-        get_vector_store()
+        _graph.get_vector_store()
     except Exception:
-        # Index "excerpt_embedding" chỉ được tạo khi build_graph() chạy lần đầu (xem
-        # knowledge_graph/builder.py) - trên Neo4j còn trống (chưa import hợp đồng nào), index chưa tồn
+        # Index "excerpt_embedding" chỉ được tạo khi Graph.build_graph() chạy lần đầu (xem
+        # knowledge_graph/graph.py) - trên Neo4j còn trống (chưa import hợp đồng nào), index chưa tồn
         # tại nên bước warm-up này có thể lỗi; không chặn app khởi động vì retrieval chỉ thực
         # sự cần vector store sau khi đã có ít nhất 1 hợp đồng.
         logger.warning(

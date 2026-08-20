@@ -1,0 +1,727 @@
+[
+  {
+    "step": "generate_queries",
+    "queries": [
+      "Chức vụ của người đại diện ký hợp đồng",
+      "Ai là người ký hợp đồng và vị trí công tác của người đó trong tổ chức",
+      "Giấy ủy quyền ký kết hợp đồng hợp lệ",
+      "Văn bản cho phép cá nhân thay mặt tổ chức ký hợp đồng, có phạm vi và thời hạn hiệu lực rõ ràng",
+      "Ngày hiệu lực của giấy ủy quyền so với ngày ký hợp đồng",
+      "Thời điểm giấy ủy quyền còn hiệu lực khi người ký đặt bút ký hợp đồng",
+      "Giá trị hợp đồng là bao nhiêu tiền",
+      "Tổng số tiền thanh toán hoặc giá trị hợp đồng được ghi nhận trong hợp đồng",
+      "Thẩm quyền ký hợp đồng của người ký khi giá trị hợp đồng trên 2 tỷ đồng",
+      "Ai được phép ký hợp đồng có giá trị lớn hơn 2 tỷ đồng trong tổ chức"
+    ]
+  },
+  {
+    "step": "retrieval",
+    "n_clauses": 10,
+    "articles": [
+      {
+        "article_number": "meta",
+        "article_title": "Luật áp dụng & giải quyết tranh chấp"
+      },
+      {
+        "article_number": "0",
+        "article_title": "Thông tin chung và các bên tham gia hợp đồng"
+      },
+      {
+        "article_number": "15",
+        "article_title": "GIÁ TRỊ HỢP ĐỒNG VÀ THANH TOÁN"
+      },
+      {
+        "article_number": "19",
+        "article_title": "ĐIỀU KHOẢN CUỐI"
+      },
+      {
+        "article_number": "2",
+        "article_title": "THÀNH PHẦN HỢP ĐỒNG"
+      },
+      {
+        "article_number": "3",
+        "article_title": "QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG"
+      },
+      {
+        "article_number": "4",
+        "article_title": "QUYỀN VÀ NGHĨA VỤ CỦA VTIT"
+      },
+      {
+        "article_number": "9",
+        "article_title": "CHUYỂN NHƯỢNG HỢP ĐỒNG"
+      },
+      {
+        "article_number": "1",
+        "article_title": "ĐỐI TƯỢNG HỢP ĐỒNG"
+      },
+      {
+        "article_number": "14",
+        "article_title": "PHẠM VI DỊCH VỤ VÀ CHỈ TIÊU KỸ THUẬT"
+      }
+    ]
+  },
+  {
+    "step": "evaluate",
+    "status": "Đạt",
+    "evidence_clauses": [
+      {
+        "number": "0",
+        "title": "Thông tin chung và các bên tham gia hợp đồng",
+        "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ PHÁT TRIỂN PHẦN MỀM\n\nSố: 123/VIVA-VTIT/2026\n\nHôm nay, ngày 19 tháng 3 năm 2026, tại trụ sở làm việc của Khách hàng tại số 36A Dịch Vọng Hậu, phường Cầu Giấy, TP Hà Nội, chúng tôi gồm:\n\n## BÊN SỬ DỤNG DỊCH VỤ: CÔNG TY TNHH VIVAPLAST\n\nĐịa chỉ : 36B Dịch Vọng Hậu, phường Cầu Giấy, Hà Nội, Việt Nam\n\nMã số thuế : 85415419613\n\nSĐT : 033444555\n\nĐại diện: Ông Nguyễn Văn A\n\nChức vụ : Phó Giám đốc\n\n(Sau đây gọi chung là ' Khách hàng ')\n\n## BÊN CUNG CẤP DỊCH VỤ: CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ : Nam Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam\n\nMã số thuế : 2801045888\n\nĐại diện : Ông Bùi Trình\n\nChức vụ : Giám đốc\n\n(Sau đây gọi chung là ' VTIT ')\n\n(Khách hàng và VTIT sau đây có thể được gọi riêng là 'Bên' và gọi chung là ' Các Bên ' hoặc ' Hai Bên ')\n\n## Xét rằng:\n\n- -Khách hàng là tổ chức có nhu cầu thuê dịch vụ phần mềm để phục vụ hoạt động sản xuất, kinh doanh hoặc vận hành hệ thống thông tin của mình;\n\n- -VTIT là doanh nghiệp có chức năng cung cấp các dịch vụ phần mềm, có năng lực, kinh nghiệm, nhân sự và điều kiện cần thiết để thực hiện các công việc theo yêu cầu của Khách hàng;\n\nDo vậy, Hai bên thống nhất ký kết hợp đồng cung cấp dịch vụ phần mềm (' Hợp đồng ') với các nội dung sau:\n\n## PHẦN I. CÁC ĐIỀU KHOẢN CHUNG"
+      },
+      {
+        "number": "15.1",
+        "title": "",
+        "text": "15.1. Giá trị hợp đồng:\n\na) Tổng giá trị hợp đồng dự kiến: 10.000.000.0000 VNĐ\n\n(Bằng chữ: Mười tỷ đồng\n\n./.)\n\nChi tiết giá Dịch vụ cụ thể như sau: |   STT | Dịch vụ               |   Khối lượng (MM) | Đơn giá (VNĐ)   | Thành tiền (VNĐ)   |\n\n|-------|-----------------------|-------------------|-----------------|--------------------|\n\n|     1 | Phát triển phần mềm A |               700 | 10.000.000      | 7.000.000.000      |\n\n|     2 | Phát triển phần mềm B |               300 | 10.000.000      | 3.000.000.000      |\n\n|       | Thuế GTGT             |                 0 | 0               | 0                  |\n\n|       | Tổng cộng             |              1000 |                 | 10.000.000.000     |\n\nb) Dịch vụ phát triển phần mềm là đối tượng không chịu thuế GTGT theo quy định pháp luật hiện hành tại thời điểm ký kết Hợp đồng. Trường hợp có phát sinh nghĩa vụ nộp thuế GTGT đối với Dịch vụ thì Khách hàng có trách nhiệm thanh toán phần thuế GTGT phát sinh bổ sung này cho VTIT hoặc nộp trực tiếp cho cơ quan nhà nước có thẩm quyền, trong thời hạn được ghi nhận tại thông báo của VTIT hoặc cơ quan nhà nước.\n\nc) Khách hàng thanh toán giá trị nghiệm thu thực tế cho VTIT."
+      },
+      {
+        "number": "19.1",
+        "title": "",
+        "text": "19.1. Hợp đồng có hiệu lực kể từ ngày được đại diện hợp pháp của hai bên ký kết."
+      }
+    ],
+    "reasoning": "Người đại diện ký hợp đồng bên VTIT là Giám đốc (Ông Bùi Trình). Giá trị hợp đồng dự kiến là 10.000.000.000 VNĐ (> 2 tỷ) và tiêu chí yêu cầu hợp đồng trên 2 tỷ phải do Giám đốc ký cũng được đáp ứng. Không có dấu hiệu người ký thiếu thẩm quyền hoặc không có ủy quyền trong dữ liệu cung cấp.",
+    "recommendation": "Không kiến nghị sửa đổi đối với nội dung thẩm quyền ký kết theo checklist này, do người ký bên VTIT là Giám đốc và giá trị hợp đồng trên 2 tỷ đã phù hợp.",
+    "confidence": 72,
+    "verification_units": [
+      {
+        "requirement": "Chức vụ của người đại diện ký hợp đồng",
+        "result": "met",
+        "basis": "Hợp đồng thể hiện người đại diện của VTIT là Ông Bùi Trình, Chức vụ: Giám đốc; người đại diện của Khách hàng là Ông Nguyễn Văn A, Chức vụ: Phó Giám đốc."
+      },
+      {
+        "requirement": "Giấy ủy quyền ký kết hợp đồng hợp lệ (nếu người ký không phải Giám đốc/Tổng Giám đốc)",
+        "result": "not_applicable",
+        "basis": "Ông Bùi Trình ký với chức vụ Giám đốc (thuộc trường hợp không cần giấy ủy quyền theo tiêu chí kiểm tra). Không có yêu cầu xác minh thêm giấy ủy quyền cho người ký trong dữ liệu đã cung cấp."
+      },
+      {
+        "requirement": "Ngày hiệu lực của giấy ủy quyền phải trước hoặc trùng ngày ký hợp đồng",
+        "result": "not_applicable",
+        "basis": "Không có bằng chứng về việc người ký là người được ủy quyền; dữ liệu cung cấp thể hiện người ký là Giám đốc của VTIT. Do đó không có giấy ủy quyền để đối chiếu ngày hiệu lực."
+      },
+      {
+        "requirement": "Giá trị hợp đồng là bao nhiêu tiền",
+        "result": "met",
+        "basis": "Hợp đồng nêu tổng giá trị hợp đồng dự kiến là 10.000.000.000 VNĐ."
+      },
+      {
+        "requirement": "Người ký hợp đồng có thẩm quyền ký đối với hợp đồng có giá trị trên 2 tỷ đồng",
+        "result": "met",
+        "basis": "Giá trị hợp đồng dự kiến là 10.000.000.000 VNĐ (> 2 tỷ). Người đại diện ký bên VTIT là Ông Bùi Trình, chức vụ Giám đốc."
+      }
+    ],
+    "clauses": [
+      {
+        "article_number": "meta",
+        "article_title": "Luật áp dụng & giải quyết tranh chấp",
+        "score": null,
+        "clauses": [
+          {
+            "number": "meta",
+            "title": "Luật áp dụng & giải quyết tranh chấp",
+            "article_number": "meta",
+            "article_title": "Luật áp dụng & giải quyết tranh chấp",
+            "score": null,
+            "text": "Luật áp dụng: Việt Nam, Hà Nội\nPhương thức giải quyết tranh chấp: Thương lượng, nếu không thành thì đưa ra Tòa án có thẩm quyền tại Tòa án nhân dân có thẩm quyền tại nơi hợp đồng được thực hiện, trụ sở làm việc của VTIT tại Thành phố Hà Nội",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "Luật áp dụng: Việt Nam, Hà Nội\nPhương thức giải quyết tranh chấp: Thương lượng, nếu không thành thì đưa ra Tòa án có thẩm quyền tại Tòa án nhân dân có thẩm quyền tại nơi hợp đồng được thực hiện, trụ sở làm việc của VTIT tại Thành phố Hà Nội",
+                "score": null
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "text": "Luật áp dụng: Việt Nam, Hà Nội\nPhương thức giải quyết tranh chấp: Thương lượng, nếu không thành thì đưa ra Tòa án có thẩm quyền tại Tòa án nhân dân có thẩm quyền tại nơi hợp đồng được thực hiện, trụ sở làm việc của VTIT tại Thành phố Hà Nội"
+      },
+      {
+        "article_number": "0",
+        "article_title": "Thông tin chung và các bên tham gia hợp đồng",
+        "score": null,
+        "clauses": [
+          {
+            "number": "0",
+            "title": "Thông tin chung và các bên tham gia hợp đồng",
+            "article_number": "0",
+            "article_title": "Thông tin chung và các bên tham gia hợp đồng",
+            "score": null,
+            "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ PHÁT TRIỂN PHẦN MỀM\n\nSố: 123/VIVA-VTIT/2026\n\nHôm nay, ngày 19 tháng 3 năm 2026, tại trụ sở làm việc của Khách hàng tại số 36A Dịch Vọng Hậu, phường Cầu Giấy, TP Hà Nội, chúng tôi gồm:\n\n## BÊN SỬ DỤNG DỊCH VỤ: CÔNG TY TNHH VIVAPLAST\n\nĐịa chỉ : 36B Dịch Vọng Hậu, phường Cầu Giấy, Hà Nội, Việt Nam\n\nMã số thuế : 85415419613\n\nSĐT : 033444555\n\nĐại diện: Ông Nguyễn Văn A\n\nChức vụ : Phó Giám đốc\n\n(Sau đây gọi chung là ' Khách hàng ')\n\n## BÊN CUNG CẤP DỊCH VỤ: CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ : Nam Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam\n\nMã số thuế : 2801045888\n\nĐại diện : Ông Bùi Trình\n\nChức vụ : Giám đốc\n\n(Sau đây gọi chung là ' VTIT ')\n\n(Khách hàng và VTIT sau đây có thể được gọi riêng là 'Bên' và gọi chung là ' Các Bên ' hoặc ' Hai Bên ')\n\n## Xét rằng:\n\n- -Khách hàng là tổ chức có nhu cầu thuê dịch vụ phần mềm để phục vụ hoạt động sản xuất, kinh doanh hoặc vận hành hệ thống thông tin của mình;\n\n- -VTIT là doanh nghiệp có chức năng cung cấp các dịch vụ phần mềm, có năng lực, kinh nghiệm, nhân sự và điều kiện cần thiết để thực hiện các công việc theo yêu cầu của Khách hàng;\n\nDo vậy, Hai bên thống nhất ký kết hợp đồng cung cấp dịch vụ phần mềm (' Hợp đồng ') với các nội dung sau:\n\n## PHẦN I. CÁC ĐIỀU KHOẢN CHUNG",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ PHÁT TRIỂN PHẦN MỀM\n\nSố: 123/VIVA-VTIT/2026\n\nHôm nay, ngày 19 tháng 3 năm 2026, tại trụ sở làm việc của Khách hàng tại số 36A Dịch Vọng Hậu, phường Cầu Giấy, TP Hà Nội, chúng tôi gồm:\n\n## BÊN SỬ DỤNG DỊCH VỤ: CÔNG TY TNHH VIVAPLAST\n\nĐịa chỉ : 36B Dịch Vọng Hậu, phường Cầu Giấy, Hà Nội, Việt Nam\n\nMã số thuế : 85415419613\n\nSĐT : 033444555\n\nĐại diện: Ông Nguyễn Văn A\n\nChức vụ : Phó Giám đốc\n\n(Sau đây gọi chung là ' Khách hàng ')\n\n## BÊN CUNG CẤP DỊCH VỤ: CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ : Nam Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam\n\nMã số thuế : 2801045888\n\nĐại diện : Ông Bùi Trình\n\nChức vụ : Giám đốc\n\n(Sau đây gọi chung là ' VTIT ')",
+                "score": null
+              },
+              {
+                "chunk_index": 1,
+                "text": "(Khách hàng và VTIT sau đây có thể được gọi riêng là 'Bên' và gọi chung là ' Các Bên ' hoặc ' Hai Bên ')\n\n## Xét rằng:\n\n- -Khách hàng là tổ chức có nhu cầu thuê dịch vụ phần mềm để phục vụ hoạt động sản xuất, kinh doanh hoặc vận hành hệ thống thông tin của mình;\n\n- -VTIT là doanh nghiệp có chức năng cung cấp các dịch vụ phần mềm, có năng lực, kinh nghiệm, nhân sự và điều kiện cần thiết để thực hiện các công việc theo yêu cầu của Khách hàng;\n\nDo vậy, Hai bên thống nhất ký kết hợp đồng cung cấp dịch vụ phần mềm (' Hợp đồng ') với các nội dung sau:\n\n## PHẦN I. CÁC ĐIỀU KHOẢN CHUNG",
+                "score": null
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "is_appendix": false,
+        "text": "Điều 0. Thông tin chung và các bên tham gia hợp đồng\n\n## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ PHÁT TRIỂN PHẦN MỀM\n\nSố: 123/VIVA-VTIT/2026\n\nHôm nay, ngày 19 tháng 3 năm 2026, tại trụ sở làm việc của Khách hàng tại số 36A Dịch Vọng Hậu, phường Cầu Giấy, TP Hà Nội, chúng tôi gồm:\n\n## BÊN SỬ DỤNG DỊCH VỤ: CÔNG TY TNHH VIVAPLAST\n\nĐịa chỉ : 36B Dịch Vọng Hậu, phường Cầu Giấy, Hà Nội, Việt Nam\n\nMã số thuế : 85415419613\n\nSĐT : 033444555\n\nĐại diện: Ông Nguyễn Văn A\n\nChức vụ : Phó Giám đốc\n\n(Sau đây gọi chung là ' Khách hàng ')\n\n## BÊN CUNG CẤP DỊCH VỤ: CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ : Nam Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam\n\nMã số thuế : 2801045888\n\nĐại diện : Ông Bùi Trình\n\nChức vụ : Giám đốc\n\n(Sau đây gọi chung là ' VTIT ')\n\n(Khách hàng và VTIT sau đây có thể được gọi riêng là 'Bên' và gọi chung là ' Các Bên ' hoặc ' Hai Bên ')\n\n## Xét rằng:\n\n- -Khách hàng là tổ chức có nhu cầu thuê dịch vụ phần mềm để phục vụ hoạt động sản xuất, kinh doanh hoặc vận hành hệ thống thông tin của mình;\n\n- -VTIT là doanh nghiệp có chức năng cung cấp các dịch vụ phần mềm, có năng lực, kinh nghiệm, nhân sự và điều kiện cần thiết để thực hiện các công việc theo yêu cầu của Khách hàng;\n\nDo vậy, Hai bên thống nhất ký kết hợp đồng cung cấp dịch vụ phần mềm (' Hợp đồng ') với các nội dung sau:\n\n## PHẦN I. CÁC ĐIỀU KHOẢN CHUNG"
+      },
+      {
+        "article_number": "15",
+        "article_title": "GIÁ TRỊ HỢP ĐỒNG VÀ THANH TOÁN",
+        "score": 0.8459,
+        "clauses": [
+          {
+            "number": "15.1",
+            "title": "",
+            "article_number": "15",
+            "article_title": "GIÁ TRỊ HỢP ĐỒNG VÀ THANH TOÁN",
+            "score": 0.8459,
+            "text": "15.1. Giá trị hợp đồng:\n\na) Tổng giá trị hợp đồng dự kiến: 10.000.000.0000 VNĐ\n\n(Bằng chữ: Mười tỷ đồng\n\n./.)\n\nChi tiết giá Dịch vụ cụ thể như sau: |   STT | Dịch vụ               |   Khối lượng (MM) | Đơn giá (VNĐ)   | Thành tiền (VNĐ)   |\n\n|-------|-----------------------|-------------------|-----------------|--------------------|\n\n|     1 | Phát triển phần mềm A |               700 | 10.000.000      | 7.000.000.000      |\n\n|     2 | Phát triển phần mềm B |               300 | 10.000.000      | 3.000.000.000      |\n\n|       | Thuế GTGT             |                 0 | 0               | 0                  |\n\n|       | Tổng cộng             |              1000 |                 | 10.000.000.000     |\n\nb) Dịch vụ phát triển phần mềm là đối tượng không chịu thuế GTGT theo quy định pháp luật hiện hành tại thời điểm ký kết Hợp đồng. Trường hợp có phát sinh nghĩa vụ nộp thuế GTGT đối với Dịch vụ thì Khách hàng có trách nhiệm thanh toán phần thuế GTGT phát sinh bổ sung này cho VTIT hoặc nộp trực tiếp cho cơ quan nhà nước có thẩm quyền, trong thời hạn được ghi nhận tại thông báo của VTIT hoặc cơ quan nhà nước.\n\nc) Khách hàng thanh toán giá trị nghiệm thu thực tế cho VTIT.",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "15.1. Giá trị hợp đồng:",
+                "score": 0.8459
+              },
+              {
+                "chunk_index": 1,
+                "text": "a) Tổng giá trị hợp đồng dự kiến: 10.000.000.0000 VNĐ\n\n(Bằng chữ: Mười tỷ đồng\n\n./.)\n\nChi tiết giá Dịch vụ cụ thể như sau: |   STT | Dịch vụ               |   Khối lượng (MM) | Đơn giá (VNĐ)   | Thành tiền (VNĐ)   |\n\n|-------|-----------------------|-------------------|-----------------|--------------------|\n\n|     1 | Phát triển phần mềm A |               700 | 10.000.000      | 7.000.000.000      |\n\n|     2 | Phát triển phần mềm B |               300 | 10.000.000      | 3.000.000.000      |\n\n|       | Thuế GTGT             |                 0 | 0               | 0                  |\n\n|       | Tổng cộng             |              1000 |                 | 10.000.000.000     |",
+                "score": 0.7943
+              },
+              {
+                "chunk_index": 2,
+                "text": "b) Dịch vụ phát triển phần mềm là đối tượng không chịu thuế GTGT theo quy định pháp luật hiện hành tại thời điểm ký kết Hợp đồng. Trường hợp có phát sinh nghĩa vụ nộp thuế GTGT đối với Dịch vụ thì Khách hàng có trách nhiệm thanh toán phần thuế GTGT phát sinh bổ sung này cho VTIT hoặc nộp trực tiếp cho cơ quan nhà nước có thẩm quyền, trong thời hạn được ghi nhận tại thông báo của VTIT hoặc cơ quan nhà nước.",
+                "score": null
+              },
+              {
+                "chunk_index": 3,
+                "text": "c) Khách hàng thanh toán giá trị nghiệm thu thực tế cho VTIT.",
+                "score": null
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "is_appendix": false,
+        "text": "Điều 15. GIÁ TRỊ HỢP ĐỒNG VÀ THANH TOÁN\n\n15.1. Giá trị hợp đồng:\n\na) Tổng giá trị hợp đồng dự kiến: 10.000.000.0000 VNĐ\n\n(Bằng chữ: Mười tỷ đồng\n\n./.)\n\nChi tiết giá Dịch vụ cụ thể như sau: |   STT | Dịch vụ               |   Khối lượng (MM) | Đơn giá (VNĐ)   | Thành tiền (VNĐ)   |\n\n|-------|-----------------------|-------------------|-----------------|--------------------|\n\n|     1 | Phát triển phần mềm A |               700 | 10.000.000      | 7.000.000.000      |\n\n|     2 | Phát triển phần mềm B |               300 | 10.000.000      | 3.000.000.000      |\n\n|       | Thuế GTGT             |                 0 | 0               | 0                  |\n\n|       | Tổng cộng             |              1000 |                 | 10.000.000.000     |\n\nb) Dịch vụ phát triển phần mềm là đối tượng không chịu thuế GTGT theo quy định pháp luật hiện hành tại thời điểm ký kết Hợp đồng. Trường hợp có phát sinh nghĩa vụ nộp thuế GTGT đối với Dịch vụ thì Khách hàng có trách nhiệm thanh toán phần thuế GTGT phát sinh bổ sung này cho VTIT hoặc nộp trực tiếp cho cơ quan nhà nước có thẩm quyền, trong thời hạn được ghi nhận tại thông báo của VTIT hoặc cơ quan nhà nước.\n\nc) Khách hàng thanh toán giá trị nghiệm thu thực tế cho VTIT."
+      },
+      {
+        "article_number": "19",
+        "article_title": "ĐIỀU KHOẢN CUỐI",
+        "score": 0.7946,
+        "clauses": [
+          {
+            "number": "19.1",
+            "title": "",
+            "article_number": "19",
+            "article_title": "ĐIỀU KHOẢN CUỐI",
+            "score": 0.7946,
+            "text": "19.1. Hợp đồng có hiệu lực kể từ ngày được đại diện hợp pháp của hai bên ký kết.",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "19.1. Hợp đồng có hiệu lực kể từ ngày được đại diện hợp pháp của hai bên ký kết.",
+                "score": 0.7946
+              }
+            ],
+            "is_appendix": false
+          },
+          {
+            "number": "19.2",
+            "title": "",
+            "article_number": "19",
+            "article_title": "ĐIỀU KHOẢN CUỐI",
+            "score": 0.7805,
+            "text": "19.2. Hợp đồng có tính ràng buộc và có hiệu lực pháp luật đối với Các Bên cũng như các tổ chức kế thừa quyền lợi và trách nhiệm của Các Bên theo Hợp đồng.",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "19.2. Hợp đồng có tính ràng buộc và có hiệu lực pháp luật đối với Các Bên cũng như các tổ chức kế thừa quyền lợi và trách nhiệm của Các Bên theo Hợp đồng.",
+                "score": 0.7805
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "is_appendix": false,
+        "text": "Điều 19. ĐIỀU KHOẢN CUỐI\n\n19.1. Hợp đồng có hiệu lực kể từ ngày được đại diện hợp pháp của hai bên ký kết.\n\n19.2. Hợp đồng có tính ràng buộc và có hiệu lực pháp luật đối với Các Bên cũng như các tổ chức kế thừa quyền lợi và trách nhiệm của Các Bên theo Hợp đồng."
+      },
+      {
+        "article_number": "2",
+        "article_title": "THÀNH PHẦN HỢP ĐỒNG",
+        "score": 0.7941,
+        "clauses": [
+          {
+            "number": "2.1",
+            "title": "",
+            "article_number": "2",
+            "article_title": "THÀNH PHẦN HỢP ĐỒNG",
+            "score": 0.7815,
+            "text": "Thành phần Hợp đồng và thứ tự ưu tiên pháp lý như sau :\n\n2.1. Văn bản Hợp đồng;",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "Thành phần Hợp đồng và thứ tự ưu tiên pháp lý như sau :\n\n2.1. Văn bản Hợp đồng;",
+                "score": 0.7815
+              }
+            ],
+            "is_appendix": false
+          },
+          {
+            "number": "2.2",
+            "title": "",
+            "article_number": "2",
+            "article_title": "THÀNH PHẦN HỢP ĐỒNG",
+            "score": 0.7941,
+            "text": "2.2. Các Phụ lục đính kèm Hợp đồng;",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "2.2. Các Phụ lục đính kèm Hợp đồng;",
+                "score": 0.7941
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "is_appendix": false,
+        "text": "Điều 2. THÀNH PHẦN HỢP ĐỒNG\n\nThành phần Hợp đồng và thứ tự ưu tiên pháp lý như sau :\n\n2.1. Văn bản Hợp đồng;\n\n2.2. Các Phụ lục đính kèm Hợp đồng;"
+      },
+      {
+        "article_number": "3",
+        "article_title": "QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG",
+        "score": 0.7812,
+        "clauses": [
+          {
+            "number": "3",
+            "title": "QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG",
+            "article_number": "3",
+            "article_title": "QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG",
+            "score": 0.7812,
+            "text": "Điều 3. QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG\n\n\n\n## 2.1. Quyền của Khách hàng:\n\na) Được cung cấp đầy đủ, đúng thời hạn, đúng nội dung, phạm vi, chất lượng và tiêu chuẩn kỹ thuật của Dịch vụ theo đúng thỏa thuận tại Hợp đồng này, các Phụ lục, Danh sách công việc và/hoặc Phiếu giao việc được hai Bên thống nhất;\n\nb) Có quyền giám sát, kiểm tra quá trình cung cấp dịch vụ của VTIT nhằm bảo đảm tuân thủ đúng các nội dung, tiến độ, chất lượng và tiêu chuẩn kỹ thuật quy định trong Hợp đồng;\n\nc) Có quyền yêu cầu VTIT báo cáo tiến độ thực hiện công việc định kỳ theo thỏa thuận của các Bên hoặc đột xuất trong trường hợp cần thiết, với điều kiện việc yêu cầu này không gây gián đoạn hoặc ảnh hưởng đáng kể đến quá trình cung cấp dịch vụ bình thường của VTIT;\n\nd) Có quyền tiếp nhận bàn giao các hạng mục/tài liệu thuộc phạm vi Dịch vụ theo Hợp đồng và Phụ lục.\n\ne) Có quyền yêu cầu VTIT giải thích/ hướng dẫn sử dụng ở mức hợp lý đối với các hạng mục bàn giao thuộc phạm vi Dịch vụ theo Hợp đồng/Phụ lục; việc hướng dẫn này không bao gồm đào tạo chuyên sâu, tư vấn mở rộng, phát triển chức năng mới hoặc các công việc ngoài phạm vi Dịch vụ, trừ khi các Bên có thỏa thuận riêng bằng văn bản.\n\n2. 2.2. Nghĩa vụ của Khách hàng: - a) Cung cấp đầy đủ, kịp thời cho VTIT các cơ sở vật chất, thiết bị phù hợp, thông tin, tài liệu, môi trường làm việc, môi trường kiểm thử hoặc môi trường bàn giao phù hợp và các điều kiện cần thiết khác để VTIT đủ điều kiện triển khai, thực hiện công việc theo đúng thỏa thuận tại Hợp đồng;\n\nb) Cử cán bộ có chuyên môn và kinh nghiệm làm đầu mối làm việc với VTIT, có trách nhiệm mô tả bài toán nghiệp vụ, giải đáp thắc mắc liên quan để VTIT triển khai dịch vụ một cách hiệu quả;\n\nc) Hướng dẫn, phối hợp và đưa ra các yêu cầu cụ thể đối với VTIT trong quá trình triển khai công việc; đảm bảo phản hồi, cung cấp yêu cầu trong thời hạn hợp lý để không ảnh hưởng đến tiến độ triển khai dịch vụ của VTIT;\n\nd) Cung cấp cho VTIT các biểu mẫu, quy trình nghiệp vụ, quy định nội bộ và các hướng dẫn liên quan đến công việc để VTIT có cơ sở thực hiện, đảm bảo đúng chất lượng và yêu cầu kỹ thuật;\n\ne) Có trách nhiệm xác nhận bằng văn bản đối với các công việc do VTIT đã thực hiện; tiếp nhận, xem xét, phản hồi và/hoặc phê duyệt các kết quả bàn giao của VTIT trong thời hạn quy định hoặc theo thỏa thuận giữa Các Bên;\n\nf) Thực hiện thanh toán cho VTIT đúng thời hạn, đầy đủ theo giá trị nghiệm thu thực tế và theo phương thức thanh toán quy định tại Hợp đồng này;\n\n9. 2.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật.",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "Điều 3. QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG\n\n\n\n## 2.1. Quyền của Khách hàng:",
+                "score": null
+              },
+              {
+                "chunk_index": 1,
+                "text": "a) Được cung cấp đầy đủ, đúng thời hạn, đúng nội dung, phạm vi, chất lượng và tiêu chuẩn kỹ thuật của Dịch vụ theo đúng thỏa thuận tại Hợp đồng này, các Phụ lục, Danh sách công việc và/hoặc Phiếu giao việc được hai Bên thống nhất;",
+                "score": null
+              },
+              {
+                "chunk_index": 2,
+                "text": "b) Có quyền giám sát, kiểm tra quá trình cung cấp dịch vụ của VTIT nhằm bảo đảm tuân thủ đúng các nội dung, tiến độ, chất lượng và tiêu chuẩn kỹ thuật quy định trong Hợp đồng;",
+                "score": 0.7498
+              },
+              {
+                "chunk_index": 3,
+                "text": "c) Có quyền yêu cầu VTIT báo cáo tiến độ thực hiện công việc định kỳ theo thỏa thuận của các Bên hoặc đột xuất trong trường hợp cần thiết, với điều kiện việc yêu cầu này không gây gián đoạn hoặc ảnh hưởng đáng kể đến quá trình cung cấp dịch vụ bình thường của VTIT;",
+                "score": null
+              },
+              {
+                "chunk_index": 4,
+                "text": "d) Có quyền tiếp nhận bàn giao các hạng mục/tài liệu thuộc phạm vi Dịch vụ theo Hợp đồng và Phụ lục.",
+                "score": 0.7812
+              },
+              {
+                "chunk_index": 5,
+                "text": "e) Có quyền yêu cầu VTIT giải thích/ hướng dẫn sử dụng ở mức hợp lý đối với các hạng mục bàn giao thuộc phạm vi Dịch vụ theo Hợp đồng/Phụ lục; việc hướng dẫn này không bao gồm đào tạo chuyên sâu, tư vấn mở rộng, phát triển chức năng mới hoặc các công việc ngoài phạm vi Dịch vụ, trừ khi các Bên có thỏa thuận riêng bằng văn bản.\n\n2. 2.2. Nghĩa vụ của Khách hàng: - a) Cung cấp đầy đủ, kịp thời cho VTIT các cơ sở vật chất, thiết bị phù hợp, thông tin, tài liệu, môi trường làm việc, môi trường kiểm thử hoặc môi trường bàn giao phù hợp và các điều kiện cần thiết khác để VTIT đủ điều kiện triển khai, thực hiện công việc theo đúng thỏa thuận tại Hợp đồng;",
+                "score": null
+              },
+              {
+                "chunk_index": 6,
+                "text": "b) Cử cán bộ có chuyên môn và kinh nghiệm làm đầu mối làm việc với VTIT, có trách nhiệm mô tả bài toán nghiệp vụ, giải đáp thắc mắc liên quan để VTIT triển khai dịch vụ một cách hiệu quả;",
+                "score": null
+              },
+              {
+                "chunk_index": 7,
+                "text": "c) Hướng dẫn, phối hợp và đưa ra các yêu cầu cụ thể đối với VTIT trong quá trình triển khai công việc; đảm bảo phản hồi, cung cấp yêu cầu trong thời hạn hợp lý để không ảnh hưởng đến tiến độ triển khai dịch vụ của VTIT;",
+                "score": null
+              },
+              {
+                "chunk_index": 8,
+                "text": "d) Cung cấp cho VTIT các biểu mẫu, quy trình nghiệp vụ, quy định nội bộ và các hướng dẫn liên quan đến công việc để VTIT có cơ sở thực hiện, đảm bảo đúng chất lượng và yêu cầu kỹ thuật;",
+                "score": null
+              },
+              {
+                "chunk_index": 9,
+                "text": "e) Có trách nhiệm xác nhận bằng văn bản đối với các công việc do VTIT đã thực hiện; tiếp nhận, xem xét, phản hồi và/hoặc phê duyệt các kết quả bàn giao của VTIT trong thời hạn quy định hoặc theo thỏa thuận giữa Các Bên;",
+                "score": null
+              },
+              {
+                "chunk_index": 10,
+                "text": "f) Thực hiện thanh toán cho VTIT đúng thời hạn, đầy đủ theo giá trị nghiệm thu thực tế và theo phương thức thanh toán quy định tại Hợp đồng này;\n\n9. 2.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật.",
+                "score": 0.7779
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "is_appendix": false,
+        "text": "Điều 3. QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG\n\nĐiều 3. QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG\n\n\n\n## 2.1. Quyền của Khách hàng:\n\na) Được cung cấp đầy đủ, đúng thời hạn, đúng nội dung, phạm vi, chất lượng và tiêu chuẩn kỹ thuật của Dịch vụ theo đúng thỏa thuận tại Hợp đồng này, các Phụ lục, Danh sách công việc và/hoặc Phiếu giao việc được hai Bên thống nhất;\n\nb) Có quyền giám sát, kiểm tra quá trình cung cấp dịch vụ của VTIT nhằm bảo đảm tuân thủ đúng các nội dung, tiến độ, chất lượng và tiêu chuẩn kỹ thuật quy định trong Hợp đồng;\n\nc) Có quyền yêu cầu VTIT báo cáo tiến độ thực hiện công việc định kỳ theo thỏa thuận của các Bên hoặc đột xuất trong trường hợp cần thiết, với điều kiện việc yêu cầu này không gây gián đoạn hoặc ảnh hưởng đáng kể đến quá trình cung cấp dịch vụ bình thường của VTIT;\n\nd) Có quyền tiếp nhận bàn giao các hạng mục/tài liệu thuộc phạm vi Dịch vụ theo Hợp đồng và Phụ lục.\n\ne) Có quyền yêu cầu VTIT giải thích/ hướng dẫn sử dụng ở mức hợp lý đối với các hạng mục bàn giao thuộc phạm vi Dịch vụ theo Hợp đồng/Phụ lục; việc hướng dẫn này không bao gồm đào tạo chuyên sâu, tư vấn mở rộng, phát triển chức năng mới hoặc các công việc ngoài phạm vi Dịch vụ, trừ khi các Bên có thỏa thuận riêng bằng văn bản.\n\n2. 2.2. Nghĩa vụ của Khách hàng: - a) Cung cấp đầy đủ, kịp thời cho VTIT các cơ sở vật chất, thiết bị phù hợp, thông tin, tài liệu, môi trường làm việc, môi trường kiểm thử hoặc môi trường bàn giao phù hợp và các điều kiện cần thiết khác để VTIT đủ điều kiện triển khai, thực hiện công việc theo đúng thỏa thuận tại Hợp đồng;\n\nb) Cử cán bộ có chuyên môn và kinh nghiệm làm đầu mối làm việc với VTIT, có trách nhiệm mô tả bài toán nghiệp vụ, giải đáp thắc mắc liên quan để VTIT triển khai dịch vụ một cách hiệu quả;\n\nc) Hướng dẫn, phối hợp và đưa ra các yêu cầu cụ thể đối với VTIT trong quá trình triển khai công việc; đảm bảo phản hồi, cung cấp yêu cầu trong thời hạn hợp lý để không ảnh hưởng đến tiến độ triển khai dịch vụ của VTIT;\n\nd) Cung cấp cho VTIT các biểu mẫu, quy trình nghiệp vụ, quy định nội bộ và các hướng dẫn liên quan đến công việc để VTIT có cơ sở thực hiện, đảm bảo đúng chất lượng và yêu cầu kỹ thuật;\n\ne) Có trách nhiệm xác nhận bằng văn bản đối với các công việc do VTIT đã thực hiện; tiếp nhận, xem xét, phản hồi và/hoặc phê duyệt các kết quả bàn giao của VTIT trong thời hạn quy định hoặc theo thỏa thuận giữa Các Bên;\n\nf) Thực hiện thanh toán cho VTIT đúng thời hạn, đầy đủ theo giá trị nghiệm thu thực tế và theo phương thức thanh toán quy định tại Hợp đồng này;\n\n9. 2.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật."
+      },
+      {
+        "article_number": "4",
+        "article_title": "QUYỀN VÀ NGHĨA VỤ CỦA VTIT",
+        "score": 0.7654,
+        "clauses": [
+          {
+            "number": "4.1",
+            "title": "",
+            "article_number": "4",
+            "article_title": "QUYỀN VÀ NGHĨA VỤ CỦA VTIT",
+            "score": null,
+            "text": "4.1. Quyền của VTIT: - a) Được Khách hàng thanh toán đầy đủ và đúng hạn theo giá trị nghiệm thu thực tế và phương thức thanh toán quy định tại Hợp đồng này, trên cơ sở hồ sơ thanh toán hợp lệ do VTIT cung cấp;\n\nb) Có quyền từ chối thực hiện hoặc tạm dừng công việc nếu Khách hàng không cung cấp đầy đủ, kịp thời các thông tin, tài liệu, điều kiện cần thiết hoặc không thanh toán đầy đủ và đúng hạn hoặc vi phạm nghĩa vụ làm ảnh hưởng đến tiến độ, chất lượng cung cấp dịch vụ của VTIT;\n\nc) Có quyền sử dụng hợp pháp các kinh nghiệm, phương pháp, quy trình, công cụ, mã nguồn, thư viện phần mềm và các thành phần phần mềm có sẵn của VTIT và/hoặc của nhà cung cấp trong quá trình thực hiện công việc, với điều kiện việc sử dụng đó không xâm phạm quyền sở hữu trí tuệ\n\ncủa bất kỳ bên thứ ba nào và phù hợp với các điều kiện cấp phép áp dụng (nếu có).\n\nd) VTIT không phát sinh trách nhiệm đối với các lỗi, sự cố phát sinh do nguyên nhân từ Khách hàng, hệ thống của Khách hàng hoặc phần mềm bên thứ ba do Khách hàng sử dụng;",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "4.1. Quyền của VTIT: - a) Được Khách hàng thanh toán đầy đủ và đúng hạn theo giá trị nghiệm thu thực tế và phương thức thanh toán quy định tại Hợp đồng này, trên cơ sở hồ sơ thanh toán hợp lệ do VTIT cung cấp;",
+                "score": null
+              },
+              {
+                "chunk_index": 1,
+                "text": "b) Có quyền từ chối thực hiện hoặc tạm dừng công việc nếu Khách hàng không cung cấp đầy đủ, kịp thời các thông tin, tài liệu, điều kiện cần thiết hoặc không thanh toán đầy đủ và đúng hạn hoặc vi phạm nghĩa vụ làm ảnh hưởng đến tiến độ, chất lượng cung cấp dịch vụ của VTIT;",
+                "score": null
+              },
+              {
+                "chunk_index": 2,
+                "text": "c) Có quyền sử dụng hợp pháp các kinh nghiệm, phương pháp, quy trình, công cụ, mã nguồn, thư viện phần mềm và các thành phần phần mềm có sẵn của VTIT và/hoặc của nhà cung cấp trong quá trình thực hiện công việc, với điều kiện việc sử dụng đó không xâm phạm quyền sở hữu trí tuệ\n\ncủa bất kỳ bên thứ ba nào và phù hợp với các điều kiện cấp phép áp dụng (nếu có).",
+                "score": null
+              },
+              {
+                "chunk_index": 3,
+                "text": "d) VTIT không phát sinh trách nhiệm đối với các lỗi, sự cố phát sinh do nguyên nhân từ Khách hàng, hệ thống của Khách hàng hoặc phần mềm bên thứ ba do Khách hàng sử dụng;",
+                "score": null
+              }
+            ],
+            "is_appendix": false
+          },
+          {
+            "number": "4.2",
+            "title": "",
+            "article_number": "4",
+            "article_title": "QUYỀN VÀ NGHĨA VỤ CỦA VTIT",
+            "score": 0.7654,
+            "text": "4.2. Nghĩa vụ của VTIT:\n\na) Cung cấp dịch vụ phần mềm cho Khách hàng theo đúng nội dung, phạm vi và tiêu chuẩn kỹ thuật được quy định tại Hợp đồng, Phiếu giao công việc, Danh sách công việc hoặc các tài liệu giao việc khác đã được Các Bên thống nhất bằng văn bản;\n\nb) Có trách nhiệm tiếp nhận kế hoạch công việc và xây dựng kế hoạch triển khai, bàn giao phù hợp theo thỏa thuận của Các Bên. Kế hoạch công việc phải được xác nhận bằng văn bản giữa Các Bên trước khi triển khai;\n\nc) Chịu trách nhiệm bảo quản, giữ gìn và sử dụng đúng mục đích các hệ thống, thiết bị, cơ sở vật chất mà Khách hàng đã bàn giao phục vụ cho việc thực hiện dịch vụ theo Hợp đồng (nếu có);\n\nd) Thực hiện đầy đủ và đúng tiến độ các công việc được giao theo kế hoạch, đảm bảo tuân thủ yêu cầu kỹ thuật, chất lượng sản phẩm và bàn giao đầy đủ các tài liệu, sản phẩm liên quan theo đúng quy định trong Hợp đồng.\n\ne) Tuân thủ các yêu cầu, hướng dẫn nghiệp vụ của Khách hàng trong phạm vi  Dịch  vụ  và  phù  hợp  với  Hợp  đồng/Phụ  lục,  với  điều  kiện  các  yêu cầu/hướng dẫn đó không làm thay đổi phạm vi, tiêu chuẩn kỹ thuật, tiến độ hoặc chi phí đã thỏa thuận;\n\nf) Cung cấp đầy đủ, kịp thời các hồ sơ, tài liệu, biên bản, báo cáo liên quan phục vụ công tác nghiệm thu và thanh toán theo quy định tại Hợp đồng.\n\n7. 4.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật.",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "4.2. Nghĩa vụ của VTIT:",
+                "score": null
+              },
+              {
+                "chunk_index": 1,
+                "text": "a) Cung cấp dịch vụ phần mềm cho Khách hàng theo đúng nội dung, phạm vi và tiêu chuẩn kỹ thuật được quy định tại Hợp đồng, Phiếu giao công việc, Danh sách công việc hoặc các tài liệu giao việc khác đã được Các Bên thống nhất bằng văn bản;",
+                "score": null
+              },
+              {
+                "chunk_index": 2,
+                "text": "b) Có trách nhiệm tiếp nhận kế hoạch công việc và xây dựng kế hoạch triển khai, bàn giao phù hợp theo thỏa thuận của Các Bên. Kế hoạch công việc phải được xác nhận bằng văn bản giữa Các Bên trước khi triển khai;",
+                "score": null
+              },
+              {
+                "chunk_index": 3,
+                "text": "c) Chịu trách nhiệm bảo quản, giữ gìn và sử dụng đúng mục đích các hệ thống, thiết bị, cơ sở vật chất mà Khách hàng đã bàn giao phục vụ cho việc thực hiện dịch vụ theo Hợp đồng (nếu có);",
+                "score": null
+              },
+              {
+                "chunk_index": 4,
+                "text": "d) Thực hiện đầy đủ và đúng tiến độ các công việc được giao theo kế hoạch, đảm bảo tuân thủ yêu cầu kỹ thuật, chất lượng sản phẩm và bàn giao đầy đủ các tài liệu, sản phẩm liên quan theo đúng quy định trong Hợp đồng.",
+                "score": null
+              },
+              {
+                "chunk_index": 5,
+                "text": "e) Tuân thủ các yêu cầu, hướng dẫn nghiệp vụ của Khách hàng trong phạm vi  Dịch  vụ  và  phù  hợp  với  Hợp  đồng/Phụ  lục,  với  điều  kiện  các  yêu cầu/hướng dẫn đó không làm thay đổi phạm vi, tiêu chuẩn kỹ thuật, tiến độ hoặc chi phí đã thỏa thuận;",
+                "score": null
+              },
+              {
+                "chunk_index": 6,
+                "text": "f) Cung cấp đầy đủ, kịp thời các hồ sơ, tài liệu, biên bản, báo cáo liên quan phục vụ công tác nghiệm thu và thanh toán theo quy định tại Hợp đồng.\n\n7. 4.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật.",
+                "score": 0.7654
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "is_appendix": false,
+        "text": "Điều 4. QUYỀN VÀ NGHĨA VỤ CỦA VTIT\n\n4.1. Quyền của VTIT: - a) Được Khách hàng thanh toán đầy đủ và đúng hạn theo giá trị nghiệm thu thực tế và phương thức thanh toán quy định tại Hợp đồng này, trên cơ sở hồ sơ thanh toán hợp lệ do VTIT cung cấp;\n\nb) Có quyền từ chối thực hiện hoặc tạm dừng công việc nếu Khách hàng không cung cấp đầy đủ, kịp thời các thông tin, tài liệu, điều kiện cần thiết hoặc không thanh toán đầy đủ và đúng hạn hoặc vi phạm nghĩa vụ làm ảnh hưởng đến tiến độ, chất lượng cung cấp dịch vụ của VTIT;\n\nc) Có quyền sử dụng hợp pháp các kinh nghiệm, phương pháp, quy trình, công cụ, mã nguồn, thư viện phần mềm và các thành phần phần mềm có sẵn của VTIT và/hoặc của nhà cung cấp trong quá trình thực hiện công việc, với điều kiện việc sử dụng đó không xâm phạm quyền sở hữu trí tuệ\n\ncủa bất kỳ bên thứ ba nào và phù hợp với các điều kiện cấp phép áp dụng (nếu có).\n\nd) VTIT không phát sinh trách nhiệm đối với các lỗi, sự cố phát sinh do nguyên nhân từ Khách hàng, hệ thống của Khách hàng hoặc phần mềm bên thứ ba do Khách hàng sử dụng;\n\n4.2. Nghĩa vụ của VTIT:\n\na) Cung cấp dịch vụ phần mềm cho Khách hàng theo đúng nội dung, phạm vi và tiêu chuẩn kỹ thuật được quy định tại Hợp đồng, Phiếu giao công việc, Danh sách công việc hoặc các tài liệu giao việc khác đã được Các Bên thống nhất bằng văn bản;\n\nb) Có trách nhiệm tiếp nhận kế hoạch công việc và xây dựng kế hoạch triển khai, bàn giao phù hợp theo thỏa thuận của Các Bên. Kế hoạch công việc phải được xác nhận bằng văn bản giữa Các Bên trước khi triển khai;\n\nc) Chịu trách nhiệm bảo quản, giữ gìn và sử dụng đúng mục đích các hệ thống, thiết bị, cơ sở vật chất mà Khách hàng đã bàn giao phục vụ cho việc thực hiện dịch vụ theo Hợp đồng (nếu có);\n\nd) Thực hiện đầy đủ và đúng tiến độ các công việc được giao theo kế hoạch, đảm bảo tuân thủ yêu cầu kỹ thuật, chất lượng sản phẩm và bàn giao đầy đủ các tài liệu, sản phẩm liên quan theo đúng quy định trong Hợp đồng.\n\ne) Tuân thủ các yêu cầu, hướng dẫn nghiệp vụ của Khách hàng trong phạm vi  Dịch  vụ  và  phù  hợp  với  Hợp  đồng/Phụ  lục,  với  điều  kiện  các  yêu cầu/hướng dẫn đó không làm thay đổi phạm vi, tiêu chuẩn kỹ thuật, tiến độ hoặc chi phí đã thỏa thuận;\n\nf) Cung cấp đầy đủ, kịp thời các hồ sơ, tài liệu, biên bản, báo cáo liên quan phục vụ công tác nghiệm thu và thanh toán theo quy định tại Hợp đồng.\n\n7. 4.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật."
+      },
+      {
+        "article_number": "9",
+        "article_title": "CHUYỂN NHƯỢNG HỢP ĐỒNG",
+        "score": 0.7457,
+        "clauses": [
+          {
+            "number": "9.3",
+            "title": "",
+            "article_number": "9",
+            "article_title": "CHUYỂN NHƯỢNG HỢP ĐỒNG",
+            "score": 0.7457,
+            "text": "9.3. Việc một Bên thuê hoặc giao cho bên thứ ba thực hiện một phần hoặc toàn bộ công việc theo Hợp đồng không được coi là hành vi chuyển nhượng Hợp đồng và không vi phạm nghĩa vụ tại Hợp đồng này, với điều kiện Bên đó vẫn phải chịu trách nhiệm hoàn toàn và trực tiếp trước Bên còn lại về kết quả công việc, chất lượng dịch vụ và các nghĩa vụ khác theo Hợp đồng.",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "9.3. Việc một Bên thuê hoặc giao cho bên thứ ba thực hiện một phần hoặc toàn bộ công việc theo Hợp đồng không được coi là hành vi chuyển nhượng Hợp đồng và không vi phạm nghĩa vụ tại Hợp đồng này, với điều kiện Bên đó vẫn phải chịu trách nhiệm hoàn toàn và trực tiếp trước Bên còn lại về kết quả công việc, chất lượng dịch vụ và các nghĩa vụ khác theo Hợp đồng.",
+                "score": 0.7457
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "is_appendix": false,
+        "text": "Điều 9. CHUYỂN NHƯỢNG HỢP ĐỒNG\n\n9.3. Việc một Bên thuê hoặc giao cho bên thứ ba thực hiện một phần hoặc toàn bộ công việc theo Hợp đồng không được coi là hành vi chuyển nhượng Hợp đồng và không vi phạm nghĩa vụ tại Hợp đồng này, với điều kiện Bên đó vẫn phải chịu trách nhiệm hoàn toàn và trực tiếp trước Bên còn lại về kết quả công việc, chất lượng dịch vụ và các nghĩa vụ khác theo Hợp đồng."
+      },
+      {
+        "article_number": "1",
+        "article_title": "ĐỐI TƯỢNG HỢP ĐỒNG",
+        "score": 0.7364,
+        "clauses": [
+          {
+            "number": "1.1",
+            "title": "",
+            "article_number": "1",
+            "article_title": "ĐỐI TƯỢNG HỢP ĐỒNG",
+            "score": null,
+            "text": "1.1. VTIT cung cấp cho Khách hàng Dịch vụ phần mềm với các yêu cầu cụ thể được nêu tại Phụ lục kèm theo Hợp đồng.",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "1.1. VTIT cung cấp cho Khách hàng Dịch vụ phần mềm với các yêu cầu cụ thể được nêu tại Phụ lục kèm theo Hợp đồng.",
+                "score": null
+              }
+            ],
+            "is_appendix": false
+          },
+          {
+            "number": "1.2",
+            "title": "",
+            "article_number": "1",
+            "article_title": "ĐỐI TƯỢNG HỢP ĐỒNG",
+            "score": 0.7364,
+            "text": "1.2. Trong phạm vi Hợp đồng này, các thuật ngữ dưới đây được hiểu như sau, trừ khi ngữ cảnh có quy định khác:\n\na) ' Hợp đồng ' là Hợp đồng dịch vụ phát triển phần mềm này, bao gồm toàn bộ nội dung Hợp đồng, các Phụ lục kèm theo, Biên bản thương thảo (nếu có) và các tài liệu khác được Các Bên thống nhất bằng văn bản là một phần của Hợp đồng.\n\nb) ' Dịch vụ ' là các dịch vụ phát triển, triển khai, tùy biến, bàn giao phần mềm và/hoặc các dịch vụ liên quan khác do VTIT cung cấp cho Khách hàng theo phạm vi quy định tại Hợp đồng và các Phụ lục.\n\nc) ' Sản phẩm bàn giao ' (Deliverables) là toàn bộ kết quả công việc, sản phẩm phần mềm, mã nguồn, tài liệu kỹ thuật, tài liệu hướng dẫn sử dụng, cấu hình hệ thống, hoặc các hạng mục khác được VTIT phát triển và bàn giao cho Khách hàng theo Hợp đồng.\n\nd) ' Phần mềm ' hoặc ' Hệ thống ' là chương trình máy tính, ứng dụng phần mềm, nền tảng công nghệ, hệ thống thông tin hoặc giải pháp công nghệ được phát triển, tùy chỉnh hoặc triển khai theo Hợp đồng.\n\ne) ' Background IP ' là toàn bộ mã nguồn, thư viện phần mềm, công cụ, framework, tài liệu, quy trình, bí quyết kỹ thuật hoặc các thành phần công nghệ mà VTIT hoặc bên cấp phép hợp pháp cho VTIT đã sở hữu hoặc có quyền sử dụng trước thời điểm thực hiện Hợp đồng hoặc được phát triển độc lập ngoài phạm vi dự án.\n\nf) ' Project IP ' là các thành phần phần mềm, chức năng, cấu hình, tài liệu hoặc sản phẩm công nghệ được phát triển riêng cho Khách hàng trong phạm vi thực hiện Dịch vụ theo Hợp đồng.\n\ng) ' OSS ' (Open Source Software) là phần mềm mã nguồn mở được cấp phép sử dụng theo các giấy phép mã nguồn mở tương ứng của chủ sở hữu phần mềm.\n\nh) ' Phiếu giao việc ',  ' Danh sách công việc '  hoặc các tài liệu giao việc tương đương là các tài liệu ghi nhận chi tiết phạm vi công việc, yêu cầu kỹ thuật, khối lượng, tiến độ hoặc các điều kiện thực hiện cụ thể đối với từng hạng mục Dịch vụ, được Các Bên thống nhất bằng văn bản trong quá trình thực hiện Hợp đồng.\n\ni) ' Change Request ' (Yêu cầu thay đổi) là yêu cầu của một Bên về việc điều chỉnh phạm vi công việc, yêu cầu kỹ thuật, tiến độ, khối lượng hoặc chi phí so với nội dung đã thỏa thuận trong Hợp đồng và các Phụ lục.\n\nj) ' HOC ' (Hand Over Certificate) là  Biên bản bàn giao phần mềm, ghi nhận việc VTIT đã hoàn thành bàn giao sơ bộ sản phẩm hoặc hạng mục công việc cho Khách hàng theo quy định tại Hợp đồng.\n\nk) ' PAC ' (Provisional Acceptance Certificate) là Biên bản nghiệm thu sơ bộ được ký sau khi hoàn thành kiểm thử và xác nhận phần mềm đáp ứng cơ bản các yêu cầu kỹ thuật.\n\nl) ' FAC ' (Final Acceptance Certificate) là Biên bản nghiệm thu tổng thể, ghi nhận việc Khách hàng đã chấp nhận hoàn toàn kết quả Dịch vụ theo Hợp đồng.\n\nm) ' Thông tin mật ' là mọi thông tin, tài liệu, dữ liệu, hồ sơ, mã nguồn, tài liệu kỹ thuật, thông tin kinh doanh hoặc thông tin khác được một Bên cung cấp cho Bên còn lại trong quá trình thực hiện Hợp đồng và được coi là thông tin bảo mật theo quy định tại Hợp đồng này.\n\nn) ' Ngày làm việc ' là ngày không bao gồm thứ Bảy, Chủ nhật và các ngày nghỉ lễ theo quy định pháp luật Việt Nam.\n\no) ' Sự kiện Bất khả kháng ' được hiểu theo quy định tại Điều 8 của Hợp đồng này.",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "1.2. Trong phạm vi Hợp đồng này, các thuật ngữ dưới đây được hiểu như sau, trừ khi ngữ cảnh có quy định khác:",
+                "score": null
+              },
+              {
+                "chunk_index": 1,
+                "text": "a) ' Hợp đồng ' là Hợp đồng dịch vụ phát triển phần mềm này, bao gồm toàn bộ nội dung Hợp đồng, các Phụ lục kèm theo, Biên bản thương thảo (nếu có) và các tài liệu khác được Các Bên thống nhất bằng văn bản là một phần của Hợp đồng.",
+                "score": 0.7364
+              },
+              {
+                "chunk_index": 2,
+                "text": "b) ' Dịch vụ ' là các dịch vụ phát triển, triển khai, tùy biến, bàn giao phần mềm và/hoặc các dịch vụ liên quan khác do VTIT cung cấp cho Khách hàng theo phạm vi quy định tại Hợp đồng và các Phụ lục.",
+                "score": null
+              },
+              {
+                "chunk_index": 3,
+                "text": "c) ' Sản phẩm bàn giao ' (Deliverables) là toàn bộ kết quả công việc, sản phẩm phần mềm, mã nguồn, tài liệu kỹ thuật, tài liệu hướng dẫn sử dụng, cấu hình hệ thống, hoặc các hạng mục khác được VTIT phát triển và bàn giao cho Khách hàng theo Hợp đồng.",
+                "score": null
+              },
+              {
+                "chunk_index": 4,
+                "text": "d) ' Phần mềm ' hoặc ' Hệ thống ' là chương trình máy tính, ứng dụng phần mềm, nền tảng công nghệ, hệ thống thông tin hoặc giải pháp công nghệ được phát triển, tùy chỉnh hoặc triển khai theo Hợp đồng.",
+                "score": null
+              },
+              {
+                "chunk_index": 5,
+                "text": "e) ' Background IP ' là toàn bộ mã nguồn, thư viện phần mềm, công cụ, framework, tài liệu, quy trình, bí quyết kỹ thuật hoặc các thành phần công nghệ mà VTIT hoặc bên cấp phép hợp pháp cho VTIT đã sở hữu hoặc có quyền sử dụng trước thời điểm thực hiện Hợp đồng hoặc được phát triển độc lập ngoài phạm vi dự án.",
+                "score": null
+              },
+              {
+                "chunk_index": 6,
+                "text": "f) ' Project IP ' là các thành phần phần mềm, chức năng, cấu hình, tài liệu hoặc sản phẩm công nghệ được phát triển riêng cho Khách hàng trong phạm vi thực hiện Dịch vụ theo Hợp đồng.",
+                "score": null
+              },
+              {
+                "chunk_index": 7,
+                "text": "g) ' OSS ' (Open Source Software) là phần mềm mã nguồn mở được cấp phép sử dụng theo các giấy phép mã nguồn mở tương ứng của chủ sở hữu phần mềm.",
+                "score": null
+              },
+              {
+                "chunk_index": 8,
+                "text": "h) ' Phiếu giao việc ',  ' Danh sách công việc '  hoặc các tài liệu giao việc tương đương là các tài liệu ghi nhận chi tiết phạm vi công việc, yêu cầu kỹ thuật, khối lượng, tiến độ hoặc các điều kiện thực hiện cụ thể đối với từng hạng mục Dịch vụ, được Các Bên thống nhất bằng văn bản trong quá trình thực hiện Hợp đồng.",
+                "score": null
+              },
+              {
+                "chunk_index": 9,
+                "text": "i) ' Change Request ' (Yêu cầu thay đổi) là yêu cầu của một Bên về việc điều chỉnh phạm vi công việc, yêu cầu kỹ thuật, tiến độ, khối lượng hoặc chi phí so với nội dung đã thỏa thuận trong Hợp đồng và các Phụ lục.",
+                "score": null
+              },
+              {
+                "chunk_index": 10,
+                "text": "j) ' HOC ' (Hand Over Certificate) là  Biên bản bàn giao phần mềm, ghi nhận việc VTIT đã hoàn thành bàn giao sơ bộ sản phẩm hoặc hạng mục công việc cho Khách hàng theo quy định tại Hợp đồng.",
+                "score": null
+              },
+              {
+                "chunk_index": 11,
+                "text": "k) ' PAC ' (Provisional Acceptance Certificate) là Biên bản nghiệm thu sơ bộ được ký sau khi hoàn thành kiểm thử và xác nhận phần mềm đáp ứng cơ bản các yêu cầu kỹ thuật.",
+                "score": null
+              },
+              {
+                "chunk_index": 12,
+                "text": "l) ' FAC ' (Final Acceptance Certificate) là Biên bản nghiệm thu tổng thể, ghi nhận việc Khách hàng đã chấp nhận hoàn toàn kết quả Dịch vụ theo Hợp đồng.",
+                "score": null
+              },
+              {
+                "chunk_index": 13,
+                "text": "m) ' Thông tin mật ' là mọi thông tin, tài liệu, dữ liệu, hồ sơ, mã nguồn, tài liệu kỹ thuật, thông tin kinh doanh hoặc thông tin khác được một Bên cung cấp cho Bên còn lại trong quá trình thực hiện Hợp đồng và được coi là thông tin bảo mật theo quy định tại Hợp đồng này.",
+                "score": null
+              },
+              {
+                "chunk_index": 14,
+                "text": "n) ' Ngày làm việc ' là ngày không bao gồm thứ Bảy, Chủ nhật và các ngày nghỉ lễ theo quy định pháp luật Việt Nam.",
+                "score": null
+              },
+              {
+                "chunk_index": 15,
+                "text": "o) ' Sự kiện Bất khả kháng ' được hiểu theo quy định tại Điều 8 của Hợp đồng này.",
+                "score": null
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "is_appendix": false,
+        "text": "Điều 1. ĐỐI TƯỢNG HỢP ĐỒNG\n\n1.1. VTIT cung cấp cho Khách hàng Dịch vụ phần mềm với các yêu cầu cụ thể được nêu tại Phụ lục kèm theo Hợp đồng.\n\n1.2. Trong phạm vi Hợp đồng này, các thuật ngữ dưới đây được hiểu như sau, trừ khi ngữ cảnh có quy định khác:\n\na) ' Hợp đồng ' là Hợp đồng dịch vụ phát triển phần mềm này, bao gồm toàn bộ nội dung Hợp đồng, các Phụ lục kèm theo, Biên bản thương thảo (nếu có) và các tài liệu khác được Các Bên thống nhất bằng văn bản là một phần của Hợp đồng.\n\nb) ' Dịch vụ ' là các dịch vụ phát triển, triển khai, tùy biến, bàn giao phần mềm và/hoặc các dịch vụ liên quan khác do VTIT cung cấp cho Khách hàng theo phạm vi quy định tại Hợp đồng và các Phụ lục.\n\nc) ' Sản phẩm bàn giao ' (Deliverables) là toàn bộ kết quả công việc, sản phẩm phần mềm, mã nguồn, tài liệu kỹ thuật, tài liệu hướng dẫn sử dụng, cấu hình hệ thống, hoặc các hạng mục khác được VTIT phát triển và bàn giao cho Khách hàng theo Hợp đồng.\n\nd) ' Phần mềm ' hoặc ' Hệ thống ' là chương trình máy tính, ứng dụng phần mềm, nền tảng công nghệ, hệ thống thông tin hoặc giải pháp công nghệ được phát triển, tùy chỉnh hoặc triển khai theo Hợp đồng.\n\ne) ' Background IP ' là toàn bộ mã nguồn, thư viện phần mềm, công cụ, framework, tài liệu, quy trình, bí quyết kỹ thuật hoặc các thành phần công nghệ mà VTIT hoặc bên cấp phép hợp pháp cho VTIT đã sở hữu hoặc có quyền sử dụng trước thời điểm thực hiện Hợp đồng hoặc được phát triển độc lập ngoài phạm vi dự án.\n\nf) ' Project IP ' là các thành phần phần mềm, chức năng, cấu hình, tài liệu hoặc sản phẩm công nghệ được phát triển riêng cho Khách hàng trong phạm vi thực hiện Dịch vụ theo Hợp đồng.\n\ng) ' OSS ' (Open Source Software) là phần mềm mã nguồn mở được cấp phép sử dụng theo các giấy phép mã nguồn mở tương ứng của chủ sở hữu phần mềm.\n\nh) ' Phiếu giao việc ',  ' Danh sách công việc '  hoặc các tài liệu giao việc tương đương là các tài liệu ghi nhận chi tiết phạm vi công việc, yêu cầu kỹ thuật, khối lượng, tiến độ hoặc các điều kiện thực hiện cụ thể đối với từng hạng mục Dịch vụ, được Các Bên thống nhất bằng văn bản trong quá trình thực hiện Hợp đồng.\n\ni) ' Change Request ' (Yêu cầu thay đổi) là yêu cầu của một Bên về việc điều chỉnh phạm vi công việc, yêu cầu kỹ thuật, tiến độ, khối lượng hoặc chi phí so với nội dung đã thỏa thuận trong Hợp đồng và các Phụ lục.\n\nj) ' HOC ' (Hand Over Certificate) là  Biên bản bàn giao phần mềm, ghi nhận việc VTIT đã hoàn thành bàn giao sơ bộ sản phẩm hoặc hạng mục công việc cho Khách hàng theo quy định tại Hợp đồng.\n\nk) ' PAC ' (Provisional Acceptance Certificate) là Biên bản nghiệm thu sơ bộ được ký sau khi hoàn thành kiểm thử và xác nhận phần mềm đáp ứng cơ bản các yêu cầu kỹ thuật.\n\nl) ' FAC ' (Final Acceptance Certificate) là Biên bản nghiệm thu tổng thể, ghi nhận việc Khách hàng đã chấp nhận hoàn toàn kết quả Dịch vụ theo Hợp đồng.\n\nm) ' Thông tin mật ' là mọi thông tin, tài liệu, dữ liệu, hồ sơ, mã nguồn, tài liệu kỹ thuật, thông tin kinh doanh hoặc thông tin khác được một Bên cung cấp cho Bên còn lại trong quá trình thực hiện Hợp đồng và được coi là thông tin bảo mật theo quy định tại Hợp đồng này.\n\nn) ' Ngày làm việc ' là ngày không bao gồm thứ Bảy, Chủ nhật và các ngày nghỉ lễ theo quy định pháp luật Việt Nam.\n\no) ' Sự kiện Bất khả kháng ' được hiểu theo quy định tại Điều 8 của Hợp đồng này."
+      },
+      {
+        "article_number": "14",
+        "article_title": "PHẠM VI DỊCH VỤ VÀ CHỈ TIÊU KỸ THUẬT",
+        "score": null,
+        "clauses": [
+          {
+            "number": "14.1",
+            "title": "",
+            "article_number": "14",
+            "article_title": "PHẠM VI DỊCH VỤ VÀ CHỈ TIÊU KỸ THUẬT",
+            "score": null,
+            "text": "14.1. Phạm vi Dịch vụ\n\nVTIT cung cấp Dịch vụ phát triển/triển khai phần mềm theo phạm vi công việc, hạng mục bàn giao (deliverables), khối lượng, tiến độ thực hiện và các điều kiện triển khai được mô tả tại Phụ lục 01 kèm theo Hợp đồng. Mọi nội dung không được nêu rõ trong Phụ lục 01 được hiểu là ngoài phạm vi Dịch vụ và VTIT không có nghĩa vụ thực hiện nếu không có thỏa thuận bổ sung bằng văn bản.",
+            "excerpts": [
+              {
+                "chunk_index": 0,
+                "text": "14.1. Phạm vi Dịch vụ\n\nVTIT cung cấp Dịch vụ phát triển/triển khai phần mềm theo phạm vi công việc, hạng mục bàn giao (deliverables), khối lượng, tiến độ thực hiện và các điều kiện triển khai được mô tả tại Phụ lục 01 kèm theo Hợp đồng. Mọi nội dung không được nêu rõ trong Phụ lục 01 được hiểu là ngoài phạm vi Dịch vụ và VTIT không có nghĩa vụ thực hiện nếu không có thỏa thuận bổ sung bằng văn bản.",
+                "score": null
+              }
+            ],
+            "is_appendix": false
+          }
+        ],
+        "is_appendix": false,
+        "text": "Điều 14. PHẠM VI DỊCH VỤ VÀ CHỈ TIÊU KỸ THUẬT\n\n14.1. Phạm vi Dịch vụ\n\nVTIT cung cấp Dịch vụ phát triển/triển khai phần mềm theo phạm vi công việc, hạng mục bàn giao (deliverables), khối lượng, tiến độ thực hiện và các điều kiện triển khai được mô tả tại Phụ lục 01 kèm theo Hợp đồng. Mọi nội dung không được nêu rõ trong Phụ lục 01 được hiểu là ngoài phạm vi Dịch vụ và VTIT không có nghĩa vụ thực hiện nếu không có thỏa thuận bổ sung bằng văn bản."
+      }
+    ],
+    "evidences": [
+      {
+        "root": {
+          "number": "15.1",
+          "title": "",
+          "is_appendix": false,
+          "matched": true,
+          "score": 0.8459,
+          "content": "15.1. Giá trị hợp đồng:\n\na) Tổng giá trị hợp đồng dự kiến: 10.000.000.0000 VNĐ\n\n(Bằng chữ: Mười tỷ đồng\n\n./.)\n\nChi tiết giá Dịch vụ cụ thể như sau: |   STT | Dịch vụ               |   Khối lượng (MM) | Đơn giá (VNĐ)   | Thành tiền (VNĐ)   |\n\n|-------|-----------------------|-------------------|-----------------|--------------------|\n\n|     1 | Phát triển phần mềm A |               700 | 10.000.000      | 7.000.000.000      |\n\n|     2 | Phát triển phần mềm B |               300 | 10.000.000      | 3.000.000.000      |\n\n|       | Thuế GTGT             |                 0 | 0               | 0                  |\n\n|       | Tổng cộng             |              1000 |                 | 10.000.000.000     |\n\nb) Dịch vụ phát triển phần mềm là đối tượng không chịu thuế GTGT theo quy định pháp luật hiện hành tại thời điểm ký kết Hợp đồng. Trường hợp có phát sinh nghĩa vụ nộp thuế GTGT đối với Dịch vụ thì Khách hàng có trách nhiệm thanh toán phần thuế GTGT phát sinh bổ sung này cho VTIT hoặc nộp trực tiếp cho cơ quan nhà nước có thẩm quyền, trong thời hạn được ghi nhận tại thông báo của VTIT hoặc cơ quan nhà nước.\n\nc) Khách hàng thanh toán giá trị nghiệm thu thực tế cho VTIT."
+        },
+        "chain": []
+      },
+      {
+        "root": {
+          "number": "19.1",
+          "title": "",
+          "is_appendix": false,
+          "matched": true,
+          "score": 0.7946,
+          "content": "19.1. Hợp đồng có hiệu lực kể từ ngày được đại diện hợp pháp của hai bên ký kết."
+        },
+        "chain": []
+      },
+      {
+        "root": {
+          "number": "2.2",
+          "title": "",
+          "is_appendix": false,
+          "matched": true,
+          "score": 0.7941,
+          "content": "2.2. Các Phụ lục đính kèm Hợp đồng;"
+        },
+        "chain": []
+      },
+      {
+        "root": {
+          "number": "2.1",
+          "title": "",
+          "is_appendix": false,
+          "matched": true,
+          "score": 0.7815,
+          "content": "Thành phần Hợp đồng và thứ tự ưu tiên pháp lý như sau :\n\n2.1. Văn bản Hợp đồng;"
+        },
+        "chain": []
+      },
+      {
+        "root": {
+          "number": "3",
+          "title": "QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG",
+          "is_appendix": false,
+          "matched": true,
+          "score": 0.7812,
+          "content": "Điều 3. QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG\n\n\n\n## 2.1. Quyền của Khách hàng:\n\na) Được cung cấp đầy đủ, đúng thời hạn, đúng nội dung, phạm vi, chất lượng và tiêu chuẩn kỹ thuật của Dịch vụ theo đúng thỏa thuận tại Hợp đồng này, các Phụ lục, Danh sách công việc và/hoặc Phiếu giao việc được hai Bên thống nhất;\n\nb) Có quyền giám sát, kiểm tra quá trình cung cấp dịch vụ của VTIT nhằm bảo đảm tuân thủ đúng các nội dung, tiến độ, chất lượng và tiêu chuẩn kỹ thuật quy định trong Hợp đồng;\n\nc) Có quyền yêu cầu VTIT báo cáo tiến độ thực hiện công việc định kỳ theo thỏa thuận của các Bên hoặc đột xuất trong trường hợp cần thiết, với điều kiện việc yêu cầu này không gây gián đoạn hoặc ảnh hưởng đáng kể đến quá trình cung cấp dịch vụ bình thường của VTIT;\n\nd) Có quyền tiếp nhận bàn giao các hạng mục/tài liệu thuộc phạm vi Dịch vụ theo Hợp đồng và Phụ lục.\n\ne) Có quyền yêu cầu VTIT giải thích/ hướng dẫn sử dụng ở mức hợp lý đối với các hạng mục bàn giao thuộc phạm vi Dịch vụ theo Hợp đồng/Phụ lục; việc hướng dẫn này không bao gồm đào tạo chuyên sâu, tư vấn mở rộng, phát triển chức năng mới hoặc các công việc ngoài phạm vi Dịch vụ, trừ khi các Bên có thỏa thuận riêng bằng văn bản.\n\n2. 2.2. Nghĩa vụ của Khách hàng: - a) Cung cấp đầy đủ, kịp thời cho VTIT các cơ sở vật chất, thiết bị phù hợp, thông tin, tài liệu, môi trường làm việc, môi trường kiểm thử hoặc môi trường bàn giao phù hợp và các điều kiện cần thiết khác để VTIT đủ điều kiện triển khai, thực hiện công việc theo đúng thỏa thuận tại Hợp đồng;\n\nb) Cử cán bộ có chuyên môn và kinh nghiệm làm đầu mối làm việc với VTIT, có trách nhiệm mô tả bài toán nghiệp vụ, giải đáp thắc mắc liên quan để VTIT triển khai dịch vụ một cách hiệu quả;\n\nc) Hướng dẫn, phối hợp và đưa ra các yêu cầu cụ thể đối với VTIT trong quá trình triển khai công việc; đảm bảo phản hồi, cung cấp yêu cầu trong thời hạn hợp lý để không ảnh hưởng đến tiến độ triển khai dịch vụ của VTIT;\n\nd) Cung cấp cho VTIT các biểu mẫu, quy trình nghiệp vụ, quy định nội bộ và các hướng dẫn liên quan đến công việc để VTIT có cơ sở thực hiện, đảm bảo đúng chất lượng và yêu cầu kỹ thuật;\n\ne) Có trách nhiệm xác nhận bằng văn bản đối với các công việc do VTIT đã thực hiện; tiếp nhận, xem xét, phản hồi và/hoặc phê duyệt các kết quả bàn giao của VTIT trong thời hạn quy định hoặc theo thỏa thuận giữa Các Bên;\n\nf) Thực hiện thanh toán cho VTIT đúng thời hạn, đầy đủ theo giá trị nghiệm thu thực tế và theo phương thức thanh toán quy định tại Hợp đồng này;\n\n9. 2.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật."
+        },
+        "chain": [
+          {
+            "number": "1.1",
+            "title": "",
+            "is_appendix": false,
+            "matched": false,
+            "score": null,
+            "content": "1.1. VTIT cung cấp cho Khách hàng Dịch vụ phần mềm với các yêu cầu cụ thể được nêu tại Phụ lục kèm theo Hợp đồng.",
+            "relation": "REFERS_TO",
+            "children": [
+              {
+                "number": "1.2",
+                "title": "",
+                "is_appendix": false,
+                "matched": false,
+                "score": null,
+                "content": "1.2. Trong phạm vi Hợp đồng này, các thuật ngữ dưới đây được hiểu như sau, trừ khi ngữ cảnh có quy định khác:\n\na) ' Hợp đồng ' là Hợp đồng dịch vụ phát triển phần mềm này, bao gồm toàn bộ nội dung Hợp đồng, các Phụ lục kèm theo, Biên bản thương thảo (nếu có) và các tài liệu khác được Các Bên thống nhất bằng văn bản là một phần của Hợp đồng.\n\nb) ' Dịch vụ ' là các dịch vụ phát triển, triển khai, tùy biến, bàn giao phần mềm và/hoặc các dịch vụ liên quan khác do VTIT cung cấp cho Khách hàng theo phạm vi quy định tại Hợp đồng và các Phụ lục.\n\nc) ' Sản phẩm bàn giao ' (Deliverables) là toàn bộ kết quả công việc, sản phẩm phần mềm, mã nguồn, tài liệu kỹ thuật, tài liệu hướng dẫn sử dụng, cấu hình hệ thống, hoặc các hạng mục khác được VTIT phát triển và bàn giao cho Khách hàng theo Hợp đồng.\n\nd) ' Phần mềm ' hoặc ' Hệ thống ' là chương trình máy tính, ứng dụng phần mềm, nền tảng công nghệ, hệ thống thông tin hoặc giải pháp công nghệ được phát triển, tùy chỉnh hoặc triển khai theo Hợp đồng.\n\ne) ' Background IP ' là toàn bộ mã nguồn, thư viện phần mềm, công cụ, framework, tài liệu, quy trình, bí quyết kỹ thuật hoặc các thành phần công nghệ mà VTIT hoặc bên cấp phép hợp pháp cho VTIT đã sở hữu hoặc có quyền sử dụng trước thời điểm thực hiện Hợp đồng hoặc được phát triển độc lập ngoài phạm vi dự án.\n\nf) ' Project IP ' là các thành phần phần mềm, chức năng, cấu hình, tài liệu hoặc sản phẩm công nghệ được phát triển riêng cho Khách hàng trong phạm vi thực hiện Dịch vụ theo Hợp đồng.\n\ng) ' OSS ' (Open Source Software) là phần mềm mã nguồn mở được cấp phép sử dụng theo các giấy phép mã nguồn mở tương ứng của chủ sở hữu phần mềm.\n\nh) ' Phiếu giao việc ',  ' Danh sách công việc '  hoặc các tài liệu giao việc tương đương là các tài liệu ghi nhận chi tiết phạm vi công việc, yêu cầu kỹ thuật, khối lượng, tiến độ hoặc các điều kiện thực hiện cụ thể đối với từng hạng mục Dịch vụ, được Các Bên thống nhất bằng văn bản trong quá trình thực hiện Hợp đồng.\n\ni) ' Change Request ' (Yêu cầu thay đổi) là yêu cầu của một Bên về việc điều chỉnh phạm vi công việc, yêu cầu kỹ thuật, tiến độ, khối lượng hoặc chi phí so với nội dung đã thỏa thuận trong Hợp đồng và các Phụ lục.\n\nj) ' HOC ' (Hand Over Certificate) là  Biên bản bàn giao phần mềm, ghi nhận việc VTIT đã hoàn thành bàn giao sơ bộ sản phẩm hoặc hạng mục công việc cho Khách hàng theo quy định tại Hợp đồng.\n\nk) ' PAC ' (Provisional Acceptance Certificate) là Biên bản nghiệm thu sơ bộ được ký sau khi hoàn thành kiểm thử và xác nhận phần mềm đáp ứng cơ bản các yêu cầu kỹ thuật.\n\nl) ' FAC ' (Final Acceptance Certificate) là Biên bản nghiệm thu tổng thể, ghi nhận việc Khách hàng đã chấp nhận hoàn toàn kết quả Dịch vụ theo Hợp đồng.\n\nm) ' Thông tin mật ' là mọi thông tin, tài liệu, dữ liệu, hồ sơ, mã nguồn, tài liệu kỹ thuật, thông tin kinh doanh hoặc thông tin khác được một Bên cung cấp cho Bên còn lại trong quá trình thực hiện Hợp đồng và được coi là thông tin bảo mật theo quy định tại Hợp đồng này.\n\nn) ' Ngày làm việc ' là ngày không bao gồm thứ Bảy, Chủ nhật và các ngày nghỉ lễ theo quy định pháp luật Việt Nam.\n\no) ' Sự kiện Bất khả kháng ' được hiểu theo quy định tại Điều 8 của Hợp đồng này.",
+                "relation": "DEFINES",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "root": {
+          "number": "19.2",
+          "title": "",
+          "is_appendix": false,
+          "matched": true,
+          "score": 0.7805,
+          "content": "19.2. Hợp đồng có tính ràng buộc và có hiệu lực pháp luật đối với Các Bên cũng như các tổ chức kế thừa quyền lợi và trách nhiệm của Các Bên theo Hợp đồng."
+        },
+        "chain": []
+      },
+      {
+        "root": {
+          "number": "9.3",
+          "title": "",
+          "is_appendix": false,
+          "matched": true,
+          "score": 0.7457,
+          "content": "9.3. Việc một Bên thuê hoặc giao cho bên thứ ba thực hiện một phần hoặc toàn bộ công việc theo Hợp đồng không được coi là hành vi chuyển nhượng Hợp đồng và không vi phạm nghĩa vụ tại Hợp đồng này, với điều kiện Bên đó vẫn phải chịu trách nhiệm hoàn toàn và trực tiếp trước Bên còn lại về kết quả công việc, chất lượng dịch vụ và các nghĩa vụ khác theo Hợp đồng."
+        },
+        "chain": []
+      }
+    ],
+    "usage": {
+      "input_tokens": 11274,
+      "output_tokens": 944,
+      "cached_input_tokens": 0,
+      "cost_usd": 0.018487899999999998,
+      "duration_seconds": 14.48
+    }
+  }
+]

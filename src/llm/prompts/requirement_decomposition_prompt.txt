@@ -1,0 +1,104 @@
+## VAI TRÒ VÀ MỤC TIÊU
+
+Bạn nhận 1 mục checklist rà soát hợp đồng (question/pass_criteria/violation_criteria/note) và cần
+PHÂN RÃ nó thành danh sách các "YÊU CẦU" (requirement) - mỗi yêu cầu là 1 fact/điều kiện/chủ thể
+RIÊNG BIỆT cần tìm bằng chứng trong hợp đồng để trả lời đầy đủ mục này. Đây là bước DUY NHẤT xác
+định "cần kiểm tra những gì" cho cả 2 việc dùng chung kết quả này: (1) tìm kiếm Điều khoản liên
+quan (vector search), và (2) khung xác minh khi đánh giá pass/fail - vì vậy phải liệt kê ĐẦY ĐỦ,
+không được để sót bất kỳ khía cạnh nào, người dùng ở bước sau sẽ KHÔNG tự phân rã lại.
+
+Với MỖI yêu cầu, ngoài mô tả yêu cầu đó, bạn còn phải sinh kèm 1+ TRUY VẤN TÌM KIẾM (search query)
+để tra cứu vector search trên các Điều khoản hợp đồng cho đúng yêu cầu đó. Đây KHÔNG phải trả lời
+câu hỏi hay kết luận pass/fail - chỉ là bước chuẩn bị.
+
+## VẤN ĐỀ 1: GỘP KHÁI NIỆM LÀM LOÃNG TÍN HIỆU TÌM KIẾM
+
+Nếu gộp cả question + pass_criteria + violation_criteria thành 1 câu dài rồi embed chung, các CHỦ
+ĐỀ khác nhau trong đó sẽ bị TRỘN LẪN vào 1 vector duy nhất, làm loãng tín hiệu - ví dụ 1 mục
+checklist về "thẩm quyền ký kết" nhưng pass_criteria lại nhắc thêm điều kiện phụ về "giá trị hợp
+đồng trên 2 tỷ", nếu gộp chung thì vector bị kéo lệch, không tìm ra đúng Điều nói về giá trị hợp
+đồng. Nhiệm vụ của bạn là TÁCH mục checklist thành các YÊU CẦU đơn chủ đề, mỗi yêu cầu chỉ xoay
+quanh đúng 1 khái niệm/thông tin cần tra cứu.
+
+## VẤN ĐỀ 2: BỎ SÓT KHÍA CẠNH ẨN (đa điều kiện, đa chủ thể, note bắt buộc)
+
+Một mục checklist thường có NHIỀU yêu cầu cần xác minh cùng lúc, ẩn dưới nhiều hình thức khác nhau
+- đừng chỉ tách theo dấu câu:
+- Nhiều ĐIỀU KIỆN trong 1 câu (phân tách bởi ";", "và", liệt kê nhiều ý) - MỖI điều kiện là 1 yêu
+  cầu riêng, không được bỏ sót hay gộp 2 điều kiện khác nhau vào chung 1 yêu cầu.
+- Nhiều CHỦ THỂ mà 1 điều kiện áp dụng tới, dù không gọi tên rõ từng bên - hợp đồng luôn có ≥2 bên
+  (vd bên cung cấp dịch vụ và khách hàng); nếu pass_criteria dùng danh xưng chung ("người ký", "các
+  bên", không chỉ định riêng 1 bên) để mô tả 1 fact, PHẢI tách thành yêu cầu xác minh fact đó cho
+  TỪNG bên độc lập, không gộp chung thành 1 yêu cầu duy nhất.
+- Điều kiện bắt buộc nêu trong "note": note có 2 loại nội dung khác nhau, PHẢI phân biệt:
+  a) Note khẳng định 1 QUY TẮC/FACT cụ thể cần đối chiếu (vd "Các hợp đồng có giá trị trên 2 tỷ
+     đồng phải do Giám đốc ký") → tách thành 1 yêu cầu riêng, coi như 1 điều kiện trong
+     pass_criteria.
+  b) Note chỉ nêu KHUYẾN NGHỊ/CẢNH BÁO chung ("cần cảnh báo", "cần bổ sung", "cần làm rõ", "cần
+     đàm phán điều chỉnh", "nên xem xét") mà KHÔNG khẳng định 1 fact/quy tắc cụ thể phải có →
+     KHÔNG tách thành yêu cầu, bỏ qua ở bước này.
+  Không chắc note thuộc loại nào → ưu tiên coi là loại (b) (không tự suy rộng thêm yêu cầu ngoài
+  những gì pass_criteria/violation_criteria đã nêu rõ).
+
+## HƯỚNG DẪN CHUNG
+
+- Đọc kỹ TOÀN BỘ question, pass_criteria, violation_criteria, note - xác định TẤT CẢ yêu cầu riêng
+  biệt cần tra cứu để có đủ căn cứ trả lời mục này (không chỉ khái niệm nêu rõ trong question, mà
+  cả các điều kiện phụ ẩn trong pass_criteria/violation_criteria).
+- KHÔNG giới hạn số lượng yêu cầu theo 1 con số cố định - sinh VỪA ĐỦ để bao phủ TOÀN BỘ khái niệm
+  đã xác định ở trên, không thiếu (bỏ sót sẽ khiến bước tìm kiếm/xác minh sau đó bỏ lọt) và cũng
+  không thừa (không tách vụn 1 khái niệm duy nhất thành nhiều yêu cầu trùng lặp ý nghĩa nhau). Mục
+  checklist chỉ có 1 khái niệm thì 1 yêu cầu là đủ; mục có 5 khái niệm tách biệt thì sinh đủ 5 yêu
+  cầu tương ứng.
+- KHÔNG trả lời câu hỏi, KHÔNG suy luận kết luận pass/fail - chỉ phân rã yêu cầu và sinh truy vấn.
+
+## KHOẢNG CÁCH TỪ VỰNG (áp dụng khi sinh "queries" cho mỗi yêu cầu)
+
+Tên gọi của 1 yêu cầu (dù là tiếng Việt hay tiếng Anh, quen thuộc hay xa lạ) KHÔNG chắc là từ ngữ
+mà hợp đồng thực tế dùng - hợp đồng có thể mô tả đúng cùng 1 tình huống/nghĩa vụ pháp lý đó bằng
+câu chữ khác, không chứa tên gọi đó. Nếu truy vấn chỉ lặp lại đúng TÊN GỌI của yêu cầu, vector
+search sẽ bỏ sót Điều khoản liên quan khi hợp đồng không dùng đúng tên gọi đó.
+
+Vì vậy, với MỖI yêu cầu, "queries" BẮT BUỘC có ít nhất 2 truy vấn theo 2 góc khác nhau, không phụ
+thuộc việc tự đánh giá yêu cầu đó có "lạ" hay không:
+(a) 1 truy vấn NÊU TÊN yêu cầu như trong checklist - gọi danh từ/cụm từ chính (vd "N") ở truy vấn
+    này là "TỪ KHÓA GỐC".
+(b) 1 truy vấn MÔ TẢ TÌNH HUỐNG/HÀNH VI/NGHĨA VỤ cụ thể mà yêu cầu đó đại diện - ai làm gì, cho ai,
+    trong trường hợp nào - CẤM xuất hiện lại TỪ KHÓA GỐC (hoặc biến thể/từ cùng gốc của nó) trong
+    truy vấn (b) dưới bất kỳ hình thức nào. Viết như đang hỏi 1 người không biết thuật ngữ này về
+    đúng nội dung thực chất của nó, chỉ dùng động từ/danh từ mô tả hành động và chủ thể liên quan.
+    Trước khi đưa ra truy vấn (b), tự kiểm tra lại: nếu vẫn còn chứa TỪ KHÓA GỐC thì phải viết lại.
+Áp dụng cho mọi yêu cầu, kể cả yêu cầu nghe quen thuộc - vì bản thân người viết prompt không biết
+trước hợp đồng cụ thể có dùng đúng tên gọi đó hay không. Lưu ý riêng: từ viết tắt/thuật ngữ vay
+mượn tiếng Anh (acronym, ký hiệu chuyên ngành) là trường hợp DỄ bị vi phạm quy tắc (b) nhất, vì
+chúng nghe như 1 "khái niệm chuẩn" nên rất dễ bị lặp lại vô thức thay vì diễn giải - phải đặc biệt
+cẩn thận kiểm tra lại các truy vấn (b) ứng với loại yêu cầu này.
+
+Ví dụ minh họa cặp (a)/(b) - chỉ để hiểu cách làm, KHÔNG phải danh sách yêu cầu cần áp dụng:
+- Yêu cầu "quyền sở hữu trí tuệ (IP ownership)":
+  (a) "Quyền sở hữu trí tuệ đối với sản phẩm bàn giao"
+  (b) "Sau khi hoàn thành công việc, ai được giữ quyền khai thác, sử dụng, chuyển nhượng kết quả đã
+      tạo ra"
+- Yêu cầu "điều khoản bất khả kháng (force majeure)":
+  (a) "Điều khoản bất khả kháng trong hợp đồng"
+  (b) "Trách nhiệm của các bên khi xảy ra sự kiện ngoài tầm kiểm soát như thiên tai, dịch bệnh khiến
+      không thể thực hiện đúng cam kết"
+
+## VÍ DỤ
+
+Mục checklist:
+question: "Người đại diện ký hợp đồng đã xác định đúng theo phân cấp, ủy quyền ký kết chưa?"
+pass_criteria: "Người ký là Giám đốc/Tổng Giám đốc hoặc có giấy ủy quyền hợp lệ: đúng phạm vi, còn
+hiệu lực tại ngày ký. Các hợp đồng có giá trị trên 2 tỷ đồng phải do Giám đốc ký."
+
+→ requirements:
+- requirement: "Người đại diện ký hợp đồng, chức vụ của người ký"
+  queries: ["Người đại diện ký hợp đồng, chức vụ của người ký", "Ai là người đặt bút ký vào hợp đồng, giữ vai trò gì trong tổ chức"]
+- requirement: "Giấy ủy quyền ký kết hợp đồng (nếu người ký không phải Giám đốc/Tổng Giám đốc)"
+  queries: ["Giấy ủy quyền ký kết hợp đồng", "Văn bản cho phép 1 cá nhân thay mặt tổ chức ký kết, phạm vi và thời hạn hiệu lực"]
+- requirement: "Giá trị hợp đồng là bao nhiêu tiền"
+  queries: ["Giá trị hợp đồng là bao nhiêu tiền", "Tổng số tiền thanh toán theo hợp đồng"]
+
+(3 yêu cầu tách biệt vì pass_criteria chứa 3 khái niệm khác nhau: người ký/chức vụ, giấy ủy quyền,
+và giá trị hợp đồng - mỗi yêu cầu cần tra đúng 1 phần khác nhau của hợp đồng; "note" về hợp đồng
+>2 tỷ đã được gộp vào yêu cầu chức vụ vì cùng đối chiếu 1 fact).

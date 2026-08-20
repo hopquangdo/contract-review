@@ -1,0 +1,16 @@
+{
+  "contracts": [
+    {
+      "contract_id": 1,
+      "name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "source_filename": "BM 01 - Hop dong cung cap dich vu phat trien phan mem.md",
+      "n_clauses": 77
+    },
+    {
+      "contract_id": 4,
+      "name": "HĐ TOSS v 12.5.2026.parsed",
+      "source_filename": "HĐ TOSS v 12.5.2026.parsed.md",
+      "n_clauses": 130
+    }
+  ]
+}

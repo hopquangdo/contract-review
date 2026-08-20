@@ -1,0 +1,1240 @@
+{
+  "0": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "0",
+      "title": "Thông tin chung và các bên tham gia hợp đồng",
+      "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ PHÁT TRIỂN PHẦN MỀM\n\nSố: 123/VIVA-VTIT/2026\n\nHôm nay, ngày 19 tháng 3 năm 2026, tại trụ sở làm việc của Khách hàng tại số 36A Dịch Vọng Hậu, phường Cầu Giấy, TP Hà Nội, chúng tôi gồm:\n\n## BÊN SỬ DỤNG DỊCH VỤ: CÔNG TY TNHH VIVAPLAST\n\nĐịa chỉ : 36B Dịch Vọng Hậu, phường Cầu Giấy, Hà Nội, Việt Nam\n\nMã số thuế : 85415419613\n\nSĐT : 033444555\n\nĐại diện: Ông Nguyễn Văn A\n\nChức vụ : Phó Giám đốc\n\n(Sau đây gọi chung là ' Khách hàng ')\n\n## BÊN CUNG CẤP DỊCH VỤ: CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ : Nam Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam\n\nMã số thuế : 2801045888\n\nĐại diện : Ông Bùi Trình\n\nChức vụ : Giám đốc\n\n(Sau đây gọi chung là ' VTIT ')\n\n(Khách hàng và VTIT sau đây có thể được gọi riêng là 'Bên' và gọi chung là ' Các Bên ' hoặc ' Hai Bên ')\n\n## Xét rằng:\n\n- -Khách hàng là tổ chức có nhu cầu thuê dịch vụ phần mềm để phục vụ hoạt động sản xuất, kinh doanh hoặc vận hành hệ thống thông tin của mình;\n\n- -VTIT là doanh nghiệp có chức năng cung cấp các dịch vụ phần mềm, có năng lực, kinh nghiệm, nhân sự và điều kiện cần thiết để thực hiện các công việc theo yêu cầu của Khách hàng;\n\nDo vậy, Hai bên thống nhất ký kết hợp đồng cung cấp dịch vụ phần mềm (' Hợp đồng ') với các nội dung sau:\n\n## PHẦN I. CÁC ĐIỀU KHOẢN CHUNG",
+      "score": 0.8849
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "0",
+      "title": "Thông tin chung và các bên tham gia hợp đồng",
+      "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ\n\n## Số: ……./2026/VNA-VTIT\n\n(V/v: Thuê Hệ thống Tối ưu Điều hành khai thác - Transformative Operations Support System - TOSS)\n\n- -Căn cứ Bộ Luật dân sự số 91/2015/QH13 của nước Cộng hòa xã hội chủ nghĩa Việt Nam đã được Quốc hội thông qua ngày 24/11/2015;\n- -Căn cứ Luật Thương mại số 36/2005/QH11 của nước Cộng hòa xã hội chủ nghĩa Việt Nam được Quốc hội thông qua ngày 14/06/2005;\n- -Căn cứ Biên bản đàm phán hợp đồng 'Thuê Hệ thống Tối ưu Điều hành khai thác Transformative Operations Support System (TOSS)' ký ngày ……./5/2026 giữa Tổng công ty Hàng không Việt Nam và Công ty trách nhiệm hữu hạn Một thành viên Đầu tư công nghệ Viettel;\n- -Căn cứ vào nhu cầu và khả năng của cả hai bên,\n\nHôm nay, ngày        tháng        năm 2026, tại Hà Nội chúng tôi gồm:\n\n## BÊN A:    TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n\nĐịa chỉ: 200 Nguyễn Sơn, P. Bồ Đề, TP. Hà Nội\n\nSố tài khoản: 001 100 002 0069\n\nTại ngân hàng: Sở giao dịch - Ngân hàng TMCP Ngoại Thương Việt Nam\n\nMã số thuế: 01 001 075 18\n\nĐại diện: Ông Lê Hồng Hà\n\nChức vụ: Tổng Giám đốc\n\n## BÊN B:    CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ: Nam Đại lộ Lê Lợi, Phường Hạc Thành, Tỉnh Thanh Hóa, Việt Nam\n\nSố tài khoản: 12349998999\n\nTại ngân hàng: Ngân hàng TMCP Tiên Phong - CN Tây Hà Nội\n\nMã số thuế: 2801045888\n\nĐại diện: Ông Bùi Trình\n\nChức vụ: Giám đốc\n\nHai  Bên  thỏa  thuận  ký  kết  Hợp  đồng  'Thuê  Hệ  thống  Tối  ưu  Điều  hành  khai  thác  Transformative Operations Support System (TOSS)' (Sau đây gọi tắt là 'Hợp đồng') với các điều khoản và phạm vi công việc như sau:",
+      "score": 0.8232
+    },
+    {
+      "contract_id": 4,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "0",
+      "title": "Thông tin chung và các bên tham gia hợp đồng",
+      "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ\n\n## Số: ……./2026/VNA-VTIT\n\n(V/v: Thuê Hệ thống Tối ưu Điều hành khai thác - Transformative Operations Support System - TOSS)\n\n- -Căn cứ Bộ Luật dân sự số 91/2015/QH13 của nước Cộng hòa xã hội chủ nghĩa Việt Nam đã được Quốc hội thông qua ngày 24/11/2015;\n- -Căn cứ Luật Thương mại số 36/2005/QH11 của nước Cộng hòa xã hội chủ nghĩa Việt Nam được Quốc hội thông qua ngày 14/06/2005;\n- -Căn cứ Biên bản đàm phán hợp đồng 'Thuê Hệ thống Tối ưu Điều hành khai thác Transformative Operations Support System (TOSS)' ký ngày ……./5/2026 giữa Tổng công ty Hàng không Việt Nam và Công ty trách nhiệm hữu hạn Một thành viên Đầu tư công nghệ Viettel;\n- -Căn cứ vào nhu cầu và khả năng của cả hai bên,\n\nHôm nay, ngày        tháng        năm 2026, tại Hà Nội chúng tôi gồm:\n\n## BÊN A:    TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n\nĐịa chỉ: 200 Nguyễn Sơn, P. Bồ Đề, TP. Hà Nội\n\nSố tài khoản: 001 100 002 0069\n\nTại ngân hàng: Sở giao dịch - Ngân hàng TMCP Ngoại Thương Việt Nam\n\nMã số thuế: 01 001 075 18\n\nĐại diện: Ông Lê Hồng Hà\n\nChức vụ: Tổng Giám đốc\n\n## BÊN B:    CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ: Nam Đại lộ Lê Lợi, Phường Hạc Thành, Tỉnh Thanh Hóa, Việt Nam\n\nSố tài khoản: 12349998999\n\nTại ngân hàng: Ngân hàng TMCP Tiên Phong - CN Tây Hà Nội\n\nMã số thuế: 2801045888\n\nĐại diện: Ông Bùi Trình\n\nChức vụ: Giám đốc\n\nHai  Bên  thỏa  thuận  ký  kết  Hợp  đồng  'Thuê  Hệ  thống  Tối  ưu  Điều  hành  khai  thác  Transformative Operations Support System (TOSS)' (Sau đây gọi tắt là 'Hợp đồng') với các điều khoản và phạm vi công việc như sau:",
+      "score": 0.8231
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.7",
+      "title": "",
+      "text": "15.7 Hợp đồng này được lập thành 04 (bốn) bản bằng tiếng Việt có giá trị pháp lý như nhau. Mỗi Bên giữ 02 (hai) bản gốc làm cơ sở để thực hiện.\n\nĐẠI DIỆN TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n\nĐẠI DIỆN CÔNG TY TNHH MTV ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nLê Hồng Hà TỔNG GIÁM ĐỐC\n\nBùi Trình GIÁM ĐỐC\n\n## ĐƠN GIÁ DỊCH VỤ VÀ THANH TOÁN\n\n(Kèm theo Hợp đồng số: …….……./2026/VNA-VTIT ký ngày………/……../2026)\n\n## A. ĐƠN GIÁ HÀNG HÓA DỊCH VỤ VÀ GIÁ TRỊ HỢP ĐỒNG DỰ KIẾN\n\nĐơn vị tính: VND\n\n|   TT | Dịch vụ                        | ĐVT                      | SL                       | Đơn giá (Chưa thuế, phí)   | Thành tiền (Chưa thuế, phí)   | Thuế, phí     | Thành tiền (gồm thuế, phí)   |\n|------|--------------------------------|--------------------------|--------------------------|----------------------------|-------------------------------|---------------|------------------------------|\n|    1 | DV triển khai phần mềm ban đầu | Gói                      | 1                        | 9.800.000.000              | 9.800.000.000                 |               | 9.800.000.000                |\n|    2 | DV thuê phần mềm               | Tháng                    | 60                       | 454.848.484,85             | 27.290.909.091                | 2.729.090.909 | 30.020.000.000               |\n|      | Giá trị Hợp đồng dự kiến       | Giá trị Hợp đồng dự kiến | Giá trị Hợp đồng dự kiến | Giá trị Hợp đồng dự kiến   | 37.090.909.091                | 2.729.090.909 | 39.820.000.000               |\n\n(Thuế, phí nêu trên là Thuế GTGT tạm tính, giá trị thực tế theo chính sách thuế và thông báo của CQ thuế tại thời điểm phát sinh)\n\nCommented [NTD(16]: Khớp số chốt\n\n## BTHANH TOÁN\n\nTrang 14 / 52\n\n| STT (A)   | KỲ THANH TOÁN (B)                                                                                                           | THỜI HẠN THANH TOÁN (C)                                                                     | SỐ TIỀN (D)                                 | THUẾ VAT (E)                                | TỔNG CỘNG (F)                               | CHỨNG TỪ KÈM THEO                                                                                                                                                                                  |\n|-----------|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| I         | DỊCH VỤ TRIỂN KHAI BAN ĐẦU                                                                                                  | DỊCH VỤ TRIỂN KHAI BAN ĐẦU                                                                  |                                             |                                             |                                             |                                                                                                                                                                                                    |\n| I.1       | Thanh toán 70% giá trị dịch vụ kể từ Ngày đưa vào vận hành                                                                  | Bên A thanh toán trong vòng 15 ngày kể từ khi nhận được đầy đủ bộ hồ sơ thanh toán từ Bên B | 6.860.000.000                               | -                                           | 6.860.000.000                               | - Công văn đề nghị thanh toán của Bên B; - Biên bản nghiệm thu tổng thể; - Hoá đơn tài chính hợp lệ tương ứng với 100% giá trị Dịch vụ triển khai ban đầu; - Các chứng từ liên quan khác (nếu có). |\n| I.2       | Thanh toán giá trị dịch vụ còn lại sau Ngày đưa vào vận hành 30 ngày nếu hệ thống không tồn tại các lỗi không thể khắc phục | Bên A thanh toán trong vòng 15 ngày kể từ khi nhận được đầy đủ bộ hồ sơ thanh toán từ Bên B | 2.940.000.000                               | -                                           | 2.940.000.000                               | - Công văn đề nghị thanh toán của Bên B; - Hoá đơn tài chính hợp lệ; - Các chứng từ liên quan khác (nếu có).                                                                                       |\n| II        | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC                                                                                 | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC                                                 | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC                                                                                                                                                        |\n| 1         | Thanh toán hàng tháng kể từ ngày ký Ngày đưa vào vận hành (CutOver date)                                                    | Bên A thanh toán trong vòng 15 ngày kể từ khi nhận được đầy đủ bộ hồ sơ thanh toán từ Bên B | D1= 454.848.484,85                          | E1= 10% x D1                                | F1 = D1 + E1                                | - Công văn đề nghị thanh toán của Bên B; - Biên bản Nghiệm thu chất lượng dịch vụ Tháng; - Hoá đơn hợp lệ; - Các chứng từ liên quan khác (nếu có)                                                  |\n\n## C. THÔNG TIN THANH TOÁN\n\nTên đơn vị thụ hưởng: CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nTài khoản: 12349998999\n\nMở tại: Ngân hàng TMCP Tiên Phong - Chi nhánh Tây Hà Nội\n\nD. CHI PHÍ PHẦN MỀM\n\nCommented [PTNH17]: VTIT update và đính kèm",
+      "score": 0.8147
+    }
+  ],
+  "1.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "1.1",
+      "title": "",
+      "text": "1.1. VTIT cung cấp cho Khách hàng Dịch vụ phần mềm với các yêu cầu cụ thể được nêu tại Phụ lục kèm theo Hợp đồng.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.1",
+      "title": "",
+      "text": "14.1. Phạm vi Dịch vụ\n\nVTIT cung cấp Dịch vụ phát triển/triển khai phần mềm theo phạm vi công việc, hạng mục bàn giao (deliverables), khối lượng, tiến độ thực hiện và các điều kiện triển khai được mô tả tại Phụ lục 01 kèm theo Hợp đồng. Mọi nội dung không được nêu rõ trong Phụ lục 01 được hiểu là ngoài phạm vi Dịch vụ và VTIT không có nghĩa vụ thực hiện nếu không có thỏa thuận bổ sung bằng văn bản.",
+      "score": 0.8494
+    }
+  ],
+  "10.2": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.2",
+      "title": "",
+      "text": "10.2. Khách hàng cam đoan và bảo đảm rằng:\n\n- a) Có đầy đủ quyền sử dụng hợp pháp các tài sản, dữ liệu, thông tin cung cấp cho VTIT theo Hợp đồng này;\n\n- b) Thông tin, tài liệu, yêu cầu kỹ thuật, nghiệp vụ do Khách hàng cung cấp là chính xác, hợp pháp và không vi phạm quyền của bên thứ ba;\n\n- c) Việc ký kết và thực hiện Hợp đồng này không vi phạm bất kỳ nghĩa vụ hợp đồng nào hoặc quy định pháp luật nào mà Khách hàng bị ràng buộc.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Các Bên cam đoan và bảo đảm rằng:\n\n- a) Có đầy đủ năng lực pháp lý, tư cách pháp nhân và quyền ký kết và thực hiện Hợp đồng này theo quy định của pháp luật;\n\n- b) Phần mềm, hệ thống là phù hợp với quy định của pháp luật hiện hành, không vi phạm bất kỳ quy định cấm nào, không bị cấm phát triển hoặc sử dụng theo pháp luật Việt Nam hoặc điều ước quốc tế có hiệu lực; việc xây dựng Phần mềm, hệ thống không làm phát sinh trách nhiệm pháp lý cho VTIT với tư cách là bên cung cấp dịch vụ.\n\n- c) Phần mềm/hệ thống và/hoặc Dịch vụ theo Hợp đồng không được sử dụng, trực tiếp hoặc gián tiếp, cho bất kỳ mục đích nào liên quan đến khủng bố,\n\ntài trợ khủng bố, tội phạm xuyên quốc gia/tội phạm quốc tế, rửa tiền, buôn bán người, hoặc các hành vi bị cấm theo pháp luật Việt Nam và/hoặc các điều ước quốc tế có hiệu lực; Khách hàng cam kết bảo đảm việc sử dụng là hợp pháp và bồi thường, giữ cho VTIT không bị thiệt hại trước mọi khiếu nại, yêu cầu, chế tài phát sinh từ việc Khách hàng vi phạm cam kết này.",
+      "score": 0.9098
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "4.1",
+      "title": "",
+      "text": "4.1. Quyền của VTIT: - a) Được Khách hàng thanh toán đầy đủ và đúng hạn theo giá trị nghiệm thu thực tế và phương thức thanh toán quy định tại Hợp đồng này, trên cơ sở hồ sơ thanh toán hợp lệ do VTIT cung cấp;\n\n- b) Có quyền từ chối thực hiện hoặc tạm dừng công việc nếu Khách hàng không cung cấp đầy đủ, kịp thời các thông tin, tài liệu, điều kiện cần thiết hoặc không thanh toán đầy đủ và đúng hạn hoặc vi phạm nghĩa vụ làm ảnh hưởng đến tiến độ, chất lượng cung cấp dịch vụ của VTIT;\n\n- c) Có quyền sử dụng hợp pháp các kinh nghiệm, phương pháp, quy trình, công cụ, mã nguồn, thư viện phần mềm và các thành phần phần mềm có sẵn của VTIT và/hoặc của nhà cung cấp trong quá trình thực hiện công việc, với điều kiện việc sử dụng đó không xâm phạm quyền sở hữu trí tuệ\n\ncủa bất kỳ bên thứ ba nào và phù hợp với các điều kiện cấp phép áp dụng (nếu có).\n\n- d) VTIT không phát sinh trách nhiệm đối với các lỗi, sự cố phát sinh do nguyên nhân từ Khách hàng, hệ thống của Khách hàng hoặc phần mềm bên thứ ba do Khách hàng sử dụng;",
+      "score": 0.8857
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. VTIT cam đoan và bảo đảm rằng: - a) Có đầy đủ năng lực kỹ thuật, kinh nghiệm và nguồn lực cần thiết để thực hiện đúng và đầy đủ các nghĩa vụ đã cam kết trong Hợp đồng;\n\n- b) Trong quá trình thực hiện Hợp đồng, sẽ không vi quyền sở hữu trí tuệ của bên thứ ba;\n\n- c) Dịch vụ và sản phẩm bàn giao theo Hợp đồng sẽ đáp ứng các yêu cầu kỹ thuật, chức năng như đã thỏa thuận tại Hợp đồng và các Phụ lục kèm theo.",
+      "score": 0.8816
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "3",
+      "title": "QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG",
+      "text": "Điều 3. QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG\n\n\n\n## 2.1. Quyền của Khách hàng:\n\n- a) Được cung cấp đầy đủ, đúng thời hạn, đúng nội dung, phạm vi, chất lượng và tiêu chuẩn kỹ thuật của Dịch vụ theo đúng thỏa thuận tại Hợp đồng này, các Phụ lục, Danh sách công việc và/hoặc Phiếu giao việc được hai Bên thống nhất;\n\n- b) Có quyền giám sát, kiểm tra quá trình cung cấp dịch vụ của VTIT nhằm bảo đảm tuân thủ đúng các nội dung, tiến độ, chất lượng và tiêu chuẩn kỹ thuật quy định trong Hợp đồng;\n\n- c) Có quyền yêu cầu VTIT báo cáo tiến độ thực hiện công việc định kỳ theo thỏa thuận của các Bên hoặc đột xuất trong trường hợp cần thiết, với điều kiện việc yêu cầu này không gây gián đoạn hoặc ảnh hưởng đáng kể đến quá trình cung cấp dịch vụ bình thường của VTIT;\n\n- d) Có quyền tiếp nhận bàn giao các hạng mục/tài liệu thuộc phạm vi Dịch vụ theo Hợp đồng và Phụ lục.\n\n- e) Có quyền yêu cầu VTIT giải thích/ hướng dẫn sử dụng ở mức hợp lý đối với các hạng mục bàn giao thuộc phạm vi Dịch vụ theo Hợp đồng/Phụ lục; việc hướng dẫn này không bao gồm đào tạo chuyên sâu, tư vấn mở rộng, phát triển chức năng mới hoặc các công việc ngoài phạm vi Dịch vụ, trừ khi các Bên có thỏa thuận riêng bằng văn bản.\n\n2.2. Nghĩa vụ của Khách hàng: - a) Cung cấp đầy đủ, kịp thời cho VTIT các cơ sở vật chất, thiết bị phù hợp, thông tin, tài liệu, môi trường làm việc, môi trường kiểm thử hoặc môi trường bàn giao phù hợp và các điều kiện cần thiết khác để VTIT đủ điều kiện triển khai, thực hiện công việc theo đúng thỏa thuận tại Hợp đồng;\n\n- b) Cử cán bộ có chuyên môn và kinh nghiệm làm đầu mối làm việc với VTIT, có trách nhiệm mô tả bài toán nghiệp vụ, giải đáp thắc mắc liên quan để VTIT triển khai dịch vụ một cách hiệu quả;\n\n- c) Hướng dẫn, phối hợp và đưa ra các yêu cầu cụ thể đối với VTIT trong quá trình triển khai công việc; đảm bảo phản hồi, cung cấp yêu cầu trong thời hạn hợp lý để không ảnh hưởng đến tiến độ triển khai dịch vụ của VTIT;\n\n- d) Cung cấp cho VTIT các biểu mẫu, quy trình nghiệp vụ, quy định nội bộ và các hướng dẫn liên quan đến công việc để VTIT có cơ sở thực hiện, đảm bảo đúng chất lượng và yêu cầu kỹ thuật;\n\n- e) Có trách nhiệm xác nhận bằng văn bản đối với các công việc do VTIT đã thực hiện; tiếp nhận, xem xét, phản hồi và/hoặc phê duyệt các kết quả bàn giao của VTIT trong thời hạn quy định hoặc theo thỏa thuận giữa Các Bên;\n\n- f) Thực hiện thanh toán cho VTIT đúng thời hạn, đầy đủ theo giá trị nghiệm thu thực tế và theo phương thức thanh toán quy định tại Hợp đồng này;\n\n2.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật.",
+      "score": 0.8718
+    }
+  ],
+  "10.3": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. VTIT cam đoan và bảo đảm rằng: - a) Có đầy đủ năng lực kỹ thuật, kinh nghiệm và nguồn lực cần thiết để thực hiện đúng và đầy đủ các nghĩa vụ đã cam kết trong Hợp đồng;\n\n- b) Trong quá trình thực hiện Hợp đồng, sẽ không vi quyền sở hữu trí tuệ của bên thứ ba;\n\n- c) Dịch vụ và sản phẩm bàn giao theo Hợp đồng sẽ đáp ứng các yêu cầu kỹ thuật, chức năng như đã thỏa thuận tại Hợp đồng và các Phụ lục kèm theo.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.2",
+      "title": "",
+      "text": "10.2. Khách hàng cam đoan và bảo đảm rằng:\n\n- a) Có đầy đủ quyền sử dụng hợp pháp các tài sản, dữ liệu, thông tin cung cấp cho VTIT theo Hợp đồng này;\n\n- b) Thông tin, tài liệu, yêu cầu kỹ thuật, nghiệp vụ do Khách hàng cung cấp là chính xác, hợp pháp và không vi phạm quyền của bên thứ ba;\n\n- c) Việc ký kết và thực hiện Hợp đồng này không vi phạm bất kỳ nghĩa vụ hợp đồng nào hoặc quy định pháp luật nào mà Khách hàng bị ràng buộc.",
+      "score": 0.8818
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Các Bên cam đoan và bảo đảm rằng:\n\n- a) Có đầy đủ năng lực pháp lý, tư cách pháp nhân và quyền ký kết và thực hiện Hợp đồng này theo quy định của pháp luật;\n\n- b) Phần mềm, hệ thống là phù hợp với quy định của pháp luật hiện hành, không vi phạm bất kỳ quy định cấm nào, không bị cấm phát triển hoặc sử dụng theo pháp luật Việt Nam hoặc điều ước quốc tế có hiệu lực; việc xây dựng Phần mềm, hệ thống không làm phát sinh trách nhiệm pháp lý cho VTIT với tư cách là bên cung cấp dịch vụ.\n\n- c) Phần mềm/hệ thống và/hoặc Dịch vụ theo Hợp đồng không được sử dụng, trực tiếp hoặc gián tiếp, cho bất kỳ mục đích nào liên quan đến khủng bố,\n\ntài trợ khủng bố, tội phạm xuyên quốc gia/tội phạm quốc tế, rửa tiền, buôn bán người, hoặc các hành vi bị cấm theo pháp luật Việt Nam và/hoặc các điều ước quốc tế có hiệu lực; Khách hàng cam kết bảo đảm việc sử dụng là hợp pháp và bồi thường, giữ cho VTIT không bị thiệt hại trước mọi khiếu nại, yêu cầu, chế tài phát sinh từ việc Khách hàng vi phạm cam kết này.",
+      "score": 0.8713
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "4.2",
+      "title": "",
+      "text": "4.2. Nghĩa vụ của VTIT:\n\n- a) Cung cấp dịch vụ phần mềm cho Khách hàng theo đúng nội dung, phạm vi và tiêu chuẩn kỹ thuật được quy định tại Hợp đồng, Phiếu giao công việc, Danh sách công việc hoặc các tài liệu giao việc khác đã được Các Bên thống nhất bằng văn bản;\n\n- b) Có trách nhiệm tiếp nhận kế hoạch công việc và xây dựng kế hoạch triển khai, bàn giao phù hợp theo thỏa thuận của Các Bên. Kế hoạch công việc phải được xác nhận bằng văn bản giữa Các Bên trước khi triển khai;\n\n- c) Chịu trách nhiệm bảo quản, giữ gìn và sử dụng đúng mục đích các hệ thống, thiết bị, cơ sở vật chất mà Khách hàng đã bàn giao phục vụ cho việc thực hiện dịch vụ theo Hợp đồng (nếu có);\n\n- d) Thực hiện đầy đủ và đúng tiến độ các công việc được giao theo kế hoạch, đảm bảo tuân thủ yêu cầu kỹ thuật, chất lượng sản phẩm và bàn giao đầy đủ các tài liệu, sản phẩm liên quan theo đúng quy định trong Hợp đồng.\n\n- e) Tuân thủ các yêu cầu, hướng dẫn nghiệp vụ của Khách hàng trong phạm vi  Dịch  vụ  và  phù  hợp  với  Hợp  đồng/Phụ  lục,  với  điều  kiện  các  yêu cầu/hướng dẫn đó không làm thay đổi phạm vi, tiêu chuẩn kỹ thuật, tiến độ hoặc chi phí đã thỏa thuận;\n\n- f) Cung cấp đầy đủ, kịp thời các hồ sơ, tài liệu, biên bản, báo cáo liên quan phục vụ công tác nghiệm thu và thanh toán theo quy định tại Hợp đồng.",
+      "score": 0.8577
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "3",
+      "title": "QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG",
+      "text": "Điều 3. QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG\n\n\n\n## 2.1. Quyền của Khách hàng:\n\n- a) Được cung cấp đầy đủ, đúng thời hạn, đúng nội dung, phạm vi, chất lượng và tiêu chuẩn kỹ thuật của Dịch vụ theo đúng thỏa thuận tại Hợp đồng này, các Phụ lục, Danh sách công việc và/hoặc Phiếu giao việc được hai Bên thống nhất;\n\n- b) Có quyền giám sát, kiểm tra quá trình cung cấp dịch vụ của VTIT nhằm bảo đảm tuân thủ đúng các nội dung, tiến độ, chất lượng và tiêu chuẩn kỹ thuật quy định trong Hợp đồng;\n\n- c) Có quyền yêu cầu VTIT báo cáo tiến độ thực hiện công việc định kỳ theo thỏa thuận của các Bên hoặc đột xuất trong trường hợp cần thiết, với điều kiện việc yêu cầu này không gây gián đoạn hoặc ảnh hưởng đáng kể đến quá trình cung cấp dịch vụ bình thường của VTIT;\n\n- d) Có quyền tiếp nhận bàn giao các hạng mục/tài liệu thuộc phạm vi Dịch vụ theo Hợp đồng và Phụ lục.\n\n- e) Có quyền yêu cầu VTIT giải thích/ hướng dẫn sử dụng ở mức hợp lý đối với các hạng mục bàn giao thuộc phạm vi Dịch vụ theo Hợp đồng/Phụ lục; việc hướng dẫn này không bao gồm đào tạo chuyên sâu, tư vấn mở rộng, phát triển chức năng mới hoặc các công việc ngoài phạm vi Dịch vụ, trừ khi các Bên có thỏa thuận riêng bằng văn bản.\n\n2.2. Nghĩa vụ của Khách hàng: - a) Cung cấp đầy đủ, kịp thời cho VTIT các cơ sở vật chất, thiết bị phù hợp, thông tin, tài liệu, môi trường làm việc, môi trường kiểm thử hoặc môi trường bàn giao phù hợp và các điều kiện cần thiết khác để VTIT đủ điều kiện triển khai, thực hiện công việc theo đúng thỏa thuận tại Hợp đồng;\n\n- b) Cử cán bộ có chuyên môn và kinh nghiệm làm đầu mối làm việc với VTIT, có trách nhiệm mô tả bài toán nghiệp vụ, giải đáp thắc mắc liên quan để VTIT triển khai dịch vụ một cách hiệu quả;\n\n- c) Hướng dẫn, phối hợp và đưa ra các yêu cầu cụ thể đối với VTIT trong quá trình triển khai công việc; đảm bảo phản hồi, cung cấp yêu cầu trong thời hạn hợp lý để không ảnh hưởng đến tiến độ triển khai dịch vụ của VTIT;\n\n- d) Cung cấp cho VTIT các biểu mẫu, quy trình nghiệp vụ, quy định nội bộ và các hướng dẫn liên quan đến công việc để VTIT có cơ sở thực hiện, đảm bảo đúng chất lượng và yêu cầu kỹ thuật;\n\n- e) Có trách nhiệm xác nhận bằng văn bản đối với các công việc do VTIT đã thực hiện; tiếp nhận, xem xét, phản hồi và/hoặc phê duyệt các kết quả bàn giao của VTIT trong thời hạn quy định hoặc theo thỏa thuận giữa Các Bên;\n\n- f) Thực hiện thanh toán cho VTIT đúng thời hạn, đầy đủ theo giá trị nghiệm thu thực tế và theo phương thức thanh toán quy định tại Hợp đồng này;\n\n2.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật.",
+      "score": 0.8509
+    }
+  ],
+  "11.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.1",
+      "title": "",
+      "text": "11.1. Bên vi phạm Hợp đồng phải chịu phạt vi phạm Hợp đồng và bồi thường các thiệt hại cho Bên kia do hành vi vi phạm Hợp đồng của mình gây ra ngoại trừ các trường hợp Bất khả kháng theo quy định của Hợp đồng này.",
+      "score": 0.9996
+    }
+  ],
+  "11.2": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.2",
+      "title": "",
+      "text": "11.2. Phạt vi phạm: - a) Trường hợp tiến độ thực hiện và bàn giao kết quả công việc bị chậm trễ so với kế hoạch tháng, và nguyên nhân được xác định là do lỗi của VTIT sau khi đã có đầy đủ thông tin, tài liệu từ Khách hàng, thì VTIT sẽ phải chịu phạt vi phạm 0,05% giá trị phần công việc bị chậm, tổng mức phạt vi phạm không quá 8% giá trị phần nghĩa vụ/công việc bị vi phạm (bị chậm). Trước khi áp dụng phạt, Khách hàng có trách nhiệm thông báo bằng văn bản và cho VTIT thời gian khắc phục hợp lý (tối thiểu 05 ngày làm việc).\n\n- b) Nếu kết quả công việc VTIT bàn giao không đạt yêu cầu theo Hợp đồng và Phiếu yêu cầu, và VTIT không khắc phục trong thời hạn hợp lý được Khách hàng thông báo bằng văn bản, thì VTIT phải chịu phạt 0,05 giá trị phần công việc không đạt yêu cầu, tổng mức phạt vi phạm không quá 8% giá trị phần công việc bị vi phạm.\n\n- c) Nếu một bên tự ý chấm dứt Hợp đồng mà không có sự thoả thuận trước bằng văn bản với bên kia hoặc không nằm trong các trường hợp được quyền đơn phương chấm dứt theo quy định tại Hợp đồng, quy định pháp\n\nluật thì phải chịu phạt 8% giá trị bị vi phạm. Trong trường hợp này, các Bên xác định giá trị bị vi phạm là giá trị Hợp đồng chưa thực hiện.\n\n- d) Nếu Khách hàng không thực hiện hoặc thực hiện không đầy đủ nghĩa vụ thanh toán theo quy định tại Hợp đồng thì Khách hàng phải chịu phạt 0,1% giá trị thanh toán bị chậm cho mỗi ngày chậm thanh toán nhưng tổng số tiền phạt vi phạm không vượt quá 8% giá trị thanh toán bị chậm.",
+      "score": 0.9282
+    }
+  ],
+  "11.3": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.3",
+      "title": "",
+      "text": "11.3. Bồi thường thiệt hại:\n\nNgoài mức phạt như quy định ở Điều 17.2 nêu trên, Bên vi phạm Hợp đồng có trách nhiệm bồi thường thiệt hại cho bên bị vi phạm do hành vi vi phạm Hợp đồng gây ra. Giá trị bồi thường thiệt hại bao gồm giá trị tổn thất thực tế, trực tiếp, có chứng từ chứng minh hợp lý mà Bên bị vi phạm phải chịu. Trừ khi Hợp đồng có quy định rõ khác bằng văn bản, VTIT không chịu trách nhiệm đối với các thiệt hại gián tiếp hoặc hệ quả phát sinh, bao gồm nhưng không giới hạn ở: mất dữ liệu,  mất  doanh  thu,  lợi  nhuận,  mất  cơ  hội  kinh  doanh,  gián  đoạn  hoạt  động  kinh doanh, thiệt hại tinh thần, các khoản trừng phạt hoặc các tổn thất tương tự khác.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.4",
+      "title": "",
+      "text": "11.4. Tổng mức phạt vi phạm và bồi thường thiệt hại (nếu có) của VTIT theo Hợp đồng này không vượt quá tổng giá trị Hợp đồng đã thực hiện và được nghiệm thu. VTIT không chịu trách nhiệm đối với các thiệt hại gián tiếp, doanh thu, lợi nhuận kỳ vọng bị mất của Khách hàng hoặc Bên thứ ba.",
+      "score": 0.8826
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.5",
+      "title": "",
+      "text": "10.5. Ngoài mức phạt như quy định ở Điều này, bên vi phạm Hợp đồng có trách nhiệm bồi thường thiệt hại cho bên kia do hành vi vi phạm Hợp đồng gây ra và khoản lợi trực tiếp mà Bên vi phạm đáng lẽ được hưởng nếu không có hành vi vi phạm và các\n\nkhoản khác theo quy định của Pháp luật (nếu có).",
+      "score": 0.8612
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.5",
+      "title": "",
+      "text": "10.5. Ngoài mức phạt như quy định ở Điều này, bên vi phạm Hợp đồng có trách nhiệm bồi thường thiệt hại cho bên kia do hành vi vi phạm Hợp đồng gây ra và khoản lợi trực tiếp mà Bên vi phạm đáng lẽ được hưởng nếu không có hành vi vi phạm và các\n\nkhoản khác theo quy định của Pháp luật (nếu có).",
+      "score": 0.8612
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.5",
+      "title": "",
+      "text": "10.5. Ngoài mức phạt như quy định ở Điều này, bên vi phạm Hợp đồng có trách nhiệm bồi thường thiệt hại cho bên kia do hành vi vi phạm Hợp đồng gây ra và khoản lợi trực tiếp mà Bên vi phạm đáng lẽ được hưởng nếu không có hành vi vi phạm và các\n\nkhoản khác theo quy định của Pháp luật (nếu có).",
+      "score": 0.8608
+    }
+  ],
+  "11.4": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.2",
+      "title": "",
+      "text": "11.2. Phạt vi phạm: - a) Trường hợp tiến độ thực hiện và bàn giao kết quả công việc bị chậm trễ so với kế hoạch tháng, và nguyên nhân được xác định là do lỗi của VTIT sau khi đã có đầy đủ thông tin, tài liệu từ Khách hàng, thì VTIT sẽ phải chịu phạt vi phạm 0,05% giá trị phần công việc bị chậm, tổng mức phạt vi phạm không quá 8% giá trị phần nghĩa vụ/công việc bị vi phạm (bị chậm). Trước khi áp dụng phạt, Khách hàng có trách nhiệm thông báo bằng văn bản và cho VTIT thời gian khắc phục hợp lý (tối thiểu 05 ngày làm việc).\n\n- b) Nếu kết quả công việc VTIT bàn giao không đạt yêu cầu theo Hợp đồng và Phiếu yêu cầu, và VTIT không khắc phục trong thời hạn hợp lý được Khách hàng thông báo bằng văn bản, thì VTIT phải chịu phạt 0,05 giá trị phần công việc không đạt yêu cầu, tổng mức phạt vi phạm không quá 8% giá trị phần công việc bị vi phạm.\n\n- c) Nếu một bên tự ý chấm dứt Hợp đồng mà không có sự thoả thuận trước bằng văn bản với bên kia hoặc không nằm trong các trường hợp được quyền đơn phương chấm dứt theo quy định tại Hợp đồng, quy định pháp\n\nluật thì phải chịu phạt 8% giá trị bị vi phạm. Trong trường hợp này, các Bên xác định giá trị bị vi phạm là giá trị Hợp đồng chưa thực hiện.\n\n- d) Nếu Khách hàng không thực hiện hoặc thực hiện không đầy đủ nghĩa vụ thanh toán theo quy định tại Hợp đồng thì Khách hàng phải chịu phạt 0,1% giá trị thanh toán bị chậm cho mỗi ngày chậm thanh toán nhưng tổng số tiền phạt vi phạm không vượt quá 8% giá trị thanh toán bị chậm.",
+      "score": 0.8922
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.1",
+      "title": "",
+      "text": "11.1. Bên vi phạm Hợp đồng phải chịu phạt vi phạm Hợp đồng và bồi thường các thiệt hại cho Bên kia do hành vi vi phạm Hợp đồng của mình gây ra ngoại trừ các trường hợp Bất khả kháng theo quy định của Hợp đồng này.",
+      "score": 0.8442
+    }
+  ],
+  "12.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.1",
+      "title": "",
+      "text": "12.1. Hợp đồng chấm dứt trong các trường hợp sau:\n\n- a) Hợp đồng đã được Các Bên thực hiện đầy đủ nghĩa vụ theo quy định tại Hợp đồng.\n\n- b) Các Bên có thỏa thuận chấm dứt Hợp đồng bằng văn bản. Trong trường hợp này, Hai Bên sẽ thống nhất các điều kiện cụ thể liên quan đến việc chấm dứt, bao gồm nhưng không giới hạn ở: trách nhiệm thanh toán, thời điểm hiệu lực chấm dứt, nghĩa vụ bảo mật và xử lý dữ liệu.\n\n- c) Một trong Hai Bên bị tuyên bố phá sản, giải thể, hoặc bị cơ quan có thẩm quyền yêu cầu chấm dứt hoạt động kinh doanh.",
+      "score": 0.9995
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2.   Trường hợp chấm dứt Hợp đồng theo điểm 12.1.1, 12.1.2 và 12.1.5 khoản 12.1 Điều 12, Hai Bên thực hiện theo các thỏa thuận tại Văn bản thỏa thuận chấm dứt Hợp đồng (nếu có).",
+      "score": 0.8828
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2.   Trường hợp chấm dứt Hợp đồng theo điểm 12.1.1, 12.1.2 và 12.1.5 khoản 12.1 Điều 12, Hai Bên thực hiện theo các thỏa thuận tại Văn bản thỏa thuận chấm dứt Hợp đồng (nếu có).",
+      "score": 0.8828
+    },
+    {
+      "contract_id": 4,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2.   Trường hợp chấm dứt Hợp đồng theo điểm 12.1.1, 12.1.2 và 12.1.5 khoản 12.1 Điều 12, Hai Bên thực hiện theo các thỏa thuận tại Văn bản thỏa thuận chấm dứt Hợp đồng (nếu có).",
+      "score": 0.8825
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2.   Trường hợp chấm dứt Hợp đồng theo điểm 12.1.1, 12.1.2 và 12.1.5 khoản 12.1 Điều 12, Hai Bên thực hiện theo các thỏa thuận tại Văn bản thỏa thuận chấm dứt Hợp đồng (nếu có).",
+      "score": 0.8825
+    }
+  ],
+  "12.2": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2. Một trong Hai Bên có quyền chấm dứt Hợp đồng nếu Bên kia có hành vi vi phạm cơ bản nghĩa vụ hợp đồng, bao gồm nhưng không giới hạn ở:\n\n- a) Không thực hiện nghĩa vụ thanh toán trong thời hạn quá 30 ngày kể từ ngày đến hạn mà không có lý do chính đáng hoặc không được khắc phục sau khi nhận được thông báo bằng văn bản từ Bên còn lại;\n\n- b) Từ chối bàn giao hoặc từ chối thực hiện Hợp đồng hoặc đơn phương đình chỉ công việc trái Hợp đồng;\n\n- c) Một Bên vi phạm cam đoan và bảo đảm theo quy định tại khoản 10.1 Điều 11 Hợp đồng này.\n\n- d) VTIT có quyền chấm dứt Hợp đồng nếu Khách hàng mất khả năng thanh toán hoặc có căn cứ hợp lý để xác định Khách hàng không còn khả năng thanh toán các khoản đến hạn theo Hợp đồng.\n\n- e) Vi phạm nghiêm trọng nghĩa vụ Hợp đồng.\n\nTrong các trường hợp này, Bên bị vi phạm phải được thông báo bằng văn bản và có ít nhất 15 ngày làm việc để khắc phục trước khi Bên kia chính thức chấm dứt Hợp đồng.",
+      "score": 0.9848
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.1",
+      "title": "",
+      "text": "12.1. Hợp đồng chấm dứt trong các trường hợp sau:\n\n- a) Hợp đồng đã được Các Bên thực hiện đầy đủ nghĩa vụ theo quy định tại Hợp đồng.\n\n- b) Các Bên có thỏa thuận chấm dứt Hợp đồng bằng văn bản. Trong trường hợp này, Hai Bên sẽ thống nhất các điều kiện cụ thể liên quan đến việc chấm dứt, bao gồm nhưng không giới hạn ở: trách nhiệm thanh toán, thời điểm hiệu lực chấm dứt, nghĩa vụ bảo mật và xử lý dữ liệu.\n\n- c) Một trong Hai Bên bị tuyên bố phá sản, giải thể, hoặc bị cơ quan có thẩm quyền yêu cầu chấm dứt hoạt động kinh doanh.",
+      "score": 0.8636
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.4",
+      "title": "",
+      "text": "12.4. Trường hợp Hợp đồng bị chấm dứt trước thời hạn mà không phải do lỗi của VTIT, VTIT vẫn có quyền:\n\n- a) Yêu cầu thanh toán đầy đủ cho phần công việc đã thực hiện và  được nghiệm thu tính đến thời điểm chấm dứt;\n\n- b) Yêu cầu thanh toán các chi phí hợp lý đã phát sinh đối với phần công việc đang thực hiện dở dang (nếu có), trên cơ sở tài liệu, chứng từ hợp lệ được Khách hàng xác nhận;\n\n- c) Không bị coi là vi phạm Hợp đồng hoặc chịu phạt vi phạm do việc chấm dứt không thuộc lỗi của mình.",
+      "score": 0.8609
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.3",
+      "title": "",
+      "text": "12.1.3. Một trong Hai Bên vi phạm nghĩa vụ quy định trong Hợp đồng này, và không có biện pháp khắc phục, sửa chữa vi phạm trong thời hạn 15 (mười lăm) ngày kể từ ngày nhận được thông báo yêu cầu khắc phục của Bên bị vi phạm và Bên bị vi phạm có văn bản yêu cầu chấm dứt Hợp đồng.",
+      "score": 0.8554
+    },
+    {
+      "contract_id": 4,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.3",
+      "title": "",
+      "text": "12.1.3. Một trong Hai Bên vi phạm nghĩa vụ quy định trong Hợp đồng này, và không có biện pháp khắc phục, sửa chữa vi phạm trong thời hạn 15 (mười lăm) ngày kể từ ngày nhận được thông báo yêu cầu khắc phục của Bên bị vi phạm và Bên bị vi phạm có văn bản yêu cầu chấm dứt Hợp đồng.",
+      "score": 0.8552
+    }
+  ],
+  "12.4": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.4",
+      "title": "",
+      "text": "12.4. Trường hợp Hợp đồng bị chấm dứt trước thời hạn mà không phải do lỗi của VTIT, VTIT vẫn có quyền:\n\n- a) Yêu cầu thanh toán đầy đủ cho phần công việc đã thực hiện và  được nghiệm thu tính đến thời điểm chấm dứt;\n\n- b) Yêu cầu thanh toán các chi phí hợp lý đã phát sinh đối với phần công việc đang thực hiện dở dang (nếu có), trên cơ sở tài liệu, chứng từ hợp lệ được Khách hàng xác nhận;\n\n- c) Không bị coi là vi phạm Hợp đồng hoặc chịu phạt vi phạm do việc chấm dứt không thuộc lỗi của mình.",
+      "score": 0.9998
+    }
+  ],
+  "14.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.1",
+      "title": "",
+      "text": "14.1. Phạm vi Dịch vụ\n\nVTIT cung cấp Dịch vụ phát triển/triển khai phần mềm theo phạm vi công việc, hạng mục bàn giao (deliverables), khối lượng, tiến độ thực hiện và các điều kiện triển khai được mô tả tại Phụ lục 01 kèm theo Hợp đồng. Mọi nội dung không được nêu rõ trong Phụ lục 01 được hiểu là ngoài phạm vi Dịch vụ và VTIT không có nghĩa vụ thực hiện nếu không có thỏa thuận bổ sung bằng văn bản.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.3",
+      "title": "",
+      "text": "14.3. Giới hạn phạm vi\n\nTrừ khi Hợp đồng và các Phụ lục có quy định khác, phạm vi Dịch vụ không bao gồm: (i) cung cấp hạ tầng (máy chủ, đường truyền, thiết bị, bản quyền bên thứ ba); (ii) vận hành/điều hành hệ thống của Khách hàng; (iii) nhập liệu, làm sạch dữ liệu; (iv) tích hợp với hệ thống/đối tác bên thứ ba không nêu trong Phụ lục 01; (v) đào tạo, chuyển giao, bảo trì/mở rộng sau nghiệm thu; và/hoặc (vi) các công việc phát sinh theo yêu cầu không được xác nhận theo khoản 4 Điều này.\n\nTrong trường hợp Khách hàng có yêu cầu cung cấp các Dịch vụ nêu trên thì Các Bên sẽ thống nhất phạm vi và phí dịch vụ bằng văn bản trước khi thực hiện.",
+      "score": 0.8574
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "1.1",
+      "title": "",
+      "text": "1.1. VTIT cung cấp cho Khách hàng Dịch vụ phần mềm với các yêu cầu cụ thể được nêu tại Phụ lục kèm theo Hợp đồng.",
+      "score": 0.8494
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.4",
+      "title": "",
+      "text": "14.4. Thay đổi phạm vi (Change Request)\n\nMọi yêu cầu thay đổi/điều chỉnh phạm vi, chỉ tiêu kỹ thuật, khối lượng công việc, hạng mục bàn giao hoặc tiến độ so với Hợp đồng và các Phụ lục chỉ có hiệu lực khi được hai bên lập thành văn bản (phụ lục/phiếu thay đổi/yêu cầu thay đổi) ghi nhận tối thiểu: nội dung thay đổi, ảnh hưởng tiến độ, chi phí và điều kiện nghiệm thu. Trong thời gian chưa có văn bản thống nhất, VTIT có quyền tạm dừng thực hiện phần thay đổi và chỉ tiếp tục thực hiện theo phạm vi đã chốt tại Phụ lục 01.",
+      "score": 0.8295
+    }
+  ],
+  "14.2": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.3",
+      "title": "",
+      "text": "14.3. Giới hạn phạm vi\n\nTrừ khi Hợp đồng và các Phụ lục có quy định khác, phạm vi Dịch vụ không bao gồm: (i) cung cấp hạ tầng (máy chủ, đường truyền, thiết bị, bản quyền bên thứ ba); (ii) vận hành/điều hành hệ thống của Khách hàng; (iii) nhập liệu, làm sạch dữ liệu; (iv) tích hợp với hệ thống/đối tác bên thứ ba không nêu trong Phụ lục 01; (v) đào tạo, chuyển giao, bảo trì/mở rộng sau nghiệm thu; và/hoặc (vi) các công việc phát sinh theo yêu cầu không được xác nhận theo khoản 4 Điều này.\n\nTrong trường hợp Khách hàng có yêu cầu cung cấp các Dịch vụ nêu trên thì Các Bên sẽ thống nhất phạm vi và phí dịch vụ bằng văn bản trước khi thực hiện.",
+      "score": 0.7862
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.1",
+      "title": "",
+      "text": "14.1. Phạm vi Dịch vụ\n\nVTIT cung cấp Dịch vụ phát triển/triển khai phần mềm theo phạm vi công việc, hạng mục bàn giao (deliverables), khối lượng, tiến độ thực hiện và các điều kiện triển khai được mô tả tại Phụ lục 01 kèm theo Hợp đồng. Mọi nội dung không được nêu rõ trong Phụ lục 01 được hiểu là ngoài phạm vi Dịch vụ và VTIT không có nghĩa vụ thực hiện nếu không có thỏa thuận bổ sung bằng văn bản.",
+      "score": 0.7845
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.4",
+      "title": "",
+      "text": "14.4. Thay đổi phạm vi (Change Request)\n\nMọi yêu cầu thay đổi/điều chỉnh phạm vi, chỉ tiêu kỹ thuật, khối lượng công việc, hạng mục bàn giao hoặc tiến độ so với Hợp đồng và các Phụ lục chỉ có hiệu lực khi được hai bên lập thành văn bản (phụ lục/phiếu thay đổi/yêu cầu thay đổi) ghi nhận tối thiểu: nội dung thay đổi, ảnh hưởng tiến độ, chi phí và điều kiện nghiệm thu. Trong thời gian chưa có văn bản thống nhất, VTIT có quyền tạm dừng thực hiện phần thay đổi và chỉ tiếp tục thực hiện theo phạm vi đã chốt tại Phụ lục 01.",
+      "score": 0.7797
+    }
+  ],
+  "14.3": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.3",
+      "title": "",
+      "text": "14.3. Giới hạn phạm vi\n\nTrừ khi Hợp đồng và các Phụ lục có quy định khác, phạm vi Dịch vụ không bao gồm: (i) cung cấp hạ tầng (máy chủ, đường truyền, thiết bị, bản quyền bên thứ ba); (ii) vận hành/điều hành hệ thống của Khách hàng; (iii) nhập liệu, làm sạch dữ liệu; (iv) tích hợp với hệ thống/đối tác bên thứ ba không nêu trong Phụ lục 01; (v) đào tạo, chuyển giao, bảo trì/mở rộng sau nghiệm thu; và/hoặc (vi) các công việc phát sinh theo yêu cầu không được xác nhận theo khoản 4 Điều này.\n\nTrong trường hợp Khách hàng có yêu cầu cung cấp các Dịch vụ nêu trên thì Các Bên sẽ thống nhất phạm vi và phí dịch vụ bằng văn bản trước khi thực hiện.",
+      "score": 0.9989
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.1",
+      "title": "",
+      "text": "14.1. Phạm vi Dịch vụ\n\nVTIT cung cấp Dịch vụ phát triển/triển khai phần mềm theo phạm vi công việc, hạng mục bàn giao (deliverables), khối lượng, tiến độ thực hiện và các điều kiện triển khai được mô tả tại Phụ lục 01 kèm theo Hợp đồng. Mọi nội dung không được nêu rõ trong Phụ lục 01 được hiểu là ngoài phạm vi Dịch vụ và VTIT không có nghĩa vụ thực hiện nếu không có thỏa thuận bổ sung bằng văn bản.",
+      "score": 0.8571
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.4",
+      "title": "",
+      "text": "14.4. Thay đổi phạm vi (Change Request)\n\nMọi yêu cầu thay đổi/điều chỉnh phạm vi, chỉ tiêu kỹ thuật, khối lượng công việc, hạng mục bàn giao hoặc tiến độ so với Hợp đồng và các Phụ lục chỉ có hiệu lực khi được hai bên lập thành văn bản (phụ lục/phiếu thay đổi/yêu cầu thay đổi) ghi nhận tối thiểu: nội dung thay đổi, ảnh hưởng tiến độ, chi phí và điều kiện nghiệm thu. Trong thời gian chưa có văn bản thống nhất, VTIT có quyền tạm dừng thực hiện phần thay đổi và chỉ tiếp tục thực hiện theo phạm vi đã chốt tại Phụ lục 01.",
+      "score": 0.8161
+    }
+  ],
+  "14.4": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.4",
+      "title": "",
+      "text": "14.4. Thay đổi phạm vi (Change Request)\n\nMọi yêu cầu thay đổi/điều chỉnh phạm vi, chỉ tiêu kỹ thuật, khối lượng công việc, hạng mục bàn giao hoặc tiến độ so với Hợp đồng và các Phụ lục chỉ có hiệu lực khi được hai bên lập thành văn bản (phụ lục/phiếu thay đổi/yêu cầu thay đổi) ghi nhận tối thiểu: nội dung thay đổi, ảnh hưởng tiến độ, chi phí và điều kiện nghiệm thu. Trong thời gian chưa có văn bản thống nhất, VTIT có quyền tạm dừng thực hiện phần thay đổi và chỉ tiếp tục thực hiện theo phạm vi đã chốt tại Phụ lục 01.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.1",
+      "title": "",
+      "text": "14.1. Phạm vi Dịch vụ\n\nVTIT cung cấp Dịch vụ phát triển/triển khai phần mềm theo phạm vi công việc, hạng mục bàn giao (deliverables), khối lượng, tiến độ thực hiện và các điều kiện triển khai được mô tả tại Phụ lục 01 kèm theo Hợp đồng. Mọi nội dung không được nêu rõ trong Phụ lục 01 được hiểu là ngoài phạm vi Dịch vụ và VTIT không có nghĩa vụ thực hiện nếu không có thỏa thuận bổ sung bằng văn bản.",
+      "score": 0.8296
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.3",
+      "title": "",
+      "text": "14.3. Giới hạn phạm vi\n\nTrừ khi Hợp đồng và các Phụ lục có quy định khác, phạm vi Dịch vụ không bao gồm: (i) cung cấp hạ tầng (máy chủ, đường truyền, thiết bị, bản quyền bên thứ ba); (ii) vận hành/điều hành hệ thống của Khách hàng; (iii) nhập liệu, làm sạch dữ liệu; (iv) tích hợp với hệ thống/đối tác bên thứ ba không nêu trong Phụ lục 01; (v) đào tạo, chuyển giao, bảo trì/mở rộng sau nghiệm thu; và/hoặc (vi) các công việc phát sinh theo yêu cầu không được xác nhận theo khoản 4 Điều này.\n\nTrong trường hợp Khách hàng có yêu cầu cung cấp các Dịch vụ nêu trên thì Các Bên sẽ thống nhất phạm vi và phí dịch vụ bằng văn bản trước khi thực hiện.",
+      "score": 0.8163
+    }
+  ],
+  "15.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "15.1",
+      "title": "",
+      "text": "15.1. Giá trị hợp đồng:\n\n- a) Tổng giá trị hợp đồng dự kiến: 10.000.000.0000 VNĐ\n\n(Bằng chữ: Mười tỷ đồng\n\n./.)\n\nChi tiết giá Dịch vụ cụ thể như sau: |   STT | Dịch vụ               |   Khối lượng (MM) | Đơn giá (VNĐ)   | Thành tiền (VNĐ)   |\n\n|-------|-----------------------|-------------------|-----------------|--------------------|\n\n|     1 | Phát triển phần mềm A |               700 | 10.000.000      | 7.000.000.000      |\n\n|     2 | Phát triển phần mềm B |               300 | 10.000.000      | 3.000.000.000      |\n\n|       | Thuế GTGT             |                 0 | 0               | 0                  |\n\n|       | Tổng cộng             |              1000 |                 | 10.000.000.000     |\n\n- b) Dịch vụ phát triển phần mềm là đối tượng không chịu thuế GTGT theo quy định pháp luật hiện hành tại thời điểm ký kết Hợp đồng. Trường hợp có phát sinh nghĩa vụ nộp thuế GTGT đối với Dịch vụ thì Khách hàng có trách nhiệm thanh toán phần thuế GTGT phát sinh bổ sung này cho VTIT hoặc nộp trực tiếp cho cơ quan nhà nước có thẩm quyền, trong thời hạn được ghi nhận tại thông báo của VTIT hoặc cơ quan nhà nước.\n\n- c) Khách hàng thanh toán giá trị nghiệm thu thực tế cho VTIT.",
+      "score": 0.9332
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "16.3",
+      "title": "",
+      "text": "16.3. Trường hợp việc thay đổi thời gian cung cấp dịch vụ dẫn đến phát sinh chi phí bổ sung (bao gồm nhưng không giới hạn chi phí nhân sự, vận hành, tổ chức lại kế hoạch triển khai và các chi phí có liên quan khác để phục vụ việc cung cấp dịch vụ), VTIT có quyền đề xuất điều chỉnh giá trị Hợp đồng tương ứng với phần phát sinh, căn cứ theo tài liệu, kế hoạch triển khai thực tế và sự chấp thuận của Khách hàng.",
+      "score": 0.8453
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "15.3",
+      "title": "",
+      "text": "15.3. Thời hạn và hồ sơ thanh toán:\n\n- a) Tạm ứng: Khách hàng sẽ tạm ứng cho VTIT một khoản tiền tương ứng với 30% (ba mươi phần trăm) giá trị Hợp đồng trong vòng 05 (năm) ngày làm việc kể từ ngày Khách hàng nhận được đầy đủ hồ sơ tạm ứng do VTIT cung cấp, bao gồm:\n\n- (i) Hợp đồng đã được hai Bên ký kết; và\n\n- (ii) Đề nghị tạm ứng.\n\n- b) Nguyên tắc khấu trừ tạm ứng: Khoản tạm ứng quy định tại điểm a) nêu trên sẽ được khấu trừ dần vào các khoản thanh toán tại các đợt thanh toán lần 1 và lần 2 theo tỷ lệ tương ứng với giá trị mỗi đợt thanh toán.\n\n- c) Thanh toán lần 1 - Sau khi ký Biên bản bàn giao phần mềm (HOC)::\n\nKhách hàng sẽ thanh toán cho VTIT khoản tiền tương ứng với 65% ( Sáu mươi lăm phần trăm ) giá trị Hợp đồng sau khi khấu trừ phần tạm ứng tương ứng theo điểm b) trong vòng 05 (năm) ngày làm việc kể từ ngày Khách hàng nhận được đầy đủ hồ sơ thanh toán hợp lệ bao gồm:\n\n- (i) Biên bản bàn giao phần mềm (HOC); và\n\n- (ii) Đề nghị thanh toán.\n\n- d) Thanh toán lần 2 - Sau khi ký Biên bản nghiệm thu tổng thể (FAC):\n\nKhách hàng sẽ thanh toán cho VTIT toàn bộ khoản tiền còn lại tương ứng với 5% (Năm phần trăm) giá trị Hợp đồng, sau khi khấu trừ toàn bộ phần tạm ứng chưa được khấu trừ (nếu có), trong vòng 05 (năm) ngày làm việc kể từ ngày Khách hàng nhận được đầy đủ hồ sơ thanh toán hợp lệ bao gồm:\n\n- (i) Biên bản nghiệm thu tổng thể (FAC);\n\n- (ii) Đề nghị thanh toán;\n\n- (iii) Hóa đơn giá trị gia tăng hợp lệ tương ứng.",
+      "score": 0.8392
+    }
+  ],
+  "15.2": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "15.2",
+      "title": "",
+      "text": "15.2. Hình thức thanh toán:\n\nKhách hàng thanh toán phí dịch vụ cho VTIT bằng hình thức chuyển khoản vào tài khoản của VTIT. Nếu có sự thay đổi về tài khoản thanh toán, VTIT có trách nhiệm thông báo bằng văn bản cho Khách hàng tối thiểu 05 (năm) ngày trước thời hạn thanh toán gần nhất.\n\nThông tin tài khoản thanh toán của VTIT:\n\n- -Đơn vị thụ hưởng: Công ty trách nhiệm hữu hạn một thành viên Đầu tư Công nghệ Viettel\n\n- -Địa chỉ: Nam Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam.\n\n- -Ngân hàng: Ngân hàng ACB\n\n- -\n\n- Số tài khoản: 66668888",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "15.4",
+      "title": "",
+      "text": "15.4. Chậm thanh toán:\n\nTrường hợp Khách hàng chậm thanh toán, Khách hàng phải trả cho VTIT lãi chậm trả tính trên số tiền chậm thanh toán theo lãi suất 0,05%/ngày kể từ ngày bắt đầu chậm thanh toán đến thời điểm Khách hàng hoàn thành nghĩa vụ thanh toán.",
+      "score": 0.8674
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "15.3",
+      "title": "",
+      "text": "15.3. Thời hạn và hồ sơ thanh toán:\n\n- a) Tạm ứng: Khách hàng sẽ tạm ứng cho VTIT một khoản tiền tương ứng với 30% (ba mươi phần trăm) giá trị Hợp đồng trong vòng 05 (năm) ngày làm việc kể từ ngày Khách hàng nhận được đầy đủ hồ sơ tạm ứng do VTIT cung cấp, bao gồm:\n\n- (i) Hợp đồng đã được hai Bên ký kết; và\n\n- (ii) Đề nghị tạm ứng.\n\n- b) Nguyên tắc khấu trừ tạm ứng: Khoản tạm ứng quy định tại điểm a) nêu trên sẽ được khấu trừ dần vào các khoản thanh toán tại các đợt thanh toán lần 1 và lần 2 theo tỷ lệ tương ứng với giá trị mỗi đợt thanh toán.\n\n- c) Thanh toán lần 1 - Sau khi ký Biên bản bàn giao phần mềm (HOC)::\n\nKhách hàng sẽ thanh toán cho VTIT khoản tiền tương ứng với 65% ( Sáu mươi lăm phần trăm ) giá trị Hợp đồng sau khi khấu trừ phần tạm ứng tương ứng theo điểm b) trong vòng 05 (năm) ngày làm việc kể từ ngày Khách hàng nhận được đầy đủ hồ sơ thanh toán hợp lệ bao gồm:\n\n- (i) Biên bản bàn giao phần mềm (HOC); và\n\n- (ii) Đề nghị thanh toán.\n\n- d) Thanh toán lần 2 - Sau khi ký Biên bản nghiệm thu tổng thể (FAC):\n\nKhách hàng sẽ thanh toán cho VTIT toàn bộ khoản tiền còn lại tương ứng với 5% (Năm phần trăm) giá trị Hợp đồng, sau khi khấu trừ toàn bộ phần tạm ứng chưa được khấu trừ (nếu có), trong vòng 05 (năm) ngày làm việc kể từ ngày Khách hàng nhận được đầy đủ hồ sơ thanh toán hợp lệ bao gồm:\n\n- (i) Biên bản nghiệm thu tổng thể (FAC);\n\n- (ii) Đề nghị thanh toán;\n\n- (iii) Hóa đơn giá trị gia tăng hợp lệ tương ứng.",
+      "score": 0.8568
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "16.3",
+      "title": "",
+      "text": "16.3. Trường hợp việc thay đổi thời gian cung cấp dịch vụ dẫn đến phát sinh chi phí bổ sung (bao gồm nhưng không giới hạn chi phí nhân sự, vận hành, tổ chức lại kế hoạch triển khai và các chi phí có liên quan khác để phục vụ việc cung cấp dịch vụ), VTIT có quyền đề xuất điều chỉnh giá trị Hợp đồng tương ứng với phần phát sinh, căn cứ theo tài liệu, kế hoạch triển khai thực tế và sự chấp thuận của Khách hàng.",
+      "score": 0.8191
+    }
+  ],
+  "15.4": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "15.4",
+      "title": "",
+      "text": "15.4. Chậm thanh toán:\n\nTrường hợp Khách hàng chậm thanh toán, Khách hàng phải trả cho VTIT lãi chậm trả tính trên số tiền chậm thanh toán theo lãi suất 0,05%/ngày kể từ ngày bắt đầu chậm thanh toán đến thời điểm Khách hàng hoàn thành nghĩa vụ thanh toán.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "15.2",
+      "title": "",
+      "text": "15.2. Hình thức thanh toán:\n\nKhách hàng thanh toán phí dịch vụ cho VTIT bằng hình thức chuyển khoản vào tài khoản của VTIT. Nếu có sự thay đổi về tài khoản thanh toán, VTIT có trách nhiệm thông báo bằng văn bản cho Khách hàng tối thiểu 05 (năm) ngày trước thời hạn thanh toán gần nhất.\n\nThông tin tài khoản thanh toán của VTIT:\n\n- -Đơn vị thụ hưởng: Công ty trách nhiệm hữu hạn một thành viên Đầu tư Công nghệ Viettel\n\n- -Địa chỉ: Nam Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam.\n\n- -Ngân hàng: Ngân hàng ACB\n\n- -\n\n- Số tài khoản: 66668888",
+      "score": 0.8673
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "15.3",
+      "title": "",
+      "text": "15.3. Thời hạn và hồ sơ thanh toán:\n\n- a) Tạm ứng: Khách hàng sẽ tạm ứng cho VTIT một khoản tiền tương ứng với 30% (ba mươi phần trăm) giá trị Hợp đồng trong vòng 05 (năm) ngày làm việc kể từ ngày Khách hàng nhận được đầy đủ hồ sơ tạm ứng do VTIT cung cấp, bao gồm:\n\n- (i) Hợp đồng đã được hai Bên ký kết; và\n\n- (ii) Đề nghị tạm ứng.\n\n- b) Nguyên tắc khấu trừ tạm ứng: Khoản tạm ứng quy định tại điểm a) nêu trên sẽ được khấu trừ dần vào các khoản thanh toán tại các đợt thanh toán lần 1 và lần 2 theo tỷ lệ tương ứng với giá trị mỗi đợt thanh toán.\n\n- c) Thanh toán lần 1 - Sau khi ký Biên bản bàn giao phần mềm (HOC)::\n\nKhách hàng sẽ thanh toán cho VTIT khoản tiền tương ứng với 65% ( Sáu mươi lăm phần trăm ) giá trị Hợp đồng sau khi khấu trừ phần tạm ứng tương ứng theo điểm b) trong vòng 05 (năm) ngày làm việc kể từ ngày Khách hàng nhận được đầy đủ hồ sơ thanh toán hợp lệ bao gồm:\n\n- (i) Biên bản bàn giao phần mềm (HOC); và\n\n- (ii) Đề nghị thanh toán.\n\n- d) Thanh toán lần 2 - Sau khi ký Biên bản nghiệm thu tổng thể (FAC):\n\nKhách hàng sẽ thanh toán cho VTIT toàn bộ khoản tiền còn lại tương ứng với 5% (Năm phần trăm) giá trị Hợp đồng, sau khi khấu trừ toàn bộ phần tạm ứng chưa được khấu trừ (nếu có), trong vòng 05 (năm) ngày làm việc kể từ ngày Khách hàng nhận được đầy đủ hồ sơ thanh toán hợp lệ bao gồm:\n\n- (i) Biên bản nghiệm thu tổng thể (FAC);\n\n- (ii) Đề nghị thanh toán;\n\n- (iii) Hóa đơn giá trị gia tăng hợp lệ tương ứng.",
+      "score": 0.8541
+    }
+  ],
+  "16.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "1.1",
+      "title": "",
+      "text": "1.1. VTIT cung cấp cho Khách hàng Dịch vụ phần mềm với các yêu cầu cụ thể được nêu tại Phụ lục kèm theo Hợp đồng.",
+      "score": 0.8285
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "14.1",
+      "title": "",
+      "text": "14.1. Phạm vi Dịch vụ\n\nVTIT cung cấp Dịch vụ phát triển/triển khai phần mềm theo phạm vi công việc, hạng mục bàn giao (deliverables), khối lượng, tiến độ thực hiện và các điều kiện triển khai được mô tả tại Phụ lục 01 kèm theo Hợp đồng. Mọi nội dung không được nêu rõ trong Phụ lục 01 được hiểu là ngoài phạm vi Dịch vụ và VTIT không có nghĩa vụ thực hiện nếu không có thỏa thuận bổ sung bằng văn bản.",
+      "score": 0.8142
+    }
+  ],
+  "16.2": [],
+  "16.3": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "1.1",
+      "title": "",
+      "text": "1.1. VTIT cung cấp cho Khách hàng Dịch vụ phần mềm với các yêu cầu cụ thể được nêu tại Phụ lục kèm theo Hợp đồng.",
+      "score": 0.8152
+    }
+  ],
+  "16.4": [],
+  "17.2": [],
+  "17.3": [],
+  "17.4": [],
+  "17.5": [],
+  "17.6": [],
+  "17.7": [],
+  "17.8": [],
+  "17.9": [],
+  "18.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.1",
+      "title": "",
+      "text": "18.1. VTIT bảo hành chất lượng công việc VTIT thực hiện trong thời gian [12] tháng kể từ ngày hai Bên ký Biên bản nghiệm thu tổng thể. Bảo hành chỉ áp dụng đối với các chức năng, sản phẩm do VTIT phát triển trực tiếp và không bao gồm các phần việc nằm ngoài phạm vi dịch vụ của Hợp đồng.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.2",
+      "title": "",
+      "text": "18.2. Các dịch vụ bảo hành bao gồm việc sửa lỗi chức năng Hệ thống do VTIT xây dựng. VTIT không chịu trách nhiệm bảo hành đối với bất kỳ hỏng hóc hoặc tình huống nào xảy ra do nguyên nhân là lỗi chương trình khác, phần mềm hệ thống, phần mềm hệ điều hành, phần mềm mạng hoặc những lỗi do môi trường, vận hành, dữ liệu, lỗi phần cứng và các vấn đề phát sinh khác không phải do lỗi hoàn toàn của VTIT.\n\nVTIT cũng không chịu trách nhiệm bảo hành đối với thiệt hại gián tiếp, lợi nhuận bị mất hoặc tổn thất do việc gián đoạn hoạt động kinh doanh của Khách hàng, trừ khi có thỏa thuận cụ thể khác bằng văn bản.",
+      "score": 0.8677
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.5",
+      "title": "",
+      "text": "18.5. VTIT không chịu trách nhiệm bảo hành hoặc khắc phục lỗi đối với các sự cố phát sinh sau nghiệm thu do thay đổi hệ thống, can thiệp kỹ thuật, cấu hình hoặc sử dụng sai hướng dẫn từ phía Khách hàng hoặc bên thứ ba khác không phải do\n\n- VTIT triển khai. Việc khắc phục trong các trường hợp này (nếu có) sẽ được tính là dịch vụ phát sinh và thanh toán riêng theo thỏa thuận.",
+      "score": 0.8588
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.4",
+      "title": "",
+      "text": "18.4. Khi phương án xử lý được Khách hàng chấp thuận, VTIT sẽ triển khai việc khắc phục trong thời hạn tối đa [12] giờ làm việc đối với lỗi mức độ nghiêm trọng hoặc theo thời gian thống nhất giữa hai Bên nếu lỗi có tính chất phức tạp hoặc phụ thuộc yếu tố hạ tầng/vận hành của Khách hàng.",
+      "score": 0.8277
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.6",
+      "title": "",
+      "text": "18.6. VTIT sẽ thực hiện bảo hành chủ yếu thông qua hỗ trợ từ xa (remote). Trường hợp việc khắc phục lỗi không thể thực hiện từ xa hoặc theo yêu cầu hợp lý của Khách  hàng,  VTIT  sẽ  thực  hiện  bảo  hành  tại  địa  điểm  triển  khai  hệ  thống (onsite). Các chi phí hợp lý phát sinh cho việc hỗ trợ onsite (nếu có) sẽ do Khách hàng thanh toán, trừ trường hợp lỗi được xác định hoàn toàn do VTIT gây ra.\n\n## PHẦN III. ĐIỀU KHOẢN CUỐI",
+      "score": 0.827
+    }
+  ],
+  "18.3": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.3",
+      "title": "",
+      "text": "18.3. Sau khi nhận được yêu cầu bảo hành chính thức bằng văn bản hoặc qua điện thoại/email từ Khách hàng, VTIT có trách nhiệm phản hồi trong vòng [12] giờ làm việc kể từ thời điểm nhận được yêu cầu và cử cán bộ kỹ thuật đánh giá lỗi để đề xuất phương án xử lý trong thời hạn hợp lý, tùy theo tính chất lỗi.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.4",
+      "title": "",
+      "text": "18.4. Khi phương án xử lý được Khách hàng chấp thuận, VTIT sẽ triển khai việc khắc phục trong thời hạn tối đa [12] giờ làm việc đối với lỗi mức độ nghiêm trọng hoặc theo thời gian thống nhất giữa hai Bên nếu lỗi có tính chất phức tạp hoặc phụ thuộc yếu tố hạ tầng/vận hành của Khách hàng.",
+      "score": 0.9095
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.6",
+      "title": "",
+      "text": "18.6. VTIT sẽ thực hiện bảo hành chủ yếu thông qua hỗ trợ từ xa (remote). Trường hợp việc khắc phục lỗi không thể thực hiện từ xa hoặc theo yêu cầu hợp lý của Khách  hàng,  VTIT  sẽ  thực  hiện  bảo  hành  tại  địa  điểm  triển  khai  hệ  thống (onsite). Các chi phí hợp lý phát sinh cho việc hỗ trợ onsite (nếu có) sẽ do Khách hàng thanh toán, trừ trường hợp lỗi được xác định hoàn toàn do VTIT gây ra.\n\n## PHẦN III. ĐIỀU KHOẢN CUỐI",
+      "score": 0.8727
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.5",
+      "title": "",
+      "text": "18.5. VTIT không chịu trách nhiệm bảo hành hoặc khắc phục lỗi đối với các sự cố phát sinh sau nghiệm thu do thay đổi hệ thống, can thiệp kỹ thuật, cấu hình hoặc sử dụng sai hướng dẫn từ phía Khách hàng hoặc bên thứ ba khác không phải do\n\n- VTIT triển khai. Việc khắc phục trong các trường hợp này (nếu có) sẽ được tính là dịch vụ phát sinh và thanh toán riêng theo thỏa thuận.",
+      "score": 0.8642
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.2",
+      "title": "",
+      "text": "18.2. Các dịch vụ bảo hành bao gồm việc sửa lỗi chức năng Hệ thống do VTIT xây dựng. VTIT không chịu trách nhiệm bảo hành đối với bất kỳ hỏng hóc hoặc tình huống nào xảy ra do nguyên nhân là lỗi chương trình khác, phần mềm hệ thống, phần mềm hệ điều hành, phần mềm mạng hoặc những lỗi do môi trường, vận hành, dữ liệu, lỗi phần cứng và các vấn đề phát sinh khác không phải do lỗi hoàn toàn của VTIT.\n\nVTIT cũng không chịu trách nhiệm bảo hành đối với thiệt hại gián tiếp, lợi nhuận bị mất hoặc tổn thất do việc gián đoạn hoạt động kinh doanh của Khách hàng, trừ khi có thỏa thuận cụ thể khác bằng văn bản.",
+      "score": 0.8451
+    }
+  ],
+  "18.4": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.4",
+      "title": "",
+      "text": "18.4. Khi phương án xử lý được Khách hàng chấp thuận, VTIT sẽ triển khai việc khắc phục trong thời hạn tối đa [12] giờ làm việc đối với lỗi mức độ nghiêm trọng hoặc theo thời gian thống nhất giữa hai Bên nếu lỗi có tính chất phức tạp hoặc phụ thuộc yếu tố hạ tầng/vận hành của Khách hàng.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.3",
+      "title": "",
+      "text": "18.3. Sau khi nhận được yêu cầu bảo hành chính thức bằng văn bản hoặc qua điện thoại/email từ Khách hàng, VTIT có trách nhiệm phản hồi trong vòng [12] giờ làm việc kể từ thời điểm nhận được yêu cầu và cử cán bộ kỹ thuật đánh giá lỗi để đề xuất phương án xử lý trong thời hạn hợp lý, tùy theo tính chất lỗi.",
+      "score": 0.909
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.5",
+      "title": "",
+      "text": "18.5. VTIT không chịu trách nhiệm bảo hành hoặc khắc phục lỗi đối với các sự cố phát sinh sau nghiệm thu do thay đổi hệ thống, can thiệp kỹ thuật, cấu hình hoặc sử dụng sai hướng dẫn từ phía Khách hàng hoặc bên thứ ba khác không phải do\n\n- VTIT triển khai. Việc khắc phục trong các trường hợp này (nếu có) sẽ được tính là dịch vụ phát sinh và thanh toán riêng theo thỏa thuận.",
+      "score": 0.8791
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.6",
+      "title": "",
+      "text": "18.6. VTIT sẽ thực hiện bảo hành chủ yếu thông qua hỗ trợ từ xa (remote). Trường hợp việc khắc phục lỗi không thể thực hiện từ xa hoặc theo yêu cầu hợp lý của Khách  hàng,  VTIT  sẽ  thực  hiện  bảo  hành  tại  địa  điểm  triển  khai  hệ  thống (onsite). Các chi phí hợp lý phát sinh cho việc hỗ trợ onsite (nếu có) sẽ do Khách hàng thanh toán, trừ trường hợp lỗi được xác định hoàn toàn do VTIT gây ra.\n\n## PHẦN III. ĐIỀU KHOẢN CUỐI",
+      "score": 0.8732
+    }
+  ],
+  "18.5": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.5",
+      "title": "",
+      "text": "18.5. VTIT không chịu trách nhiệm bảo hành hoặc khắc phục lỗi đối với các sự cố phát sinh sau nghiệm thu do thay đổi hệ thống, can thiệp kỹ thuật, cấu hình hoặc sử dụng sai hướng dẫn từ phía Khách hàng hoặc bên thứ ba khác không phải do\n\n- VTIT triển khai. Việc khắc phục trong các trường hợp này (nếu có) sẽ được tính là dịch vụ phát sinh và thanh toán riêng theo thỏa thuận.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.2",
+      "title": "",
+      "text": "18.2. Các dịch vụ bảo hành bao gồm việc sửa lỗi chức năng Hệ thống do VTIT xây dựng. VTIT không chịu trách nhiệm bảo hành đối với bất kỳ hỏng hóc hoặc tình huống nào xảy ra do nguyên nhân là lỗi chương trình khác, phần mềm hệ thống, phần mềm hệ điều hành, phần mềm mạng hoặc những lỗi do môi trường, vận hành, dữ liệu, lỗi phần cứng và các vấn đề phát sinh khác không phải do lỗi hoàn toàn của VTIT.\n\nVTIT cũng không chịu trách nhiệm bảo hành đối với thiệt hại gián tiếp, lợi nhuận bị mất hoặc tổn thất do việc gián đoạn hoạt động kinh doanh của Khách hàng, trừ khi có thỏa thuận cụ thể khác bằng văn bản.",
+      "score": 0.9236
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.6",
+      "title": "",
+      "text": "18.6. VTIT sẽ thực hiện bảo hành chủ yếu thông qua hỗ trợ từ xa (remote). Trường hợp việc khắc phục lỗi không thể thực hiện từ xa hoặc theo yêu cầu hợp lý của Khách  hàng,  VTIT  sẽ  thực  hiện  bảo  hành  tại  địa  điểm  triển  khai  hệ  thống (onsite). Các chi phí hợp lý phát sinh cho việc hỗ trợ onsite (nếu có) sẽ do Khách hàng thanh toán, trừ trường hợp lỗi được xác định hoàn toàn do VTIT gây ra.\n\n## PHẦN III. ĐIỀU KHOẢN CUỐI",
+      "score": 0.9059
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.4",
+      "title": "",
+      "text": "18.4. Khi phương án xử lý được Khách hàng chấp thuận, VTIT sẽ triển khai việc khắc phục trong thời hạn tối đa [12] giờ làm việc đối với lỗi mức độ nghiêm trọng hoặc theo thời gian thống nhất giữa hai Bên nếu lỗi có tính chất phức tạp hoặc phụ thuộc yếu tố hạ tầng/vận hành của Khách hàng.",
+      "score": 0.8793
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.3",
+      "title": "",
+      "text": "18.3. Sau khi nhận được yêu cầu bảo hành chính thức bằng văn bản hoặc qua điện thoại/email từ Khách hàng, VTIT có trách nhiệm phản hồi trong vòng [12] giờ làm việc kể từ thời điểm nhận được yêu cầu và cử cán bộ kỹ thuật đánh giá lỗi để đề xuất phương án xử lý trong thời hạn hợp lý, tùy theo tính chất lỗi.",
+      "score": 0.8639
+    }
+  ],
+  "18.6": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.6",
+      "title": "",
+      "text": "18.6. VTIT sẽ thực hiện bảo hành chủ yếu thông qua hỗ trợ từ xa (remote). Trường hợp việc khắc phục lỗi không thể thực hiện từ xa hoặc theo yêu cầu hợp lý của Khách  hàng,  VTIT  sẽ  thực  hiện  bảo  hành  tại  địa  điểm  triển  khai  hệ  thống (onsite). Các chi phí hợp lý phát sinh cho việc hỗ trợ onsite (nếu có) sẽ do Khách hàng thanh toán, trừ trường hợp lỗi được xác định hoàn toàn do VTIT gây ra.\n\n## PHẦN III. ĐIỀU KHOẢN CUỐI",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.5",
+      "title": "",
+      "text": "18.5. VTIT không chịu trách nhiệm bảo hành hoặc khắc phục lỗi đối với các sự cố phát sinh sau nghiệm thu do thay đổi hệ thống, can thiệp kỹ thuật, cấu hình hoặc sử dụng sai hướng dẫn từ phía Khách hàng hoặc bên thứ ba khác không phải do\n\n- VTIT triển khai. Việc khắc phục trong các trường hợp này (nếu có) sẽ được tính là dịch vụ phát sinh và thanh toán riêng theo thỏa thuận.",
+      "score": 0.9055
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.4",
+      "title": "",
+      "text": "18.4. Khi phương án xử lý được Khách hàng chấp thuận, VTIT sẽ triển khai việc khắc phục trong thời hạn tối đa [12] giờ làm việc đối với lỗi mức độ nghiêm trọng hoặc theo thời gian thống nhất giữa hai Bên nếu lỗi có tính chất phức tạp hoặc phụ thuộc yếu tố hạ tầng/vận hành của Khách hàng.",
+      "score": 0.8741
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.2",
+      "title": "",
+      "text": "18.2. Các dịch vụ bảo hành bao gồm việc sửa lỗi chức năng Hệ thống do VTIT xây dựng. VTIT không chịu trách nhiệm bảo hành đối với bất kỳ hỏng hóc hoặc tình huống nào xảy ra do nguyên nhân là lỗi chương trình khác, phần mềm hệ thống, phần mềm hệ điều hành, phần mềm mạng hoặc những lỗi do môi trường, vận hành, dữ liệu, lỗi phần cứng và các vấn đề phát sinh khác không phải do lỗi hoàn toàn của VTIT.\n\nVTIT cũng không chịu trách nhiệm bảo hành đối với thiệt hại gián tiếp, lợi nhuận bị mất hoặc tổn thất do việc gián đoạn hoạt động kinh doanh của Khách hàng, trừ khi có thỏa thuận cụ thể khác bằng văn bản.",
+      "score": 0.8732
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "18.3",
+      "title": "",
+      "text": "18.3. Sau khi nhận được yêu cầu bảo hành chính thức bằng văn bản hoặc qua điện thoại/email từ Khách hàng, VTIT có trách nhiệm phản hồi trong vòng [12] giờ làm việc kể từ thời điểm nhận được yêu cầu và cử cán bộ kỹ thuật đánh giá lỗi để đề xuất phương án xử lý trong thời hạn hợp lý, tùy theo tính chất lỗi.",
+      "score": 0.8724
+    }
+  ],
+  "5.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.1",
+      "title": "",
+      "text": "5.1. VTIT cam kết không vi phạm bất kỳ quyền sở hữu trí tuệ nào của bên thứ ba hoặc sử dụng tài sản trí tuệ chưa được cấp phép hợp pháp trong quá trình cung cấp dịch vụ theo Hợp đồng này. Trường hợp có tranh chấp phát sinh liên quan đến quyền sở hữu trí tuệ do lỗi của VTIT, VTIT sẽ chịu trách nhiệm giải quyết các tranh chấp phát sinh (nếu có). Tuy nhiên, VTIT không chịu trách nhiệm đối với các nội dung, tài liệu, dữ liệu hoặc yêu cầu do Khách hàng cung cấp gây ra vi phạm.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.3",
+      "title": "",
+      "text": "5.3. VTIT có quyền sử dụng lại các thành phần, công cụ, thư viện, đoạn mã được phát triển sẵn hoặc không mang tính đặc thù cho Khách hàng trong các dự án\n\nkhác, với điều kiện không tiết lộ thông tin bảo mật hoặc vi phạm quyền sở hữu trí tuệ của Khách hàng.",
+      "score": 0.876
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Quyền sở hữu trí tuệ của các Bên đối với Phần mềm được xác định như sau:\n\n## Mô hình 1: Client-owned IP (KH sở hữu sản phẩm bàn giao)\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, toàn bộ quyền sở hữu trí tuệ (bao gồm quyền tác giả đối với chương trình máy tính, quyền liên quan và các quyền tài sản khác theo pháp luật) đối với các hạng mục  bàn giao/deliverables được tạo ra riêng cho Khách hàng trong quá trình thực hiện Dịch vụ ('Sản phẩm bàn giao') sẽ thuộc về Khách hàng.\n\n- b. Kể từ thời điểm nêu trên, VTIT chuyển giao cho Khách hàng các quyền tài sản tương ứng đối với Sản phẩm bàn giao trong phạm vi pháp luật cho phép; Khách hàng có quyền sử dụng, khai thác, sửa đổi, sao chép, phát triển theo mục đích quy định tại Hợp đồng này.\n\n- c. VTIT cam kết không tái sử dụng Sản phẩm bàn giao (toàn bộ hoặc phần cốt lõi mang tính đặc thù của Khách hàng) cho khách hàng khác, trừ (i) phần thuộc Tài sản có sẵn/Background IP của VTIT; và/hoặc (ii) các thành phần mã nguồn mở/được cấp phép hợp pháp.\n\n## Mô hình 2: Vendor-owned IP (VTIT sở hữu bản quyền)\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, toàn bộ quyền sở hữu trí tuệ đối với Sản phẩm bàn giao (bao gồm mọi cải tiến/phát triển phát sinh trong quá trình thực hiện Dịch vụ) sẽ thuộc về VTIT.\n\n- b. VTIT cấp cho Khách hàng một giấy phép sử dụng Sản phẩm bàn giao trọn đời, không độc quyền, không chuyển nhượng, không được cấp lại nếu không có chấp thuận bằng văn bản của VTIT, trong phạm vi mục đích sử dụng theo Hợp đồng/Phụ lục.\n\n- c. Khách hàng không được (và không được cho  phép bên khác) thực hiện reverse  engineering  (phân  tích  ngược/dịch  ngược),  decompile  (giải  biên dịch), disassemble (tháo rời/dịch ngược sang mã máy/assembly), tách/chiết mã nguồn, hoặc tạo sản phẩm phái sinh nhằm thương mại hóa/phân phối lại Sản phẩm bàn giao, trừ khi pháp luật bắt buộc. VTIT được quyền tái sử dụng,  cung  cấp  cho  khách  hàng  khác  các  thành  phần  chung/khung  kỹ thuật/know-how, với điều kiện không tiết lộ Thông tin mật của Khách hàng.\n\n## Mô hình 3 - Pre-existing IP (Background IP gixisting IP tạo sản phẩm phái sinh\n\n- a. 'Background IP' là toàn bộ mã nguồn, công cụ, thư viện, framework, tài liệu, quy trình, bí quyết kỹ thuật, nền tảng phần mềm và/hoặc các thành phần khác mà VTIT (hoặc bên cấp phép hợp pháp cho VTIT) đã sở hữu/có quyền sử dụng trước thời điểm thực hiện Hợp đồng hoặc được phát triển độc lập, không phụ thuộc vào dự án. Background IP thuộc sở hữu của VTIT (hoặc chủ thể có quyền), và không chuyển giao cho Khách hàng theo Hợp đồng này.\n\n- b. 'Project IP' là các hạng mục được phát triển riêng theo yêu cầu của Khách hàng  trong  phạm  vi  Dịch  vụ  (ví  dụ:  chức  năng,  luồng  nghiệp  vụ,  cấu hình/tùy  biến,  tài  liệu  đặc  thù,  mã  nguồn  custom  nếu  có).  Trừ  khi  Hợp đồng/Phụ lục quy định khác, Project IP sẽ thuộc về Khách hàng.\n\n- c. Trong phạm vi cần thiết để Khách hàng khai thác Project IP/Sản phẩm bàn giao, VTIT cấp cho Khách hàng giấy phép sử dụng Background IP trọn đời, không độc quyền, không chuyển nhượng, chỉ để vận hành/khai thác Sản phẩm bàn giao theo Hợp đồng.\n\n## Mô hình 4 - Đồng sở hữu; cả hai Bên được khai thác thương mại; VTIT độc quyền quyền đăng ký/đứng tên\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, các hạng mục/deliverables được tạo ra trong quá trình thực hiện Dịch vụ theo Hợp đồng ('Sản phẩm') là tài sản đồng sở hữu của VTIT và Khách hàng đối với phần quyền tài sản theo pháp luật về sở hữu trí tuệ, kể từ thời điểm Khách hàng hoàn tất thanh toán đầy đủ mọi khoản đến hạn theo Hợp đồng.\n\n- b. Quyền khai thác của các Bên: Mỗi Bên có quyền độc lập khai thác thương mại Sản phẩm (bao gồm phát triển, nâng cấp, phân phối, chuyển giao/cấp phép quyền sử dụng, cung cấp dưới dạng dịch vụ, cho thuê hoặc hình thức thương mại hợp pháp khác) cho bên thứ ba mà không phải xin chấp thuận của Bên còn lại, với điều kiện: (i) không tiết lộ Thông tin mật của Bên còn lại; (ii) không sử dụng dữ liệu, nhãn hiệu, tên thương mại, dấu hiệu nhận diện và/hoặc các tài sản riêng của Bên còn lại nếu không có chấp thuận bằng  văn  bản;  và  (iii)  tuân  thủ  các  nghĩa  vụ/bảo  lưu  quyền  đối  với Background IP và/hoặc mã nguồn mở (OSS) (nếu có).\n\n- c. Quyền đăng ký và đứng tên: VTIT là bên duy nhất có quyền nộp đơn, thực hiện thủ tục đăng ký (và đứng tên trên Giấy chứng nhận, nếu được cấp) đối với quyền tác giả/chương trình máy tính và/hoặc quyền sở hữu trí tuệ liên quan đến Sản phẩm. Việc VTIT đứng tên đăng ký không làm thay đổi bản chất đồng sở hữu và quyền khai thác của Khách hàng theo khoản 1 và khoản 2 Điều này.\n\n- d. Bảo lưu Background IP và OSS: Mọi tài sản có sẵn/Background IP của mỗi Bên và/hoặc các thành phần mã nguồn mở (OSS) được sử dụng trong Sản phẩm (nếu có) vẫn thuộc chủ sở hữu tương ứng và/hoặc tuân theo điều kiện giấy phép áp dụng; điều khoản đồng sở hữu tại Điều này không được hiểu là chuyển giao quyền sở hữu đối với Background IP/OSS.\n\nCác Bên lựa chọn Mô hình 1 để điều chỉnh quyền sở hữu trí tuệ trong Hợp đồng này.",
+      "score": 0.8695
+    }
+  ],
+  "5.2": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.2",
+      "title": "",
+      "text": "5.2. Sau khi VTIT hoàn thành việc bàn giao kết quả công việc cho Khách hàng và Khách hàng đã thanh toán đầy đủ cho VTIT theo quy định tại Hợp đồng, Khách hàng sẽ nhận được đầy đủ quyền sở hữu trí tuệ theo quy định tại khoản 5.6 Điều này.",
+      "score": 0.9997
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Quyền sở hữu trí tuệ của các Bên đối với Phần mềm được xác định như sau:\n\n## Mô hình 1: Client-owned IP (KH sở hữu sản phẩm bàn giao)\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, toàn bộ quyền sở hữu trí tuệ (bao gồm quyền tác giả đối với chương trình máy tính, quyền liên quan và các quyền tài sản khác theo pháp luật) đối với các hạng mục  bàn giao/deliverables được tạo ra riêng cho Khách hàng trong quá trình thực hiện Dịch vụ ('Sản phẩm bàn giao') sẽ thuộc về Khách hàng.\n\n- b. Kể từ thời điểm nêu trên, VTIT chuyển giao cho Khách hàng các quyền tài sản tương ứng đối với Sản phẩm bàn giao trong phạm vi pháp luật cho phép; Khách hàng có quyền sử dụng, khai thác, sửa đổi, sao chép, phát triển theo mục đích quy định tại Hợp đồng này.\n\n- c. VTIT cam kết không tái sử dụng Sản phẩm bàn giao (toàn bộ hoặc phần cốt lõi mang tính đặc thù của Khách hàng) cho khách hàng khác, trừ (i) phần thuộc Tài sản có sẵn/Background IP của VTIT; và/hoặc (ii) các thành phần mã nguồn mở/được cấp phép hợp pháp.\n\n## Mô hình 2: Vendor-owned IP (VTIT sở hữu bản quyền)\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, toàn bộ quyền sở hữu trí tuệ đối với Sản phẩm bàn giao (bao gồm mọi cải tiến/phát triển phát sinh trong quá trình thực hiện Dịch vụ) sẽ thuộc về VTIT.\n\n- b. VTIT cấp cho Khách hàng một giấy phép sử dụng Sản phẩm bàn giao trọn đời, không độc quyền, không chuyển nhượng, không được cấp lại nếu không có chấp thuận bằng văn bản của VTIT, trong phạm vi mục đích sử dụng theo Hợp đồng/Phụ lục.\n\n- c. Khách hàng không được (và không được cho  phép bên khác) thực hiện reverse  engineering  (phân  tích  ngược/dịch  ngược),  decompile  (giải  biên dịch), disassemble (tháo rời/dịch ngược sang mã máy/assembly), tách/chiết mã nguồn, hoặc tạo sản phẩm phái sinh nhằm thương mại hóa/phân phối lại Sản phẩm bàn giao, trừ khi pháp luật bắt buộc. VTIT được quyền tái sử dụng,  cung  cấp  cho  khách  hàng  khác  các  thành  phần  chung/khung  kỹ thuật/know-how, với điều kiện không tiết lộ Thông tin mật của Khách hàng.\n\n## Mô hình 3 - Pre-existing IP (Background IP gixisting IP tạo sản phẩm phái sinh\n\n- a. 'Background IP' là toàn bộ mã nguồn, công cụ, thư viện, framework, tài liệu, quy trình, bí quyết kỹ thuật, nền tảng phần mềm và/hoặc các thành phần khác mà VTIT (hoặc bên cấp phép hợp pháp cho VTIT) đã sở hữu/có quyền sử dụng trước thời điểm thực hiện Hợp đồng hoặc được phát triển độc lập, không phụ thuộc vào dự án. Background IP thuộc sở hữu của VTIT (hoặc chủ thể có quyền), và không chuyển giao cho Khách hàng theo Hợp đồng này.\n\n- b. 'Project IP' là các hạng mục được phát triển riêng theo yêu cầu của Khách hàng  trong  phạm  vi  Dịch  vụ  (ví  dụ:  chức  năng,  luồng  nghiệp  vụ,  cấu hình/tùy  biến,  tài  liệu  đặc  thù,  mã  nguồn  custom  nếu  có).  Trừ  khi  Hợp đồng/Phụ lục quy định khác, Project IP sẽ thuộc về Khách hàng.\n\n- c. Trong phạm vi cần thiết để Khách hàng khai thác Project IP/Sản phẩm bàn giao, VTIT cấp cho Khách hàng giấy phép sử dụng Background IP trọn đời, không độc quyền, không chuyển nhượng, chỉ để vận hành/khai thác Sản phẩm bàn giao theo Hợp đồng.\n\n## Mô hình 4 - Đồng sở hữu; cả hai Bên được khai thác thương mại; VTIT độc quyền quyền đăng ký/đứng tên\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, các hạng mục/deliverables được tạo ra trong quá trình thực hiện Dịch vụ theo Hợp đồng ('Sản phẩm') là tài sản đồng sở hữu của VTIT và Khách hàng đối với phần quyền tài sản theo pháp luật về sở hữu trí tuệ, kể từ thời điểm Khách hàng hoàn tất thanh toán đầy đủ mọi khoản đến hạn theo Hợp đồng.\n\n- b. Quyền khai thác của các Bên: Mỗi Bên có quyền độc lập khai thác thương mại Sản phẩm (bao gồm phát triển, nâng cấp, phân phối, chuyển giao/cấp phép quyền sử dụng, cung cấp dưới dạng dịch vụ, cho thuê hoặc hình thức thương mại hợp pháp khác) cho bên thứ ba mà không phải xin chấp thuận của Bên còn lại, với điều kiện: (i) không tiết lộ Thông tin mật của Bên còn lại; (ii) không sử dụng dữ liệu, nhãn hiệu, tên thương mại, dấu hiệu nhận diện và/hoặc các tài sản riêng của Bên còn lại nếu không có chấp thuận bằng  văn  bản;  và  (iii)  tuân  thủ  các  nghĩa  vụ/bảo  lưu  quyền  đối  với Background IP và/hoặc mã nguồn mở (OSS) (nếu có).\n\n- c. Quyền đăng ký và đứng tên: VTIT là bên duy nhất có quyền nộp đơn, thực hiện thủ tục đăng ký (và đứng tên trên Giấy chứng nhận, nếu được cấp) đối với quyền tác giả/chương trình máy tính và/hoặc quyền sở hữu trí tuệ liên quan đến Sản phẩm. Việc VTIT đứng tên đăng ký không làm thay đổi bản chất đồng sở hữu và quyền khai thác của Khách hàng theo khoản 1 và khoản 2 Điều này.\n\n- d. Bảo lưu Background IP và OSS: Mọi tài sản có sẵn/Background IP của mỗi Bên và/hoặc các thành phần mã nguồn mở (OSS) được sử dụng trong Sản phẩm (nếu có) vẫn thuộc chủ sở hữu tương ứng và/hoặc tuân theo điều kiện giấy phép áp dụng; điều khoản đồng sở hữu tại Điều này không được hiểu là chuyển giao quyền sở hữu đối với Background IP/OSS.\n\nCác Bên lựa chọn Mô hình 1 để điều chỉnh quyền sở hữu trí tuệ trong Hợp đồng này.",
+      "score": 0.8676
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.3",
+      "title": "",
+      "text": "5.3. VTIT có quyền sử dụng lại các thành phần, công cụ, thư viện, đoạn mã được phát triển sẵn hoặc không mang tính đặc thù cho Khách hàng trong các dự án\n\nkhác, với điều kiện không tiết lộ thông tin bảo mật hoặc vi phạm quyền sở hữu trí tuệ của Khách hàng.",
+      "score": 0.8669
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.1",
+      "title": "",
+      "text": "5.1. VTIT cam kết không vi phạm bất kỳ quyền sở hữu trí tuệ nào của bên thứ ba hoặc sử dụng tài sản trí tuệ chưa được cấp phép hợp pháp trong quá trình cung cấp dịch vụ theo Hợp đồng này. Trường hợp có tranh chấp phát sinh liên quan đến quyền sở hữu trí tuệ do lỗi của VTIT, VTIT sẽ chịu trách nhiệm giải quyết các tranh chấp phát sinh (nếu có). Tuy nhiên, VTIT không chịu trách nhiệm đối với các nội dung, tài liệu, dữ liệu hoặc yêu cầu do Khách hàng cung cấp gây ra vi phạm.",
+      "score": 0.8413
+    }
+  ],
+  "5.3": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.3",
+      "title": "",
+      "text": "5.3. VTIT có quyền sử dụng lại các thành phần, công cụ, thư viện, đoạn mã được phát triển sẵn hoặc không mang tính đặc thù cho Khách hàng trong các dự án\n\nkhác, với điều kiện không tiết lộ thông tin bảo mật hoặc vi phạm quyền sở hữu trí tuệ của Khách hàng.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.1",
+      "title": "",
+      "text": "5.1. VTIT cam kết không vi phạm bất kỳ quyền sở hữu trí tuệ nào của bên thứ ba hoặc sử dụng tài sản trí tuệ chưa được cấp phép hợp pháp trong quá trình cung cấp dịch vụ theo Hợp đồng này. Trường hợp có tranh chấp phát sinh liên quan đến quyền sở hữu trí tuệ do lỗi của VTIT, VTIT sẽ chịu trách nhiệm giải quyết các tranh chấp phát sinh (nếu có). Tuy nhiên, VTIT không chịu trách nhiệm đối với các nội dung, tài liệu, dữ liệu hoặc yêu cầu do Khách hàng cung cấp gây ra vi phạm.",
+      "score": 0.876
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.2",
+      "title": "",
+      "text": "5.2. Sau khi VTIT hoàn thành việc bàn giao kết quả công việc cho Khách hàng và Khách hàng đã thanh toán đầy đủ cho VTIT theo quy định tại Hợp đồng, Khách hàng sẽ nhận được đầy đủ quyền sở hữu trí tuệ theo quy định tại khoản 5.6 Điều này.",
+      "score": 0.8671
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Quyền sở hữu trí tuệ của các Bên đối với Phần mềm được xác định như sau:\n\n## Mô hình 1: Client-owned IP (KH sở hữu sản phẩm bàn giao)\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, toàn bộ quyền sở hữu trí tuệ (bao gồm quyền tác giả đối với chương trình máy tính, quyền liên quan và các quyền tài sản khác theo pháp luật) đối với các hạng mục  bàn giao/deliverables được tạo ra riêng cho Khách hàng trong quá trình thực hiện Dịch vụ ('Sản phẩm bàn giao') sẽ thuộc về Khách hàng.\n\n- b. Kể từ thời điểm nêu trên, VTIT chuyển giao cho Khách hàng các quyền tài sản tương ứng đối với Sản phẩm bàn giao trong phạm vi pháp luật cho phép; Khách hàng có quyền sử dụng, khai thác, sửa đổi, sao chép, phát triển theo mục đích quy định tại Hợp đồng này.\n\n- c. VTIT cam kết không tái sử dụng Sản phẩm bàn giao (toàn bộ hoặc phần cốt lõi mang tính đặc thù của Khách hàng) cho khách hàng khác, trừ (i) phần thuộc Tài sản có sẵn/Background IP của VTIT; và/hoặc (ii) các thành phần mã nguồn mở/được cấp phép hợp pháp.\n\n## Mô hình 2: Vendor-owned IP (VTIT sở hữu bản quyền)\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, toàn bộ quyền sở hữu trí tuệ đối với Sản phẩm bàn giao (bao gồm mọi cải tiến/phát triển phát sinh trong quá trình thực hiện Dịch vụ) sẽ thuộc về VTIT.\n\n- b. VTIT cấp cho Khách hàng một giấy phép sử dụng Sản phẩm bàn giao trọn đời, không độc quyền, không chuyển nhượng, không được cấp lại nếu không có chấp thuận bằng văn bản của VTIT, trong phạm vi mục đích sử dụng theo Hợp đồng/Phụ lục.\n\n- c. Khách hàng không được (và không được cho  phép bên khác) thực hiện reverse  engineering  (phân  tích  ngược/dịch  ngược),  decompile  (giải  biên dịch), disassemble (tháo rời/dịch ngược sang mã máy/assembly), tách/chiết mã nguồn, hoặc tạo sản phẩm phái sinh nhằm thương mại hóa/phân phối lại Sản phẩm bàn giao, trừ khi pháp luật bắt buộc. VTIT được quyền tái sử dụng,  cung  cấp  cho  khách  hàng  khác  các  thành  phần  chung/khung  kỹ thuật/know-how, với điều kiện không tiết lộ Thông tin mật của Khách hàng.\n\n## Mô hình 3 - Pre-existing IP (Background IP gixisting IP tạo sản phẩm phái sinh\n\n- a. 'Background IP' là toàn bộ mã nguồn, công cụ, thư viện, framework, tài liệu, quy trình, bí quyết kỹ thuật, nền tảng phần mềm và/hoặc các thành phần khác mà VTIT (hoặc bên cấp phép hợp pháp cho VTIT) đã sở hữu/có quyền sử dụng trước thời điểm thực hiện Hợp đồng hoặc được phát triển độc lập, không phụ thuộc vào dự án. Background IP thuộc sở hữu của VTIT (hoặc chủ thể có quyền), và không chuyển giao cho Khách hàng theo Hợp đồng này.\n\n- b. 'Project IP' là các hạng mục được phát triển riêng theo yêu cầu của Khách hàng  trong  phạm  vi  Dịch  vụ  (ví  dụ:  chức  năng,  luồng  nghiệp  vụ,  cấu hình/tùy  biến,  tài  liệu  đặc  thù,  mã  nguồn  custom  nếu  có).  Trừ  khi  Hợp đồng/Phụ lục quy định khác, Project IP sẽ thuộc về Khách hàng.\n\n- c. Trong phạm vi cần thiết để Khách hàng khai thác Project IP/Sản phẩm bàn giao, VTIT cấp cho Khách hàng giấy phép sử dụng Background IP trọn đời, không độc quyền, không chuyển nhượng, chỉ để vận hành/khai thác Sản phẩm bàn giao theo Hợp đồng.\n\n## Mô hình 4 - Đồng sở hữu; cả hai Bên được khai thác thương mại; VTIT độc quyền quyền đăng ký/đứng tên\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, các hạng mục/deliverables được tạo ra trong quá trình thực hiện Dịch vụ theo Hợp đồng ('Sản phẩm') là tài sản đồng sở hữu của VTIT và Khách hàng đối với phần quyền tài sản theo pháp luật về sở hữu trí tuệ, kể từ thời điểm Khách hàng hoàn tất thanh toán đầy đủ mọi khoản đến hạn theo Hợp đồng.\n\n- b. Quyền khai thác của các Bên: Mỗi Bên có quyền độc lập khai thác thương mại Sản phẩm (bao gồm phát triển, nâng cấp, phân phối, chuyển giao/cấp phép quyền sử dụng, cung cấp dưới dạng dịch vụ, cho thuê hoặc hình thức thương mại hợp pháp khác) cho bên thứ ba mà không phải xin chấp thuận của Bên còn lại, với điều kiện: (i) không tiết lộ Thông tin mật của Bên còn lại; (ii) không sử dụng dữ liệu, nhãn hiệu, tên thương mại, dấu hiệu nhận diện và/hoặc các tài sản riêng của Bên còn lại nếu không có chấp thuận bằng  văn  bản;  và  (iii)  tuân  thủ  các  nghĩa  vụ/bảo  lưu  quyền  đối  với Background IP và/hoặc mã nguồn mở (OSS) (nếu có).\n\n- c. Quyền đăng ký và đứng tên: VTIT là bên duy nhất có quyền nộp đơn, thực hiện thủ tục đăng ký (và đứng tên trên Giấy chứng nhận, nếu được cấp) đối với quyền tác giả/chương trình máy tính và/hoặc quyền sở hữu trí tuệ liên quan đến Sản phẩm. Việc VTIT đứng tên đăng ký không làm thay đổi bản chất đồng sở hữu và quyền khai thác của Khách hàng theo khoản 1 và khoản 2 Điều này.\n\n- d. Bảo lưu Background IP và OSS: Mọi tài sản có sẵn/Background IP của mỗi Bên và/hoặc các thành phần mã nguồn mở (OSS) được sử dụng trong Sản phẩm (nếu có) vẫn thuộc chủ sở hữu tương ứng và/hoặc tuân theo điều kiện giấy phép áp dụng; điều khoản đồng sở hữu tại Điều này không được hiểu là chuyển giao quyền sở hữu đối với Background IP/OSS.\n\nCác Bên lựa chọn Mô hình 1 để điều chỉnh quyền sở hữu trí tuệ trong Hợp đồng này.",
+      "score": 0.8474
+    }
+  ],
+  "5.4": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.4",
+      "title": "",
+      "text": "5.4. Trong quá trình cung cấp Dịch vụ và/hoặc phát triển Sản phẩm bàn giao, VTIT có thể sử dụng một số thành phần phần mềm mã nguồn mở (Open Source Software - OSS) được cấp phép hợp pháp theo các giấy phép mã nguồn mở tương ứng. Việc sử dụng các thành phần OSS này phải tuân thủ đầy đủ các điều kiện của giấy phép OSS áp dụng. Các thành phần OSS (nếu có) không thuộc quyền sở hữu của VTIT và không được chuyển giao quyền sở hữu theo Hợp đồng này; việc sử dụng, khai thác và phân phối các thành phần OSS sẽ tuân theo các điều kiện cấp phép của chủ sở hữu OSS tương ứng.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Quyền sở hữu trí tuệ của các Bên đối với Phần mềm được xác định như sau:\n\n## Mô hình 1: Client-owned IP (KH sở hữu sản phẩm bàn giao)\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, toàn bộ quyền sở hữu trí tuệ (bao gồm quyền tác giả đối với chương trình máy tính, quyền liên quan và các quyền tài sản khác theo pháp luật) đối với các hạng mục  bàn giao/deliverables được tạo ra riêng cho Khách hàng trong quá trình thực hiện Dịch vụ ('Sản phẩm bàn giao') sẽ thuộc về Khách hàng.\n\n- b. Kể từ thời điểm nêu trên, VTIT chuyển giao cho Khách hàng các quyền tài sản tương ứng đối với Sản phẩm bàn giao trong phạm vi pháp luật cho phép; Khách hàng có quyền sử dụng, khai thác, sửa đổi, sao chép, phát triển theo mục đích quy định tại Hợp đồng này.\n\n- c. VTIT cam kết không tái sử dụng Sản phẩm bàn giao (toàn bộ hoặc phần cốt lõi mang tính đặc thù của Khách hàng) cho khách hàng khác, trừ (i) phần thuộc Tài sản có sẵn/Background IP của VTIT; và/hoặc (ii) các thành phần mã nguồn mở/được cấp phép hợp pháp.\n\n## Mô hình 2: Vendor-owned IP (VTIT sở hữu bản quyền)\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, toàn bộ quyền sở hữu trí tuệ đối với Sản phẩm bàn giao (bao gồm mọi cải tiến/phát triển phát sinh trong quá trình thực hiện Dịch vụ) sẽ thuộc về VTIT.\n\n- b. VTIT cấp cho Khách hàng một giấy phép sử dụng Sản phẩm bàn giao trọn đời, không độc quyền, không chuyển nhượng, không được cấp lại nếu không có chấp thuận bằng văn bản của VTIT, trong phạm vi mục đích sử dụng theo Hợp đồng/Phụ lục.\n\n- c. Khách hàng không được (và không được cho  phép bên khác) thực hiện reverse  engineering  (phân  tích  ngược/dịch  ngược),  decompile  (giải  biên dịch), disassemble (tháo rời/dịch ngược sang mã máy/assembly), tách/chiết mã nguồn, hoặc tạo sản phẩm phái sinh nhằm thương mại hóa/phân phối lại Sản phẩm bàn giao, trừ khi pháp luật bắt buộc. VTIT được quyền tái sử dụng,  cung  cấp  cho  khách  hàng  khác  các  thành  phần  chung/khung  kỹ thuật/know-how, với điều kiện không tiết lộ Thông tin mật của Khách hàng.\n\n## Mô hình 3 - Pre-existing IP (Background IP gixisting IP tạo sản phẩm phái sinh\n\n- a. 'Background IP' là toàn bộ mã nguồn, công cụ, thư viện, framework, tài liệu, quy trình, bí quyết kỹ thuật, nền tảng phần mềm và/hoặc các thành phần khác mà VTIT (hoặc bên cấp phép hợp pháp cho VTIT) đã sở hữu/có quyền sử dụng trước thời điểm thực hiện Hợp đồng hoặc được phát triển độc lập, không phụ thuộc vào dự án. Background IP thuộc sở hữu của VTIT (hoặc chủ thể có quyền), và không chuyển giao cho Khách hàng theo Hợp đồng này.\n\n- b. 'Project IP' là các hạng mục được phát triển riêng theo yêu cầu của Khách hàng  trong  phạm  vi  Dịch  vụ  (ví  dụ:  chức  năng,  luồng  nghiệp  vụ,  cấu hình/tùy  biến,  tài  liệu  đặc  thù,  mã  nguồn  custom  nếu  có).  Trừ  khi  Hợp đồng/Phụ lục quy định khác, Project IP sẽ thuộc về Khách hàng.\n\n- c. Trong phạm vi cần thiết để Khách hàng khai thác Project IP/Sản phẩm bàn giao, VTIT cấp cho Khách hàng giấy phép sử dụng Background IP trọn đời, không độc quyền, không chuyển nhượng, chỉ để vận hành/khai thác Sản phẩm bàn giao theo Hợp đồng.\n\n## Mô hình 4 - Đồng sở hữu; cả hai Bên được khai thác thương mại; VTIT độc quyền quyền đăng ký/đứng tên\n\n- a. Trừ khi Hợp đồng/Phụ lục quy định khác, các hạng mục/deliverables được tạo ra trong quá trình thực hiện Dịch vụ theo Hợp đồng ('Sản phẩm') là tài sản đồng sở hữu của VTIT và Khách hàng đối với phần quyền tài sản theo pháp luật về sở hữu trí tuệ, kể từ thời điểm Khách hàng hoàn tất thanh toán đầy đủ mọi khoản đến hạn theo Hợp đồng.\n\n- b. Quyền khai thác của các Bên: Mỗi Bên có quyền độc lập khai thác thương mại Sản phẩm (bao gồm phát triển, nâng cấp, phân phối, chuyển giao/cấp phép quyền sử dụng, cung cấp dưới dạng dịch vụ, cho thuê hoặc hình thức thương mại hợp pháp khác) cho bên thứ ba mà không phải xin chấp thuận của Bên còn lại, với điều kiện: (i) không tiết lộ Thông tin mật của Bên còn lại; (ii) không sử dụng dữ liệu, nhãn hiệu, tên thương mại, dấu hiệu nhận diện và/hoặc các tài sản riêng của Bên còn lại nếu không có chấp thuận bằng  văn  bản;  và  (iii)  tuân  thủ  các  nghĩa  vụ/bảo  lưu  quyền  đối  với Background IP và/hoặc mã nguồn mở (OSS) (nếu có).\n\n- c. Quyền đăng ký và đứng tên: VTIT là bên duy nhất có quyền nộp đơn, thực hiện thủ tục đăng ký (và đứng tên trên Giấy chứng nhận, nếu được cấp) đối với quyền tác giả/chương trình máy tính và/hoặc quyền sở hữu trí tuệ liên quan đến Sản phẩm. Việc VTIT đứng tên đăng ký không làm thay đổi bản chất đồng sở hữu và quyền khai thác của Khách hàng theo khoản 1 và khoản 2 Điều này.\n\n- d. Bảo lưu Background IP và OSS: Mọi tài sản có sẵn/Background IP của mỗi Bên và/hoặc các thành phần mã nguồn mở (OSS) được sử dụng trong Sản phẩm (nếu có) vẫn thuộc chủ sở hữu tương ứng và/hoặc tuân theo điều kiện giấy phép áp dụng; điều khoản đồng sở hữu tại Điều này không được hiểu là chuyển giao quyền sở hữu đối với Background IP/OSS.\n\nCác Bên lựa chọn Mô hình 1 để điều chỉnh quyền sở hữu trí tuệ trong Hợp đồng này.",
+      "score": 0.8453
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "5.3",
+      "title": "",
+      "text": "5.3. VTIT có quyền sử dụng lại các thành phần, công cụ, thư viện, đoạn mã được phát triển sẵn hoặc không mang tính đặc thù cho Khách hàng trong các dự án\n\nkhác, với điều kiện không tiết lộ thông tin bảo mật hoặc vi phạm quyền sở hữu trí tuệ của Khách hàng.",
+      "score": 0.8273
+    }
+  ],
+  "6.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.1",
+      "title": "",
+      "text": "6.1. Các Bên cam kết giữ bí mật tất cả các thông tin, báo cáo, tài liệu, dữ liệu có được từ Bên kia theo Hợp đồng. Không có sự đồng ý trước bằng văn bản của Bên cung cấp thông tin, Bên nhận thông tin không được tiết lộ bất kì thông tin, báo cáo, tài liệu và dữ liệu của Bên cung cấp thông tin cho Bên thứ ba. Các Bên cam kết tiến hành các  biện pháp bảo mật và các hoạt động dự phòng cần thiết và phù hợp để đảm bảo giữ bí mật những thông tin trên và đảm bảo những thông tin này không bị sử dụng sai mục đích trong quá trình thực hiện và sau khi kết thúc Hợp đồng.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.2",
+      "title": "",
+      "text": "6.2. Những hạn chế tại khoản 1 Điều này sẽ không áp dụng đối với một trong số các thông tin sau:\n\n- a) Thông tin mà Bên nhận có thể chứng minh đã biết từ nguồn hợp  pháp không liên quan đến Bên cung cấp trước thời điểm nhận được thông tin từ Bên cung cấp; Thông tin đã công khai hoặc trở nên công khai mà không phải do hành vi vi phạm của Bên nhận;\n\n- b) Thông tin do Bên nhận tự phát triển một cách độc lập mà không sử dụng Thông tin mật của Bên cung cấp;\n\n- c) Thông tin được tiết lộ theo yêu cầu của pháp luật, cung cấp cho tòa án, trọng tài thương mại hoặc cơ quan nhà nước có thẩm quyền;\n\n- d) Những thông tin bị tiết lộ cho công ty mẹ, các công ty thành viên của Một Bên, các cán bộ, nhân viên, người làm công, các đại lý, bên tư vấn, cung cấp dịch vụ của bên nhận thông tin trong trường hợp việc tiết lộ đó là cần thiết để thực hiện Hợp đồng, với điều kiện các bên được tiết lộ có nghĩa vụ bảo mật tương tự như quy định tại Hợp đồng này.",
+      "score": 0.8819
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.3",
+      "title": "",
+      "text": "6.3. Trừ khi có thỏa thuận cụ thể khác bằng văn bản, Các Bên thống nhất rằng việc tồn tại mối quan hệ hợp tác giữa Khách hàng và VTIT theo Hợp đồng này không được coi là thông tin bảo mật tuyệt đối. Một Bên ('Bên Sử dụng') có thể đề cập đến tên của Bên còn lại, phạm vi dịch vụ, thời gian thực hiện và giá trị Hợp đồng trong hồ sơ chứng minh năng lực, kinh nghiệm, với điều kiện:\n\n- a) Việc sử dụng chỉ nhằm mục đích chứng minh năng lực, không được trình bày sai lệch, gây hiểu nhầm hoặc ảnh hưởng đến uy tín, quyền lợi hợp pháp của Bên còn lại;\n\n- b) Bên Sử dụng không tiết lộ bất kỳ thông tin kỹ thuật, nội dung nghiệp vụ, dữ liệu nội bộ, tài liệu hoặc thông tin nào khác thuộc phạm vi bảo mật của Hợp đồng này;\n\n- c) Trường hợp Bên Sử dụng có hành vi vi phạm các điều kiện tại khoản này và Bên còn lại có yêu cầu bằng văn bản, Bên Sử dụng có trách nhiệm chấm dứt việc sử dụng và/hoặc gỡ bỏ, thu hồi (trong phạm vi kiểm soát hợp lý của mình) mọi tài liệu/hồ sơ có chứa các thông tin nêu tại khoản này trong vòng 05 (năm) ngày làm việc kể từ ngày nhận được yêu cầu đó.",
+      "score": 0.837
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.5",
+      "title": "",
+      "text": "6.5. Các Bên có nghĩa vụ tuân thủ Thỏa thuận về Bảo vệ dữ liệu cá nhân theo Phụ lục 03 đính kèm Hợp đồng này.",
+      "score": 0.8342
+    }
+  ],
+  "6.4": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.4",
+      "title": "",
+      "text": "6.4. Ngoài quy định tại Điều này, Các Bên cam kết tuyệt đối tuân thủ các quy định bảo mật chung như Phụ lục 02 của Hợp đồng này.",
+      "score": 0.999
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.5",
+      "title": "",
+      "text": "6.5. Các Bên có nghĩa vụ tuân thủ Thỏa thuận về Bảo vệ dữ liệu cá nhân theo Phụ lục 03 đính kèm Hợp đồng này.",
+      "score": 0.8352
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.1",
+      "title": "",
+      "text": "6.1. Các Bên cam kết giữ bí mật tất cả các thông tin, báo cáo, tài liệu, dữ liệu có được từ Bên kia theo Hợp đồng. Không có sự đồng ý trước bằng văn bản của Bên cung cấp thông tin, Bên nhận thông tin không được tiết lộ bất kì thông tin, báo cáo, tài liệu và dữ liệu của Bên cung cấp thông tin cho Bên thứ ba. Các Bên cam kết tiến hành các  biện pháp bảo mật và các hoạt động dự phòng cần thiết và phù hợp để đảm bảo giữ bí mật những thông tin trên và đảm bảo những thông tin này không bị sử dụng sai mục đích trong quá trình thực hiện và sau khi kết thúc Hợp đồng.",
+      "score": 0.827
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.2",
+      "title": "",
+      "text": "6.2. Những hạn chế tại khoản 1 Điều này sẽ không áp dụng đối với một trong số các thông tin sau:\n\n- a) Thông tin mà Bên nhận có thể chứng minh đã biết từ nguồn hợp  pháp không liên quan đến Bên cung cấp trước thời điểm nhận được thông tin từ Bên cung cấp; Thông tin đã công khai hoặc trở nên công khai mà không phải do hành vi vi phạm của Bên nhận;\n\n- b) Thông tin do Bên nhận tự phát triển một cách độc lập mà không sử dụng Thông tin mật của Bên cung cấp;\n\n- c) Thông tin được tiết lộ theo yêu cầu của pháp luật, cung cấp cho tòa án, trọng tài thương mại hoặc cơ quan nhà nước có thẩm quyền;\n\n- d) Những thông tin bị tiết lộ cho công ty mẹ, các công ty thành viên của Một Bên, các cán bộ, nhân viên, người làm công, các đại lý, bên tư vấn, cung cấp dịch vụ của bên nhận thông tin trong trường hợp việc tiết lộ đó là cần thiết để thực hiện Hợp đồng, với điều kiện các bên được tiết lộ có nghĩa vụ bảo mật tương tự như quy định tại Hợp đồng này.",
+      "score": 0.7972
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "14",
+      "title": "BẢO MẬT THÔNG TIN",
+      "text": "Điều 14. BẢO MẬT THÔNG TIN\n\n\n\nHai Bên cam kết tuân thủ các quy định về bảo mật thông tin nêu tại Phụ lục 03 - Bảo mật thông tin và xử lý Dữ liệu cá nhân.",
+      "score": 0.7927
+    }
+  ],
+  "6.5": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.5",
+      "title": "",
+      "text": "6.5. Các Bên có nghĩa vụ tuân thủ Thỏa thuận về Bảo vệ dữ liệu cá nhân theo Phụ lục 03 đính kèm Hợp đồng này.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.1",
+      "title": "",
+      "text": "6.1. Các Bên cam kết giữ bí mật tất cả các thông tin, báo cáo, tài liệu, dữ liệu có được từ Bên kia theo Hợp đồng. Không có sự đồng ý trước bằng văn bản của Bên cung cấp thông tin, Bên nhận thông tin không được tiết lộ bất kì thông tin, báo cáo, tài liệu và dữ liệu của Bên cung cấp thông tin cho Bên thứ ba. Các Bên cam kết tiến hành các  biện pháp bảo mật và các hoạt động dự phòng cần thiết và phù hợp để đảm bảo giữ bí mật những thông tin trên và đảm bảo những thông tin này không bị sử dụng sai mục đích trong quá trình thực hiện và sau khi kết thúc Hợp đồng.",
+      "score": 0.8341
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.4",
+      "title": "",
+      "text": "6.4. Ngoài quy định tại Điều này, Các Bên cam kết tuyệt đối tuân thủ các quy định bảo mật chung như Phụ lục 02 của Hợp đồng này.",
+      "score": 0.8341
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.2",
+      "title": "",
+      "text": "6.2. Những hạn chế tại khoản 1 Điều này sẽ không áp dụng đối với một trong số các thông tin sau:\n\n- a) Thông tin mà Bên nhận có thể chứng minh đã biết từ nguồn hợp  pháp không liên quan đến Bên cung cấp trước thời điểm nhận được thông tin từ Bên cung cấp; Thông tin đã công khai hoặc trở nên công khai mà không phải do hành vi vi phạm của Bên nhận;\n\n- b) Thông tin do Bên nhận tự phát triển một cách độc lập mà không sử dụng Thông tin mật của Bên cung cấp;\n\n- c) Thông tin được tiết lộ theo yêu cầu của pháp luật, cung cấp cho tòa án, trọng tài thương mại hoặc cơ quan nhà nước có thẩm quyền;\n\n- d) Những thông tin bị tiết lộ cho công ty mẹ, các công ty thành viên của Một Bên, các cán bộ, nhân viên, người làm công, các đại lý, bên tư vấn, cung cấp dịch vụ của bên nhận thông tin trong trường hợp việc tiết lộ đó là cần thiết để thực hiện Hợp đồng, với điều kiện các bên được tiết lộ có nghĩa vụ bảo mật tương tự như quy định tại Hợp đồng này.",
+      "score": 0.8184
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "14",
+      "title": "BẢO MẬT THÔNG TIN",
+      "text": "Điều 14. BẢO MẬT THÔNG TIN\n\n\n\nHai Bên cam kết tuân thủ các quy định về bảo mật thông tin nêu tại Phụ lục 03 - Bảo mật thông tin và xử lý Dữ liệu cá nhân.",
+      "score": 0.8179
+    }
+  ],
+  "7.2": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "7.2",
+      "title": "",
+      "text": "7.2. Trong thời gian thực hiện Hợp đồng và trong vòng 12 tháng kể từ ngày Hợp đồng chấm dứt hoặc hết hạn vì bất kỳ lý do nào, Khách hàng cam kết:\n\n- a) Không trực tiếp hoặc gián tiếp tuyển dụng, thuê, mời làm việc, lôi kéo hoặc khuyến khích bất kỳ nhân sự nào (bao gồm cán bộ, nhân viên, thực tập sinh, cộng tác viên và các nhân sự khác) của VTIT mà Khách hàng đã biết hoặc tiếp xúc trong quá trình thực hiện Hợp đồng;\n\n- b) Không đề nghị, khuyến khích hoặc hỗ trợ bất kỳ nhân sự nào của VTIT chấm dứt hợp đồng lao động, hợp tác hoặc quan hệ làm việc với VTIT.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "7.3",
+      "title": "",
+      "text": "7.3. Trường hợp Khách hàng có nhu cầu tuyển dụng hoặc hợp tác với nhân sự của VTIT trong thời hạn cam kết, Khách hàng phải có được sự chấp thuận bằng văn bản của VTIT.",
+      "score": 0.8968
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Các Bên cam đoan và bảo đảm rằng:\n\n- a) Có đầy đủ năng lực pháp lý, tư cách pháp nhân và quyền ký kết và thực hiện Hợp đồng này theo quy định của pháp luật;\n\n- b) Phần mềm, hệ thống là phù hợp với quy định của pháp luật hiện hành, không vi phạm bất kỳ quy định cấm nào, không bị cấm phát triển hoặc sử dụng theo pháp luật Việt Nam hoặc điều ước quốc tế có hiệu lực; việc xây dựng Phần mềm, hệ thống không làm phát sinh trách nhiệm pháp lý cho VTIT với tư cách là bên cung cấp dịch vụ.\n\n- c) Phần mềm/hệ thống và/hoặc Dịch vụ theo Hợp đồng không được sử dụng, trực tiếp hoặc gián tiếp, cho bất kỳ mục đích nào liên quan đến khủng bố,\n\ntài trợ khủng bố, tội phạm xuyên quốc gia/tội phạm quốc tế, rửa tiền, buôn bán người, hoặc các hành vi bị cấm theo pháp luật Việt Nam và/hoặc các điều ước quốc tế có hiệu lực; Khách hàng cam kết bảo đảm việc sử dụng là hợp pháp và bồi thường, giữ cho VTIT không bị thiệt hại trước mọi khiếu nại, yêu cầu, chế tài phát sinh từ việc Khách hàng vi phạm cam kết này.",
+      "score": 0.8558
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.2",
+      "title": "",
+      "text": "10.2. Khách hàng cam đoan và bảo đảm rằng:\n\n- a) Có đầy đủ quyền sử dụng hợp pháp các tài sản, dữ liệu, thông tin cung cấp cho VTIT theo Hợp đồng này;\n\n- b) Thông tin, tài liệu, yêu cầu kỹ thuật, nghiệp vụ do Khách hàng cung cấp là chính xác, hợp pháp và không vi phạm quyền của bên thứ ba;\n\n- c) Việc ký kết và thực hiện Hợp đồng này không vi phạm bất kỳ nghĩa vụ hợp đồng nào hoặc quy định pháp luật nào mà Khách hàng bị ràng buộc.",
+      "score": 0.8515
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "4.1",
+      "title": "",
+      "text": "4.1. Quyền của VTIT: - a) Được Khách hàng thanh toán đầy đủ và đúng hạn theo giá trị nghiệm thu thực tế và phương thức thanh toán quy định tại Hợp đồng này, trên cơ sở hồ sơ thanh toán hợp lệ do VTIT cung cấp;\n\n- b) Có quyền từ chối thực hiện hoặc tạm dừng công việc nếu Khách hàng không cung cấp đầy đủ, kịp thời các thông tin, tài liệu, điều kiện cần thiết hoặc không thanh toán đầy đủ và đúng hạn hoặc vi phạm nghĩa vụ làm ảnh hưởng đến tiến độ, chất lượng cung cấp dịch vụ của VTIT;\n\n- c) Có quyền sử dụng hợp pháp các kinh nghiệm, phương pháp, quy trình, công cụ, mã nguồn, thư viện phần mềm và các thành phần phần mềm có sẵn của VTIT và/hoặc của nhà cung cấp trong quá trình thực hiện công việc, với điều kiện việc sử dụng đó không xâm phạm quyền sở hữu trí tuệ\n\ncủa bất kỳ bên thứ ba nào và phù hợp với các điều kiện cấp phép áp dụng (nếu có).\n\n- d) VTIT không phát sinh trách nhiệm đối với các lỗi, sự cố phát sinh do nguyên nhân từ Khách hàng, hệ thống của Khách hàng hoặc phần mềm bên thứ ba do Khách hàng sử dụng;",
+      "score": 0.8485
+    }
+  ],
+  "7.3": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "7.3",
+      "title": "",
+      "text": "7.3. Trường hợp Khách hàng có nhu cầu tuyển dụng hoặc hợp tác với nhân sự của VTIT trong thời hạn cam kết, Khách hàng phải có được sự chấp thuận bằng văn bản của VTIT.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "7.2",
+      "title": "",
+      "text": "7.2. Trong thời gian thực hiện Hợp đồng và trong vòng 12 tháng kể từ ngày Hợp đồng chấm dứt hoặc hết hạn vì bất kỳ lý do nào, Khách hàng cam kết:\n\n- a) Không trực tiếp hoặc gián tiếp tuyển dụng, thuê, mời làm việc, lôi kéo hoặc khuyến khích bất kỳ nhân sự nào (bao gồm cán bộ, nhân viên, thực tập sinh, cộng tác viên và các nhân sự khác) của VTIT mà Khách hàng đã biết hoặc tiếp xúc trong quá trình thực hiện Hợp đồng;\n\n- b) Không đề nghị, khuyến khích hoặc hỗ trợ bất kỳ nhân sự nào của VTIT chấm dứt hợp đồng lao động, hợp tác hoặc quan hệ làm việc với VTIT.",
+      "score": 0.8968
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "7.1",
+      "title": "",
+      "text": "7.1. Trong trường hợp nhân sự của VTIT phải làm việc tại trụ sở hoặc địa điểm do Khách hàng chỉ định để cung cấp Dịch vụ thì các nhân sự này vẫn chịu sự quản lý, giám sát và điều hành của VTIT. Khách hàng không có bất kỳ mối quan hệ lao động trực tiếp hoặc mối quan hệ thuê lại lao động nào với nhân sự của VTIT.",
+      "score": 0.8639
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "17.7",
+      "title": "",
+      "text": "17.7. Trường hợp chỉ một phần kết quả công việc không đạt yêu cầu, Khách hàng có trách nhiệm nghiệm thu các phần còn lại đáp ứng đúng theo quy định của Hợp đồng, và chỉ yêu cầu VTIT sửa đổi đối với phần chưa đạt yêu cầu. Việc thanh toán được thực hiện đối với phần công việc đã được nghiệm thu.",
+      "score": 0.8404
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "4.1",
+      "title": "",
+      "text": "4.1. Quyền của VTIT: - a) Được Khách hàng thanh toán đầy đủ và đúng hạn theo giá trị nghiệm thu thực tế và phương thức thanh toán quy định tại Hợp đồng này, trên cơ sở hồ sơ thanh toán hợp lệ do VTIT cung cấp;\n\n- b) Có quyền từ chối thực hiện hoặc tạm dừng công việc nếu Khách hàng không cung cấp đầy đủ, kịp thời các thông tin, tài liệu, điều kiện cần thiết hoặc không thanh toán đầy đủ và đúng hạn hoặc vi phạm nghĩa vụ làm ảnh hưởng đến tiến độ, chất lượng cung cấp dịch vụ của VTIT;\n\n- c) Có quyền sử dụng hợp pháp các kinh nghiệm, phương pháp, quy trình, công cụ, mã nguồn, thư viện phần mềm và các thành phần phần mềm có sẵn của VTIT và/hoặc của nhà cung cấp trong quá trình thực hiện công việc, với điều kiện việc sử dụng đó không xâm phạm quyền sở hữu trí tuệ\n\ncủa bất kỳ bên thứ ba nào và phù hợp với các điều kiện cấp phép áp dụng (nếu có).\n\n- d) VTIT không phát sinh trách nhiệm đối với các lỗi, sự cố phát sinh do nguyên nhân từ Khách hàng, hệ thống của Khách hàng hoặc phần mềm bên thứ ba do Khách hàng sử dụng;",
+      "score": 0.8394
+    }
+  ],
+  "8.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "8.1",
+      "title": "",
+      "text": "8.1. 'Sự kiện Bất khả kháng' là các sự kiện xảy ra một cách khách quan, không thể lường trước được và không thể khắc phục được làm ảnh hưởng tới việc thực hiện Hợp đồng mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép của mỗi bên hoặc các bên. Sự kiện Bất khả kháng bao gồm nhưng không giới hạn thiên tai, hoả hoạn, lũ lụt, động đất, tai nạn, thảm họa, dịch bệnh, thay đổi quy định của pháp luật mà các bên không thể biết trước được vào thời điểm giao kết và thực hiện Hợp đồng và các Sự kiện Bất khả kháng khác nằm ngoài khả năng kiểm soát hợp lý của Các Bên.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.1",
+      "title": "",
+      "text": "11.1. Bất Khả Kháng là sự kiện xảy ra một cách khách quan không thể lường trước được và không thể khắc phục được mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép, bao gồm nhưng không giới hạn các sự kiện sau: chiến tranh, bạo loạn, đình công, hỏa hoạn, bão, lũ lụt, động đất, sóng thần, dịch bệnh, cách ly kiểm dịch, sự thay đổi trong chính sách, pháp luật, dẫn đến việc một Bên hoặc các Bên không thực hiện được đầy đủ các quyền và nghĩa vụ quy định tại Hợp đồng này.",
+      "score": 0.8744
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.1",
+      "title": "",
+      "text": "11.1. Bất Khả Kháng là sự kiện xảy ra một cách khách quan không thể lường trước được và không thể khắc phục được mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép, bao gồm nhưng không giới hạn các sự kiện sau: chiến tranh, bạo loạn, đình công, hỏa hoạn, bão, lũ lụt, động đất, sóng thần, dịch bệnh, cách ly kiểm dịch, sự thay đổi trong chính sách, pháp luật, dẫn đến việc một Bên hoặc các Bên không thực hiện được đầy đủ các quyền và nghĩa vụ quy định tại Hợp đồng này.",
+      "score": 0.8743
+    },
+    {
+      "contract_id": 4,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.1",
+      "title": "",
+      "text": "11.1. Bất Khả Kháng là sự kiện xảy ra một cách khách quan không thể lường trước được và không thể khắc phục được mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép, bao gồm nhưng không giới hạn các sự kiện sau: chiến tranh, bạo loạn, đình công, hỏa hoạn, bão, lũ lụt, động đất, sóng thần, dịch bệnh, cách ly kiểm dịch, sự thay đổi trong chính sách, pháp luật, dẫn đến việc một Bên hoặc các Bên không thực hiện được đầy đủ các quyền và nghĩa vụ quy định tại Hợp đồng này.",
+      "score": 0.8743
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "8.4",
+      "title": "",
+      "text": "8.4. Trừ quy định tại khoản 9.5 Điều này, Bên bị ảnh hưởng và Bên không bị ảnh hưởng bởi Sự kiện Bất khả kháng sẽ không bị coi là vi phạm các quy định của\n\nHợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của Sự kiện Bất khả kháng).",
+      "score": 0.8423
+    }
+  ],
+  "8.2": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "8.2",
+      "title": "",
+      "text": "8.2. Khi xảy ra Sự kiện Bất khả kháng, Bên bị ảnh hưởng phải thông báo bằng văn bản cho Bên còn lại trong vòng 03 (ba) ngày làm việc kể từ ngày xảy ra sự kiện. Thông báo phải nêu rõ bản chất sự kiện, hậu quả dự kiến, thời gian ảnh hưởng và cung cấp tài liệu chứng minh hợp lệ (nếu có). Trong thời gian diễn ra Sự kiện Bất khả kháng, Bên bị ảnh hưởng có trách nhiệm cập nhật tiến độ khắc phục theo định kỳ hoặc khi được yêu cầu.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "8.6",
+      "title": "",
+      "text": "8.6. Khi kết thúc Sự kiện Bất khả kháng, Bên bị ảnh hưởng có trách nhiệm thông báo cho Bên còn lại trong thời gian sớm nhất. Việc không thông báo kịp thời có thể dẫn đến trách nhiệm bồi thường chỉ trong phạm vi thiệt hại thực tế, trực tiếp phát sinh do việc không thông báo, nếu có chứng minh rõ ràng.",
+      "score": 0.8981
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "8.5",
+      "title": "",
+      "text": "8.5. Trường hợp Bên bị ảnh hưởng không thực hiện nghĩa vụ thông báo, cung cấp bằng chứng hoặc nỗ lực khắc phục như quy định, thì Bên đó có thể không được hưởng quyền miễn trách nhiệm theo khoản 9.4, trừ khi có lý do khách quan chính đáng được Bên còn lại chấp thuận hoặc chứng minh được rằng việc vi phạm nghĩa vụ thông báo không gây thiệt hại đáng kể cho Bên còn lại.",
+      "score": 0.8224
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.3",
+      "title": "",
+      "text": "11.3. Trường hợp một Bên không thể thực hiện các nghĩa vụ của mình do sự kiện bất khả kháng hoặc trở ngại khách quan ('Bên bị ảnh hưởng'), Bên bị ảnh hưởng sẽ ngay lập tức thông báo cho Bên còn lại ('Bên không bị ảnh hưởng') về sự kiện bất khả kháng hoặc trở ngại khách quan.",
+      "score": 0.8185
+    },
+    {
+      "contract_id": 4,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.3",
+      "title": "",
+      "text": "11.3. Trường hợp một Bên không thể thực hiện các nghĩa vụ của mình do sự kiện bất khả kháng hoặc trở ngại khách quan ('Bên bị ảnh hưởng'), Bên bị ảnh hưởng sẽ ngay lập tức thông báo cho Bên còn lại ('Bên không bị ảnh hưởng') về sự kiện bất khả kháng hoặc trở ngại khách quan.",
+      "score": 0.8183
+    }
+  ],
+  "8.4": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "8.4",
+      "title": "",
+      "text": "8.4. Trừ quy định tại khoản 9.5 Điều này, Bên bị ảnh hưởng và Bên không bị ảnh hưởng bởi Sự kiện Bất khả kháng sẽ không bị coi là vi phạm các quy định của\n\nHợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của Sự kiện Bất khả kháng).",
+      "score": 1.0
+    },
+    {
+      "contract_id": 4,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 0.8687
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 0.8687
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 0.8686
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 0.8685
+    }
+  ],
+  "9.3": [
+    {
+      "contract_id": 4,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.2",
+      "title": "",
+      "text": "15.2 Bất cứ Bên nào trong Hợp đồng khi chưa được sự đồng ý bằng văn bản từ Bên còn lại đều không có quyền chuyển nhượng bất cứ quyền lợi và nghĩa vụ qui định trong Hợp đồng. Trước khi có được sự thống nhất bằng văn bản của cả Hai Bên thì bất cứ sự chuyển nhượng nào đều vô hiệu. Việc một Bên thuê bên thứ ba thực hiện một phần công việc theo Hợp đồng không được coi là hành vi chuyển nhượng Hợp đồng.",
+      "score": 0.8542
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.2",
+      "title": "",
+      "text": "15.2 Bất cứ Bên nào trong Hợp đồng khi chưa được sự đồng ý bằng văn bản từ Bên còn lại đều không có quyền chuyển nhượng bất cứ quyền lợi và nghĩa vụ qui định trong Hợp đồng. Trước khi có được sự thống nhất bằng văn bản của cả Hai Bên thì bất cứ sự chuyển nhượng nào đều vô hiệu. Việc một Bên thuê bên thứ ba thực hiện một phần công việc theo Hợp đồng không được coi là hành vi chuyển nhượng Hợp đồng.",
+      "score": 0.8541
+    },
+    {
+      "contract_id": 4,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.3.3.4.3.4",
+      "title": "",
+      "text": "4.3.3.4.3.4. Trường hợp bảo đảm thực hiện hợp đồng hết hiệu lực theo quy định nêu trên nhưng chưa kết thúc thời gian triển khai dịch vụ nêu tại Điều 3.1 hoặc thời gian triển khai kéo dài theo sự chấp thuận của Bên A, Bên B sẽ chịu trách nhiệm gia hạn hiệu lực Bảo đảm thực hiện hợp đồng cho thời gian tương ứng và thanh toán chi phí cho việc gia hạn này.\n\n<!-- image -->",
+      "score": 0.8127
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL05.10",
+      "title": "Căn cứ:",
+      "text": "Căn cứ:\n\n- Hợp đồng số ………..ký ngày ………. giữa Tổng công ty Hàng không Việt Nam - CTCP và Công ty Trách nhiệm hữu hạn Một thành viên Đầu tư Công nghệ Viettel,\n\n- Biên bản nghiệm thu kĩ thuật ngày …./…./202..;\n\n- Biên bản xác nhận đào tạo ngày …/…./202..;\n\nTại trụ sở Tổng công ty Hàng không Việt Nam - CTCP (200 Nguyễn Sơn, P. Bồ Đề, , Tp Hà Nội), Bên A và Bên B thống nhất tiến hành nghiệm thu tổng thể Hợp đồng, nội dung cụ thể như sau:\n\n- Bên B đã hoàn thành việc triển khai theo đúng nội dung, phạm vi công việc và cam kết đảm bảo cung cấp dịch vụ theo các điều khoản của Hợp đồng số ……….\n\n- Hai bên thống nhất đưa thời gian vào sử dụng và tính phí dịch vụ từ ngày…/…/….\n\n- Bên B cam kết tiếp tục thực hiện điều chỉnh, bổ sung, sửa đổi các yêu cầu, change request ngoài phạm vi Hợp đồng; Phối hợp cùng Bên A tổ chức đào tạo mở rộng theo yêu cầu khác lịch trình của bên B; Đưa hệ thống vào khai thác theo yêu cầu của Bên A.\n\n- Bên B cam kết các quy định về bảo mật thông tin và hỗ trợ kĩ thuật theo đúng các điều khoản của Hợp đồng số ………….., ký ngày ………..\n\n- Ngày đưa vào vận hành: …………\n\nBiên bản được lập thành 04 (bốn) bản, mỗi Bên giữ 02 (hai) bản có giá trị pháp lý như nhau.\n\nĐẠI DIỆN BÊN A\n\nĐẠI DIỆN BÊN B\n\n|   TT | Nội dung công                 | Cam kết tiêu chuẩn   | Số yêu cầu hỗ trợ   | Số yêu cầu hỗ trợ không đạt cam kết   | Đánh giá   | Đánh giá   |\n|------|-------------------------------|----------------------|---------------------|---------------------------------------|------------|------------|\n|      | việc                          |                      |                     |                                       | Đạt        | Không đạt  |\n|    1 | Độ sẵn sàng (SA) của phần mềm | ≥ 98%                |                     |                                       |            |            |\n\n|    |                                                         |                    |                   | Số yêu cầu hỗ trợ không đạt   | Đánh giá   | Đánh giá   |\n|----|---------------------------------------------------------|--------------------|-------------------|-------------------------------|------------|------------|\n| TT | Nội dung công việc                                      | Cam kết tiêu chuẩn | Số yêu cầu hỗ trợ | cam kết                       | Đạt        | Không đạt  |\n| 1  | Thời gian khắc phục sự cố đối với dịch vụ ĐBHĐ phần mềm | 24x7x2+X           |                   |                               |            |            |\n\n| TT   | Nội dung công việc   | Thời gian thực hiện (bắt đầu/kết thúc)   | Đánh giá chất lượng Dịch vụ theo tiêu chuẩn kỹ thuật   | Cam kết theo hợp đồng   | Đánh giá mức độ vi phạm   |\n|------|----------------------|------------------------------------------|--------------------------------------------------------|-------------------------|---------------------------|\n\nTrang 51 / 52\n\n<!-- image -->",
+      "score": 0.8019
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL03.7",
+      "title": "ĐIỀU 4: ĐIỀU KHOẢN CHUNG",
+      "text": "ĐIỀU 4: ĐIỀU KHOẢN CHUNG\n\n- 4.1 Các Bên không được bàn giao hoặc chuyển nhượng toàn bộ hoặc một phần của Thỏa Thuận này mà không có sự đồng ý trước bằng văn bản của bên còn lại.\n- 4.2 Các nội dung trong Thỏa Thuận này sẽ không được xem là cấp quyền hoặc cho phép Bên Nhận, Bên Cần Biết sở hữu đối với tài sản trí tuệ, bao gồm nhưng không giới hạn, bằng sáng chế, các ứng dụng từ bằng sáng chế, nhãn hiệu, bản quyền hoặc các thông tin độc quyền khác./.",
+      "score": 0.7991
+    }
+  ]
+}

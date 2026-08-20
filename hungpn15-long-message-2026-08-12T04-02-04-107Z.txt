@@ -1,0 +1,251 @@
+1. Người đại diện ký hợp đồng đã xác định đúng theo phân cấp, ủy quyền ký kết chưa?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: BÊN B: CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL... Đại diện: Ông Bùi Trình - Chức vụ: Giám đốc
+
+Đề xuất: Yêu cầu bổ sung thông tin về Quyết định bổ nhiệm hoặc Văn bản ủy quyền hợp lệ của cấp có thẩm quyền (Tập đoàn Viettel) cho phép Giám đốc VTIT được quyền ký kết hợp đồng dịch vụ có giá trị lớn (gần 40 tỷ đồng) để đảm bảo tính hợp pháp về thẩm quyền ký kết.
+
+Lý do: Hợp đồng chưa viện dẫn văn bản ủy quyền hoặc quy định điều lệ để chứng minh thẩm quyền ký kết của Giám đốc VTIT đối với giao dịch có giá trị vượt hạn mức thông thường của công ty con.
+
+
+
+
+Chưa chấm
+
+3. Điều khoản bản quyền, sở hữu trí tuệ đã đầy đủ chưa? Xác định đúng đối tượng chưa?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: ĐIỀU 5... Sau khi kết thúc thời gian thuê dịch vụ, Bên B có trách nhiệm bàn giao miễn phí cơ sở dữ liệu của Bên A, bản sao mã nguồn phiên bản đang vận hành và tài liệu kỹ thuật cần thiết. Bên B cấp cho Bên A... quyền sử dụng phần mềm không độc quyền, không hủy ngang, không giới hạn thời gian...
+
+Đề xuất: Sửa đổi Điều 5 theo hướng: VTIT chỉ bàn giao lại cơ sở dữ liệu (dữ liệu khai thác của Bên A). VTIT không bàn giao mã nguồn (source code) và không cấp quyền sử dụng vô thời hạn miễn phí sau khi hết hạn hợp đồng thuê. Nếu Bên A muốn tiếp tục sử dụng hoặc sở hữu mã nguồn, hai bên phải ký hợp đồng mua bán bản quyền hoặc gia hạn hợp đồng thuê dịch vụ.
+
+Lý do: Đây là hợp đồng thuê dịch vụ (SaaS/Lease), việc yêu cầu bàn giao miễn phí mã nguồn và cấp quyền sử dụng vô thời hạn sau khi hết hạn thuê là mâu thuẫn với bản chất của giao dịch thuê và gây thiệt hại nghiêm trọng đến tài sản trí tuệ của VTIT.
+
+
+
+
+Chưa chấm
+
+4. Điều khoản bảo mật thông tin và bảo vệ dữ liệu cá nhân có đảm bảo tuân thủ quy định pháp luật không?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: TOSS-012: Tuân thủ Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15; Nghị định số 356/2025/NĐ-CP ngày 31/12/2025 quy định chi tiết một số điều và biện pháp thi hành Luật Bảo vệ dữ liệu cá nhân
+
+Đề xuất: Sửa đổi nội dung tiêu chí TOSS-012 thành: 'Tuân thủ Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân và các văn bản pháp luật liên quan về bảo vệ dữ liệu cá nhân có hiệu lực tại thời điểm thực hiện'.
+
+Lý do: Hiện tại Việt Nam chưa ban hành 'Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15' và 'Nghị định số 356/2025/NĐ-CP'. Việc viện dẫn các văn bản luật chưa tồn tại hoặc chưa có hiệu lực pháp lý là không chính xác.
+
+
+
+
+Chưa chấm
+
+5. Điều khoản bảo mật thông tin có đảm bảo quyền lợi của Công ty không?
+
+Trạng thái: Đạt
+
+Phần liên quan trong hợp đồng: ĐIỀU 14: BẢO MẬT THÔNG TIN Hai Bên cam kết tuân thủ các quy định về bảo mật thông tin nêu tại Phụ lục 03 - Bảo mật thông tin và xử lý Dữ liệu cá nhân.
+
+Đề xuất: Giữ nguyên điều khoản viện dẫn này và đảm bảo rà soát kỹ nội dung chi tiết của Phụ lục 03 trước khi ký kết chính thức.
+
+Lý do: Hợp đồng đã có điều khoản riêng biệt và dẫn chiếu đến Phụ lục chuyên biệt về bảo mật thông tin và xử lý dữ liệu cá nhân để ràng buộc trách nhiệm hai bên.
+
+
+
+
+Chưa chấm
+
+7. Điều khoản phạt, bồi thường thiệt hại có đảm bảo bảo vệ quyền lợi của Công ty không?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: 10.1. Trường hợp Bên B chậm triển khai... phạt 0,2% giá trị Hợp đồng đối với Dịch vụ triển khai ban đầu cho mỗi ngày chậm trễ... 10.3. Trường hợp Bên A chậm thanh toán... chịu phạt theo lãi suất nợ quá hạn của ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank)...
+
+Đề xuất: Sửa đổi Khoản 10.3: Quy định mức phạt chậm thanh toán của Bên A là 0,2% trên số tiền chậm thanh toán cho mỗi ngày chậm trễ (khống chế tổng mức phạt không quá 8% giá trị phần nghĩa vụ thanh toán bị chậm) để đảm bảo tính cân bằng và đối xứng về nghĩa vụ phạt vi phạm giữa hai bên.
+
+Lý do: Mức phạt chậm bàn giao của Bên B rất cao (0,2%/ngày), trong khi mức phạt chậm thanh toán của Bên A chỉ tính theo lãi suất nợ quá hạn của Vietcombank (rất thấp, chỉ khoảng 0,03%/ngày), gây mất cân bằng nghiêm trọng quyền lợi của VTIT.
+
+
+
+
+Chưa chấm
+
+8. Căn cứ, hậu quả chấm dứt hợp đồng có bảo vệ quyền lợi của Công ty khi xảy ra tranh chấp không?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: 9.2. Trường hợp vi phạm nghiêm trọng Hợp đồng, Trường hợp độ sẵn sàng của hệ thống đạt SA <80% hoặc thời gian Bên B khắc phục lỗi đảm bảo hoạt động phần mềm > 3*X được coi là vi phạm nghiêm trọng Hợp đồng... 9.2.2. Bên A có thể đơn phương chấm dứt Hợp đồng với Bên B mà không phải chịu bất cứ bồi thường thiệt hại nào.
+
+Đề xuất: Sửa đổi Khoản 9.2 theo hướng: Việc xác định vi phạm nghiêm trọng dẫn đến đơn phương chấm dứt hợp đồng chỉ áp dụng khi lỗi xảy ra liên tục trong 03 tháng liên tiếp và do lỗi chủ quan duy nhất của Bên B mà không khắc phục được. Đồng thời, cần quy định thời gian gia hạn khắc phục tối thiểu 15 ngày trước khi Bên A được quyền đơn phương chấm dứt.
+
+Lý do: Quy định hiện tại quá khắt khe. Trong vận hành hệ thống CNTT lớn, việc chỉ số SA < 80% hoặc thời gian khắc phục lỗi vượt quá 3*X trong một tháng đơn lẻ hoàn toàn có thể xảy ra do các yếu tố kỹ thuật khách quan, nếu cho phép chấm dứt ngay lập tức mà không có thời gian khắc phục sẽ gây rủi ro vận hành cực lớn cho VTIT.
+
+
+
+
+Chưa chấm
+
+9. Hợp đồng có cấm sử dụng nhà thầu phụ không?
+
+Trạng thái: Đạt
+
+Phần liên quan trong hợp đồng: 4.1 Các Bên không được bàn giao hoặc chuyển nhượng toàn bộ hoặc một phần của Thỏa Thuận này mà không có sự đồng ý trước bằng văn bản của bên còn lại.
+
+Đề xuất: Giữ nguyên quy định này, đảm bảo VTIT có quyền sử dụng các công ty liên kết hoặc nhà thầu phụ thực hiện dịch vụ kỹ thuật nếu được Bên A đồng ý bằng văn bản.
+
+Lý do: Hợp đồng chỉ cấm chuyển nhượng thỏa thuận bảo mật mà không có điều khoản cấm VTIT sử dụng nhà thầu phụ để thực hiện dịch vụ kỹ thuật.
+
+
+
+
+Chưa chấm
+
+10. Điều khoản thanh toán đã phù hợp và bảo vệ quyền lợi cho Công ty không?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: PHỤ LỤC 01... B- THANH TOÁN... I.1 Thanh toán 70% giá trị dịch vụ kể từ Ngày đưa vào vận hành... I.2 Thanh toán giá trị dịch vụ còn lại sau Ngày đưa vào vận hành 30 ngày...
+
+Đề xuất: Đề xuất bổ sung điều khoản tạm ứng: Bên A tạm ứng cho Bên B 30% giá trị dịch vụ triển khai ban đầu (tương đương 2.940.000.000 VND) trong vòng 15 ngày kể từ ngày ký hợp đồng và Bên B nộp bảo lãnh tạm ứng tương ứng. Số tiền còn lại sẽ được thanh toán theo các mốc nghiệm thu Go-Live.
+
+Lý do: Giai đoạn triển khai ban đầu kéo dài tới 06 tháng với chi phí lớn (9,8 tỷ VND) nhưng hợp đồng không có điều khoản tạm ứng, buộc VTIT phải tự bỏ 100% vốn tự có để thực hiện trước, gây áp lực lớn lên dòng tiền của VTIT.
+
+
+
+
+Chưa chấm
+
+12. Các điều khoản thương mại (giá trị hợp đồng, điều kiện thanh toán, thời hạn thanh toán…) đã phù hợp chưa?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: PHỤ LỤC 01... I.2 Thanh toán giá trị dịch vụ còn lại sau Ngày đưa vào vận hành 30 ngày nếu hệ thống không tồn tại các lỗi không thể khắc phục
+
+Đề xuất: Làm rõ cụm từ 'lỗi không thể khắc phục' tại mục I.2 Phụ lục 01 thành: 'không tồn tại các lỗi nghiêm trọng Cấp độ 1 (lỗi làm gián đoạn hoàn toàn hệ thống) do lỗi chủ quan của Bên B mà Bên B không thể khắc phục được'.
+
+Lý do: Cụm từ 'lỗi không thể khắc phục' quá mơ hồ, có thể bị lạm dụng để trì hoãn thanh toán 30% còn lại của phần triển khai ban đầu đối với các lỗi nhỏ, lỗi thẩm mỹ hoặc lỗi phát sinh từ phía hạ tầng của Bên A.
+
+
+
+
+Chưa chấm
+
+13. Khách hàng yêu cầu phạm vi công việc, cam kết dịch vụ hoặc SLA nào?
+
+Trạng thái: Đạt
+
+Phần liên quan trong hợp đồng: D. Dịch vụ đảm bảo hoạt động ... 2. Thời gian đảm bảo hoạt động và bảo hành: 60 tháng kể từ Ngày đưa vào vận hành (CutOver Date); ... Mẫu số 4: BIÊN BẢN NGHIỆM THU CHẤT LƯỢNG DỊCH VỤ ... Độ sẵn sàng (SA) của phần mềm ≥ 98% ... Thời gian khắc phục sự cố đối với dịch vụ ĐBHĐ phần mềm: 24x7x2+X
+
+Đề xuất: Làm rõ công thức/định nghĩa chỉ số '24x7x2+X' tại Phụ lục SLA để tránh tranh chấp khi áp dụng thực tế.
+
+Lý do: Hợp đồng đã xác định rõ các cam kết dịch vụ (SLA) bao gồm độ sẵn sàng hệ thống ≥ 98% và thời gian khắc phục sự cố, tuy nhiên chỉ số '24x7x2+X' còn mơ hồ cần được định nghĩa chi tiết.
+
+
+
+
+Chưa chấm
+
+14. Các cam kết với khách hàng về bảo mật, hỗ trợ vận hành, nhân sự hoặc thời gian phản hồi có khả thi không?
+
+Trạng thái: Đạt
+
+Phần liên quan trong hợp đồng: TOSS-056 | ...Trong thời gian triển khai, BÊN B cam kết sắp xếp ít nhất 01 nhân sự onsite tại trụ sở VNA để hỗ trợ tại chỗ. Part D.7: Bên B phải chỉ định một đơn vị hoặc nhân sự chuyên trách chịu trách nhiệm quản lý dịch vụ và hỗ trợ bên A 24/7/365
+
+Đề xuất: Làm rõ thời gian làm việc của nhân sự onsite (ví dụ: chỉ onsite trong giờ hành chính từ thứ 2 đến thứ 6). Đối với dịch vụ hỗ trợ 24/7/365, cần bổ sung bảng phân loại mức độ ưu tiên của sự cố (Critical, Major, Minor) kèm theo thời gian phản hồi (Response Time) và thời gian khắc phục (Resolution Time) tương ứng để đảm bảo tính khả thi trong vận hành thực tế.
+
+Lý do: Các cam kết về nhân sự onsite và hỗ trợ 24/7/365 là rõ ràng nhưng cần chi tiết hóa quy trình vận hành để tránh quá tải và tranh chấp về mặt thực thi.
+
+
+
+
+Chưa chấm
+
+15. Phạm vi công việc, deliverables, tiêu chí nghiệm thu và timeline có đủ rõ ràng không?
+
+Trạng thái: Đạt
+
+Phần liên quan trong hợp đồng: ĐIỀU 1: ĐỐI TƯỢNG CỦA HỢP ĐỒNG... 1.2. Thời gian thực hiện Hợp đồng... ĐIỀU 3: TRIỂN KHAI HỢP ĐỒNG... 3.3. Nghiệm thu...
+
+Đề xuất: Giữ nguyên các mốc thời gian triển khai và nghiệm thu này.
+
+Lý do: Hợp đồng đã quy định rõ ràng thời gian triển khai (06 tháng), thời gian thuê (60 tháng) và các bước nghiệm thu kỹ thuật, đào tạo, nghiệm thu tổng thể tại Điều 3.3.
+
+
+
+
+Chưa chấm
+
+16. Tiến độ dự án, milestone và thời gian phản hồi/yêu cầu hỗ trợ có khả thi không?
+
+Trạng thái: Đạt
+
+Phần liên quan trong hợp đồng: II. Thời gian đánh giá ANTT - Tổng thời gian đánh giá ANTT: 20 ngày. - Thời gian triển khai dự án không bao gồm thời gian đánh giá ANTT.
+
+Đề xuất: Giữ nguyên quy định loại trừ thời gian đánh giá ANTT ra khỏi tiến độ dự án để bảo vệ VTIT khỏi rủi ro phạt chậm tiến độ do khách quan.
+
+Lý do: Tiến độ dự án 180 ngày là khả thi và đã có điều khoản loại trừ hợp lý đối với thời gian đánh giá an toàn thông tin (ANTT) của Bên A.
+
+
+
+
+Chưa chấm
+
+17. Các điều khoản về nhân sự chủ chốt, bàn giao, nghiệm thu, hỗ trợ sau nghiệm thu đã phù hợp chưa?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: ĐIỀU 5... Sau khi kết thúc thời gian thuê dịch vụ, Bên B có trách nhiệm bàn giao miễn phí cơ sở dữ liệu của Bên A, bản sao mã nguồn phiên bản đang vận hành và tài liệu kỹ thuật cần thiết.
+
+Đề xuất: Sửa đổi điều khoản bàn giao sau nghiệm thu/kết thúc hợp đồng: VTIT chỉ chịu trách nhiệm bàn giao dữ liệu sạch của Bên A dưới dạng file backup tiêu chuẩn. Loại bỏ hoàn toàn nghĩa vụ bàn giao mã nguồn (source code) của hệ thống.
+
+Lý do: Yêu cầu bàn giao mã nguồn sau khi kết thúc thời gian thuê dịch vụ là không phù hợp với mô hình thuê phần mềm, gây mất mát tài sản trí tuệ cốt lõi của VTIT sau khi dự án kết thúc.
+
+
+
+
+Chưa chấm
+
+🌐 2. Công ty có được thực hiện các công việc, dịch vụ hoặc bán các hàng hóa theo hợp đồng không?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: Không tìm thấy phần liên quan
+
+Đề xuất: Cần bổ sung điều khoản cam kết về năng lực pháp lý và phạm vi kinh doanh của VTIT trong hợp đồng. Cụ thể: 1. Bổ sung điều khoản 'Cam kết của các bên': VTIT cam kết có đầy đủ giấy phép, chứng chỉ hành nghề (nếu có) theo quy định của Luật Đầu tư 2025 và Nghị quyết 66.17/2026/NQ-CP để thực hiện các công việc/dịch vụ/hàng hóa trong hợp đồng. 2. Rà soát mã ngành kinh tế cấp 4 theo Quyết định 36/2025/QĐ-TTg để đảm bảo các dịch vụ/hàng hóa trong hợp đồng nằm trong phạm vi đăng ký kinh doanh của VTIT. 3. Nếu dịch vụ thuộc nhóm 08 nhóm sản phẩm/dịch vụ bắt buộc đăng ký hợp đồng theo mẫu (theo Thông tư 42/2025/TT-BCT), cần bổ sung điều khoản xác nhận đã thực hiện đăng ký với cơ quan quản lý.
+
+Lý do: Hợp đồng hiện tại không có thông tin về phạm vi công việc/dịch vụ/hàng hóa cụ thể, do đó không thể đối chiếu với phạm vi kinh doanh thực tế của VTIT. Theo quy định mới nhất (Nghị quyết 66.17/2026/NQ-CP và Luật Đầu tư 2025), danh mục ngành nghề kinh doanh có điều kiện đã thay đổi (còn 142 ngành). Nếu hợp đồng liên quan đến các ngành nghề này hoặc thuộc danh mục hàng hóa/dịch vụ phải đăng ký hợp đồng theo mẫu (Thông tư 42/2025/TT-BCT), việc thiếu các cam kết pháp lý trong hợp đồng sẽ gây rủi ro lớn cho VTIT về tính hợp pháp của giao dịch và khả năng bị xử phạt hành chính.
+
+
+
+
+Chưa chấm
+
+🌐 6. Việc kiểm soát xuất khẩu, nhập khẩu phần mềm/hàng hóa (nếu có) có tuân thủ quy định pháp luật không?
+
+Trạng thái: Không đạt
+
+Phần liên quan trong hợp đồng: Không tìm thấy phần liên quan
+
+Đề xuất: Cần bổ sung một Điều khoản về 'Tuân thủ Xuất nhập khẩu và Sở hữu trí tuệ' vào hợp đồng, bao gồm các nội dung: (1) Cam kết của đối tác về việc hàng hóa/phần mềm cung cấp không thuộc danh mục cấm nhập khẩu theo Nghị định 292/2026/NĐ-CP và Thông tư 26/2025/TT-BKHCN; (2) Nghĩa vụ thực hiện chứng nhận hợp quy (nếu thuộc danh mục nhóm 2 theo Thông tư 29/2025/TT-BKHCN); (3) Cam kết về bản quyền phần mềm hợp pháp theo Công văn 314/BQTG-QL&HTQT và Nghị định 341/2025/TT-BKHCN; (4) Nghĩa vụ khai báo mã nhận diện hàng hóa lưỡng dụng (nếu có) theo Văn bản 19916/CHQ-GSQL; (5) Điều khoản bồi thường thiệt hại nếu VTIT bị xử phạt do vi phạm của đối tác theo Nghị định 169/2026/NĐ-CP.
+
+Lý do: Hợp đồng hiện tại không có bất kỳ điều khoản nào đề cập đến việc kiểm soát xuất nhập khẩu phần mềm/hàng hóa. Trong khi đó, khung pháp lý giai đoạn 2025-2026 đã có nhiều thay đổi quan trọng (Luật Công nghiệp công nghệ số 2025, Nghị định 292/2026/NĐ-CP, Thông tư 26/2025/TT-BKHCN, Thông tư 29/2025/TT-BKHCN, Nghị định 169/2026/NĐ-CP). Việc thiếu các cam kết này khiến VTIT đối mặt với rủi ro pháp lý cao về: (i) Nhập khẩu hàng hóa cấm hoặc hàng hóa không đạt chuẩn hợp quy; (ii) Vi phạm bản quyền phần mềm với mức phạt lên đến 3 tỷ đồng đối với pháp nhân; (iii) Rủi ro bị xử phạt hành chính do khai báo sai quy định hải quan mới (như mã hàng lưỡng dụng). Do đó, hợp đồng cần được bổ sung để bảo vệ quyền lợi và đảm bảo tuân thủ cho VTIT.
+
+
+
+
+Chưa chấm
+
+🌐 11. Giá trị hợp đồng đã bao gồm, xác định đúng thuế, thuế suất chưa?
+
+Trạng thái: Đạt
+
+Phần liên quan trong hợp đồng: "4.1. Chi phí dịch vụ triển khai ban đầu, đơn giá thuê Dịch vụ và kỳ thanh toán: được quy định chi tiết tại Phụ lục 01. Thuế suất VAT thực tế được áp dụng theo quy định tại thời điểm xuất hóa đơn. Trường hợp thay đổi thuế phí theo quy định Nhà nước, hai Bên sẽ thực hiện điều chỉnh phù hợp với quy định, đảm bảo nguyên tắc đơn giá trước thuế không vượt quá đơn giá trước thuế được quy định tại Phụ lục 01 – Đơn giá và thanh toán trong suốt quá trình thực hiện Hợp đồng. Bên B có trách nhiệm cung cấp cho Bên A các tài liệu cần thiết để phục vụ việc điều chỉnh thuế, phí."
+
+(Tại Phụ lục 01: "Giá trị Hợp đồng dự kiến... (Thuế, phí nêu trên là Thuế GTGT tạm tính, giá trị thực tế theo chính sách thuế và thông báo của CQ thuế tại thời điểm phát sinh)")
+
+Đề xuất: Mặc dù điều khoản hiện tại đã khá chặt chẽ, để tối ưu hóa bảo vệ lợi ích của VTIT và đảm bảo tính minh bạch tuyệt đối theo các quy định mới (Nghị định 174/2025/NĐ-CP), đề xuất bổ sung thêm cụm từ vào Điều 4.1: '...đảm bảo nguyên tắc đơn giá trước thuế không vượt quá đơn giá trước thuế được quy định tại Phụ lục 01. Trong trường hợp hàng hóa/dịch vụ thuộc đối tượng được giảm thuế GTGT theo chính sách của Nhà nước tại thời điểm xuất hóa đơn, Bên B có trách nhiệm áp dụng đúng mức thuế suất ưu đãi đó và thông báo bằng văn bản cho Bên A trước khi xuất hóa đơn.'
+
+Lý do: Điều khoản hiện tại của hợp đồng đã đáp ứng tốt các yêu cầu pháp lý mới nhất (năm 2026) vì: (1) Đã có cơ chế linh hoạt điều chỉnh theo quy định pháp luật tại thời điểm xuất hóa đơn, phù hợp với Nghị định 174/2025/NĐ-CP về chính sách giảm thuế GTGT (từ 10% xuống 8% cho các nhóm không thuộc loại trừ); (2) Đã bảo vệ được quyền lợi của VTIT thông qua việc khống chế 'đơn giá trước thuế' không thay đổi; (3) Việc ghi nhận 'Thuế GTGT tạm tính' tại Phụ lục 01 là phù hợp với thực tế biến động chính sách thuế (như quy định tại [2] và [3] trong kết quả tra cứu). Việc bổ sung đề xuất chỉ nhằm tăng cường tính chủ động của Bên B trong việc áp dụng đúng mức thuế suất ưu đãi (8% thay vì 10%) để tránh rủi ro cho VTIT khi hạch toán chi phí.

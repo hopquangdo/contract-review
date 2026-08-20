@@ -7,6 +7,7 @@ from __future__ import annotations
 # Mỗi bước tạo node/quan hệ là 1 câu lệnh riêng biệt, không gộp chung nhiều UNWIND trong cùng 1
 # query, để tránh nhân tích luỹ (Cartesian) giữa các UNWIND.
 
+# Tạo (hoặc bỏ qua nếu đã có) node Agreement gốc cho 1 hợp đồng.
 CREATE_AGREEMENT = """
 MERGE (agreement:Agreement {contract_id: $contract_id})
 ON CREATE SET agreement.name = $contract_name, agreement.source_filename = $source_filename
@@ -21,6 +22,7 @@ SET agreement.build_input_tokens = $input_tokens,
     agreement.build_cost_usd = $cost_usd
 """
 
+# Tạo các bên tham gia hợp đồng (Organization) và quan hệ HAS_PARTY kèm vai trò.
 CREATE_PARTIES = """
 MATCH (agreement:Agreement {contract_id: $contract_id})
 UNWIND $parties AS p
@@ -30,6 +32,7 @@ MERGE (agreement)-[hp:HAS_PARTY]->(org)
 SET hp.role = p.role
 """
 
+# Tạo node luật áp dụng (GoverningLaw) và quan hệ GOVERNED_BY từ Agreement.
 CREATE_GOVERNING_LAW = """
 MATCH (agreement:Agreement {contract_id: $contract_id})
 MERGE (gl:GoverningLaw {uid: toString($contract_id) + ':governing_law'})
@@ -37,6 +40,7 @@ SET gl.agreement_id = $contract_id, gl.country = $governing_law.country, gl.stat
 MERGE (agreement)-[:GOVERNED_BY]->(gl)
 """
 
+# Tạo node phương thức giải quyết tranh chấp (DisputeResolution) và quan hệ HAS_DISPUTE_RULE.
 CREATE_DISPUTE_RESOLUTION = """
 MATCH (agreement:Agreement {contract_id: $contract_id})
 MERGE (dr:DisputeResolution {uid: toString($contract_id) + ':dispute_resolution'})
@@ -44,6 +48,7 @@ SET dr.agreement_id = $contract_id, dr.method = $dispute_resolution.method, dr.v
 MERGE (agreement)-[:HAS_DISPUTE_RULE]->(dr)
 """
 
+# Tạo các node Section và quan hệ HAS_SECTION từ Agreement.
 CREATE_SECTIONS = """
 MATCH (agreement:Agreement {contract_id: $contract_id})
 UNWIND $sections AS s
@@ -58,6 +63,7 @@ MATCH (section:Section {number: cl.section_number, agreement_id: $contract_id})
 MERGE (clause:Clause {uid: toString($contract_id) + ':' + cl.number})
 SET clause.number = cl.number, clause.agreement_id = $contract_id,
     clause.title = cl.title, clause.text = cl.text, clause.is_preamble = cl.is_preamble,
+    clause.is_appendix = cl.is_appendix,
     clause.article_number = cl.article_number, clause.article_title = cl.article_title
 MERGE (section)-[:HAS_CLAUSE]->(clause)
 MERGE (ct:ClauseType {uid: toString($contract_id) + ':' + cl.clause_type})
@@ -112,12 +118,13 @@ MATCH (e:Excerpt {uid: row.uid})
 SET e.embedding = row.embedding
 """
 
-CLEAR_GRAPH = "MATCH (n) DETACH DELETE n"
 
+# Xoá mọi node của riêng 1 hợp đồng (theo agreement_id, hoặc contract_id cho chính node Agreement).
 DELETE_CONTRACT = """
 MATCH (n) WHERE n.agreement_id = $contract_id OR n.contract_id = $contract_id DETACH DELETE n
 """
 
+# Số hiệu hợp đồng kế tiếp, dùng khi import 1 hợp đồng mới.
 NEXT_CONTRACT_ID = "MATCH (a:Agreement) RETURN coalesce(max(a.contract_id), 0) + 1 AS next_id"
 
 
@@ -164,15 +171,7 @@ GET_CLAUSES_INFO = """
 UNWIND $numbers AS num
 MATCH (c:Clause {agreement_id: $contract_id, number: num})
 RETURN c.number AS number, c.title AS title, c.article_number AS article_number,
-       c.article_title AS article_title
-"""
-
-# Toàn bộ Clause thuộc 1 hoặc nhiều Điều (article_number) - dùng cho chiến lược mở rộng "kéo
-# theo cả Điều" (xem rag/retrieval/expansion.py) khi 1 Khoản khớp câu hỏi.
-GET_SIBLING_CLAUSE_NUMBERS = """
-UNWIND $article_numbers AS art
-MATCH (c:Clause {agreement_id: $contract_id, article_number: art, is_preamble: false})
-RETURN c.number AS number
+       c.article_title AS article_title, coalesce(c.is_appendix, false) AS is_appendix
 """
 
 # Metadata cấp Hợp đồng (luật áp dụng, phương thức giải quyết tranh chấp) - luôn đính kèm context
@@ -191,12 +190,18 @@ RETURN gl.country AS governing_law_country, gl.state AS governing_law_state,
 # EXCEPTION_TO - tạo trong CREATE_CLAUSE_RELATIONS) - không phân biệt chiều quan hệ (match cả 2
 # hướng "-[r]-") vì cả 2 phía đều là ngữ cảnh hữu ích khi 1 trong 2 đã khớp câu hỏi. Dùng cho
 # query-aware expansion (xem rag/retrieval/expansion.py::expand_by_relations) - chỉ chạy với tập
-# relation_types phù hợp với loại câu hỏi, không lấy tất cả mọi loại quan hệ tràn lan.
+# relation_types phù hợp với loại câu hỏi, không lấy tất cả mọi loại quan hệ tràn lan. Đi CẢ 2
+# CHIỀU (-[r]-, không phân biệt hướng) - 1 Khoản vừa khớp có thể là NGUỒN (nó dẫn chiếu tới Khoản
+# khác) hoặc ĐÍCH (Khoản khác đang phụ thuộc/dẫn chiếu tới NÓ) của quan hệ, cả 2 chiều đều là ngữ
+# cảnh cần thiết. "from_number"/"to_number" trả về theo ĐÚNG chiều lưu trong Neo4j (startNode/
+# endNode, không phải chiều truy vấn) - dùng để dựng cây "evidences" đúng hướng thật (xem
+# rag/retrieval/vector_retriever.py) dù việc TÌM ra cạnh này là không phân biệt chiều.
 GET_RELATED_CLAUSE_NUMBERS = """
 UNWIND $numbers AS num
 MATCH (c:Clause {agreement_id: $contract_id, number: num})-[r]-(other:Clause {agreement_id: $contract_id})
 WHERE type(r) IN $relation_types
-RETURN DISTINCT other.number AS number
+RETURN DISTINCT other.number AS number, startNode(r).number AS from_number, endNode(r).number AS to_number,
+       type(r) AS relation_type
 """
 
 # Clause ĐỊNH NGHĨA (DEFINES) các thuật ngữ mà 1 tập Clause đã chọn có SỬ DỤNG (USES_TERM) - kéo
@@ -205,12 +210,13 @@ RETURN DISTINCT other.number AS number
 GET_CLAUSES_DEFINING_USED_TERMS = """
 UNWIND $numbers AS num
 MATCH (c:Clause {agreement_id: $contract_id, number: num})-[:USES_TERM]->(def:Definition)<-[:DEFINES]-(source:Clause)
-RETURN DISTINCT source.number AS number
+RETURN DISTINCT source.number AS number, num AS from_number, def.term AS term
 """
 
 
 # ─────────────────────────── services/contract_service.py ───────────────────────────
 
+# Thông tin trạng thái 1 hợp đồng (tên, file gốc, số lượng Clause) để hiển thị UI.
 GET_CONTRACT_STATUS = """
 MATCH (a:Agreement {contract_id: $id})
 OPTIONAL MATCH (a)-[:HAS_SECTION]->(:Section)-[:HAS_CLAUSE]->(c:Clause)
@@ -218,10 +224,40 @@ RETURN a.contract_id AS contract_id, a.name AS name, a.source_filename AS source
        count(c) AS n_clauses
 """
 
+# Danh sách toàn bộ hợp đồng đã import, kèm số lượng Clause, sắp theo contract_id.
 LIST_CONTRACTS = """
 MATCH (a:Agreement)
 OPTIONAL MATCH (a)-[:HAS_SECTION]->(:Section)-[:HAS_CLAUSE]->(c:Clause)
 RETURN a.contract_id AS contract_id, a.name AS name, a.source_filename AS source_filename,
        count(c) AS n_clauses
 ORDER BY a.contract_id
+"""
+
+
+# ─────────────────────────── rag/retrieval.py::Retrieval.find_similar_clauses ───────────────────────────
+
+# Text + tên ClauseType (nếu có) của 1 Clause nguồn - dùng làm input để embed khi tìm Clause tương
+# tự ở CÁC hợp đồng khác (xem FIND_SIMILAR_CLAUSES_CROSS_CONTRACT).
+GET_CLAUSE_TEXT_AND_TYPE = """
+MATCH (c:Clause {agreement_id: $contract_id, number: $number})
+OPTIONAL MATCH (c)-[:HAS_TYPE]->(ct:ClauseType)
+RETURN c.text AS text, ct.name AS clause_type
+"""
+
+# Tìm Clause tương tự ở CÁC hợp đồng KHÁC hợp đồng nguồn, dùng thẳng
+# db.index.vector.queryNodes (KHÔNG dùng Neo4jVector.similarity_search... vì filter của langchain
+# chỉ hỗ trợ so khớp bằng, không hỗ trợ "<>" để loại trừ hợp đồng nguồn). Overfetch $top_k lớn hơn
+# nhu cầu thật (1 Clause có thể có nhiều Excerpt cùng lọt top match) - phần gọi (find_similar_clauses)
+# tự dedupe theo Clause rồi cắt còn đúng số lượng cần.
+FIND_SIMILAR_CLAUSES_CROSS_CONTRACT = """
+CALL db.index.vector.queryNodes('excerpt_embedding', $top_k, $vector) YIELD node, score
+MATCH (node)<-[:HAS_EXCERPT]-(clause:Clause)
+WHERE clause.agreement_id <> $exclude_contract_id
+  AND ($clause_type IS NULL OR EXISTS {
+        MATCH (clause)-[:HAS_TYPE]->(ct:ClauseType) WHERE ct.name = $clause_type
+      })
+MATCH (agreement:Agreement {contract_id: clause.agreement_id})
+RETURN clause.number AS number, clause.title AS title, clause.agreement_id AS contract_id,
+       agreement.name AS contract_name, clause.text AS text, score
+ORDER BY score DESC
 """

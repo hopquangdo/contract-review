@@ -55,20 +55,65 @@ export interface ClauseGroup {
   text: string;
 }
 
+// Cây quan hệ đồ thị đã dẫn từ 1 Clause khớp trực tiếp (root) tới các Clause được kéo theo qua
+// REFERS_TO/DEPENDS_ON/EXCEPTION_TO/REFERS_TO_APPENDIX - khớp đúng hình dạng dict thật trả về từ
+// rag/context/citation.py::build_evidences (xem schema/evidence.py).
+export interface EvidenceNode {
+  number: string;
+  title: string;
+  is_appendix: boolean;
+  matched: boolean;
+  score: number | null;
+  content: string;
+  relation?: string; // chỉ node con mới có - loại quan hệ dẫn từ node cha tới nó
+  children: EvidenceNode[];
+}
+
+export interface Evidence {
+  root: EvidenceNode;
+  chain: EvidenceNode[];
+}
+
 export interface UsageInfo {
   input_tokens: number;
   output_tokens: number;
+  cached_input_tokens?: number;
   cost_usd: number | null;
   duration_seconds?: number;
 }
 
+// 1 Điều/Khoản dùng làm căn cứ trực tiếp cho kết luận - LLM chỉ trả số hiệu (evidence_clause_numbers,
+// tiết kiệm token output), backend tự tra ngược nội dung đầy đủ (xem checklist/evaluator.py::
+// resolve_evidence_clauses). Mỗi phần tử hiển thị 1 dòng ở "Căn cứ".
+export interface EvidenceClause {
+  number: string;
+  title: string;
+  text: string;
+  article_number: string;
+  article_title: string;
+  is_appendix: boolean;
+}
+
+// Điều khoản tương tự nội dung tìm được ở HỢP ĐỒNG KHÁC (vector search, xem GET /api/similar-clauses)
+// - dùng để reviewer tham khảo cách viết lại 1 Điều đã bị đánh "Fail".
+export interface SimilarClause {
+  contract_id: number;
+  contract_name: string;
+  number: string;
+  title: string;
+  text: string;
+  score: number;
+}
+
 export interface SingleAnswer {
   status: string;
-  evidence: string;
+  evidence_clauses: EvidenceClause[];
   reasoning: string;
-  recommendation: string;
+  recommendation: string[]; // mỗi phần tử là 1 ý chỉnh sửa độc lập - xem checklist/models.py::ClauseEvaluation.proposal
   confidence: number;
+  verification_units: VerificationUnit[];
   clauses: ClauseGroup[];
+  evidences: Evidence[];
   usage: UsageInfo;
 }
 
@@ -88,15 +133,26 @@ export interface ChecklistInput {
   items: ChecklistInputItem[];
 }
 
+// 1 đơn vị xác minh riêng biệt trong pass_criteria/violation_criteria/note - khớp đúng
+// checklist/models.py::VerificationUnit.
+export interface VerificationUnit {
+  requirement: string;
+  result: "met" | "not_met" | "not_applicable";
+  basis: string;
+}
+
 export interface ChecklistEvaluation {
   item_id: string;
   category: string;
   question: string;
   status: "pass" | "fail";
-  evidence: string;
+  evidence_clauses: EvidenceClause[];
   reason: string;
   proposal: string;
+  confidence: number;
+  verification_units: VerificationUnit[];
   cited_clauses: ClauseGroup[];
+  evidences: Evidence[];
 }
 
 export interface ChecklistReport {
@@ -110,6 +166,31 @@ export type TraceEvent =
   | { step: "retrieval"; n_clauses: number; articles: { article_number: string; article_title: string }[] }
   | (SingleAnswer & { step: "evaluate" })
   | { step: "error"; message: string };
+
+// Node/edge phẳng của TOÀN BỘ graph 1 hợp đồng - khớp đúng knowledge_graph/graph_export.py
+// (khác Evidence[] - vốn chỉ phủ 1 câu hỏi retrieval cụ thể).
+export type FullGraphNodeType = "Contract" | "Section" | "Clause" | "Appendix" | "Party" | "GoverningLaw" | "DisputeResolution";
+
+export interface FullGraphNode {
+  id: string;
+  type: FullGraphNodeType;
+  label: string;
+  number?: string;
+  role?: string;
+}
+
+export interface FullGraphEdge {
+  source: string;
+  target: string;
+  relation: string;
+}
+
+export interface FullGraphResponse {
+  contract_id: number;
+  contract_name: string;
+  nodes: FullGraphNode[];
+  edges: FullGraphEdge[];
+}
 
 export interface ContextPayload {
   pass_criteria?: string;

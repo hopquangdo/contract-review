@@ -1,0 +1,161 @@
+# Regex TOC - HĐ TOSS v 12.5.2026.parsed.md
+Tổng số Clause tách được: 141
+
+[preamble] Thông tin chung và các bên tham gia hợp đồng
+
+== Section 1. Toàn bộ hợp đồng ==
+Điều 0 Thông tin chung và các bên tham gia hợp đồng
+Điều 1. ĐỐI TƯỢNG CỦA HỢP ĐỒNG
+  Khoản 1.1
+  Khoản 1.2
+    Khoản 1.2.1
+    Khoản 1.2.2
+Điều 2. THÀNH PHẦN HỢP ĐỒNG
+  Khoản 2.1
+    Khoản 2.1.1
+    Khoản 2.1.2
+    Khoản 2.1.3
+    Khoản 2.1.4
+    Khoản 2.1.5
+  Khoản 2.2
+  Khoản 2.3
+  Khoản 2.4
+  Khoản 2.5
+  Khoản 2.6
+Điều 3. TRIỂN KHAI HỢP ĐỒNG
+  Khoản 3.1
+  Khoản 3.2
+  Khoản 3.3
+    Khoản 3.3.1
+    Khoản 3.3.2
+    Khoản 3.3.3
+Điều 4. ĐƠN GIÁ, THỜI HẠN VÀ PHƯƠNG THỨC THANH TOÁN
+  Khoản 4.1
+  Khoản 4.2
+  Khoản 4.3
+    Khoản 4.3.1
+    Khoản 4.3.2
+    Khoản 4.3.3
+          Khoản 4.3.3.4.3.4
+          Khoản 4.3.4.4.3.5
+  Khoản 4.4
+  Khoản 4.5
+  Khoản 4.6
+  Khoản 4.8
+Điều 5. BẢN QUYỀN VÀ SỞ HỮU TRÍ TUỆ
+  Khoản 5.1
+  Khoản 5.2
+  Khoản 5.3
+  Khoản 5.4
+  Khoản 5.5
+Điều 6. QUYỀN VÀ NGHĨA VỤ CỦA BÊN A
+  Khoản 6.1
+  Khoản 6.2
+  Khoản 6.3
+  Khoản 6.4
+  Khoản 6.5
+Điều 7. QUYỀN VÀ NGHĨA VỤ CỦA BÊN B
+  Khoản 7.1
+  Khoản 7.2
+  Khoản 7.3
+  Khoản 7.4
+  Khoản 7.5
+  Khoản 7.6
+  Khoản 7.7
+  Khoản 7.8
+  Khoản 7.9
+  Khoản 7.10
+Điều 8. CAM KẾT VỀ CHẤT LƯỢNG DỊCH VỤ
+  Khoản 8.1
+  Khoản 8.2
+    Khoản 8.2.1
+    Khoản 8.2.2
+    Khoản 8.2.3
+  Khoản 8.3
+    Khoản 8.3.1
+    Khoản 8.3.2
+    Khoản 8.3.3
+Điều 9. GIẢM TRỪ DỊCH VỤ
+  Khoản 9.1
+  Khoản 9.2
+    Khoản 9.2.1
+    Khoản 9.2.2
+  Khoản 9.3
+    Khoản 9.3.1
+    Khoản 9.3.2
+    Khoản 9.3.3
+    Khoản 9.3.4
+  Khoản 9.6
+Điều 10. PHẠT VI PHẠM HỢP ĐỒNG
+  Khoản 10.1
+  Khoản 10.2
+  Khoản 10.3
+  Khoản 10.4
+  Khoản 10.5
+Điều 11. BẤT KHẢ KHÁNG VÀ TRỞ NGẠI KHÁCH QUAN
+  Khoản 11.1
+  Khoản 11.2
+  Khoản 11.3
+  Khoản 11.4
+  Khoản 11.5
+  Khoản 11.6
+Điều 12. CHẤM DỨT HỢP ĐỒNG
+  Khoản 12.1
+    Khoản 12.1.1
+    Khoản 12.1.2
+    Khoản 12.1.3
+    Khoản 12.1.4
+    Khoản 12.1.5
+  Khoản 12.2
+  Khoản 12.3
+  Khoản 12.4
+  Khoản 12.5
+  Khoản 12.6
+Điều 13. GIẢI QUYẾT TRANH CHẤP
+  Khoản 13.1
+  Khoản 13.2
+  Khoản 13.3
+Điều 14 BẢO MẬT THÔNG TIN
+Điều 15. CÁC ĐIỀU KHOẢN KHÁC
+  Khoản 15.1
+  Khoản 15.2
+  Khoản 15.3
+  Khoản 15.4
+  Khoản 15.5
+  Khoản 15.6
+  Khoản 15.7
+Điều PL02 [appendix]
+  Khoản PL02.1 [appendix] YÊU CẦU KỸ THUẬT
+  Khoản PL02.2 [appendix] A. Tiêu chí kỹ thuật
+  Khoản PL02.3 [appendix] 1. Yêu cầu chung
+  Khoản PL02.4 [appendix] 2. Tích hợp dữ liệu và quản lý danh mục
+  Khoản PL02.5 [appendix] 3. Thông tin điều hành chuyến bay
+  Khoản PL02.6 [appendix] 4. Quản lý tài liệu chuyến bay
+  Khoản PL02.7 [appendix] 5. Quản lý, báo cáo đánh giá tối ưu khai thác
+  Khoản PL02.8 [appendix] B. Bàn giao tài liệu kỹ thuật và hướng dẫn sử dụng
+  Khoản PL02.9 [appendix] C. Triển khai đào tạo
+  Khoản PL02.10 [appendix] D. Dịch vụ đảm bảo hoạt động
+  Khoản PL02.11 [appendix] E. Nâng cấp hệ thống
+Điều PL03 [appendix]
+  Khoản PL03.1 [appendix] BẢO MẬT THÔNG TIN VÀ XỬ LÝ DỮ LIỆU CÁ NHÂN
+  Khoản PL03.2 [appendix] ĐIỀU 1: ĐỊNH NGHĨA
+  Khoản PL03.3 [appendix] 1.1. Thông Tin
+  Khoản PL03.4 [appendix] 1.2. Dữ liệu cá nhân
+  Khoản PL03.5 [appendix] ĐIỀU 2: BẢO MẬT THÔNG TIN
+  Khoản PL03.6 [appendix] ĐIỀU 3: XỬ LÝ DỮ LIỆU CÁ NHÂN
+  Khoản PL03.7 [appendix] ĐIỀU 4: ĐIỀU KHOẢN CHUNG
+Điều PL04 [appendix] KẾ HOẠCH TRIỂN KHAI
+  Khoản PL04.1 [appendix] I. Thời gian triển khai
+  Khoản PL04.2 [appendix] II. Thời gian đánh giá ANTT
+Điều PL05 [appendix]
+  Khoản PL05.1 [appendix] CÁC MẪU BIỂU
+  Khoản PL05.2 [appendix] Mẫu số 1: MẪU BIÊN BẢN NGHIỆM THU KỸ THUẬT
+  Khoản PL05.3 [appendix] BÊN A:  TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP
+  Khoản PL05.4 [appendix] 1. Chức năng phần mềm:
+  Khoản PL05.5 [appendix] Mẫu số 2: MẪU BIÊN BẢN NGHIỆM THU ĐÀO TẠO
+  Khoản PL05.6 [appendix] BÊN A:  TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP
+  Khoản PL05.7 [appendix] 1. Nội dung đào tạo chi tiết
+  Khoản PL05.8 [appendix] 2. Kết luận:
+  Khoản PL05.9 [appendix] Mẫu số 3: BIÊN BẢN NGHIỆM THU TỔNG THỂ BIÊN BẢN NGHIỆM THU TỔNG THỂ
+  Khoản PL05.10 [appendix] Căn cứ:
+  Khoản PL05.11 [appendix] 4. Kết luận:

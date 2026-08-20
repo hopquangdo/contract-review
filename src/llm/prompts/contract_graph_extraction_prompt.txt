@@ -31,6 +31,7 @@ liệt kê ngoại lệ hay điều kiện dài) rồi xác định:
   hợp đồng", "Khác". Chọn "Khác" nếu không có mục nào phù hợp.
 - refers_to / depends_on / exception_to: xem mục "PHẠM VI QUAN HỆ CHÉO" bên dưới - đây là phần dễ
   bị bỏ sót hoặc lấy sai phạm vi nhất, đọc kỹ trước khi điền.
+- appendix_refs: xem mục "THAM CHIẾU TỚI PHỤ LỤC" riêng bên dưới - KHÔNG gộp chung vào refers_to.
 - definitions: nếu đơn vị này định nghĩa thuật ngữ (thường thuộc Điều/Khoản về "Định nghĩa" hoặc
   có câu "được hiểu là", "có nghĩa là"), liệt kê từng cặp {term, definition}. QUAN TRỌNG - term chỉ
   ghi TÊN THUẬT NGỮ ĐÃ CHUẨN HOÁ: KHÔNG kèm dấu nháy đơn bao quanh, KHÔNG kèm phần tiếng Anh trong
@@ -58,9 +59,15 @@ QUAN TRỌNG - chỉ điền 3 trường này khi đích là 1 ĐIỀU/KHOẢN K
 số hiệu dạng "x" hoặc "x.y" trùng với 1 đơn vị trong danh sách đầu vào). KHÔNG liệt kê khi câu văn
 chỉ nhắc tới:
 - Chính "Hợp đồng" này nói chung (tự tham chiếu, không trỏ tới 1 Điều/Khoản cụ thể nào khác)
-- Phụ lục, Biên bản (HOC/PAC/FAC), Phiếu giao việc, Danh sách công việc, hay bất kỳ tài liệu nào
-  khác ngoài phạm vi các Điều/Khoản trong danh sách đầu vào - những tài liệu này KHÔNG có số hiệu
-  Điều/Khoản nên không phải đích hợp lệ.
+- Biên bản (HOC/PAC/FAC), Phiếu giao việc, Danh sách công việc, hay bất kỳ tài liệu nào khác ngoài
+  phạm vi các Điều/Khoản/Phụ lục trong danh sách đầu vào - những tài liệu này KHÔNG có số hiệu
+  trong danh sách nên không phải đích hợp lệ.
+- Phụ lục - KHÔNG điền vào refers_to/depends_on/exception_to dù Phụ lục có số hiệu hợp lệ trong
+  danh sách đầu vào. Tham chiếu tới Phụ lục LUÔN đi vào trường appendix_refs riêng - xem mục
+  "THAM CHIẾU TỚI PHỤ LỤC" bên dưới. Số hiệu Phụ lục LUÔN có tiền tố "PL" (vd "PL02", "PL03.1") -
+  TRƯỚC KHI hoàn tất refers_to/depends_on/exception_to của 1 đơn vị, tự kiểm tra lại: nếu danh sách
+  đó còn chứa bất kỳ số hiệu nào bắt đầu bằng "PL", phải CHUYỂN số hiệu đó sang appendix_refs và
+  xoá khỏi refers_to/depends_on/exception_to - không được để trùng ở cả 2 nơi.
 
 Định nghĩa từng loại:
 - refers_to: danh sách SỐ HIỆU các Điều/Khoản khác mà đơn vị này TRÍCH DẪN/THAM CHIẾU TRỰC TIẾP
@@ -75,6 +82,21 @@ chỉ nhắc tới:
   dụng của Điều/Khoản đó (ví dụ văn bản có câu "trừ trường hợp quy định tại Điều 8" thì exception_to
   chứa "8").
 
+## THAM CHIẾU TỚI PHỤ LỤC (appendix_refs)
+
+Phụ lục xuất hiện trong danh sách đầu vào với nhãn "[Phụ lục PL<nhãn>. Tiêu đề]" cho Clause GỐC đại
+diện cả Phụ lục, và "[Phụ lục PL<nhãn>.<số>. Tiêu đề mục con]" cho từng mục con bên trong Phụ lục đó
+(nếu Phụ lục có tách mục con). Khi văn bản 1 đơn vị tham chiếu tới Phụ lục, điền vào appendix_refs
+theo 2 trường hợp:
+
+- **Tham chiếu CHUNG CHUNG** (chỉ nói "xem Phụ lục X", "theo Phụ lục X", không nêu rõ mục nào bên
+  trong) → ghi số hiệu Clause GỐC của Phụ lục đó (dạng "PL<nhãn>", KHÔNG có phần ".<số>").
+- **Tham chiếu CỤ THỂ** (nêu rõ tên 1 mục con bên trong Phụ lục - có thể gọi là "Điều", "Mục",
+  "Phần", "Bảng"... tuỳ cách hợp đồng đặt tên, miễn khớp đúng 1 tiêu đề mục con đã liệt kê trong
+  danh sách đầu vào) → ghi số hiệu Clause con đó (dạng "PL<nhãn>.<số>"), KHÔNG ghi số hiệu gốc.
+  KHÔNG giới hạn chỉ nhận diện từ "Điều" - mục con có thể mang bất kỳ tên gọi nào, quan trọng là
+  tiêu đề trong câu văn khớp đúng tiêu đề 1 Clause con đã cho.
+
 ## VÍ DỤ (few-shot)
 
 Ví dụ 1 - refers_to đúng, kể cả khi tham chiếu nằm GIỮA câu dài, không phải đầu câu:
@@ -83,10 +105,24 @@ Ví dụ 1 - refers_to đúng, kể cả khi tham chiếu nằm GIỮA câu dài
 → refers_to: ["10.1"] hoặc ["11"] tuỳ mức độ chi tiết câu văn nêu (ở đây câu nêu "khoản 10.1" cụ
 thể, nên ưu tiên "10.1" - KHÔNG bỏ qua chỉ vì tham chiếu này nằm ở cuối 1 câu liệt kê dài).
 
-Ví dụ 2 - KHÔNG điền vì đích không phải Điều/Khoản:
+Ví dụ 2a - KHÔNG điền vì đích không có số hiệu trong danh sách đầu vào:
 Đơn vị "[Khoản 6.4]" có câu: "Ngoài quy định tại Điều này, Các Bên cam kết tuyệt đối tuân thủ các
-quy định bảo mật chung như Phụ lục 02 của Hợp đồng này."
-→ refers_to: [] (KHÔNG ghi "Phụ lục 02" - đây không phải số hiệu Điều/Khoản trong danh sách đầu vào).
+quy định bảo mật chung như Biên bản nghiệm thu của Hợp đồng này."
+→ refers_to: [] (KHÔNG ghi gì - "Biên bản nghiệm thu" không có số hiệu trong danh sách đầu vào).
+
+Ví dụ 2b - Tham chiếu CHUNG CHUNG tới Phụ lục -> appendix_refs, KHÔNG phải refers_to:
+Đơn vị "[Khoản 6.4]" có câu: "Ngoài quy định tại Điều này, Các Bên cam kết tuyệt đối tuân thủ các
+quy định bảo mật chung như Phụ lục 02 của Hợp đồng này." (giả sử danh sách đầu vào CÓ đơn vị
+"[Phụ lục PL02. ...]")
+→ refers_to: [] , appendix_refs: ["PL02"] (không nêu rõ mục nào bên trong Phụ lục -> trỏ vào số
+hiệu Clause GỐC "PL02", KHÔNG phải "02" hay "Phụ lục 02").
+
+Ví dụ 2c - Tham chiếu CỤ THỂ tới 1 mục con bên trong Phụ lục:
+Đơn vị "[Điều 14. Bảo mật thông tin]" có câu: "Việc xử lý dữ liệu cá nhân của Khách hàng được thực
+hiện theo đúng quy định tại Điều 3 của Phụ lục 03." (giả sử danh sách đầu vào CÓ đơn vị
+"[Phụ lục PL03.3. Xử lý dữ liệu cá nhân]" - 1 mục con cụ thể bên trong Phụ lục 03)
+→ appendix_refs: ["PL03.3"] (nêu rõ "Điều 3 của Phụ lục 03" khớp đúng tiêu đề mục con "Xử lý dữ
+liệu cá nhân" -> trỏ THẲNG vào mục con đó, KHÔNG trỏ vào "PL03" gốc).
 
 Ví dụ 3 - exception_to:
 Đơn vị "[Khoản 8.4]" có câu: "Trừ quy định tại khoản 9.5 Điều này, Bên bị ảnh hưởng... sẽ không bị

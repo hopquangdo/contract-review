@@ -1,0 +1,537 @@
+{
+  "contract_id": 4,
+  "model": "BACKUP truoc khi doi model - xem .env luc build (gpt-4.1-mini hoac tuong duong)",
+  "n_clauses": 130,
+  "edges": [
+    {
+      "f": "1.1",
+      "t": "PL02",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "1.2.1",
+      "t": "1.2",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "1.2.2",
+      "t": "1.2",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "10.1",
+      "t": "3.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "10.2",
+      "t": "10.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "10.2",
+      "t": "10.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "10.3",
+      "t": "6.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "10.3",
+      "t": "6.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "10.5",
+      "t": "10.4",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "10.5",
+      "t": "10.4",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "12.1.1",
+      "t": "12.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.1.2",
+      "t": "12.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.1.3",
+      "t": "12.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.1.4",
+      "t": "12.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.1.5",
+      "t": "12.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.2",
+      "t": "12.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.2",
+      "t": "12.1.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "12.2",
+      "t": "12.1.2",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "12.2",
+      "t": "12.1.5",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "12.2",
+      "t": "12.2",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.3",
+      "t": "12.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.3",
+      "t": "12.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "12.3",
+      "t": "12.1.3",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "12.3",
+      "t": "12.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.4",
+      "t": "12.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.4",
+      "t": "12.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "12.4",
+      "t": "12.1.4",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "12.4",
+      "t": "12.4",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "12.5",
+      "t": "12.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "12.5",
+      "t": "12.5",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "13.2",
+      "t": "13.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "13.3",
+      "t": "13.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "13.3",
+      "t": "13.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "13.3",
+      "t": "13.2",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "13.3",
+      "t": "13.2",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "14",
+      "t": "PL03",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "15.5",
+      "t": "1.2",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "15.5",
+      "t": "4.6",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "15.6",
+      "t": "0",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "2.1",
+      "t": "PL02",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "2.1",
+      "t": "PL03",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "2.1",
+      "t": "PL04",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "2.1",
+      "t": "PL05",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "2.1.2",
+      "t": "PL02",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "2.1.3",
+      "t": "PL03",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "2.1.4",
+      "t": "PL04",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "2.1.5",
+      "t": "PL05",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "3.1",
+      "t": "PL02",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "3.2",
+      "t": "3.1",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "3.2",
+      "t": "3.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "3.3.1",
+      "t": "3.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "3.3.1",
+      "t": "PL04",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "3.3.3",
+      "t": "3.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "3.3.3",
+      "t": "PL05",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "4.2",
+      "t": "1.2.2",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "4.3.1",
+      "t": "4.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "4.3.2",
+      "t": "4.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "4.3.3",
+      "t": "4.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "4.3.3.4.3.4",
+      "t": "3.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "4.3.3.4.3.4",
+      "t": "4.3.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "4.3.3.4.3.4",
+      "t": "4.3.3",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "4.3.4.4.3.5",
+      "t": "3.3.1",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "4.3.4.4.3.5",
+      "t": "4.3.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "4.5",
+      "t": "1.2",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "4.5",
+      "t": "PL02",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "4.6",
+      "t": "1.2",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "5.5",
+      "t": "7.9",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "6.2",
+      "t": "3.3",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "6.3",
+      "t": "3.3",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "6.4",
+      "t": "3.3",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "7.1",
+      "t": "PL02",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "7.3",
+      "t": "PL02",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "7.4",
+      "t": "3.3",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "7.5",
+      "t": "3.3",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "7.6",
+      "t": "3.3",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "7.8",
+      "t": "4.5",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "7.8",
+      "t": "PL02",
+      "rel": "REFERS_TO_APPENDIX"
+    },
+    {
+      "f": "8.1",
+      "t": "8.2",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "8.3",
+      "t": "8.2",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "8.3.1",
+      "t": "8.2",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "8.3.1",
+      "t": "8.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "8.3.2",
+      "t": "8.2",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "8.3.2",
+      "t": "8.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "8.3.3",
+      "t": "8.2",
+      "rel": "REFERS_TO"
+    },
+    {
+      "f": "8.3.3",
+      "t": "8.3",
+      "rel": "DEPENDS_ON"
+    },
+    {
+      "f": "9",
+      "t": "8.1",
+      "rel": "REFERS_TO"
+    }
+  ],
+  "defines": [
+    {
+      "clause": "1.2.2",
+      "term": "Ngày đưa vào vận hành"
+    },
+    {
+      "clause": "11.1",
+      "term": "Bất Khả Kháng"
+    },
+    {
+      "clause": "11.2",
+      "term": "Trở ngại khách quan"
+    },
+    {
+      "clause": "4.5",
+      "term": "Yêu cầu thay đổi (CR)"
+    },
+    {
+      "clause": "4.6",
+      "term": "Chi phí phần mềm"
+    },
+    {
+      "clause": "8.2",
+      "term": "Cấp độ 1"
+    },
+    {
+      "clause": "8.2",
+      "term": "Cấp độ 2"
+    },
+    {
+      "clause": "8.2",
+      "term": "Cấp độ 3"
+    }
+  ],
+  "uses_term": [
+    {
+      "clause": "11.3",
+      "term": "Bất Khả Kháng"
+    },
+    {
+      "clause": "11.3",
+      "term": "Trở ngại khách quan"
+    },
+    {
+      "clause": "11.4",
+      "term": "Bất Khả Kháng"
+    },
+    {
+      "clause": "11.4",
+      "term": "Trở ngại khách quan"
+    },
+    {
+      "clause": "11.5",
+      "term": "Trở ngại khách quan"
+    },
+    {
+      "clause": "11.5",
+      "term": "Bất Khả Kháng"
+    },
+    {
+      "clause": "11.6",
+      "term": "Bất Khả Kháng"
+    },
+    {
+      "clause": "11.6",
+      "term": "Trở ngại khách quan"
+    },
+    {
+      "clause": "15.5",
+      "term": "Chi phí phần mềm"
+    },
+    {
+      "clause": "4.2",
+      "term": "Ngày đưa vào vận hành"
+    },
+    {
+      "clause": "8.3",
+      "term": "Cấp độ 3"
+    },
+    {
+      "clause": "8.3",
+      "term": "Cấp độ 2"
+    },
+    {
+      "clause": "8.3",
+      "term": "Cấp độ 1"
+    },
+    {
+      "clause": "8.3.1",
+      "term": "Cấp độ 1"
+    },
+    {
+      "clause": "8.3.2",
+      "term": "Cấp độ 2"
+    },
+    {
+      "clause": "8.3.3",
+      "term": "Cấp độ 3"
+    }
+  ]
+}

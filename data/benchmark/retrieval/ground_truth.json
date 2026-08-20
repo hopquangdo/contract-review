@@ -1,0 +1,1675 @@
+{
+  "benchmarks": [
+    {
+      "name": "bm01",
+      "contract_id": 1,
+      "contract_file": "BM 01 - Hop dong cung cap dich vu phat trien phan mem.md",
+      "items": [
+        {
+          "query": "Ai là người đại diện ký hợp đồng của mỗi bên và chức vụ là gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "0",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Địa chỉ và mã số thuế của Khách hàng và của VTIT là gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "0",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Tổng giá trị hợp đồng là bao nhiêu tiền",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Đơn giá và khối lượng nhân công cho từng hạng mục phần mềm được tính như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Khách hàng phải tạm ứng bao nhiêu phần trăm giá trị hợp đồng và trong thời hạn nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15.3",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Các đợt thanh toán được chia như thế nào, thanh toán sau khi ký biên bản nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15.3",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Nếu khách hàng chậm thanh toán thì lãi phạt chậm trả tính theo tỷ lệ bao nhiêu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15.4",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Hình thức thanh toán và thông tin tài khoản ngân hàng nhận tiền của VTIT",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15.2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Mức phạt vi phạm hợp đồng tối đa là bao nhiêu phần trăm giá trị hợp đồng",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "11.2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Mức phạt khi VTIT chậm tiến độ bàn giao công việc do lỗi của mình là bao nhiêu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "11.2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Nếu một bên tự ý đơn phương chấm dứt hợp đồng trái quy định thì bị phạt bao nhiêu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "11.2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "VTIT có phải bồi thường thiệt hại gián tiếp như mất lợi nhuận hay mất doanh thu cho khách hàng không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "11.3",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "11.4",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Tổng trách nhiệm bồi thường và phạt vi phạm của VTIT bị giới hạn ở mức nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "11.4",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Các trường hợp nào dẫn đến chấm dứt hợp đồng",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "12.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Một bên có quyền đơn phương chấm dứt hợp đồng khi bên kia vi phạm những gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "12.2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Nếu hợp đồng bị chấm dứt trước hạn không do lỗi của VTIT thì VTIT được quyền yêu cầu gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "12.4",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Khách hàng chậm thanh toán bao nhiêu ngày thì VTIT có quyền chấm dứt hợp đồng",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "12.2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Quyền sở hữu trí tuệ đối với sản phẩm bàn giao sau khi hoàn thành thuộc về bên nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "5.2",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "5.5",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "VTIT có được tái sử dụng mã nguồn hoặc thư viện đã phát triển cho dự án khác của khách hàng khác không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "5.3",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "5.5",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Các thành phần phần mềm mã nguồn mở OSS được xử lý quyền sở hữu như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "5.4",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Nghĩa vụ bảo mật thông tin giữa hai bên được quy định ra sao",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "6.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Những trường hợp ngoại lệ nào không bị coi là vi phạm nghĩa vụ bảo mật",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "6.2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Hợp đồng có quy định về bảo vệ dữ liệu cá nhân không, tham chiếu ở đâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "6.5",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Một bên có được nêu tên bên kia trong hồ sơ năng lực kinh nghiệm không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "6.3",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Khách hàng có bị cấm tuyển dụng lôi kéo nhân sự của VTIT sau khi hợp đồng kết thúc không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "7.2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Trường hợp bất khả kháng thì bên bị ảnh hưởng phải thông báo trong thời hạn bao lâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "8.2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Sự kiện bất khả kháng được định nghĩa bao gồm những gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "8.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Một bên có được chuyển nhượng quyền và nghĩa vụ hợp đồng cho bên thứ ba không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "9.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "VTIT có được thuê nhà thầu phụ thực hiện một phần công việc theo hợp đồng không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "9.3",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Các bên cam đoan bảo đảm có đủ năng lực pháp lý để ký kết hợp đồng ở điều khoản nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "10.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Luật áp dụng và cơ quan giải quyết tranh chấp của hợp đồng là gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "13",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Nếu thương lượng không giải quyết được tranh chấp trong bao lâu thì được khởi kiện ra tòa",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "13.3",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Phạm vi dịch vụ và các hạng mục bàn giao cụ thể được quy định ở phụ lục nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Những công việc nào không thuộc phạm vi dịch vụ của hợp đồng này",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14.3",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Yêu cầu thay đổi phạm vi công việc change request phải được thực hiện như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14.4",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Thời gian cung cấp dịch vụ theo hợp đồng kéo dài bao lâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "16.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Quy trình bàn giao và nghiệm thu phần mềm trải qua những bước nào, HOC PAC FAC là gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "17",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Nếu khách hàng không phản hồi nghiệm thu đúng hạn thì có được coi là đã chấp thuận không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "17.6",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Thời gian bảo hành sản phẩm phần mềm là bao lâu kể từ khi nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "18.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "VTIT thực hiện bảo hành từ xa hay tại chỗ và ai chịu chi phí onsite",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "18.6",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Những lỗi nào không thuộc phạm vi bảo hành của VTIT",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "18.2",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "18.5",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Hợp đồng được lập thành bao nhiêu bản và mỗi bên giữ bao nhiêu bản",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "19.3",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Hợp đồng có hiệu lực kể từ thời điểm nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "19.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Nhân sự của VTIT làm việc tại trụ sở khách hàng có được coi là nhân sự của khách hàng không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "7.1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Hợp đồng có điều khoản nào quy định về bảo hiểm trách nhiệm nghề nghiệp không",
+          "expected_evidences": []
+        },
+        {
+          "query": "Quyền và nghĩa vụ của VTIT tại Điều 4 liên hệ như thế nào với quyền và nghĩa vụ của Khách hàng tại Điều 3",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "4.1",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "3",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": []
+                },
+                {
+                  "number": "4.2",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Quyền sở hữu trí tuệ đối với sản phẩm bàn giao, quyền tái sử dụng thành phần đã phát triển và việc sử dụng mã nguồn mở được quy định tổng thể như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "5.1",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "5.5",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": [
+                    {
+                      "number": "5.2",
+                      "is_appendix": false,
+                      "relation": "REFERS_TO",
+                      "children": []
+                    },
+                    {
+                      "number": "5.3",
+                      "is_appendix": false,
+                      "relation": "REFERS_TO",
+                      "children": []
+                    },
+                    {
+                      "number": "5.4",
+                      "is_appendix": false,
+                      "relation": "REFERS_TO",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Nghĩa vụ bảo mật thông tin, các trường hợp ngoại lệ và việc nêu tên đối tác trong hồ sơ năng lực liên hệ với nhau như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "6.1",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "6.2",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                },
+                {
+                  "number": "6.3",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Nếu Khách hàng vi phạm cam kết không tuyển dụng lôi kéo nhân sự của VTIT thì hậu quả bồi thường thiệt hại được quy định ở đâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "7.2",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "7.3",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                },
+                {
+                  "number": "7.4",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Sự kiện bất khả kháng được định nghĩa thế nào, nghĩa vụ thông báo và trách nhiệm giảm thiểu ảnh hưởng của bên bị ảnh hưởng ra sao",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "8.1",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "8.2",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                },
+                {
+                  "number": "8.3",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Mức phạt vi phạm, trách nhiệm bồi thường thiệt hại và giới hạn tổng trách nhiệm của VTIT có mối liên hệ với nhau như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "11.2",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "11.3",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                },
+                {
+                  "number": "11.4",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Việc một bên vi phạm cam đoan bảo đảm tại Điều 10 có thể dẫn tới hậu quả chấm dứt hợp đồng theo Điều 12 như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "12.2",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "10.1",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Phạm vi Dịch vụ quy định tại Điều 14 liên hệ như thế nào tới định nghĩa Dịch vụ phần mềm nêu tại Điều 1",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14.1",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "1.1",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "bm02_toss",
+      "contract_id": 4,
+      "contract_file": "HĐ TOSS v 12.5.2026.parsed.md",
+      "items": [
+        {
+          "query": "Ai là người đại diện ký kết hợp đồng của hai bên và giữ chức vụ gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "0",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Địa chỉ, số tài khoản ngân hàng và mã số thuế của bên B là gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "0",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Đối tượng và phạm vi công việc của hợp đồng thuê hệ thống TOSS là gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Thời gian triển khai dịch vụ và thời gian thuê dịch vụ theo hợp đồng kéo dài bao lâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "1",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Thứ tự ưu tiên pháp lý giữa hợp đồng và các phụ lục kèm theo được quy định như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "2",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Quy trình ký biên bản nghiệm thu triển khai dịch vụ gồm những bước nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "3",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Thời hạn và hình thức nộp bảo đảm thực hiện hợp đồng là gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "4",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Ngưỡng chi phí để yêu cầu thay đổi (CR) được thực hiện miễn phí mỗi quý là bao nhiêu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "4",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Đơn giá thuê dịch vụ hàng tháng và giá trị hợp đồng dự kiến là bao nhiêu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Kỳ thanh toán và các chứng từ cần kèm theo khi thanh toán dịch vụ triển khai ban đầu gồm những gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Quyền sở hữu trí tuệ đối với phần mềm và quyền sở hữu dữ liệu hệ thống thuộc về bên nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "5",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Trách nhiệm của bên B khi phần mềm bị bên thứ ba khiếu kiện vi phạm bản quyền",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "5",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Bên B có nghĩa vụ tổ chức đào tạo sử dụng phần mềm cho bên A như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "7",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Số lượt đánh giá và thời gian khắc phục khuyến cáo an ninh thông tin (ANTT) đối với mã nguồn là bao lâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "7",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Mức cam kết độ sẵn sàng (SA) tối thiểu của phần mềm là bao nhiêu phần trăm",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "8",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Thời gian cam kết khắc phục xong sự cố cấp độ 1 là bao lâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "8",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Cách tính mức giảm trừ phí dịch vụ khi chất lượng dịch vụ không đạt tiêu chuẩn cam kết",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "9",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Những trường hợp gián đoạn dịch vụ nào không bị tính giảm trừ phí",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "9",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Mức phạt khi bên B chậm triển khai hợp đồng là bao nhiêu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "10",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Bên A bị phạt thế nào nếu chậm thanh toán tiền dịch vụ cho bên B",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "10",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Sự kiện bất khả kháng được định nghĩa và xử lý ra sao trong hợp đồng",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "11",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Các trường hợp nào dẫn đến việc chấm dứt hợp đồng trước thời hạn",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "12",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Tranh chấp phát sinh giữa hai bên được giải quyết theo trình tự nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "13",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Hợp đồng có cho phép chuyển nhượng quyền lợi và nghĩa vụ cho bên thứ ba không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Kiến trúc hệ thống TOSS có bắt buộc phải theo hướng microservices và cloud native không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL02",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Hệ thống TOSS cần đáp ứng tối thiểu bao nhiêu người dùng sử dụng đồng thời",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL02",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Yêu cầu tích hợp dữ liệu với các hệ thống nguồn như Flight Ops, AMOS, Lido, Amadeus PSS được quy định ra sao",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL02.4",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Chức năng quản lý phân quyền tập trung và xác thực đa yếu tố của hệ thống được yêu cầu như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL02",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Nội dung đào tạo cho người quản trị và người sử dụng hệ thống theo yêu cầu kỹ thuật gồm những gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL02.9",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Dịch vụ đảm bảo hoạt động phần mềm sau khi đưa hệ thống vào vận hành bao gồm những nội dung gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL02.10",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Khái niệm Thông Tin và Dữ liệu cá nhân được định nghĩa như thế nào trong phụ lục bảo mật",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14",
+                "is_appendix": false
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "PL03.3",
+                "is_appendix": true
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "PL03.4",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Bên nhận thông tin có được phép sử dụng thông tin cho mục đích khác ngoài thực hiện hợp đồng không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14",
+                "is_appendix": false
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "PL03.5",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Nghĩa vụ bảo mật thông tin còn tiếp tục có hiệu lực bao lâu sau khi hợp đồng chấm dứt",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14",
+                "is_appendix": false
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "PL03.5",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Mục đích thu thập và xử lý dữ liệu cá nhân của khách hàng được quy định như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14",
+                "is_appendix": false
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "PL03.6",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Thời hạn thông báo cho bên giao khi dữ liệu cá nhân bị xâm phạm trái phép là bao lâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14",
+                "is_appendix": false
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "PL03.6",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Bên nhận có được phép chuyển dữ liệu cá nhân ra ngoài lãnh thổ Việt Nam không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14",
+                "is_appendix": false
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "PL03.6",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Thỏa thuận bảo mật và xử lý dữ liệu cá nhân có cho phép chuyển nhượng cho bên khác không",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14",
+                "is_appendix": false
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "PL03.7",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Kế hoạch triển khai dự án TOSS có tổng cộng bao nhiêu ngày và các mốc chính là gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL04.1",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Thời gian đánh giá an ninh thông tin trong kế hoạch triển khai dự án kéo dài bao lâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL04.2",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Mẫu biên bản nghiệm thu kỹ thuật gồm những nội dung xác nhận gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL05.2",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Mẫu biên bản nghiệm thu tổng thể hợp đồng dùng để xác nhận những nội dung gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "PL05.9",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Quy trình nghiệm thu tổng thể và các biểu mẫu nghiệm thu liên quan được quy định ở những đâu trong hợp đồng",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "3",
+                "is_appendix": false
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "PL05",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Các yêu cầu kỹ thuật nào của phần mềm liên quan đến việc tuân thủ pháp luật về bảo vệ dữ liệu cá nhân",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "PL03",
+                  "is_appendix": true,
+                  "relation": "REFERS_TO_APPENDIX",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "root": {
+                "number": "PL02",
+                "is_appendix": true
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Chi phí phần mềm dùng làm căn cứ tính phí dịch vụ đảm bảo hoạt động sau khi hết hạn thuê được xác định ở đâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15",
+                "is_appendix": false
+              },
+              "chain": []
+            },
+            {
+              "root": {
+                "number": "4",
+                "is_appendix": false
+              },
+              "chain": []
+            }
+          ]
+        },
+        {
+          "query": "Hợp đồng gồm những Phụ lục nào kèm theo và mỗi Phụ lục đó quy định nội dung gì",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "2.1",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "PL03",
+                  "is_appendix": true,
+                  "relation": "REFERS_TO_APPENDIX",
+                  "children": []
+                },
+                {
+                  "number": "PL05",
+                  "is_appendix": true,
+                  "relation": "REFERS_TO_APPENDIX",
+                  "children": []
+                },
+                {
+                  "number": "PL02",
+                  "is_appendix": true,
+                  "relation": "REFERS_TO_APPENDIX",
+                  "children": []
+                },
+                {
+                  "number": "PL04",
+                  "is_appendix": true,
+                  "relation": "REFERS_TO_APPENDIX",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Nghĩa vụ bảo mật thông tin tại Điều 14 dẫn chiếu tới quy định chi tiết nào về bảo mật thông tin trong Phụ lục 03",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "14",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "PL03",
+                  "is_appendix": true,
+                  "relation": "REFERS_TO_APPENDIX",
+                  "children": [
+                    {
+                      "number": "PL03.5",
+                      "is_appendix": true,
+                      "relation": "CONTAINS",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Nếu Bên B chậm triển khai dịch vụ theo yêu cầu kỹ thuật đã cam kết thì bị phạt theo điều khoản nào và yêu cầu kỹ thuật đó được quy định ở phụ lục nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "10.1",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "3.1",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": [
+                    {
+                      "number": "PL02",
+                      "is_appendix": true,
+                      "relation": "REFERS_TO_APPENDIX",
+                      "children": []
+                    },
+                    {
+                      "number": "3.2",
+                      "is_appendix": false,
+                      "relation": "SAME_ARTICLE",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Mức giảm trừ dịch vụ tại Điều 9 được tính dựa trên mức cam kết dịch vụ nào và có liên hệ gì với việc phân loại sự cố",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "9",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "8.1",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": [
+                    {
+                      "number": "8.2",
+                      "is_appendix": false,
+                      "relation": "REFERS_TO",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Trình tự xử lý sự cố theo từng cấp độ lỗi được quy định như thế nào và dựa trên cách phân loại sự cố nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "8.2",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "8.3",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                },
+                {
+                  "number": "8.3.1",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                },
+                {
+                  "number": "8.3.2",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                },
+                {
+                  "number": "8.3.3",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Yêu cầu thay đổi (CR) ngoài phạm vi Phụ lục 02 được thực hiện miễn phí trong điều kiện nào và trách nhiệm chỉnh sửa phần mềm của Bên B tại Điều 7 liên hệ ra sao",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "7.8",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "4.5",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": [
+                    {
+                      "number": "1.2",
+                      "is_appendix": false,
+                      "relation": "DEPENDS_ON",
+                      "children": []
+                    },
+                    {
+                      "number": "PL02",
+                      "is_appendix": true,
+                      "relation": "REFERS_TO_APPENDIX",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Nếu Bên A muốn tiếp tục sử dụng dịch vụ sau khi hết thời hạn thuê thì thủ tục thông báo và chi phí áp dụng được quy định ở đâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "15.5",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "1.2",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": []
+                },
+                {
+                  "number": "4.6",
+                  "is_appendix": false,
+                  "relation": "REFERS_TO",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Nếu một bên vi phạm nghĩa vụ hợp đồng và không khắc phục trong 15 ngày thì hậu quả chấm dứt hợp đồng và mức bồi thường phạt được quy định ở đâu",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "12.1.3",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "12.3",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Trường hợp Bên B vi phạm nghiêm trọng hợp đồng thì Bên A có quyền gì và Bên B phải chịu trách nhiệm bồi thường như thế nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "12.1.4",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "12.4",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "query": "Khi hợp đồng chấm dứt do hết hạn không gia hạn, do hai bên thỏa thuận, hoặc do các trường hợp khác theo pháp luật thì hai bên xử lý theo văn bản nào",
+          "expected_evidences": [
+            {
+              "root": {
+                "number": "12.1.1",
+                "is_appendix": false
+              },
+              "chain": [
+                {
+                  "number": "12.1.2",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                },
+                {
+                  "number": "12.1.5",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                },
+                {
+                  "number": "12.2",
+                  "is_appendix": false,
+                  "relation": "SAME_ARTICLE",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

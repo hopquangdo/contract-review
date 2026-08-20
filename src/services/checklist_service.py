@@ -6,150 +6,252 @@ import concurrent.futures
 import logging
 from typing import Iterator
 
-from llm.usage import sum_usage
-from rag.checklist_graph import evaluate_checklist_item, stream_checklist_item
+from checklist.eval_cache import get_eval_cache
+from checklist.evaluator import ChecklistEvaluator
+from config.settings import CHECKLIST_EVAL_CACHE_ENABLED
+from rag.retrieval import Retrieval
 
 logger = logging.getLogger(__name__)
 
 _MAX_PARALLEL_ITEMS = 5
 
 
-def _status_label(pass_status: bool) -> str:
-    return "Đạt" if pass_status else "Không đạt"
+class ChecklistService:
+    """Nghiệp vụ chấm checklist cho 1 hợp đồng."""
 
+    def __init__(self) -> None:
+        self._evaluator = ChecklistEvaluator()
 
-def evaluate_single_item(
-    contract_id: int, question: str, pass_criteria: str = "", violation_criteria: str = "", note: str = ""
-) -> dict:
-    item = {
-        "id": "adhoc",
-        "category": "",
-        "question": question,
-        "pass_criteria": pass_criteria,
-        "violation_criteria": violation_criteria,
-        "note": note,
-        "severity": "medium",
-        "needs_search": False,
-    }
-    logger.info("Bắt đầu đánh giá 1 mục checklist đơn lẻ, contract_id=%s", contract_id)
-    try:
-        evaluation, clauses, usage = evaluate_checklist_item(contract_id, item)
-    except Exception:
-        logger.exception("Lỗi khi đánh giá mục checklist đơn lẻ, contract_id=%s", contract_id)
-        raise
-    logger.info(
-        "Hoàn tất đánh giá mục checklist đơn lẻ, contract_id=%s, status=%s, confidence=%s, "
-        "evidence=%r, reason=%r, proposal=%r, n_clauses_cited=%d",
-        contract_id, evaluation.status, evaluation.confidence,
-        evaluation.evidence, evaluation.reason, evaluation.proposal, len(clauses),
-    )
+    def evaluate_single_item(
+        self, contract_id: int, question: str, pass_criteria: str = "", violation_criteria: str = "", note: str = ""
+    ) -> dict:
+        """Đánh giá 1 mục checklist tuỳ ý (không thuộc checklist đã lưu) trên 1 hợp đồng.
 
-    return {
-        "status": _status_label(evaluation.status == "pass"),
-        "evidence": evaluation.evidence,
-        "reasoning": evaluation.reason,
-        "recommendation": evaluation.proposal,
-        "confidence": evaluation.confidence,
-        "clauses": clauses,
-        "usage": usage,
-    }
+        Args:
+            contract_id: ID hợp đồng cần đánh giá.
+            question: Câu hỏi/nội dung mục checklist.
+            pass_criteria: Tiêu chí để coi là đạt (tuỳ chọn).
+            violation_criteria: Tiêu chí để coi là vi phạm (tuỳ chọn).
+            note: Ghi chú thêm cho mục checklist (tuỳ chọn).
 
+        Returns:
+            dict gồm "status" (nhãn tiếng Việt), "evidence_clauses" (danh sách {number, title, text} -
+            nội dung ĐẦY ĐỦ từng Điều/Khoản dùng làm căn cứ, đã tra ngược từ số hiệu LLM trả về, xem
+            checklist.evaluator.resolve_evidence_clauses), "reasoning", "recommendation", "confidence",
+            "verification_units" (xác minh từng đơn vị pass/violation/note), "clauses" (điều khoản được
+            trích dẫn), "evidences" (cây quan hệ đồ thị đã dẫn tới từng điều khoản khớp trực tiếp) và
+            "usage" (chi phí LLM).
+        """
+        cache_key = get_eval_cache().make_key("single", contract_id, question, pass_criteria, violation_criteria, note)
+        if CHECKLIST_EVAL_CACHE_ENABLED:
+            cached = get_eval_cache().get(cache_key)
+            if cached is not None:
+                logger.info("Cache HIT đánh giá mục checklist đơn lẻ, contract_id=%s", contract_id)
+                return cached
 
-def _build_adhoc_item(question: str, pass_criteria: str, violation_criteria: str, note: str) -> dict:
-    return {
-        "id": "adhoc",
-        "category": "",
-        "question": question,
-        "pass_criteria": pass_criteria,
-        "violation_criteria": violation_criteria,
-        "note": note,
-        "severity": "medium",
-        "needs_search": False,
-    }
-
-
-def stream_single_item(
-    contract_id: int, question: str, pass_criteria: str = "", violation_criteria: str = "", note: str = ""
-) -> Iterator[dict]:
-    """Giống evaluate_single_item() nhưng phát ra từng bước (dict JSON-serializable được) NGAY
-    khi node đó chạy xong - dùng cho API streaming (SSE), xem api/routes/checklist.py.
-
-    Mỗi event có field "step" ("generate_queries"/"retrieval"/"evaluate") để frontend phân biệt,
-    event "evaluate" là event CUỐI, có đầy đủ field giống evaluate_single_item() trả về."""
-    item = _build_adhoc_item(question, pass_criteria, violation_criteria, note)
-    logger.info("Bắt đầu STREAM đánh giá 1 mục checklist đơn lẻ, contract_id=%s", contract_id)
-
-    query_generation_usage = None
-    clauses: list[dict] = []
-    try:
-        for node_name, partial_state in stream_checklist_item(contract_id, item):
-            if node_name == "generate_queries":
-                query_generation_usage = partial_state["query_generation_usage"]
-                yield {"step": "generate_queries", "queries": partial_state["query_texts"]}
-            elif node_name == "retrieval":
-                clauses = partial_state["clauses"]  # giữ lại - node evaluate không trả lại "clauses"
-                # (chỉ trả field nó thực sự đổi), cần nhớ từ bước này để đính kèm vào event cuối.
-                yield {
-                    "step": "retrieval",
-                    "n_clauses": len(clauses),
-                    "articles": [{"article_number": c["article_number"], "article_title": c["article_title"]} for c in clauses],
-                }
-            elif node_name == "evaluate":
-                evaluation = partial_state["evaluation"]
-                total_usage = sum_usage(query_generation_usage, partial_state["usage"])
-                total_usage["duration_seconds"] = partial_state["duration_seconds"]
-                logger.info(
-                    "Hoàn tất STREAM đánh giá 1 mục checklist đơn lẻ, contract_id=%s, status=%s, confidence=%s",
-                    contract_id, evaluation.status, evaluation.confidence,
-                )
-                yield {
-                    "step": "evaluate",
-                    "status": _status_label(evaluation.status == "pass"),
-                    "evidence": evaluation.evidence,
-                    "reasoning": evaluation.reason,
-                    "recommendation": evaluation.proposal,
-                    "confidence": evaluation.confidence,
-                    "clauses": clauses,
-                    "usage": total_usage,
-                }
-    except Exception:
-        logger.exception("Lỗi khi STREAM đánh giá mục checklist đơn lẻ, contract_id=%s", contract_id)
-        yield {"step": "error", "message": "Đã xảy ra lỗi khi xử lý yêu cầu."}
-        raise
-
-
-def evaluate_checklist_batch(contract_id: int, items: list[dict]) -> list[dict]:
-    def process_one(item: dict) -> dict:
+        item = {
+            "id": "adhoc",
+            "category": "",
+            "question": question,
+            "pass_criteria": pass_criteria,
+            "violation_criteria": violation_criteria,
+            "note": note,
+            "severity": "medium",
+            "needs_search": False,
+        }
+        logger.info("Bắt đầu đánh giá 1 mục checklist đơn lẻ, contract_id=%s", contract_id)
         try:
-            evaluation, clauses, _usage = evaluate_checklist_item(contract_id, item)
+            evaluation, clauses, evidences, usage = self._evaluator.evaluate_checklist_item(contract_id, item)
+        except Exception:
+            logger.exception("Lỗi khi đánh giá mục checklist đơn lẻ, contract_id=%s", contract_id)
+            raise
+        logger.info(
+            "Hoàn tất đánh giá mục checklist đơn lẻ, contract_id=%s, status=%s, confidence=%s, "
+            "evidence_clause_numbers=%r, reason=%r, proposal=%r, n_clauses_cited=%d",
+            contract_id, evaluation.status, evaluation.confidence,
+            evaluation.evidence_clause_numbers, evaluation.reason, evaluation.proposal, len(clauses),
+        )
+
+        result = {
+            "status": self._evaluator.status_label(evaluation.status == "pass"),
+            "evidence_clauses": self._evaluator.resolve_evidence_clauses(evaluation.evidence_clause_numbers, clauses),
+            "reasoning": evaluation.reason,
+            "recommendation": evaluation.proposal,
+            "confidence": evaluation.confidence,
+            "verification_units": [u.model_dump() for u in evaluation.verification_units],
+            "clauses": clauses,
+            "evidences": evidences,
+            "usage": usage,
+        }
+        if CHECKLIST_EVAL_CACHE_ENABLED:
+            get_eval_cache().set(cache_key, result)
+        return result
+
+    def stream_single_item(
+        self, contract_id: int, question: str, pass_criteria: str = "", violation_criteria: str = "", note: str = ""
+    ) -> Iterator[dict]:
+        """Giống evaluate_single_item() nhưng phát TỪNG BƯỚC ngay khi xong (generate_queries/retrieval/
+        evaluate), để UI hiện tiến trình trực tiếp thay vì đợi cả pipeline chạy xong mới thấy gì (xem
+        api/routes/checklist.py::checklist_item_stream - route bọc kết quả này thành SSE).
+
+        Chỉ phát 3 "step" mà frontend đọc (khớp type TraceEvent trong frontend/src/types.ts) - các node
+        retrieve/rerank/expand nội bộ của pipeline (checklist/workflow.py) không có ý nghĩa
+        hiển thị riêng với người dùng cuối nên gộp im lặng, chỉ báo khi build_context (bước retrieval
+        cuối cùng, đã có đủ danh sách Điều) và evaluate xong.
+
+        Args:
+            contract_id: ID hợp đồng cần đánh giá.
+            question: Câu hỏi/nội dung mục checklist.
+            pass_criteria: Tiêu chí để coi là đạt (tuỳ chọn).
+            violation_criteria: Tiêu chí để coi là vi phạm (tuỳ chọn).
+            note: Ghi chú thêm cho mục checklist (tuỳ chọn).
+
+        Yields:
+            dict theo đúng 1 trong các dạng TraceEvent: {"step": "generate_queries", "queries": [...]},
+            {"step": "retrieval", "n_clauses": int, "articles": [...]}, hoặc {"step": "evaluate", ...
+            (toàn bộ SingleAnswer)}. Lỗi giữa chừng phát {"step": "error", "message": str} rồi dừng.
+        """
+        cache_key = get_eval_cache().make_key("stream", contract_id, question, pass_criteria, violation_criteria, note)
+        if CHECKLIST_EVAL_CACHE_ENABLED:
+            cached_events = get_eval_cache().get(cache_key)
+            if cached_events is not None:
+                logger.info("Cache HIT stream đánh giá mục checklist đơn lẻ, contract_id=%s", contract_id)
+                yield from cached_events
+                return
+
+        item = {
+            "id": "adhoc", "category": "", "question": question, "pass_criteria": pass_criteria,
+            "violation_criteria": violation_criteria, "note": note, "severity": "medium", "needs_search": False,
+        }
+        logger.info("Bắt đầu stream đánh giá 1 mục checklist đơn lẻ, contract_id=%s", contract_id)
+        events: list[dict] = []
+        try:
+            for node_name, state in self._evaluator.stream_checklist_item(contract_id, item):
+                if node_name == "generate_queries":
+                    queries = [q for r in state["requirements"] for q in r["queries"]]
+                    event = {"step": "generate_queries", "queries": queries}
+                elif node_name == "build_context":
+                    articles = [
+                        {"article_number": g["article_number"], "article_title": g["article_title"]}
+                        for g in state["clauses"]
+                    ]
+                    event = {"step": "retrieval", "n_clauses": len(state["clauses"]), "articles": articles}
+                elif node_name == "evaluate":
+                    evaluation = state["evaluation"]
+                    event = {
+                        "step": "evaluate",
+                        "status": self._evaluator.status_label(evaluation.status == "pass"),
+                        "evidence_clauses": self._evaluator.resolve_evidence_clauses(evaluation.evidence_clause_numbers, state["clauses"]),
+                        "reasoning": evaluation.reason,
+                        "recommendation": evaluation.proposal,
+                        "confidence": evaluation.confidence,
+                        "verification_units": [u.model_dump() for u in evaluation.verification_units],
+                        "clauses": state["clauses"],
+                        "evidences": state["evidences"],
+                        "usage": state["usage"],
+                    }
+                else:
+                    continue
+                events.append(event)
+                yield event
+        except Exception as e:
+            logger.exception("Lỗi khi stream đánh giá mục checklist đơn lẻ, contract_id=%s", contract_id)
+            yield {"step": "error", "message": str(e)}
+            return
+        logger.info("Hoàn tất stream đánh giá mục checklist đơn lẻ, contract_id=%s", contract_id)
+        if CHECKLIST_EVAL_CACHE_ENABLED:
+            get_eval_cache().set(cache_key, events)
+
+    def evaluate_checklist_batch(self, contract_id: int, items: list[dict]) -> list[dict]:
+        """Chấm toàn bộ checklist (nhiều mục) trên 1 hợp đồng, chạy song song tối đa
+        _MAX_PARALLEL_ITEMS mục cùng lúc để giảm thời gian chờ.
+
+        Args:
+            contract_id: ID hợp đồng cần chấm.
+            items: Danh sách mục checklist, mỗi mục là dict theo schema checklist item
+                (id, category, question, ...).
+
+        Returns:
+            Danh sách kết quả đánh giá tương ứng từng mục (giữ nguyên thứ tự items), mỗi kết quả
+            gồm item_id, category, question, status, evidence_clauses (danh sách {number, title, text}
+            - nội dung đầy đủ, xem checklist.evaluator.resolve_evidence_clauses), reason, proposal,
+            confidence, verification_units, cited_clauses, evidences (cây quan hệ đồ thị).
+        """
+        def process_one(item: dict) -> dict:
+            cache_key = get_eval_cache().make_key("batch", contract_id, item["id"])
+            if CHECKLIST_EVAL_CACHE_ENABLED:
+                cached = get_eval_cache().get(cache_key)
+                if cached is not None:
+                    logger.info("Cache HIT mục checklist item_id=%s, contract_id=%s", item["id"], contract_id)
+                    return cached
+            try:
+                evaluation, clauses, evidences, _usage = self._evaluator.evaluate_checklist_item(contract_id, item)
+            except Exception:
+                logger.exception(
+                    "Lỗi khi đánh giá mục checklist, contract_id=%s, item_id=%s", contract_id, item.get("id")
+                )
+                raise
+            logger.info(
+                "Chấm xong mục '%s' (item_id=%s), contract_id=%s, status=%s, evidence_clause_numbers=%r, "
+                "reason=%r, proposal=%r, n_clauses_cited=%d",
+                item["question"], item["id"], contract_id, evaluation.status,
+                evaluation.evidence_clause_numbers, evaluation.reason, evaluation.proposal, len(clauses),
+            )
+            result = {
+                "item_id": item["id"],
+                "category": item["category"],
+                "question": item["question"],
+                "status": evaluation.status,
+                "evidence_clauses": self._evaluator.resolve_evidence_clauses(evaluation.evidence_clause_numbers, clauses),
+                "reason": evaluation.reason,
+                "proposal": evaluation.proposal,
+                "confidence": evaluation.confidence,
+                "verification_units": [u.model_dump() for u in evaluation.verification_units],
+                "cited_clauses": clauses,
+                "evidences": evidences,
+            }
+            if CHECKLIST_EVAL_CACHE_ENABLED:
+                get_eval_cache().set(cache_key, result)
+            return result
+
+        logger.info("Bắt đầu chấm checklist hàng loạt, contract_id=%s, n_items=%d", contract_id, len(items))
+        with concurrent.futures.ThreadPoolExecutor(max_workers=_MAX_PARALLEL_ITEMS) as executor:
+            results = list(executor.map(process_one, items))
+        n_pass = sum(1 for r in results if r["status"] == "pass")
+        logger.info(
+            "Hoàn tất chấm checklist hàng loạt, contract_id=%s, n_items=%d, n_pass=%d, n_fail=%d",
+            contract_id, len(results), n_pass, len(results) - n_pass,
+        )
+        return results
+
+    def get_similar_clauses(
+        self, contract_id: int, clause_number: str, top_k: int = 5, same_type_only: bool = True,
+    ) -> list[dict]:
+        """Tìm các Điều khoản tương tự nội dung ở các hợp đồng KHÁC, để reviewer tham khảo chỉnh sửa
+        lại 1 Điều khoản. Xem rag.retrieval.Retrieval.find_similar_clauses().
+
+        Args:
+            contract_id: ID hợp đồng chứa Điều khoản nguồn.
+            clause_number: Số hiệu Điều khoản nguồn.
+            top_k: Số lượng kết quả tối đa.
+            same_type_only: True thì chỉ xét Điều khoản cùng ClauseType với Điều khoản nguồn.
+
+        Returns:
+            Danh sách dict {contract_id, contract_name, number, title, text, score}.
+        """
+        logger.info(
+            "Bắt đầu tìm Clause tương tự, contract_id=%s, clause_number=%s, same_type_only=%s",
+            contract_id, clause_number, same_type_only,
+        )
+        try:
+            results = Retrieval(contract_id).find_similar_clauses(clause_number, top_k, same_type_only)
         except Exception:
             logger.exception(
-                "Lỗi khi đánh giá mục checklist, contract_id=%s, item_id=%s", contract_id, item.get("id")
+                "Lỗi khi tìm Clause tương tự, contract_id=%s, clause_number=%s", contract_id, clause_number
             )
             raise
         logger.info(
-            "Chấm xong mục '%s' (item_id=%s), contract_id=%s, status=%s, evidence=%r, reason=%r, "
-            "proposal=%r, n_clauses_cited=%d",
-            item["question"], item["id"], contract_id, evaluation.status,
-            evaluation.evidence, evaluation.reason, evaluation.proposal, len(clauses),
+            "Hoàn tất tìm Clause tương tự, contract_id=%s, clause_number=%s, n_found=%d",
+            contract_id, clause_number, len(results),
         )
-        return {
-            "item_id": item["id"],
-            "category": item["category"],
-            "question": item["question"],
-            "status": evaluation.status,
-            "evidence": evaluation.evidence,
-            "reason": evaluation.reason,
-            "proposal": evaluation.proposal,
-            "cited_clauses": clauses,
-        }
-
-    logger.info("Bắt đầu chấm checklist hàng loạt, contract_id=%s, n_items=%d", contract_id, len(items))
-    with concurrent.futures.ThreadPoolExecutor(max_workers=_MAX_PARALLEL_ITEMS) as executor:
-        results = list(executor.map(process_one, items))
-    n_pass = sum(1 for r in results if r["status"] == "pass")
-    logger.info(
-        "Hoàn tất chấm checklist hàng loạt, contract_id=%s, n_items=%d, n_pass=%d, n_fail=%d",
-        contract_id, len(results), n_pass, len(results) - n_pass,
-    )
-    return results
+        return results

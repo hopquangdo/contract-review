@@ -24,16 +24,25 @@ _SPLIT_PATTERNS = [SUB_CLAUSE_PATTERN, _LETTER_ITEM_PATTERN]
 
 
 def split_clause_into_excerpts(text: str, max_chars: int = _MAX_EXCERPT_CHARS) -> list[str]:
-    """Trả về danh sách đoạn văn bản (Excerpt) - LUÔN tách theo mục con (mốc "x.y" rồi tới "a)")
-    nếu tìm được ranh giới, mỗi mục con luôn là 1 Excerpt riêng (không gộp lại dù ngắn) để tối đa
-    độ chính xác truy hồi (1 embedding chỉ đại diện đúng 1 ý). Chỉ giữ nguyên [text] khi không có
-    ranh giới mục con nào (< 2 match) và đủ ngắn, hoặc cắt cứng theo ký tự khi không có ranh giới
-    và quá dài.
+    """Tách nội dung 1 Khoản thành danh sách Excerpt theo ranh giới mục con.
+
+    LUÔN tách theo mục con (mốc "x.y" rồi tới "a)") nếu tìm được ranh giới, mỗi mục con luôn là
+    1 Excerpt riêng (không gộp lại dù ngắn) để tối đa độ chính xác truy hồi (1 embedding chỉ đại
+    diện đúng 1 ý). Chỉ giữ nguyên [text] khi không có ranh giới mục con nào (< 2 match) và đủ
+    ngắn, hoặc cắt cứng theo ký tự khi không có ranh giới và quá dài.
 
     KHÔNG chèn câu dẫn trước mục con đầu tiên (vd "VTIT vẫn có quyền:") vào từng Excerpt - từng
     thử (xem git history) nhưng gây dilution: các mục a/b/c/d của cùng 1 Khoản dùng chung 1 đoạn
     câu dẫn giống hệt nhau trong embedding, làm giảm độ phân biệt giữa chúng - đúng lúc similarity
-    của model đang dùng vốn đã bị nén chặt (xem MIN_RETRIEVAL_SCORE trong config/settings.py)."""
+    của model đang dùng vốn đã bị nén chặt (xem MIN_RETRIEVAL_SCORE trong config/settings.py).
+
+    Args:
+        text: Nội dung 1 Khoản cần tách.
+        max_chars: Ngân sách ký tự tối đa cho 1 Excerpt trước khi phải cắt cứng.
+
+    Returns:
+        Danh sách đoạn văn bản (Excerpt).
+    """
     segments = _split_by_first_matching_pattern(text)
     if segments is None:
         return [text] if len(text) <= max_chars else _split_by_char_budget(text, max_chars)
@@ -45,11 +54,13 @@ def split_clause_into_excerpts(text: str, max_chars: int = _MAX_EXCERPT_CHARS) -
 
 
 def _split_by_first_matching_pattern(text: str) -> list[str] | None:
-    """Thử lần lượt SUB_CLAUSE_PATTERN (mốc "x.y") rồi _LETTER_ITEM_PATTERN (mốc "a)", "b)"...)
-    - dùng pattern ĐẦU TIÊN khớp >= 2 lần, trả None nếu không pattern nào đủ ranh giới. Câu dẫn
+    """Thử lần lượt SUB_CLAUSE_PATTERN (mốc "x.y") rồi _LETTER_ITEM_PATTERN (mốc "a)", "b)"...).
+
+    Dùng pattern ĐẦU TIÊN khớp >= 2 lần, trả None nếu không pattern nào đủ ranh giới. Câu dẫn
     trước mục con đầu tiên (nếu có, vd "VTIT vẫn có quyền:") đứng thành 1 Excerpt riêng - CHẤP
     NHẬN excerpt này đôi khi cụt/ít ngữ nghĩa hơn, đổi lại các mục a/b/c/d không bị dilution do
-    lặp lại cùng 1 câu dẫn trong embedding của tất cả các mục."""
+    lặp lại cùng 1 câu dẫn trong embedding của tất cả các mục.
+    """
     for pattern in _SPLIT_PATTERNS:
         matches = list(pattern.finditer(text))
         if len(matches) < 2:
@@ -77,7 +88,8 @@ _BREAK_MARKERS = ["\n", ". ", "; ", ", ", " "]
 def _split_by_char_budget(text: str, max_chars: int) -> list[str]:
     """Cắt cứng theo ngân sách ký tự - phương án CUỐI khi không còn ranh giới ngữ nghĩa nào nhỏ
     hơn để dựa vào (mục con, mục chữ cái). Lùi điểm cắt về ranh giới câu/mệnh đề gần nhất trước
-    max_chars, chỉ lùi về khoảng trắng đơn thuần nếu không tìm được ranh giới nào tốt hơn."""
+    max_chars, chỉ lùi về khoảng trắng đơn thuần nếu không tìm được ranh giới nào tốt hơn.
+    """
     if len(text) <= max_chars:
         return [text]
     chunks = []

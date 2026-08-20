@@ -1,0 +1,102 @@
+ITEM CL-01
+Q: Người đại diện ký hợp đồng đã xác định đúng theo phân cấp, ủy quyền ký kết chưa?
+PASS: Người ký là Giám đốc/Tổng Giám đốc hoặc có giấy ủy quyền hợp lệ: đúng phạm vi, còn hiệu lực tại ngày ký.
+VIOL: Người ký không có thẩm quyền, không có ủy quyền. Phó Giám đốc hoặc Người khác ký hợp đồng giá trị trên 2 tỷ đồng. Ngày giấy ủy quyền sau ngày ký hợp đồng.
+NOTE: Các hợp đồng có giá trị trên 2 tỷ đồng phải do Giám đốc ký.
+====================================================================================================
+ITEM CL-02
+Q: Công ty có được thực hiện các công việc, dịch vụ hoặc bán các hàng hóa theo hợp đồng không?
+PASS: Dịch vụ/hàng hóa theo Hợp đồng thuộc 1 trong các ngành nghề đã đăng ký: Bán buôn thiết bị và linh kiện điện tử, viễn thông (Mã ngành: 4652); Vận tải hành khách đường bộ khác (Mã ngành: 4932); Vận tải hàng hóa bằng đường bộ (Mã ngành: 4933); Kinh doanh bất động sản, quyền sử dụng đất thuộc chủ sở hữu, chủ sử dụng hoặc đi thuê (Mã ngành: 6810); Hoạt động của các cơ sở thể thao (Mã ngành: 9311); Hoạt động của các câu lạc bộ thể thao (Mã ngành: 9312); Hoạt động viễn thông khác (Mã ngành: 6190); Đại lý, môi giới, đấu giá hàng hóa (Mã ngành: 4610); Hoạt động kiến trúc và tư vấn kỹ thuật có liên quan (Mã ngành: 7110); Nghiên cứu khoa học và phát triển công nghệ trong lĩnh vực khoa học kỹ thuật và công nghệ (Mã ngành: 7212); Nghiên cứu thị trường và thăm dò dư luận (Mã ngành: 7320); Bán buôn máy móc, thiết bị và phụ tùng máy khác (Mã ngành: 4659); Lắp đặt hệ thống điện (Mã ngành: 4321); Lắp đặt máy móc và thiết bị công nghiệp (Mã ngành: 3320); Cho thuê máy móc, thiết bị và đồ dùng hữu hình khác không kèm người điều khiển (Mã ngành: 7730); Hoạt động dịch vụ hỗ trợ kinh doanh khác còn lại chưa được phân vào đâu (Mã ngành: 8299); Giáo dục khác chưa được phân vào đâu (Mã ngành: 8559); Quảng cáo (Mã ngành: 7310); Đại lý lữ hành (Mã ngành: 7911); Tư vấn máy tính và quản lý cơ sở hạ tầng máy tính (Mã ngành: 6220); Hoạt động bất động sản khác trên cơ sở phí hoặc hợp đồng (Mã ngành: 6829); Lập trình máy tính khác – ngành nghề kinh doanh chính (Mã ngành: 6219); Hoạt động dịch vụ máy tính và công nghệ thông tin khác (Mã ngành: 6290); Hoạt động bán lẻ dịch vụ viễn thông và dịch vụ trung gian cho hoạt động viễn thông (Mã ngành: 6120); Dịch vụ trung gian cho hoạt động bất động sản (Mã ngành: 6821); Hoạt động môi giới và tiếp thị bằng sáng chế (Mã ngành: 7491); Sửa chữa, bảo dưỡng máy tính, thiết bị thông tin và truyền thông (Mã ngành: 9510); Cung ứng lao động tạm thời (Mã ngành: 7821); Hoạt động thư viện (Mã ngành: 9111); Phát triển trò chơi điện tử, phần mềm trò chơi điện tử và các công cụ phần mềm trò chơi điện tử (Mã ngành: 6211); Hoạt động hành chính và hỗ trợ văn phòng (Mã ngành: 8210); Sửa chữa, bảo dưỡng máy móc, thiết bị (Mã ngành: 3312); Hoạt động chuyên môn, khoa học và công nghệ khác chưa được phân vào đâu (Mã ngành: 7499); Xuất bản phần mềm khác (Mã ngành: 5829); Bán lẻ thiết bị công nghệ thông tin và truyền thông (Mã ngành: 4740); Hoạt động hỗ trợ giáo dục khác (Mã ngành: 8569); Hoạt động tư vấn quản lý kinh doanh và hoạt động tư vấn quản lý khác (Mã ngành: 7020); Cơ sở hạ tầng công nghệ thông tin, xử lý dữ liệu, lưu trữ và các hoạt động liên quan (Mã ngành: 6310); Hoạt động viễn thông có dây, không dây và vệ tinh (Mã ngành: 6110); Hoạt động cổng tìm kiếm web và các dịch vụ thông tin khác (Mã ngành: 6390); Bán buôn máy tính, thiết bị ngoại vi và phần mềm (Mã ngành: 4651); Sửa chữa, bảo dưỡng thiết bị điện tử và quang học (Mã ngành: 3313); Cung ứng nguồn nhân lực khác (Mã ngành: 7822); Hoạt động lưu trữ (Mã ngành: 9112).
+VIOL: Dịch vụ không thuộc ngành nghề công ty đã đăng ký. Thực hiện dịch vụ thuộc ngành có điều kiện mà chưa có giấy phép.
+NOTE: Hàng hóa, dịch vụ theo hợp đồng thuộc danh mục ngành nghề kinh doanh có điều kiện theo quy định của pháp luật Việt Nam (cần tra cứu trên google).
+====================================================================================================
+ITEM CL-05
+Q: Điều khoản bảo mật thông tin có đảm bảo quyền lợi của Công ty không?
+PASS: Xác nhận hợp đồng có đầy đủ các nội dung sau: định nghĩa thông tin mật; nghĩa vụ và thời hạn bảo mật; các trường hợp ngoại lệ; VTIT được tiết lộ thông tin cho nhà thầu; VTIT có quyền sử dụng thông tin hợp đồng để chứng minh năng lực.
+VIOL: Chỉ quy định trách nhiệm bảo mật của VTIT mà không quy định trách nhiệm bảo mật của Bên A.
+NOTE: Quy định bồi thường thiệt hại khi vi phạm bảo mật thông tin với mức bồi thường cố định thì cần cảnh báo.
+====================================================================================================
+ITEM CL-04
+Q: Điều khoản bảo mật thông tin và bảo vệ dữ liệu cá nhân có đảm bảo tuân thủ quy định pháp luật không?
+PASS: Xác định hợp đồng có hoạt động chuyển giao dữ liệu cá nhân giữa các bên hay không; nếu có chuyển giao thì xác định rõ loại dữ liệu xử lý; có mục đích, thời gian lưu trữ, cam kết xóa sau hợp đồng; có cam kết phối hợp thực hiện quyền của chủ thể dữ liệu và yêu cầu cơ quan nhà nước có thẩm quyền. Nếu không có hoạt động chuyển giao dữ liệu cá nhân thì cần có quy định hợp đồng này không có hoạt động chuyển giao dữ liệu cá nhân.
+VIOL: Chuyển dữ liệu cá nhân ra nước ngoài mà không đánh giá tác động/thông báo → phạt đến 5% tổng doanh thu năm tài chính tại Việt Nam.
+NOTE: Điều khoản bảo vệ dữ liệu cá nhân không cụ thể, không phân biệt dữ liệu thông thường và dữ liệu nhạy cảm (sức khỏe, tài chính, sinh trắc học), không phân biệt dữ liệu có chuyển xuyên biên giới hay không. Căn cứ pháp lý: Luật Bảo vệ dữ liệu cá nhân; Luật An ninh mạng hiện hành.
+====================================================================================================
+ITEM CL-06
+Q: Việc kiểm soát xuất khẩu, nhập khẩu phần mềm/hàng hóa (nếu có) có tuân thủ quy định pháp luật không?
+PASS: Đã kiểm tra các mặt hàng cung cấp theo Hợp đồng không thuộc phạm vi điều chỉnh của Quy định Kiểm soát Xuất khẩu Hoa Kỳ (U.S. Export Administration Regulations – EAR). Trong trường hợp có bán hàng hóa, thiết bị thì Hợp đồng đã có điều khoản yêu cầu Bên A không xuất khẩu hàng hóa và không sử dụng cho mục đích quân sự.
+VIOL: Các mặt hàng cung cấp theo Hợp đồng thuộc phạm vi điều chỉnh của Quy định Kiểm soát Xuất khẩu Hoa Kỳ (EAR).
+NOTE: Cần tìm đề xuất trên mạng.
+====================================================================================================
+ITEM CL-03
+Q: Điều khoản bản quyền, sở hữu trí tuệ đã đầy đủ chưa? Xác định đúng đối tượng chưa?
+PASS: Xác định rõ chủ sở hữu quyền tác giả với sản phẩm tạo ra theo hợp đồng (thuộc Công ty); phạm vi VTIT được giữ lại; phạm vi license cấp cho khách hàng (độc quyền/không độc quyền, thời hạn, lãnh thổ); có điều khoản về source code; bảo đảm không vi phạm IP bên thứ ba; có điều khoản quyền sở hữu được chuyển giao khi khách hàng thanh toán 100% giá trị.
+VIOL: Không thỏa thuận hoặc thỏa thuận không đầy đủ: phạm vi VTIT được giữ lại; phạm vi license cấp cho khách hàng (độc quyền/không độc quyền, thời hạn, lãnh thổ); có điều khoản về source code; bảo đảm không vi phạm IP bên thứ ba → Khả năng xảy ra tranh chấp giữa các bên.
+NOTE: Chỉ quy định chung 'IP thuộc bên A' mà không liệt kê rõ đối tượng (phần mềm, tài liệu, dữ liệu...) — cần làm rõ.
+====================================================================================================
+ITEM CL-09
+Q: Hợp đồng có cấm sử dụng nhà thầu phụ không?
+PASS: Hợp đồng cho phép thầu phụ: có yêu cầu thông báo/chấp thuận trước bằng văn bản; có điều khoản đối với nhà thầu phụ.
+VIOL: Hợp đồng cấm thầu phụ mà Công ty vẫn sử dụng → vi phạm hợp đồng, khách hàng có quyền chấm dứt và yêu cầu bồi thường. Công ty vẫn chịu toàn bộ trách nhiệm dù thầu phụ gây ra lỗi.
+NOTE: Hợp đồng cấm thầu phụ nhưng thực tế Công ty cần thuê ngoài một phần công việc — cần đàm phán điều chỉnh trước khi ký.
+====================================================================================================
+ITEM CL-07
+Q: Điều khoản phạt, bồi thường thiệt hại có đảm bảo bảo vệ quyền lợi của Công ty không?
+PASS: Mức phạt vi phạm ≤ 8% giá trị phần nghĩa vụ vi phạm; có điều khoản bồi thường thiệt hại thực tế; có giới hạn trách nhiệm phạt và bồi thường tối đa (liability cap); loại trừ thiệt hại gián tiếp/mất lợi nhuận.
+VIOL: Mức phạt vượt 8% giá trị phần vi phạm → phần vượt vô hiệu theo luật. Không thỏa thuận phạt = mất quyền phạt, chỉ được bồi thường thiệt hại thực tế (phải chứng minh).
+NOTE: Mức phạt áp dụng một chiều bất lợi cho Công ty, không có quy định phạt và bồi thường cho Bên A hoặc không có giới hạn trách nhiệm tối đa — cần bổ sung.
+====================================================================================================
+ITEM CL-08
+Q: Căn cứ, hậu quả chấm dứt hợp đồng có bảo vệ quyền lợi của Công ty khi xảy ra tranh chấp không?
+PASS: Xác định rõ vi phạm cơ bản (material breach) dẫn đến chấm dứt ngay; chấm dứt thuận tiện (for convenience) yêu cầu thông báo trước tối thiểu 30 ngày và thanh toán phần đã hoàn thành; các điều khoản tiếp tục hiệu lực sau chấm dứt (bảo mật, sở hữu trí tuệ, thanh toán) được liệt kê rõ.
+VIOL: Khách hàng có thể chấm dứt bất kỳ lúc nào mà không bồi thường. Không có điều khoản về hậu quả chấm dứt hợp đồng.
+NOTE: Điều kiện chấm dứt mơ hồ hoặc chỉ có lợi cho khách hàng — cần bổ sung quyền chấm dứt tương xứng cho Công ty.
+====================================================================================================
+ITEM CL-11
+Q: Giá trị hợp đồng đã bao gồm, xác định đúng thuế, thuế suất chưa?
+PASS: Ghi rõ giá chưa thuế và thuế GTGT riêng biệt; thuế suất đúng quy định (dịch vụ phát triển phần mềm nội địa: 0%; dịch vụ khác liên quan đến phần mềm: 10%); ghi rõ bên nào chịu thuế nhà thầu nếu có yếu tố nước ngoài.
+VIOL: Không xác định thuế suất hoặc sai thuế suất GTGT. Điều khoản điều chỉnh thuế gây bất lợi cho Công ty hoặc không cho điều chỉnh thuế suất.
+NOTE: Giá ghi 'đã bao gồm tất cả các loại thuế' nhưng không xác định cụ thể. Xác định thuế suất là 8%. Điều khoản điều chỉnh thuế gây bất lợi cho Công ty. Cần tìm đề xuất trên mạng.
+====================================================================================================
+ITEM CL-10
+Q: Điều khoản thanh toán đã phù hợp và bảo vệ quyền lợi cho Công ty không?
+PASS: Có đặt cọc/tạm ứng trước khi khởi công (đề xuất 20–30%); thanh toán theo milestone rõ ràng; thời hạn thanh toán xác định ngày cụ thể; có lãi chậm thanh toán; Công ty có quyền tạm dừng dịch vụ nếu chậm thanh toán quá thời hạn.
+VIOL: Điều khoản thanh toán gây bất lợi cho Công ty hoặc có những điều kiện về hồ sơ thanh toán phức tạp. Hồ sơ thanh toán phức tạp: đề nghị thanh toán, hóa đơn, nhiều loại biên bản nghiệm thu, chứng chỉ, các tài liệu không có trong quá trình nghiệm thu, các tài liệu đơn phương của Bên A. Điều kiện thanh toán chỉ được thực hiện sau khi khách hàng nhận thanh toán từ bên thứ ba.
+NOTE: Thời hạn thanh toán ngắn (dưới 30 ngày) hoặc điều kiện thanh toán phụ thuộc vào xác nhận chủ quan của khách hàng. Hồ sơ thanh toán phức tạp: đề nghị thanh toán, hóa đơn, nhiều loại biên bản nghiệm thu, chứng chỉ. Điều kiện thanh toán chỉ được thực hiện sau khi khách hàng nhận thanh toán từ bên thứ ba.
+====================================================================================================
+ITEM CL-13
+Q: Khách hàng yêu cầu phạm vi công việc, cam kết dịch vụ hoặc SLA nào?
+PASS: SLA định nghĩa bằng chỉ số đo lường được (uptime %, thời gian phản hồi P1/P2/P3); cơ chế đo lường rõ ràng; hậu quả vi phạm SLA có giới hạn tối đa (đề xuất service credit ≤ 10–15% phí tháng vi phạm).
+VIOL: SLA không có giới hạn service credit → khách hàng có thể yêu cầu bồi thường không giới hạn. SLA được đánh giá là vượt quá khả năng thực tế dựa trên giá trị hợp đồng và thời gian thực hiện.
+NOTE: SLA uptime ≥ 99,9% mà hạ tầng hiện tại chưa đáp ứng — cần đánh giá khả thi trước khi cam kết ký kết.
+====================================================================================================
+ITEM CL-12
+Q: Các điều khoản thương mại (giá trị hợp đồng, điều kiện thanh toán, thời hạn thanh toán…) đã phù hợp chưa?
+PASS: Có cơ chế điều chỉnh giá khi phát sinh thêm phạm vi (change order phải ký phụ lục); đồng tiền thanh toán và tỷ giá quy đổi ghi rõ. Xác định rõ ràng loại giá hợp đồng, ví dụ: đơn giá cố định, đơn giá thay đổi, giá T&M, OSDC.
+VIOL: Không có điều khoản change order → khách hàng yêu cầu thêm việc mà Công ty phải thực hiện không được tính phí thêm. Thay đổi giá không có căn cứ hợp đồng. Quy định sử dụng đồng ngoại tệ thanh toán nếu Bên A là doanh nghiệp Việt Nam.
+NOTE: Giá cố định (fixed price) nhưng phạm vi công việc mơ hồ.
+====================================================================================================
+ITEM CL-14
+Q: Các cam kết với khách hàng về bảo mật, hỗ trợ vận hành, nhân sự hoặc thời gian phản hồi có khả thi không?
+PASS: Tất cả cam kết đã đối chiếu với năng lực thực tế (nhân sự, hạ tầng, ca trực); cam kết ngoài giờ hành chính có phụ phí hoặc giới hạn số lần/tháng; nhân sự chủ chốt được chỉ định và có quy trình thay thế.
+VIOL: Cam kết vượt khả năng thực tế. Cam kết ngoài giờ không có phụ phí. Cam kết về trách nhiệm vượt ngoài giá trị của hợp đồng.
+NOTE: Cam kết hỗ trợ 24/7 nhưng chưa có kế hoạch nhân sự trực.
+====================================================================================================
+ITEM CL-16
+Q: Tiến độ dự án, milestone và thời gian phản hồi/yêu cầu hỗ trợ có khả thi không?
+PASS: Milestone gắn ngày cụ thể hoặc điều kiện rõ ràng; có điều khoản điều chỉnh tiến độ khi khách hàng chậm cung cấp thông tin/phê duyệt; bất khả kháng được định nghĩa rõ và có thủ tục thông báo trong 7–15 ngày.
+VIOL: Milestone cố định mà không có cơ chế điều chỉnh → Công ty bị phạt chậm tiến độ dù nguyên nhân từ phía khách hàng. Không có điều khoản bất khả kháng → Công ty vẫn chịu phạt khi xảy ra sự kiện ngoài tầm kiểm soát.
+NOTE: Tiến độ phụ thuộc vào bên thứ ba (khách hàng cung cấp dữ liệu, API…) nhưng không có điều khoản giãn tiến độ tương ứng.
+====================================================================================================
+ITEM CL-15
+Q: Phạm vi công việc, deliverables, tiêu chí nghiệm thu và timeline có đủ rõ ràng không?
+PASS: Deliverables liệt kê cụ thể, đo lường được; tiêu chí nghiệm thu định lượng (số test case, % pass rate, chỉ số hiệu năng); thời hạn nghiệm thu xác định số ngày; có điều khoản nghiệm thu rõ ràng; cơ chế xử lý defect phân loại theo mức độ.
+VIOL: Không có tiêu chí nghiệm thu → khách hàng toàn quyền từ chối, Công ty không được thanh toán. Không có deeming acceptance → dự án treo vô hạn. Chỉ nghiệm thu sau khi bên thứ ba thực hiện nghiệm thu.
+NOTE: Tiêu chí nghiệm thu định tính ('đáp ứng yêu cầu kinh doanh') mà không có thước đo cụ thể.
+====================================================================================================
+ITEM CL-17
+Q: Các điều khoản về nhân sự chủ chốt, bàn giao, nghiệm thu, hỗ trợ sau nghiệm thu đã phù hợp chưa?
+PASS: Đầu mối phụ trách của các bên được chỉ định (tên hoặc vai trò); quy trình thay thế yêu cầu thông báo trước 15–30 ngày; danh mục tài liệu bàn giao liệt kê đầy đủ; thời gian và phạm vi bảo hành xác định rõ (đề xuất tối thiểu 12 tháng); có điều khoản non-solicitation cấm khách hàng tuyển dụng nhân sự Công ty trong và sau Hợp đồng tối thiểu 12 tháng.
+VIOL: Không có điều khoản non-solicitation → khách hàng tuyển dụng nhân sự chủ chốt, Công ty mất năng lực thực hiện. Không có danh mục bàn giao cụ thể → tranh chấp về mức độ hoàn thành, chậm thanh toán đợt cuối. Không có quy định Đầu mối phụ trách của các bên.
+NOTE: Bảo hành chỉ quy định thời gian mà không xác định phạm vi.
+====================================================================================================

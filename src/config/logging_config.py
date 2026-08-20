@@ -12,7 +12,13 @@ _CONFIGURED = False
 
 
 def setup_logging(level: str | None = None) -> None:
-    """Bật logging ra stdout, encoding UTF-8, format có timestamp + module. Gọi 1 lần ở entrypoint."""
+    """Bật logging ra stdout, encoding UTF-8, format có timestamp + module.
+
+    Gọi 1 lần ở entrypoint - các lần gọi sau là no-op (idempotent) nhờ cờ _CONFIGURED.
+
+    Args:
+        level: Mức log (vd "DEBUG", "INFO"). None để dùng LOG_LEVEL từ config.settings.
+    """
     global _CONFIGURED
     if _CONFIGURED:
         return

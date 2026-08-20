@@ -1,0 +1,918 @@
+{
+  "CL-01": {
+    "requirements": [
+      {
+        "requirement": "Chức vụ của người đại diện ký hợp đồng",
+        "queries": [
+          "Chức vụ của người đại diện ký hợp đồng",
+          "Ai là người đặt bút ký vào hợp đồng và giữ vị trí Giám đốc hoặc Tổng Giám đốc trong tổ chức"
+        ]
+      },
+      {
+        "requirement": "Giấy ủy quyền ký kết hợp đồng hợp lệ (nếu người ký không phải Giám đốc/Tổng Giám đốc)",
+        "queries": [
+          "Giấy ủy quyền ký kết hợp đồng",
+          "Văn bản cho phép một cá nhân thay mặt tổ chức ký kết hợp đồng, có phạm vi và thời hạn hiệu lực rõ ràng"
+        ]
+      },
+      {
+        "requirement": "Phạm vi giấy ủy quyền ký kết hợp đồng có đúng quy định",
+        "queries": [
+          "Phạm vi giấy ủy quyền ký kết hợp đồng",
+          "Giấy ủy quyền cho phép ký kết những loại hợp đồng hoặc giá trị hợp đồng nào"
+        ]
+      },
+      {
+        "requirement": "Hiệu lực của giấy ủy quyền tại ngày ký hợp đồng",
+        "queries": [
+          "Hiệu lực của giấy ủy quyền ký kết hợp đồng tại ngày ký",
+          "Ngày bắt đầu và ngày kết thúc hiệu lực của giấy ủy quyền so với ngày ký hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Giá trị hợp đồng",
+        "queries": [
+          "Giá trị hợp đồng là bao nhiêu tiền",
+          "Tổng số tiền thanh toán hoặc giá trị hợp đồng được ghi nhận trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Người ký hợp đồng có thẩm quyền ký hợp đồng giá trị trên 2 tỷ đồng",
+        "queries": [
+          "Thẩm quyền ký hợp đồng giá trị trên 2 tỷ đồng",
+          "Ai được phép ký hợp đồng có giá trị lớn hơn 2 tỷ đồng trong tổ chức"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 2987,
+      "output_tokens": 347,
+      "cost_usd": 0.0017500000000000003
+    }
+  },
+  "CL-02": {
+    "requirements": [
+      {
+        "requirement": "Dịch vụ hoặc hàng hóa theo hợp đồng thuộc một trong các ngành nghề đã đăng ký của công ty",
+        "queries": [
+          "Ngành nghề kinh doanh đã đăng ký của công ty",
+          "Danh sách các hoạt động kinh doanh mà công ty được phép thực hiện theo giấy phép đăng ký kinh doanh"
+        ]
+      },
+      {
+        "requirement": "Dịch vụ hoặc hàng hóa theo hợp đồng không thuộc ngành nghề kinh doanh đã đăng ký của công ty",
+        "queries": [
+          "Các dịch vụ hoặc hàng hóa được cung cấp trong hợp đồng có nằm ngoài danh mục ngành nghề đăng ký của công ty không",
+          "Hoạt động kinh doanh trong hợp đồng có phù hợp với ngành nghề đã đăng ký của công ty không"
+        ]
+      },
+      {
+        "requirement": "Dịch vụ hoặc hàng hóa theo hợp đồng thuộc ngành nghề kinh doanh có điều kiện theo quy định pháp luật Việt Nam",
+        "queries": [
+          "Danh mục ngành nghề kinh doanh có điều kiện theo pháp luật Việt Nam",
+          "Các hoạt động kinh doanh trong hợp đồng có thuộc ngành nghề kinh doanh có điều kiện không"
+        ]
+      },
+      {
+        "requirement": "Công ty có giấy phép hợp lệ để thực hiện các ngành nghề kinh doanh có điều kiện nêu trong hợp đồng",
+        "queries": [
+          "Giấy phép kinh doanh các ngành nghề có điều kiện của công ty",
+          "Công ty có được cấp phép thực hiện các ngành nghề kinh doanh có điều kiện theo hợp đồng không"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3925,
+      "output_tokens": 276,
+      "cost_usd": 0.0020116
+    }
+  },
+  "CL-03": {
+    "requirements": [
+      {
+        "requirement": "Chủ sở hữu quyền tác giả với sản phẩm tạo ra theo hợp đồng thuộc Công ty",
+        "queries": [
+          "Chủ sở hữu quyền tác giả với sản phẩm tạo ra theo hợp đồng",
+          "Ai là người sở hữu các quyền tác giả đối với sản phẩm được tạo ra trong hợp đồng này"
+        ]
+      },
+      {
+        "requirement": "Phạm vi quyền sở hữu trí tuệ (VTIT) được giữ lại bởi Công ty",
+        "queries": [
+          "Phạm vi quyền sở hữu trí tuệ được giữ lại bởi Công ty",
+          "Những quyền sở hữu trí tuệ nào vẫn thuộc về Công ty sau khi ký kết hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Phạm vi cấp license cho khách hàng bao gồm độc quyền hay không độc quyền",
+        "queries": [
+          "Phạm vi license cấp cho khách hàng về quyền sở hữu trí tuệ có tính độc quyền hay không",
+          "Khách hàng được cấp quyền sử dụng tài sản trí tuệ theo hình thức độc quyền hay chia sẻ với bên khác"
+        ]
+      },
+      {
+        "requirement": "Phạm vi cấp license cho khách hàng về thời hạn sử dụng",
+        "queries": [
+          "Thời hạn sử dụng quyền sở hữu trí tuệ được cấp cho khách hàng",
+          "Khoảng thời gian mà khách hàng được phép sử dụng tài sản trí tuệ theo hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Phạm vi cấp license cho khách hàng về lãnh thổ áp dụng",
+        "queries": [
+          "Lãnh thổ áp dụng quyền sở hữu trí tuệ được cấp cho khách hàng",
+          "Khu vực địa lý mà khách hàng được phép sử dụng tài sản trí tuệ theo hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Có điều khoản về source code trong hợp đồng",
+        "queries": [
+          "Điều khoản liên quan đến source code trong hợp đồng",
+          "Nội dung quy định về việc cung cấp hoặc quản lý mã nguồn phần mềm trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Bảo đảm không vi phạm quyền sở hữu trí tuệ của bên thứ ba",
+        "queries": [
+          "Cam kết không vi phạm quyền sở hữu trí tuệ của bên thứ ba trong hợp đồng",
+          "Đảm bảo rằng sản phẩm hoặc dịch vụ không xâm phạm quyền sở hữu trí tuệ của người khác"
+        ]
+      },
+      {
+        "requirement": "Điều khoản quy định quyền sở hữu được chuyển giao khi khách hàng thanh toán 100% giá trị hợp đồng",
+        "queries": [
+          "Điều khoản chuyển giao quyền sở hữu khi khách hàng thanh toán đầy đủ giá trị hợp đồng",
+          "Quy định về việc chuyển giao quyền sở hữu tài sản trí tuệ sau khi khách hàng hoàn thành thanh toán"
+        ]
+      },
+      {
+        "requirement": "Xác định rõ đối tượng quyền sở hữu trí tuệ (phần mềm, tài liệu, dữ liệu, v.v.) trong hợp đồng",
+        "queries": [
+          "Xác định đối tượng quyền sở hữu trí tuệ trong hợp đồng như phần mềm, tài liệu, dữ liệu",
+          "Các loại tài sản trí tuệ cụ thể được đề cập và bảo vệ trong hợp đồng"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3093,
+      "output_tokens": 585,
+      "cost_usd": 0.0021732
+    }
+  },
+  "CL-04": {
+    "requirements": [
+      {
+        "requirement": "Xác định hợp đồng có hoạt động chuyển giao dữ liệu cá nhân giữa các bên hay không",
+        "queries": [
+          "Hoạt động chuyển giao dữ liệu cá nhân giữa các bên trong hợp đồng",
+          "Có sự trao đổi hoặc chuyển giao thông tin cá nhân giữa các bên không"
+        ]
+      },
+      {
+        "requirement": "Xác định loại dữ liệu cá nhân được xử lý trong trường hợp có chuyển giao dữ liệu",
+        "queries": [
+          "Loại dữ liệu cá nhân được xử lý hoặc chuyển giao trong hợp đồng",
+          "Các loại thông tin cá nhân nào được bên này cung cấp cho bên kia"
+        ]
+      },
+      {
+        "requirement": "Xác định mục đích xử lý dữ liệu cá nhân trong hợp đồng",
+        "queries": [
+          "Mục đích sử dụng dữ liệu cá nhân theo hợp đồng",
+          "Lý do hoặc mục đích các bên thu thập và sử dụng thông tin cá nhân"
+        ]
+      },
+      {
+        "requirement": "Xác định thời gian lưu trữ dữ liệu cá nhân theo hợp đồng",
+        "queries": [
+          "Thời gian lưu trữ dữ liệu cá nhân được quy định trong hợp đồng",
+          "Khoảng thời gian các bên giữ thông tin cá nhân sau khi thu thập"
+        ]
+      },
+      {
+        "requirement": "Cam kết xóa dữ liệu cá nhân sau khi kết thúc hợp đồng",
+        "queries": [
+          "Cam kết xóa hoặc hủy dữ liệu cá nhân sau khi hợp đồng kết thúc",
+          "Quy định về việc xử lý dữ liệu cá nhân khi hợp đồng chấm dứt"
+        ]
+      },
+      {
+        "requirement": "Cam kết phối hợp thực hiện quyền của chủ thể dữ liệu cá nhân",
+        "queries": [
+          "Cam kết hỗ trợ chủ thể dữ liệu thực hiện quyền của mình",
+          "Nghĩa vụ của các bên trong việc đáp ứng yêu cầu của người sở hữu dữ liệu cá nhân"
+        ]
+      },
+      {
+        "requirement": "Cam kết phối hợp thực hiện yêu cầu của cơ quan nhà nước có thẩm quyền liên quan đến dữ liệu cá nhân",
+        "queries": [
+          "Cam kết hợp tác với cơ quan nhà nước trong việc xử lý dữ liệu cá nhân",
+          "Nghĩa vụ phối hợp với cơ quan chức năng về bảo vệ dữ liệu cá nhân"
+        ]
+      },
+      {
+        "requirement": "Quy định hợp đồng không có hoạt động chuyển giao dữ liệu cá nhân trong trường hợp không có chuyển giao",
+        "queries": [
+          "Quy định rõ hợp đồng không thực hiện chuyển giao dữ liệu cá nhân",
+          "Cam kết không có trao đổi hoặc chuyển giao thông tin cá nhân giữa các bên"
+        ]
+      },
+      {
+        "requirement": "Đánh giá tác động và thông báo khi chuyển dữ liệu cá nhân ra nước ngoài",
+        "queries": [
+          "Đánh giá tác động bảo vệ dữ liệu khi chuyển dữ liệu cá nhân ra nước ngoài",
+          "Quy định về việc thông báo hoặc xin phép khi chuyển dữ liệu cá nhân ra nước ngoài"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3115,
+      "output_tokens": 544,
+      "cost_usd": 0.0021164
+    }
+  },
+  "CL-05": {
+    "requirements": [
+      {
+        "requirement": "Định nghĩa thông tin mật trong hợp đồng",
+        "queries": [
+          "Định nghĩa thông tin mật trong hợp đồng",
+          "Các thuật ngữ và phạm vi thông tin được coi là bí mật trong tài liệu"
+        ]
+      },
+      {
+        "requirement": "Nghĩa vụ bảo mật của Bên A",
+        "queries": [
+          "Nghĩa vụ bảo mật của Bên A trong hợp đồng",
+          "Trách nhiệm của bên giao dịch trong việc giữ bí mật thông tin"
+        ]
+      },
+      {
+        "requirement": "Nghĩa vụ bảo mật của VTIT",
+        "queries": [
+          "Nghĩa vụ bảo mật của VTIT trong hợp đồng",
+          "Trách nhiệm của bên cung cấp dịch vụ trong việc bảo vệ thông tin bí mật"
+        ]
+      },
+      {
+        "requirement": "Thời hạn bảo mật thông tin quy định trong hợp đồng",
+        "queries": [
+          "Thời hạn bảo mật thông tin trong hợp đồng",
+          "Khoảng thời gian các bên phải giữ bí mật thông tin theo thỏa thuận"
+        ]
+      },
+      {
+        "requirement": "Các trường hợp ngoại lệ về bảo mật thông tin được quy định trong hợp đồng",
+        "queries": [
+          "Các trường hợp ngoại lệ về bảo mật thông tin trong hợp đồng",
+          "Những tình huống mà thông tin mật có thể được tiết lộ hợp pháp"
+        ]
+      },
+      {
+        "requirement": "Quyền của VTIT được tiết lộ thông tin cho nhà thầu",
+        "queries": [
+          "Quyền của VTIT trong việc tiết lộ thông tin cho nhà thầu",
+          "Điều kiện và phạm vi VTIT có thể chia sẻ thông tin với bên thứ ba thực hiện hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Quyền của VTIT sử dụng thông tin hợp đồng để chứng minh năng lực",
+        "queries": [
+          "Quyền của VTIT sử dụng thông tin hợp đồng để chứng minh năng lực",
+          "Việc bên cung cấp dịch vụ được phép dùng thông tin hợp đồng làm bằng chứng năng lực"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 2997,
+      "output_tokens": 374,
+      "cost_usd": 0.0017972
+    }
+  },
+  "CL-06": {
+    "requirements": [
+      {
+        "requirement": "Xác định các mặt hàng cung cấp theo Hợp đồng có thuộc phạm vi điều chỉnh của Quy định Kiểm soát Xuất khẩu Hoa Kỳ (U.S. Export Administration Regulations – EAR) hay không",
+        "queries": [
+          "Quy định về việc các mặt hàng cung cấp có bị điều chỉnh bởi luật kiểm soát xuất khẩu của Hoa Kỳ hay không",
+          "Danh mục hàng hóa hoặc phần mềm trong hợp đồng có bị ràng buộc bởi luật kiểm soát xuất khẩu của Mỹ không"
+        ]
+      },
+      {
+        "requirement": "Hợp đồng có điều khoản yêu cầu Bên A không được xuất khẩu hàng hóa thuộc hợp đồng",
+        "queries": [
+          "Điều khoản trong hợp đồng quy định Bên A không được phép xuất khẩu hàng hóa",
+          "Cam kết của Bên A về việc không thực hiện xuất khẩu hàng hóa theo hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Hợp đồng có điều khoản yêu cầu Bên A không sử dụng hàng hóa cho mục đích quân sự",
+        "queries": [
+          "Điều khoản trong hợp đồng quy định Bên A không được sử dụng hàng hóa cho mục đích quân sự",
+          "Cam kết của Bên A về việc không sử dụng sản phẩm hoặc hàng hóa vào mục đích quân sự"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3017,
+      "output_tokens": 251,
+      "cost_usd": 0.0016084
+    }
+  },
+  "CL-07": {
+    "requirements": [
+      {
+        "requirement": "Mức phạt vi phạm không vượt quá 8% giá trị phần nghĩa vụ vi phạm",
+        "queries": [
+          "Mức phạt vi phạm không vượt quá 8% giá trị phần nghĩa vụ vi phạm",
+          "Tỷ lệ phạt áp dụng cho phần nghĩa vụ bị vi phạm trong hợp đồng là bao nhiêu"
+        ]
+      },
+      {
+        "requirement": "Có điều khoản bồi thường thiệt hại thực tế",
+        "queries": [
+          "Điều khoản bồi thường thiệt hại thực tế trong hợp đồng",
+          "Các bên phải chịu trách nhiệm bồi thường thiệt hại thực tế phát sinh do vi phạm hợp đồng như thế nào"
+        ]
+      },
+      {
+        "requirement": "Có giới hạn trách nhiệm phạt và bồi thường tối đa (liability cap)",
+        "queries": [
+          "Giới hạn trách nhiệm phạt và bồi thường tối đa trong hợp đồng",
+          "Mức tối đa mà các bên phải chịu trách nhiệm phạt hoặc bồi thường theo hợp đồng là bao nhiêu"
+        ]
+      },
+      {
+        "requirement": "Loại trừ thiệt hại gián tiếp và mất lợi nhuận",
+        "queries": [
+          "Điều khoản loại trừ thiệt hại gián tiếp và mất lợi nhuận trong hợp đồng",
+          "Các bên không chịu trách nhiệm bồi thường cho những thiệt hại gián tiếp hoặc lợi nhuận bị mất như thế nào"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3055,
+      "output_tokens": 274,
+      "cost_usd": 0.0016604
+    }
+  },
+  "CL-08": {
+    "requirements": [
+      {
+        "requirement": "Xác định rõ các hành vi vi phạm cơ bản (material breach) dẫn đến việc chấm dứt hợp đồng ngay lập tức",
+        "queries": [
+          "Vi phạm cơ bản dẫn đến chấm dứt hợp đồng",
+          "Những hành vi nào được coi là vi phạm nghiêm trọng khiến hợp đồng bị hủy bỏ ngay lập tức"
+        ]
+      },
+      {
+        "requirement": "Điều kiện chấm dứt hợp đồng thuận tiện (for convenience) bao gồm yêu cầu thông báo trước tối thiểu 30 ngày",
+        "queries": [
+          "Điều kiện chấm dứt hợp đồng thuận tiện với thông báo trước 30 ngày",
+          "Yêu cầu về thời gian thông báo trước khi một bên muốn chấm dứt hợp đồng mà không cần lý do"
+        ]
+      },
+      {
+        "requirement": "Điều kiện chấm dứt hợp đồng thuận tiện (for convenience) bao gồm việc thanh toán phần công việc đã hoàn thành",
+        "queries": [
+          "Thanh toán phần công việc đã hoàn thành khi chấm dứt hợp đồng thuận tiện",
+          "Cách thức thanh toán cho phần công việc đã thực hiện khi một bên chấm dứt hợp đồng không lý do"
+        ]
+      },
+      {
+        "requirement": "Các điều khoản tiếp tục có hiệu lực sau khi chấm dứt hợp đồng, bao gồm bảo mật, sở hữu trí tuệ và thanh toán, được liệt kê rõ ràng",
+        "queries": [
+          "Điều khoản tiếp tục hiệu lực sau khi chấm dứt hợp đồng về bảo mật, sở hữu trí tuệ và thanh toán",
+          "Những nghĩa vụ nào vẫn còn hiệu lực sau khi hợp đồng kết thúc, đặc biệt về bảo mật và quyền sở hữu kết quả công việc"
+        ]
+      },
+      {
+        "requirement": "Quyền chấm dứt hợp đồng của Công ty phải tương xứng và không bị hạn chế so với quyền của khách hàng",
+        "queries": [
+          "Quyền chấm dứt hợp đồng của Công ty tương xứng với khách hàng",
+          "Khả năng của Công ty trong việc chấm dứt hợp đồng và các điều kiện đi kèm"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3050,
+      "output_tokens": 422,
+      "cost_usd": 0.0018952
+    }
+  },
+  "CL-09": {
+    "requirements": [
+      {
+        "requirement": "Hợp đồng có quy định cho phép sử dụng nhà thầu phụ hay không",
+        "queries": [
+          "Quy định về việc có được sử dụng nhà thầu phụ trong hợp đồng",
+          "Các điều khoản cho phép bên thực hiện thuê ngoài công việc cho bên thứ ba"
+        ]
+      },
+      {
+        "requirement": "Yêu cầu thông báo hoặc chấp thuận bằng văn bản khi sử dụng nhà thầu phụ",
+        "queries": [
+          "Yêu cầu phải thông báo hoặc xin phép bằng văn bản khi dùng nhà thầu phụ",
+          "Quy trình phê duyệt hoặc thông báo trước khi thuê nhà thầu phụ thực hiện công việc"
+        ]
+      },
+      {
+        "requirement": "Hợp đồng có điều khoản quy định cụ thể về nhà thầu phụ",
+        "queries": [
+          "Điều khoản liên quan đến nhà thầu phụ trong hợp đồng",
+          "Các quy định chi tiết về việc sử dụng nhà thầu phụ và trách nhiệm liên quan"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 2995,
+      "output_tokens": 184,
+      "cost_usd": 0.0014924
+    }
+  },
+  "CL-10": {
+    "requirements": [
+      {
+        "requirement": "Có đặt cọc hoặc tạm ứng trước khi khởi công, tỷ lệ đặt cọc/tạm ứng",
+        "queries": [
+          "Điều khoản đặt cọc hoặc tạm ứng trước khi bắt đầu công việc",
+          "Phần trăm tiền thanh toán trước khi khởi công được quy định như thế nào trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Thanh toán theo các mốc công việc (milestone) rõ ràng",
+        "queries": [
+          "Điều khoản thanh toán theo từng giai đoạn hoặc mốc công việc cụ thể",
+          "Cách thức và thời điểm thanh toán được chia theo các bước hoàn thành công việc như thế nào"
+        ]
+      },
+      {
+        "requirement": "Thời hạn thanh toán được xác định bằng ngày cụ thể",
+        "queries": [
+          "Thời hạn thanh toán được quy định rõ ràng theo ngày tháng cụ thể",
+          "Khoảng thời gian thanh toán được xác định chính xác trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Có quy định về lãi suất chậm thanh toán",
+        "queries": [
+          "Điều khoản về lãi suất áp dụng khi thanh toán chậm",
+          "Phạt hoặc lãi suất tính thêm khi bên thanh toán trễ hạn"
+        ]
+      },
+      {
+        "requirement": "Công ty có quyền tạm dừng dịch vụ nếu khách hàng chậm thanh toán quá thời hạn",
+        "queries": [
+          "Quyền của Công ty trong việc tạm dừng dịch vụ khi khách hàng không thanh toán đúng hạn",
+          "Điều kiện để Công ty ngừng cung cấp dịch vụ do chậm trễ thanh toán"
+        ]
+      },
+      {
+        "requirement": "Điều khoản thanh toán không gây bất lợi cho Công ty",
+        "queries": [
+          "Các điều kiện thanh toán có lợi cho Công ty",
+          "Điều khoản thanh toán không làm mất quyền lợi của Công ty"
+        ]
+      },
+      {
+        "requirement": "Hồ sơ thanh toán không phức tạp, không yêu cầu nhiều loại tài liệu ngoài đề nghị thanh toán, hóa đơn, biên bản nghiệm thu, chứng chỉ",
+        "queries": [
+          "Các loại hồ sơ cần thiết để thanh toán theo hợp đồng",
+          "Yêu cầu về tài liệu thanh toán có đơn giản và rõ ràng không"
+        ]
+      },
+      {
+        "requirement": "Không yêu cầu các tài liệu đơn phương của Bên A trong hồ sơ thanh toán",
+        "queries": [
+          "Yêu cầu về tài liệu thanh toán không bao gồm các văn bản do Bên A tự lập",
+          "Hồ sơ thanh toán không cần các tài liệu do một bên đơn phương cung cấp"
+        ]
+      },
+      {
+        "requirement": "Điều kiện thanh toán không phụ thuộc vào việc khách hàng nhận thanh toán từ bên thứ ba",
+        "queries": [
+          "Thanh toán không bị ràng buộc bởi việc khách hàng nhận tiền từ bên thứ ba",
+          "Điều kiện thanh toán không dựa trên việc bên khách hàng đã nhận tiền từ nguồn khác"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3121,
+      "output_tokens": 549,
+      "cost_usd": 0.0021268000000000003
+    }
+  },
+  "CL-11": {
+    "requirements": [
+      {
+        "requirement": "Ghi rõ giá chưa thuế và thuế GTGT riêng biệt trong hợp đồng",
+        "queries": [
+          "Ghi rõ giá chưa thuế và thuế GTGT riêng biệt trong hợp đồng",
+          "Hợp đồng có phân tách rõ số tiền chưa tính thuế và số tiền thuế giá trị gia tăng"
+        ]
+      },
+      {
+        "requirement": "Thuế suất áp dụng cho dịch vụ phát triển phần mềm nội địa là 0%",
+        "queries": [
+          "Thuế suất áp dụng cho dịch vụ phát triển phần mềm nội địa là 0%",
+          "Tỷ lệ phần trăm thuế giá trị gia tăng được áp dụng cho dịch vụ phát triển phần mềm trong nước"
+        ]
+      },
+      {
+        "requirement": "Thuế suất áp dụng cho dịch vụ khác liên quan đến phần mềm là 10%",
+        "queries": [
+          "Thuế suất áp dụng cho dịch vụ khác liên quan đến phần mềm là 10%",
+          "Mức thuế giá trị gia tăng được áp dụng cho các dịch vụ phần mềm không phải phát triển nội địa"
+        ]
+      },
+      {
+        "requirement": "Ghi rõ bên chịu thuế nhà thầu nếu có yếu tố nước ngoài trong hợp đồng",
+        "queries": [
+          "Ghi rõ bên chịu thuế nhà thầu nếu có yếu tố nước ngoài trong hợp đồng",
+          "Ai chịu trách nhiệm thanh toán thuế nhà thầu khi hợp đồng có liên quan đến bên nước ngoài"
+        ]
+      },
+      {
+        "requirement": "Không có điều khoản điều chỉnh thuế gây bất lợi cho Công ty",
+        "queries": [
+          "Điều khoản điều chỉnh thuế không gây bất lợi cho Công ty",
+          "Nội dung điều chỉnh thuế trong hợp đồng không làm thiệt hại quyền lợi của Công ty"
+        ]
+      },
+      {
+        "requirement": "Có điều khoản cho phép điều chỉnh thuế suất trong hợp đồng",
+        "queries": [
+          "Điều khoản cho phép điều chỉnh thuế suất trong hợp đồng",
+          "Hợp đồng có quy định về việc thay đổi thuế suất khi có sự thay đổi quy định pháp luật"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3035,
+      "output_tokens": 391,
+      "cost_usd": 0.0018396
+    }
+  },
+  "CL-12": {
+    "requirements": [
+      {
+        "requirement": "Cơ chế điều chỉnh giá khi phát sinh thêm phạm vi (change order phải ký phụ lục)",
+        "queries": [
+          "Cơ chế điều chỉnh giá khi phát sinh thêm phạm vi, change order và phụ lục",
+          "Khi có yêu cầu thêm công việc, hợp đồng có quy định việc ký phụ lục để thay đổi giá không"
+        ]
+      },
+      {
+        "requirement": "Đồng tiền thanh toán và tỷ giá quy đổi được ghi rõ trong hợp đồng",
+        "queries": [
+          "Đồng tiền thanh toán và tỷ giá quy đổi trong hợp đồng",
+          "Hợp đồng quy định rõ loại tiền sử dụng để thanh toán và cách tính tỷ giá khi thanh toán"
+        ]
+      },
+      {
+        "requirement": "Loại giá hợp đồng được xác định rõ ràng (đơn giá cố định, đơn giá thay đổi, giá T&M, OSDC)",
+        "queries": [
+          "Loại giá hợp đồng như đơn giá cố định, đơn giá thay đổi, giá T&M, OSDC",
+          "Hợp đồng xác định rõ cách tính giá trị thanh toán dựa trên loại giá áp dụng"
+        ]
+      },
+      {
+        "requirement": "Điều khoản change order phải có trong hợp đồng",
+        "queries": [
+          "Điều khoản change order trong hợp đồng",
+          "Hợp đồng có quy định về việc thay đổi phạm vi công việc và điều chỉnh giá khi có yêu cầu mới"
+        ]
+      },
+      {
+        "requirement": "Quy định về việc thay đổi giá phải có căn cứ hợp đồng",
+        "queries": [
+          "Quy định về thay đổi giá có căn cứ hợp đồng",
+          "Hợp đồng quy định điều kiện và thủ tục khi thay đổi giá trị hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Quy định sử dụng đồng ngoại tệ thanh toán nếu Bên A là doanh nghiệp Việt Nam",
+        "queries": [
+          "Quy định sử dụng đồng ngoại tệ thanh toán khi Bên A là doanh nghiệp Việt Nam",
+          "Hợp đồng có điều khoản về việc thanh toán bằng ngoại tệ trong trường hợp bên mua là doanh nghiệp Việt Nam"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3030,
+      "output_tokens": 394,
+      "cost_usd": 0.0018424000000000001
+    }
+  },
+  "CL-13": {
+    "requirements": [
+      {
+        "requirement": "SLA được định nghĩa bằng các chỉ số đo lường cụ thể như tỷ lệ thời gian hoạt động (uptime %) và thời gian phản hồi cho các mức ưu tiên P1, P2, P3",
+        "queries": [
+          "SLA định nghĩa bằng chỉ số đo lường như uptime %, thời gian phản hồi P1/P2/P3",
+          "Các chỉ số cụ thể dùng để đo lường hiệu suất dịch vụ và thời gian phản hồi theo mức độ ưu tiên khác nhau"
+        ]
+      },
+      {
+        "requirement": "Cơ chế đo lường SLA phải được mô tả rõ ràng trong hợp đồng",
+        "queries": [
+          "Cơ chế đo lường SLA trong hợp đồng",
+          "Phương pháp và quy trình xác định các chỉ số hiệu suất dịch vụ được nêu trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Hậu quả khi vi phạm SLA phải có giới hạn tối đa, cụ thể là service credit đề xuất không vượt quá 10–15% phí tháng vi phạm",
+        "queries": [
+          "Giới hạn tối đa của service credit khi vi phạm SLA",
+          "Mức bồi thường tối đa dưới dạng service credit không vượt quá 10–15% phí tháng vi phạm"
+        ]
+      },
+      {
+        "requirement": "SLA không được quy định service credit giới hạn để tránh khách hàng có thể yêu cầu bồi thường không giới hạn",
+        "queries": [
+          "SLA không có giới hạn service credit",
+          "Trường hợp khách hàng có thể yêu cầu bồi thường không giới hạn do thiếu giới hạn service credit"
+        ]
+      },
+      {
+        "requirement": "SLA phải phù hợp với khả năng thực tế dựa trên giá trị hợp đồng và thời gian thực hiện, không được vượt quá khả năng này",
+        "queries": [
+          "SLA phù hợp với giá trị hợp đồng và thời gian thực hiện",
+          "Đánh giá khả năng thực hiện SLA dựa trên giá trị hợp đồng và thời gian thực hiện"
+        ]
+      },
+      {
+        "requirement": "SLA uptime phải đạt tối thiểu 99,9% và hạ tầng hiện tại phải đáp ứng được yêu cầu này",
+        "queries": [
+          "Yêu cầu SLA uptime tối thiểu 99,9%",
+          "Khả năng hạ tầng hiện tại đáp ứng SLA uptime ≥ 99,9%"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3020,
+      "output_tokens": 442,
+      "cost_usd": 0.0019152000000000001
+    }
+  },
+  "CL-14": {
+    "requirements": [
+      {
+        "requirement": "Cam kết bảo mật với khách hàng",
+        "queries": [
+          "Cam kết bảo mật với khách hàng",
+          "Những điều khoản liên quan đến việc giữ bí mật thông tin giữa các bên trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Cam kết hỗ trợ vận hành với khách hàng",
+        "queries": [
+          "Cam kết hỗ trợ vận hành với khách hàng",
+          "Các điều khoản mô tả việc cung cấp dịch vụ hỗ trợ kỹ thuật hoặc vận hành cho khách hàng"
+        ]
+      },
+      {
+        "requirement": "Cam kết về nhân sự với khách hàng",
+        "queries": [
+          "Cam kết về nhân sự với khách hàng",
+          "Các điều khoản quy định về việc bố trí nhân sự thực hiện hợp đồng, bao gồm số lượng và trình độ nhân sự"
+        ]
+      },
+      {
+        "requirement": "Cam kết về thời gian phản hồi với khách hàng",
+        "queries": [
+          "Cam kết về thời gian phản hồi với khách hàng",
+          "Các điều khoản quy định thời gian tối đa để phản hồi hoặc xử lý yêu cầu của khách hàng"
+        ]
+      },
+      {
+        "requirement": "Đối chiếu tất cả cam kết với năng lực thực tế về nhân sự",
+        "queries": [
+          "Đối chiếu cam kết với năng lực thực tế về nhân sự",
+          "So sánh cam kết về nhân sự với khả năng và số lượng nhân sự hiện có của bên cung cấp"
+        ]
+      },
+      {
+        "requirement": "Đối chiếu tất cả cam kết với năng lực thực tế về hạ tầng",
+        "queries": [
+          "Đối chiếu cam kết với năng lực thực tế về hạ tầng",
+          "So sánh cam kết về hạ tầng kỹ thuật với cơ sở vật chất và thiết bị hiện có"
+        ]
+      },
+      {
+        "requirement": "Đối chiếu tất cả cam kết với năng lực thực tế về ca trực",
+        "queries": [
+          "Đối chiếu cam kết với năng lực thực tế về ca trực",
+          "Kiểm tra khả năng bố trí ca trực phù hợp với cam kết dịch vụ"
+        ]
+      },
+      {
+        "requirement": "Cam kết ngoài giờ hành chính có phụ phí hoặc giới hạn số lần/tháng",
+        "queries": [
+          "Cam kết ngoài giờ hành chính có phụ phí hoặc giới hạn số lần/tháng",
+          "Các điều khoản quy định chi phí hoặc giới hạn số lần cung cấp dịch vụ ngoài giờ hành chính"
+        ]
+      },
+      {
+        "requirement": "Nhân sự chủ chốt được chỉ định rõ ràng",
+        "queries": [
+          "Nhân sự chủ chốt được chỉ định trong hợp đồng",
+          "Các điều khoản nêu tên hoặc mô tả nhân sự quan trọng được giao nhiệm vụ thực hiện hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Có quy trình thay thế nhân sự chủ chốt",
+        "queries": [
+          "Quy trình thay thế nhân sự chủ chốt",
+          "Các điều khoản quy định cách thức thay thế nhân sự quan trọng khi cần thiết"
+        ]
+      },
+      {
+        "requirement": "Cam kết không vượt quá khả năng thực tế",
+        "queries": [
+          "Cam kết không vượt quá khả năng thực tế",
+          "Các điều khoản thể hiện cam kết phù hợp với năng lực và nguồn lực hiện có của bên cung cấp"
+        ]
+      },
+      {
+        "requirement": "Cam kết ngoài giờ có phụ phí",
+        "queries": [
+          "Cam kết ngoài giờ có phụ phí",
+          "Các điều khoản quy định việc tính phí khi cung cấp dịch vụ ngoài giờ hành chính"
+        ]
+      },
+      {
+        "requirement": "Cam kết về trách nhiệm không vượt ngoài giá trị hợp đồng",
+        "queries": [
+          "Cam kết về trách nhiệm không vượt ngoài giá trị hợp đồng",
+          "Các điều khoản giới hạn trách nhiệm của các bên trong phạm vi giá trị hợp đồng"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 2999,
+      "output_tokens": 671,
+      "cost_usd": 0.0022732000000000004
+    }
+  },
+  "CL-15": {
+    "requirements": [
+      {
+        "requirement": "Danh sách deliverables được liệt kê cụ thể và có thể đo lường được",
+        "queries": [
+          "Danh sách các sản phẩm, kết quả công việc được mô tả chi tiết trong hợp đồng",
+          "Các kết quả công việc có thể được định lượng hoặc kiểm tra cụ thể như thế nào"
+        ]
+      },
+      {
+        "requirement": "Tiêu chí nghiệm thu được định lượng bằng các chỉ số cụ thể như số lượng test case, tỷ lệ pass, hoặc chỉ số hiệu năng",
+        "queries": [
+          "Tiêu chí để đánh giá việc nghiệm thu dựa trên các con số hoặc chỉ số cụ thể",
+          "Các điều kiện để xác nhận nghiệm thu dựa trên số lượng kiểm thử, tỷ lệ thành công hoặc hiệu suất"
+        ]
+      },
+      {
+        "requirement": "Thời hạn nghiệm thu được xác định rõ ràng bằng số ngày cụ thể",
+        "queries": [
+          "Khoảng thời gian để hoàn thành việc nghiệm thu được ghi rõ trong hợp đồng",
+          "Số ngày được quy định để thực hiện nghiệm thu sau khi hoàn thành công việc"
+        ]
+      },
+      {
+        "requirement": "Hợp đồng có điều khoản quy định rõ ràng về quy trình và điều kiện nghiệm thu",
+        "queries": [
+          "Các điều khoản mô tả quy trình nghiệm thu và các bước thực hiện",
+          "Quy định về cách thức và điều kiện để nghiệm thu sản phẩm hoặc dịch vụ"
+        ]
+      },
+      {
+        "requirement": "Cơ chế xử lý lỗi (defect) được phân loại theo mức độ nghiêm trọng và có quy trình xử lý cụ thể",
+        "queries": [
+          "Cách thức phân loại và xử lý các lỗi phát hiện trong quá trình nghiệm thu",
+          "Quy trình xử lý các lỗi được phân loại theo mức độ ảnh hưởng trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Hợp đồng không được thiếu tiêu chí nghiệm thu, nếu không khách hàng có quyền từ chối và công ty không được thanh toán",
+        "queries": [
+          "Quy định về quyền từ chối nghiệm thu khi không có tiêu chí rõ ràng",
+          "Điều kiện thanh toán liên quan đến việc có hay không tiêu chí nghiệm thu"
+        ]
+      },
+      {
+        "requirement": "Hợp đồng phải có quy định về deeming acceptance để tránh dự án bị treo vô hạn",
+        "queries": [
+          "Điều khoản về việc tự động coi như đã nghiệm thu nếu không có phản hồi trong thời gian quy định",
+          "Cách xử lý khi không có phản hồi nghiệm thu từ khách hàng trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Quy định về việc nghiệm thu chỉ được thực hiện sau khi bên thứ ba hoàn thành nghiệm thu",
+        "queries": [
+          "Điều khoản quy định bên thứ ba thực hiện nghiệm thu trước khi khách hàng nghiệm thu",
+          "Quy trình nghiệm thu liên quan đến bên thứ ba trong hợp đồng"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3025,
+      "output_tokens": 537,
+      "cost_usd": 0.0020692
+    }
+  },
+  "CL-16": {
+    "requirements": [
+      {
+        "requirement": "Milestone có ngày cụ thể hoặc điều kiện rõ ràng",
+        "queries": [
+          "Milestone có ngày cụ thể hoặc điều kiện rõ ràng",
+          "Các mốc thời gian hoặc điều kiện hoàn thành công việc được xác định rõ ràng trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Điều khoản điều chỉnh tiến độ khi khách hàng chậm cung cấp thông tin hoặc phê duyệt",
+        "queries": [
+          "Điều khoản điều chỉnh tiến độ khi khách hàng chậm cung cấp thông tin hoặc phê duyệt",
+          "Cách xử lý khi khách hàng không kịp thời cung cấp dữ liệu hoặc phê duyệt ảnh hưởng đến tiến độ dự án"
+        ]
+      },
+      {
+        "requirement": "Định nghĩa rõ ràng về bất khả kháng trong hợp đồng",
+        "queries": [
+          "Định nghĩa rõ ràng về bất khả kháng trong hợp đồng",
+          "Các sự kiện ngoài tầm kiểm soát được mô tả và quy định trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Thủ tục thông báo sự kiện bất khả kháng trong vòng 7–15 ngày",
+        "queries": [
+          "Thủ tục thông báo sự kiện bất khả kháng trong vòng 7–15 ngày",
+          "Quy trình và thời hạn các bên phải thông báo khi xảy ra sự kiện bất khả kháng"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3031,
+      "output_tokens": 259,
+      "cost_usd": 0.0016268
+    }
+  },
+  "CL-17": {
+    "requirements": [
+      {
+        "requirement": "Đầu mối phụ trách của bên cung cấp dịch vụ được chỉ định (tên hoặc vai trò)",
+        "queries": [
+          "Đầu mối phụ trách của bên cung cấp dịch vụ",
+          "Ai là người chịu trách nhiệm chính đại diện bên cung cấp trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Đầu mối phụ trách của bên khách hàng được chỉ định (tên hoặc vai trò)",
+        "queries": [
+          "Đầu mối phụ trách của bên khách hàng",
+          "Ai là người chịu trách nhiệm chính đại diện bên khách hàng trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Quy trình thay thế đầu mối phụ trách yêu cầu thông báo trước 15–30 ngày",
+        "queries": [
+          "Quy trình thay thế đầu mối phụ trách với thông báo trước 15–30 ngày",
+          "Cách thức và thời gian thông báo khi thay đổi người phụ trách trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Danh mục tài liệu bàn giao được liệt kê đầy đủ",
+        "queries": [
+          "Danh mục tài liệu bàn giao đầy đủ",
+          "Các tài liệu cần bàn giao được liệt kê chi tiết trong hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Thời gian bảo hành được xác định rõ, tối thiểu 12 tháng",
+        "queries": [
+          "Thời gian bảo hành tối thiểu 12 tháng",
+          "Khoảng thời gian mà bên cung cấp cam kết bảo hành sản phẩm hoặc dịch vụ"
+        ]
+      },
+      {
+        "requirement": "Phạm vi bảo hành được xác định rõ ràng",
+        "queries": [
+          "Phạm vi bảo hành chi tiết",
+          "Những hạng mục hoặc điều kiện được bảo hành theo hợp đồng"
+        ]
+      },
+      {
+        "requirement": "Điều khoản non-solicitation cấm khách hàng tuyển dụng nhân sự của Công ty trong và sau hợp đồng tối thiểu 12 tháng",
+        "queries": [
+          "Điều khoản non-solicitation cấm tuyển dụng nhân sự",
+          "Cam kết không tuyển dụng nhân sự của bên cung cấp trong và sau thời gian hợp đồng ít nhất 12 tháng"
+        ]
+      }
+    ],
+    "usage": {
+      "input_tokens": 3075,
+      "output_tokens": 394,
+      "cost_usd": 0.0018604000000000003
+    }
+  }
+}

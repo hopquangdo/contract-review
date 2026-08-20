@@ -1,0 +1,92 @@
+[
+  {
+    "contract_id": 1,
+    "name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+    "source_file": "data\\input\\BM 01 - Hop dong cung cap dich vu phat trien phan mem.md",
+    "n_clauses_in_graph": 77,
+    "n_candidates": 76,
+    "n_matched": 75,
+    "n_missing": 1,
+    "missing_numbers": [
+      "4.3"
+    ],
+    "recall": 0.9868421052631579
+  },
+  {
+    "contract_id": 4,
+    "name": "HĐ TOSS v 12.5.2026.parsed",
+    "source_file": "data\\input\\HĐ TOSS v 12.5.2026.parsed.md",
+    "n_clauses_in_graph": 130,
+    "n_candidates": 103,
+    "n_matched": 101,
+    "n_missing": 2,
+    "missing_numbers": [
+      "2.7",
+      "3.3.2"
+    ],
+    "recall": 0.9805825242718447
+  },
+  {
+    "contract_id": 5,
+    "name": "HĐ TOSS v 12.5.2026.parsed",
+    "source_file": "data\\input\\HĐ TOSS v 12.5.2026.parsed.md",
+    "n_clauses_in_graph": 130,
+    "n_candidates": 103,
+    "n_matched": 101,
+    "n_missing": 2,
+    "missing_numbers": [
+      "2.7",
+      "3.3.2"
+    ],
+    "recall": 0.9805825242718447
+  },
+  {
+    "contract_id": 8,
+    "name": "HĐ TOSS v 12.5.2026.parsed",
+    "source_file": "data\\input\\HĐ TOSS v 12.5.2026.parsed.md",
+    "n_clauses_in_graph": 130,
+    "n_candidates": 103,
+    "n_matched": 101,
+    "n_missing": 2,
+    "missing_numbers": [
+      "2.7",
+      "3.3.2"
+    ],
+    "recall": 0.9805825242718447
+  },
+  {
+    "contract_id": 9,
+    "name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+    "source_file": "data\\input\\BM 01 - Hop dong cung cap dich vu phat trien phan mem.md",
+    "n_clauses_in_graph": 78,
+    "n_candidates": 76,
+    "n_matched": 76,
+    "n_missing": 0,
+    "missing_numbers": [],
+    "recall": 1.0
+  },
+  {
+    "contract_id": 10,
+    "name": "HĐ TOSS v 12.5.2026.parsed",
+    "source_file": "data\\input\\HĐ TOSS v 12.5.2026.parsed.md",
+    "n_clauses_in_graph": 131,
+    "n_candidates": 103,
+    "n_matched": 102,
+    "n_missing": 1,
+    "missing_numbers": [
+      "2.7"
+    ],
+    "recall": 0.9902912621359223
+  },
+  {
+    "contract_id": 11,
+    "name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+    "source_file": "data\\input\\BM 01 - Hop dong cung cap dich vu phat trien phan mem.md",
+    "n_clauses_in_graph": 78,
+    "n_candidates": 76,
+    "n_matched": 76,
+    "n_missing": 0,
+    "missing_numbers": [],
+    "recall": 1.0
+  }
+]

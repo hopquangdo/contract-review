@@ -37,15 +37,6 @@ Hợp đồng (PDF/DOCX/MD)
 
 ![Contract graph example](assets/contract_graph.png)
 
-## Bạn cần gì?
-
-- [OpenAI API key](https://platform.openai.com/api-keys) — dùng để:
-  - Trích xuất thông tin từ hợp đồng (các bên, luật áp dụng, loại điều khoản, quan hệ chéo)
-  - Sinh embedding cho từng Điều khoản (`text-embedding-3-small`)
-  - Đánh giá từng mục checklist (mặc định `gpt-4.1-mini`, cấu hình qua `EVALUATOR_MODEL`)
-- Python 3.10+ và virtual environment (chạy local) **hoặc** Docker + Docker Compose (chạy production)
-- Một instance Neo4j có plugin **APOC** và **GenAI**
-
 ## Cài đặt
 
 Dùng cách này khi phát triển/debug local. Để triển khai production, xem [Chạy bằng Docker](#chạy-bằng-docker-production).
@@ -215,6 +206,11 @@ Mỗi hợp đồng có `contract_id` riêng (tự tăng), toàn bộ node đư�
 
 ## Công cụ dòng lệnh
 
+Trước khi chạy bất kỳ script nào bên dưới, nhớ activate virtual environment (xem [Cài đặt](#cài-đặt)):
+
+**Windows**: `.venv\Scripts\activate`
+**macOS / Linux**: `source .venv/bin/activate`
+
 Build graph cho 1 hợp đồng đã có sẵn markdown đã parse:
 
 ```bash
@@ -227,12 +223,42 @@ Chấm checklist cho 1 hợp đồng qua CLI (song song nhiều mục, `--max-wo
 python scripts/evaluate_checklist.py --checklist path/to/checklist.json --contract-id 1 --out report.json
 ```
 
+Benchmark CHỈ retrieval (không tốn LLM, tất định) - đo recall/precision + mức độ "kéo theo" của
+graph traversal trên `data/benchmark/retrieval/ground_truth.json`, ghi kết quả JSON vào
+`data/output/retrieval/`:
+
+```bash
+python scripts/benchmark_retrieval.py [--ground-truth path/to/ground_truth.json]
+```
+
+Xuất dữ liệu cho `index.html` (Evidence Graph theo từng mục checklist) - chạy THẬT qua pipeline đầy
+đủ (tốn LLM), ghi JSON vào `data/output/eval/`:
+
+```bash
+python scripts/build_evidence_graph_export.py --contract-id 1 --checklist data/benchmark/bm01_checklist_input.json
+```
+
+Mở `index.html` ở gốc repo, bấm nút chọn file, chọn file JSON vừa xuất để xem cây quan hệ đồ thị
+(root/chain) dẫn tới từng Điều khoản khớp cho mỗi mục checklist, kèm status/bằng chứng/lý do.
+
+Xuất dữ liệu cho `graph.html` (danh sách phẳng toàn bộ Điều khoản 1 hợp đồng, click xem liên kết) -
+đọc thẳng Neo4j, KHÔNG tốn LLM:
+
+```bash
+python scripts/build_contract_graph_export.py --contract-id 1
+```
+
+Mở `graph.html` ở gốc repo, chọn file JSON vừa xuất - sidebar trái liệt kê mọi Điều khoản (tìm kiếm
+được), click 1 Điều khoản để xem nội dung + liên kết đi ra/đi vào (REFERS_TO/DEPENDS_ON/
+EXCEPTION_TO/REFERS_TO_APPENDIX/DEFINES/CONTAINS), click vào 1 liên kết để mở nội dung ngay tại chỗ
+hoặc bấm "nhảy tới" để chuyển sang xem trang của Khoản đó.
+
 ## Đánh giá (Evaluation)
 
-`eval/evaluate.py` so sánh kết quả hệ thống với ground truth thủ công. `data/benchmark/` chỉ chứa
+`evaluation/evaluate.py` so sánh kết quả hệ thống với ground truth thủ công. `data/benchmark/` chỉ chứa
 input cố định để test (checklist mẫu + ground truth), KHÔNG chứa kết quả chạy - mọi output sinh ra
 mỗi lần chạy pipeline/eval (system_output, report) lưu vào `data/output/`:
 
 ```bash
-python eval/evaluate.py --system-output data/output/bm01_system_output.json --report-out data/output/bm01_report.json
+python evaluation/evaluate.py --system-output data/output/bm01_system_output.json --report-out data/output/bm01_report.json
 ```

@@ -1,4 +1,4 @@
-"""Parse file PDF/Word hợp đồng thành Markdown."""
+"""Parse file PDF/Word hợp đồng gốc thành Markdown có cấu trúc bằng docling."""
 
 from __future__ import annotations
 
@@ -38,8 +38,6 @@ _PDF_PIPELINE_LOGGER_NAME = "docling.pipeline.standard_pdf_pipeline"
 
 ProgressCallback = Callable[[str, list[int]], None]
 
-CONTRACT_EXTENSIONS = (".pdf", ".docx", ".doc")
-
 
 class _PageProgressLogHandler(logging.Handler):
     """Suy ra tiến độ xử lý theo từng trang từ log nội bộ của pipeline docling."""
@@ -64,19 +62,18 @@ class DoclingParser:
         self._converter: Optional[DocumentConverter] = None
         self._lock = threading.Lock()
 
-    def _get_converter(self) -> DocumentConverter:
-        if self._converter is None:
-            with self._lock:
-                if self._converter is None:
-                    self._converter = DocumentConverter(
-                        format_options={InputFormat.PDF: PdfFormatOption(pipeline_options=_PDF_PIPELINE_OPTIONS)}
-                    )
-        return self._converter
-
     def parse_to_markdown(self, name: str, data: bytes, on_progress: ProgressCallback | None = None) -> str:
-        """Chuyển nội dung file (bytes) thành Markdown. `on_progress(stage, pages)` được gọi
-        mỗi khi docling xử lý xong 1 batch trang (chỉ áp dụng cho PDF) - dùng để UI hiển thị
-        tiến độ."""
+        """Chuyển nội dung file (bytes) thành Markdown.
+
+        Args:
+            name: Tên file gốc (dùng để suy ra định dạng và ghi log).
+            data: Nội dung file dạng bytes.
+            on_progress: Callback `on_progress(stage, pages)` được gọi mỗi khi docling xử lý
+                xong 1 batch trang (chỉ áp dụng cho PDF) - dùng để UI hiển thị tiến độ.
+
+        Returns:
+            Nội dung tài liệu dạng Markdown.
+        """
         logger.info("Bắt đầu parse tài liệu bằng docling, name=%s, size_bytes=%d", name, len(data))
         stream = DocumentStream(name=name, stream=io.BytesIO(data))
 
@@ -102,6 +99,15 @@ class DoclingParser:
         logger.info("Hoàn tất parse tài liệu bằng docling, name=%s, markdown_len=%d", name, len(markdown))
         return markdown
 
+    def _get_converter(self) -> DocumentConverter:
+        if self._converter is None:
+            with self._lock:
+                if self._converter is None:
+                    self._converter = DocumentConverter(
+                        format_options={InputFormat.PDF: PdfFormatOption(pipeline_options=_PDF_PIPELINE_OPTIONS)}
+                    )
+        return self._converter
+
 
 _default_parser: DoclingParser | None = None
 
@@ -115,9 +121,18 @@ def get_parser() -> DoclingParser:
 
 
 def parse_to_markdown(name: str, data: bytes, on_progress: ProgressCallback | None = None) -> str:
-    """Hàm tiện ích: gọi parse_to_markdown trên instance DoclingParser dùng chung, sau đó
-    chuẩn hoá khoảng trắng thừa (xem text_cleanup.normalize_markdown)."""
-    from ingestion.text_cleanup import normalize_markdown
+    """Hàm tiện ích: parse file bằng DoclingParser dùng chung rồi chuẩn hoá Markdown kết quả.
+
+    Args:
+        name: Tên file gốc (dùng để suy ra định dạng và ghi log).
+        data: Nội dung file dạng bytes.
+        on_progress: Callback báo tiến độ xử lý theo trang, xem DoclingParser.parse_to_markdown.
+
+    Returns:
+        Nội dung tài liệu dạng Markdown, đã chuẩn hoá khoảng trắng thừa (xem
+        text_cleanup.normalize_markdown).
+    """
+    from utils.text_cleanup import normalize_markdown
 
     raw = get_parser().parse_to_markdown(name, data, on_progress=on_progress)
     return normalize_markdown(raw)

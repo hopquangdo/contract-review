@@ -22,7 +22,7 @@ function fileSizeLabel(bytes?: number): string {
 }
 
 function statusLabel(doc: DocEntry): string {
-  if (doc.status === "analyzing") return "Đang phân tích...";
+  if (doc.status === "analyzing") return "Analyzing...";
   // "Đã phân tích" chỉ hiện cho tài liệu VỪA upload trong phiên hiện tại - hợp đồng tải lại từ
   // danh sách backend lúc mở app không hiện nhãn này dù đang active.
   if (doc.status === "analyzed" && doc.justUploaded) return "Đã phân tích";

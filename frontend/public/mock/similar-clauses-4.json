@@ -1,0 +1,1960 @@
+{
+  "0": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "0",
+      "title": "Thông tin chung và các bên tham gia hợp đồng",
+      "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ\n\n## Số: ……./2026/VNA-VTIT\n\n(V/v: Thuê Hệ thống Tối ưu Điều hành khai thác - Transformative Operations Support System - TOSS)\n\n- -Căn cứ Bộ Luật dân sự số 91/2015/QH13 của nước Cộng hòa xã hội chủ nghĩa Việt Nam đã được Quốc hội thông qua ngày 24/11/2015;\n- -Căn cứ Luật Thương mại số 36/2005/QH11 của nước Cộng hòa xã hội chủ nghĩa Việt Nam được Quốc hội thông qua ngày 14/06/2005;\n- -Căn cứ Biên bản đàm phán hợp đồng 'Thuê Hệ thống Tối ưu Điều hành khai thác Transformative Operations Support System (TOSS)' ký ngày ……./5/2026 giữa Tổng công ty Hàng không Việt Nam và Công ty trách nhiệm hữu hạn Một thành viên Đầu tư công nghệ Viettel;\n- -Căn cứ vào nhu cầu và khả năng của cả hai bên,\n\nHôm nay, ngày        tháng        năm 2026, tại Hà Nội chúng tôi gồm:\n\n## BÊN A:    TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n\nĐịa chỉ: 200 Nguyễn Sơn, P. Bồ Đề, TP. Hà Nội\n\nSố tài khoản: 001 100 002 0069\n\nTại ngân hàng: Sở giao dịch - Ngân hàng TMCP Ngoại Thương Việt Nam\n\nMã số thuế: 01 001 075 18\n\nĐại diện: Ông Lê Hồng Hà\n\nChức vụ: Tổng Giám đốc\n\n## BÊN B:    CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ: Nam Đại lộ Lê Lợi, Phường Hạc Thành, Tỉnh Thanh Hóa, Việt Nam\n\nSố tài khoản: 12349998999\n\nTại ngân hàng: Ngân hàng TMCP Tiên Phong - CN Tây Hà Nội\n\nMã số thuế: 2801045888\n\nĐại diện: Ông Bùi Trình\n\nChức vụ: Giám đốc\n\nHai  Bên  thỏa  thuận  ký  kết  Hợp  đồng  'Thuê  Hệ  thống  Tối  ưu  Điều  hành  khai  thác  Transformative Operations Support System (TOSS)' (Sau đây gọi tắt là 'Hợp đồng') với các điều khoản và phạm vi công việc như sau:",
+      "score": 0.9131
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "0",
+      "title": "Thông tin chung và các bên tham gia hợp đồng",
+      "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ PHÁT TRIỂN PHẦN MỀM\n\nSố: 123/VIVA-VTIT/2026\n\nHôm nay, ngày 19 tháng 3 năm 2026, tại trụ sở làm việc của Khách hàng tại số 36A Dịch Vọng Hậu, phường Cầu Giấy, TP Hà Nội, chúng tôi gồm:\n\n## BÊN SỬ DỤNG DỊCH VỤ: CÔNG TY TNHH VIVAPLAST\n\nĐịa chỉ : 36B Dịch Vọng Hậu, phường Cầu Giấy, Hà Nội, Việt Nam\n\nMã số thuế : 85415419613\n\nSĐT : 033444555\n\nĐại diện: Ông Nguyễn Văn A\n\nChức vụ : Phó Giám đốc\n\n(Sau đây gọi chung là ' Khách hàng ')\n\n## BÊN CUNG CẤP DỊCH VỤ: CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ : Nam Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hóa, Việt Nam\n\nMã số thuế : 2801045888\n\nĐại diện : Ông Bùi Trình\n\nChức vụ : Giám đốc\n\n(Sau đây gọi chung là ' VTIT ')\n\n(Khách hàng và VTIT sau đây có thể được gọi riêng là 'Bên' và gọi chung là ' Các Bên ' hoặc ' Hai Bên ')\n\n## Xét rằng:\n\n- -Khách hàng là tổ chức có nhu cầu thuê dịch vụ phần mềm để phục vụ hoạt động sản xuất, kinh doanh hoặc vận hành hệ thống thông tin của mình;\n\n- -VTIT là doanh nghiệp có chức năng cung cấp các dịch vụ phần mềm, có năng lực, kinh nghiệm, nhân sự và điều kiện cần thiết để thực hiện các công việc theo yêu cầu của Khách hàng;\n\nDo vậy, Hai bên thống nhất ký kết hợp đồng cung cấp dịch vụ phần mềm (' Hợp đồng ') với các nội dung sau:\n\n## PHẦN I. CÁC ĐIỀU KHOẢN CHUNG",
+      "score": 0.8751
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "0",
+      "title": "Thông tin chung và các bên tham gia hợp đồng",
+      "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ\n\n## Số: ……./2026/VNA-VTIT\n\n(V/v: Thuê Hệ thống Tối ưu Điều hành khai thác - Transformative Operations Support System - TOSS)\n\n- -Căn cứ Bộ Luật dân sự số 91/2015/QH13 của nước Cộng hòa xã hội chủ nghĩa Việt Nam đã được Quốc hội thông qua ngày 24/11/2015;\n- -Căn cứ Luật Thương mại số 36/2005/QH11 của nước Cộng hòa xã hội chủ nghĩa Việt Nam được Quốc hội thông qua ngày 14/06/2005;\n- -Căn cứ Biên bản đàm phán hợp đồng 'Thuê Hệ thống Tối ưu Điều hành khai thác Transformative Operations Support System (TOSS)' ký ngày ……./5/2026 giữa Tổng công ty Hàng không Việt Nam và Công ty trách nhiệm hữu hạn Một thành viên Đầu tư công nghệ Viettel;\n- -Căn cứ vào nhu cầu và khả năng của cả hai bên,\n\nHôm nay, ngày        tháng        năm 2026, tại Hà Nội chúng tôi gồm:\n\n## BÊN A:    TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n\nĐịa chỉ: 200 Nguyễn Sơn, P. Bồ Đề, TP. Hà Nội\n\nSố tài khoản: 001 100 002 0069\n\nTại ngân hàng: Sở giao dịch - Ngân hàng TMCP Ngoại Thương Việt Nam\n\nMã số thuế: 01 001 075 18\n\nĐại diện: Ông Lê Hồng Hà\n\nChức vụ: Tổng Giám đốc\n\n## BÊN B:    CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ: Nam Đại lộ Lê Lợi, Phường Hạc Thành, Tỉnh Thanh Hóa, Việt Nam\n\nSố tài khoản: 12349998999\n\nTại ngân hàng: Ngân hàng TMCP Tiên Phong - CN Tây Hà Nội\n\nMã số thuế: 2801045888\n\nĐại diện: Ông Bùi Trình\n\nChức vụ: Giám đốc\n\nHai  Bên  thỏa  thuận  ký  kết  Hợp  đồng  'Thuê  Hệ  thống  Tối  ưu  Điều  hành  khai  thác  Transformative Operations Support System (TOSS)' (Sau đây gọi tắt là 'Hợp đồng') với các điều khoản và phạm vi công việc như sau:",
+      "score": 0.8666
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "0",
+      "title": "Thông tin chung và các bên tham gia hợp đồng",
+      "text": "## CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc\n\n## HỢP ĐỒNG DỊCH VỤ\n\n## Số: ……./2026/VNA-VTIT\n\n(V/v: Thuê Hệ thống Tối ưu Điều hành khai thác - Transformative Operations Support System - TOSS)\n\n- -Căn cứ Bộ Luật dân sự số 91/2015/QH13 của nước Cộng hòa xã hội chủ nghĩa Việt Nam đã được Quốc hội thông qua ngày 24/11/2015;\n- -Căn cứ Luật Thương mại số 36/2005/QH11 của nước Cộng hòa xã hội chủ nghĩa Việt Nam được Quốc hội thông qua ngày 14/06/2005;\n- -Căn cứ Biên bản đàm phán hợp đồng 'Thuê Hệ thống Tối ưu Điều hành khai thác Transformative Operations Support System (TOSS)' ký ngày ……./5/2026 giữa Tổng công ty Hàng không Việt Nam và Công ty trách nhiệm hữu hạn Một thành viên Đầu tư công nghệ Viettel;\n- -Căn cứ vào nhu cầu và khả năng của cả hai bên,\n\nHôm nay, ngày        tháng        năm 2026, tại Hà Nội chúng tôi gồm:\n\n## BÊN A:    TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n\nĐịa chỉ: 200 Nguyễn Sơn, P. Bồ Đề, TP. Hà Nội\n\nSố tài khoản: 001 100 002 0069\n\nTại ngân hàng: Sở giao dịch - Ngân hàng TMCP Ngoại Thương Việt Nam\n\nMã số thuế: 01 001 075 18\n\nĐại diện: Ông Lê Hồng Hà\n\nChức vụ: Tổng Giám đốc\n\n## BÊN B:    CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nĐịa chỉ: Nam Đại lộ Lê Lợi, Phường Hạc Thành, Tỉnh Thanh Hóa, Việt Nam\n\nSố tài khoản: 12349998999\n\nTại ngân hàng: Ngân hàng TMCP Tiên Phong - CN Tây Hà Nội\n\nMã số thuế: 2801045888\n\nĐại diện: Ông Bùi Trình\n\nChức vụ: Giám đốc\n\nHai  Bên  thỏa  thuận  ký  kết  Hợp  đồng  'Thuê  Hệ  thống  Tối  ưu  Điều  hành  khai  thác  Transformative Operations Support System (TOSS)' (Sau đây gọi tắt là 'Hợp đồng') với các điều khoản và phạm vi công việc như sau:",
+      "score": 0.8665
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.7",
+      "title": "",
+      "text": "15.7 Hợp đồng này được lập thành 04 (bốn) bản bằng tiếng Việt có giá trị pháp lý như nhau. Mỗi Bên giữ 02 (hai) bản gốc làm cơ sở để thực hiện.\n\nĐẠI DIỆN TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n\nĐẠI DIỆN CÔNG TY TNHH MTV ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nLê Hồng Hà TỔNG GIÁM ĐỐC\n\nBùi Trình GIÁM ĐỐC\n\n## ĐƠN GIÁ DỊCH VỤ VÀ THANH TOÁN\n\n(Kèm theo Hợp đồng số: …….……./2026/VNA-VTIT ký ngày………/……../2026)\n\n## A. ĐƠN GIÁ HÀNG HÓA DỊCH VỤ VÀ GIÁ TRỊ HỢP ĐỒNG DỰ KIẾN\n\nĐơn vị tính: VND\n\n|   TT | Dịch vụ                        | ĐVT                      | SL                       | Đơn giá (Chưa thuế, phí)   | Thành tiền (Chưa thuế, phí)   | Thuế, phí     | Thành tiền (gồm thuế, phí)   |\n|------|--------------------------------|--------------------------|--------------------------|----------------------------|-------------------------------|---------------|------------------------------|\n|    1 | DV triển khai phần mềm ban đầu | Gói                      | 1                        | 9.800.000.000              | 9.800.000.000                 |               | 9.800.000.000                |\n|    2 | DV thuê phần mềm               | Tháng                    | 60                       | 454.848.484,85             | 27.290.909.091                | 2.729.090.909 | 30.020.000.000               |\n|      | Giá trị Hợp đồng dự kiến       | Giá trị Hợp đồng dự kiến | Giá trị Hợp đồng dự kiến | Giá trị Hợp đồng dự kiến   | 37.090.909.091                | 2.729.090.909 | 39.820.000.000               |\n\n(Thuế, phí nêu trên là Thuế GTGT tạm tính, giá trị thực tế theo chính sách thuế và thông báo của CQ thuế tại thời điểm phát sinh)\n\nCommented [NTD(16]: Khớp số chốt\n\n## BTHANH TOÁN\n\nTrang 14 / 52\n\n| STT (A)   | KỲ THANH TOÁN (B)                                                                                                           | THỜI HẠN THANH TOÁN (C)                                                                     | SỐ TIỀN (D)                                 | THUẾ VAT (E)                                | TỔNG CỘNG (F)                               | CHỨNG TỪ KÈM THEO                                                                                                                                                                                  |\n|-----------|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------|---------------------------------------------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\n| I         | DỊCH VỤ TRIỂN KHAI BAN ĐẦU                                                                                                  | DỊCH VỤ TRIỂN KHAI BAN ĐẦU                                                                  |                                             |                                             |                                             |                                                                                                                                                                                                    |\n| I.1       | Thanh toán 70% giá trị dịch vụ kể từ Ngày đưa vào vận hành                                                                  | Bên A thanh toán trong vòng 15 ngày kể từ khi nhận được đầy đủ bộ hồ sơ thanh toán từ Bên B | 6.860.000.000                               | -                                           | 6.860.000.000                               | - Công văn đề nghị thanh toán của Bên B; - Biên bản nghiệm thu tổng thể; - Hoá đơn tài chính hợp lệ tương ứng với 100% giá trị Dịch vụ triển khai ban đầu; - Các chứng từ liên quan khác (nếu có). |\n| I.2       | Thanh toán giá trị dịch vụ còn lại sau Ngày đưa vào vận hành 30 ngày nếu hệ thống không tồn tại các lỗi không thể khắc phục | Bên A thanh toán trong vòng 15 ngày kể từ khi nhận được đầy đủ bộ hồ sơ thanh toán từ Bên B | 2.940.000.000                               | -                                           | 2.940.000.000                               | - Công văn đề nghị thanh toán của Bên B; - Hoá đơn tài chính hợp lệ; - Các chứng từ liên quan khác (nếu có).                                                                                       |\n| II        | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC                                                                                 | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC                                                 | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC | DỊCH VỤ HỆ THỐNG TỐI ƯU ĐIỀU HÀNH KHAI THÁC                                                                                                                                                        |\n| 1         | Thanh toán hàng tháng kể từ ngày ký Ngày đưa vào vận hành (CutOver date)                                                    | Bên A thanh toán trong vòng 15 ngày kể từ khi nhận được đầy đủ bộ hồ sơ thanh toán từ Bên B | D1= 454.848.484,85                          | E1= 10% x D1                                | F1 = D1 + E1                                | - Công văn đề nghị thanh toán của Bên B; - Biên bản Nghiệm thu chất lượng dịch vụ Tháng; - Hoá đơn hợp lệ; - Các chứng từ liên quan khác (nếu có)                                                  |\n\n## C. THÔNG TIN THANH TOÁN\n\nTên đơn vị thụ hưởng: CÔNG TY TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN ĐẦU TƯ CÔNG NGHỆ VIETTEL\n\nTài khoản: 12349998999\n\nMở tại: Ngân hàng TMCP Tiên Phong - Chi nhánh Tây Hà Nội\n\nD. CHI PHÍ PHẦN MỀM\n\nCommented [PTNH17]: VTIT update và đính kèm",
+      "score": 0.8313
+    }
+  ],
+  "1.1": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "1.1",
+      "title": "",
+      "text": "1.1. Bên  A  thuê  Dịch  vụ  'Hệ  thống  Tối  ưu  Điều  hành  khai  thác  -  Transformative Operations Support System (TOSS) giai đoạn T8/2026-T8/2031' của Bên B với các nội dung và phạm vi công việc chi tiết nêu tại Phụ lục 02: Yêu cầu kỹ thuật .",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "1.1",
+      "title": "",
+      "text": "1.1. Bên  A  thuê  Dịch  vụ  'Hệ  thống  Tối  ưu  Điều  hành  khai  thác  -  Transformative Operations Support System (TOSS) giai đoạn T8/2026-T8/2031' của Bên B với các nội dung và phạm vi công việc chi tiết nêu tại Phụ lục 02: Yêu cầu kỹ thuật .",
+      "score": 0.9994
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "1.1",
+      "title": "",
+      "text": "1.1. Bên  A  thuê  Dịch  vụ  'Hệ  thống  Tối  ưu  Điều  hành  khai  thác  -  Transformative Operations Support System (TOSS) giai đoạn T8/2026-T8/2031' của Bên B với các nội dung và phạm vi công việc chi tiết nêu tại Phụ lục 02: Yêu cầu kỹ thuật .",
+      "score": 0.9993
+    }
+  ],
+  "1.2.1": [
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "16.1",
+      "title": "",
+      "text": "16.1. Thời gian cung cấp dịch vụ: 365 ngày kể từ Ngày hợp đồng có hiệu lực.\n\nThời gian cung cấp dịch vụ có thể kết thúc sớm hoặc muộn hơn theo thỏa thuận của Các Bên, đảm bảo VTIT đã thực hiện đúng khối lượng theo thỏa thuận của Các Bên.",
+      "score": 0.8042
+    }
+  ],
+  "1.2.2": [
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "16.1",
+      "title": "",
+      "text": "16.1. Thời gian cung cấp dịch vụ: 365 ngày kể từ Ngày hợp đồng có hiệu lực.\n\nThời gian cung cấp dịch vụ có thể kết thúc sớm hoặc muộn hơn theo thỏa thuận của Các Bên, đảm bảo VTIT đã thực hiện đúng khối lượng theo thỏa thuận của Các Bên.",
+      "score": 0.8048
+    }
+  ],
+  "10.1": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Trường hợp Bên B chậm triển khai Hợp đồng theo Quy định tại Khoản 3.1 Điều 3 và việc chậm trễ này được xác định do lỗi của Bên B gây ra thì Bên B sẽ bị phạt 0,2% giá trị Hợp đồng đối với Dịch vụ triển khai ban đầu cho mỗi ngày chậm trễ nhưng không quá 8% tổng giá trị phần nghĩa vụ bị vi phạm, tổng thời gian chậm trễ không quá 40 ngày trừ khi có thỏa thuận khác giữa hai bên.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Trường hợp Bên B chậm triển khai Hợp đồng theo Quy định tại Khoản 3.1 Điều 3 và việc chậm trễ này được xác định do lỗi của Bên B gây ra thì Bên B sẽ bị phạt 0,2% giá trị Hợp đồng đối với Dịch vụ triển khai ban đầu cho mỗi ngày chậm trễ nhưng không quá 8% tổng giá trị phần nghĩa vụ bị vi phạm, tổng thời gian chậm trễ không quá 40 ngày trừ khi có thỏa thuận khác giữa hai bên.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Trường hợp Bên B chậm triển khai Hợp đồng theo Quy định tại Khoản 3.1 Điều 3 và việc chậm trễ này được xác định do lỗi của Bên B gây ra thì Bên B sẽ bị phạt 0,2% giá trị Hợp đồng đối với Dịch vụ triển khai ban đầu cho mỗi ngày chậm trễ nhưng không quá 8% tổng giá trị phần nghĩa vụ bị vi phạm, tổng thời gian chậm trễ không quá 40 ngày trừ khi có thỏa thuận khác giữa hai bên.",
+      "score": 0.9996
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. Trường hợp Bên A chậm thanh toán tiền cho Bên B, Bên A sẽ phải chịu phạt theo lãi suất nợ quá hạn của ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) công bố tại thời điểm thanh toán cho mỗi ngày trả chậm tính trên tổng số tiền quá hạn thanh toán. Trường hợp Bên A chậm thanh toán vượt quá 40 (bốn mươi) ngày, Bên A được coi là vi phạm nghiêm trọng hợp đồng và Bên B có quyền tạm dừng phần mềm cho đến khi Bên A thanh toán đầy đủ số tiền chậm nộp, phạt vi phạm và Bên B có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu phạt hay bồi thường bất cứ khoản tiền nào.",
+      "score": 0.8601
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. Trường hợp Bên A chậm thanh toán tiền cho Bên B, Bên A sẽ phải chịu phạt theo lãi suất nợ quá hạn của ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) công bố tại thời điểm thanh toán cho mỗi ngày trả chậm tính trên tổng số tiền quá hạn thanh toán. Trường hợp Bên A chậm thanh toán vượt quá 40 (bốn mươi) ngày, Bên A được coi là vi phạm nghiêm trọng hợp đồng và Bên B có quyền tạm dừng phần mềm cho đến khi Bên A thanh toán đầy đủ số tiền chậm nộp, phạt vi phạm và Bên B có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu phạt hay bồi thường bất cứ khoản tiền nào.",
+      "score": 0.8599
+    }
+  ],
+  "10.2": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Trường hợp Bên B chậm triển khai Hợp đồng theo Quy định tại Khoản 3.1 Điều 3 và việc chậm trễ này được xác định do lỗi của Bên B gây ra thì Bên B sẽ bị phạt 0,2% giá trị Hợp đồng đối với Dịch vụ triển khai ban đầu cho mỗi ngày chậm trễ nhưng không quá 8% tổng giá trị phần nghĩa vụ bị vi phạm, tổng thời gian chậm trễ không quá 40 ngày trừ khi có thỏa thuận khác giữa hai bên.",
+      "score": 0.9024
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Trường hợp Bên B chậm triển khai Hợp đồng theo Quy định tại Khoản 3.1 Điều 3 và việc chậm trễ này được xác định do lỗi của Bên B gây ra thì Bên B sẽ bị phạt 0,2% giá trị Hợp đồng đối với Dịch vụ triển khai ban đầu cho mỗi ngày chậm trễ nhưng không quá 8% tổng giá trị phần nghĩa vụ bị vi phạm, tổng thời gian chậm trễ không quá 40 ngày trừ khi có thỏa thuận khác giữa hai bên.",
+      "score": 0.9024
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Trường hợp Bên B chậm triển khai Hợp đồng theo Quy định tại Khoản 3.1 Điều 3 và việc chậm trễ này được xác định do lỗi của Bên B gây ra thì Bên B sẽ bị phạt 0,2% giá trị Hợp đồng đối với Dịch vụ triển khai ban đầu cho mỗi ngày chậm trễ nhưng không quá 8% tổng giá trị phần nghĩa vụ bị vi phạm, tổng thời gian chậm trễ không quá 40 ngày trừ khi có thỏa thuận khác giữa hai bên.",
+      "score": 0.9015
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. Trường hợp Bên A chậm thanh toán tiền cho Bên B, Bên A sẽ phải chịu phạt theo lãi suất nợ quá hạn của ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) công bố tại thời điểm thanh toán cho mỗi ngày trả chậm tính trên tổng số tiền quá hạn thanh toán. Trường hợp Bên A chậm thanh toán vượt quá 40 (bốn mươi) ngày, Bên A được coi là vi phạm nghiêm trọng hợp đồng và Bên B có quyền tạm dừng phần mềm cho đến khi Bên A thanh toán đầy đủ số tiền chậm nộp, phạt vi phạm và Bên B có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu phạt hay bồi thường bất cứ khoản tiền nào.",
+      "score": 0.8858
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. Trường hợp Bên A chậm thanh toán tiền cho Bên B, Bên A sẽ phải chịu phạt theo lãi suất nợ quá hạn của ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) công bố tại thời điểm thanh toán cho mỗi ngày trả chậm tính trên tổng số tiền quá hạn thanh toán. Trường hợp Bên A chậm thanh toán vượt quá 40 (bốn mươi) ngày, Bên A được coi là vi phạm nghiêm trọng hợp đồng và Bên B có quyền tạm dừng phần mềm cho đến khi Bên A thanh toán đầy đủ số tiền chậm nộp, phạt vi phạm và Bên B có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu phạt hay bồi thường bất cứ khoản tiền nào.",
+      "score": 0.8857
+    }
+  ],
+  "10.3": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. Trường hợp Bên A chậm thanh toán tiền cho Bên B, Bên A sẽ phải chịu phạt theo lãi suất nợ quá hạn của ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) công bố tại thời điểm thanh toán cho mỗi ngày trả chậm tính trên tổng số tiền quá hạn thanh toán. Trường hợp Bên A chậm thanh toán vượt quá 40 (bốn mươi) ngày, Bên A được coi là vi phạm nghiêm trọng hợp đồng và Bên B có quyền tạm dừng phần mềm cho đến khi Bên A thanh toán đầy đủ số tiền chậm nộp, phạt vi phạm và Bên B có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu phạt hay bồi thường bất cứ khoản tiền nào.",
+      "score": 0.9994
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. Trường hợp Bên A chậm thanh toán tiền cho Bên B, Bên A sẽ phải chịu phạt theo lãi suất nợ quá hạn của ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) công bố tại thời điểm thanh toán cho mỗi ngày trả chậm tính trên tổng số tiền quá hạn thanh toán. Trường hợp Bên A chậm thanh toán vượt quá 40 (bốn mươi) ngày, Bên A được coi là vi phạm nghiêm trọng hợp đồng và Bên B có quyền tạm dừng phần mềm cho đến khi Bên A thanh toán đầy đủ số tiền chậm nộp, phạt vi phạm và Bên B có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu phạt hay bồi thường bất cứ khoản tiền nào.",
+      "score": 0.9994
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. Trường hợp Bên A chậm thanh toán tiền cho Bên B, Bên A sẽ phải chịu phạt theo lãi suất nợ quá hạn của ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) công bố tại thời điểm thanh toán cho mỗi ngày trả chậm tính trên tổng số tiền quá hạn thanh toán. Trường hợp Bên A chậm thanh toán vượt quá 40 (bốn mươi) ngày, Bên A được coi là vi phạm nghiêm trọng hợp đồng và Bên B có quyền tạm dừng phần mềm cho đến khi Bên A thanh toán đầy đủ số tiền chậm nộp, phạt vi phạm và Bên B có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu phạt hay bồi thường bất cứ khoản tiền nào.",
+      "score": 0.9993
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Trường hợp Bên B chậm triển khai Hợp đồng theo Quy định tại Khoản 3.1 Điều 3 và việc chậm trễ này được xác định do lỗi của Bên B gây ra thì Bên B sẽ bị phạt 0,2% giá trị Hợp đồng đối với Dịch vụ triển khai ban đầu cho mỗi ngày chậm trễ nhưng không quá 8% tổng giá trị phần nghĩa vụ bị vi phạm, tổng thời gian chậm trễ không quá 40 ngày trừ khi có thỏa thuận khác giữa hai bên.",
+      "score": 0.8601
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Trường hợp Bên B chậm triển khai Hợp đồng theo Quy định tại Khoản 3.1 Điều 3 và việc chậm trễ này được xác định do lỗi của Bên B gây ra thì Bên B sẽ bị phạt 0,2% giá trị Hợp đồng đối với Dịch vụ triển khai ban đầu cho mỗi ngày chậm trễ nhưng không quá 8% tổng giá trị phần nghĩa vụ bị vi phạm, tổng thời gian chậm trễ không quá 40 ngày trừ khi có thỏa thuận khác giữa hai bên.",
+      "score": 0.86
+    }
+  ],
+  "10.4": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.4",
+      "title": "",
+      "text": "10.4. Ngoài các quy định phạt vi phạm như nêu trên, bất cứ Bên nào vi phạm nghĩa vụ khác quy định tại Hợp đồng và Pháp luật đều chịu phạt vi phạm Hợp đồng bằng một khoản tương đương 08% giá trị phần nghĩa vụ bị vi phạm.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.4",
+      "title": "",
+      "text": "10.4. Ngoài các quy định phạt vi phạm như nêu trên, bất cứ Bên nào vi phạm nghĩa vụ khác quy định tại Hợp đồng và Pháp luật đều chịu phạt vi phạm Hợp đồng bằng một khoản tương đương 08% giá trị phần nghĩa vụ bị vi phạm.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.4",
+      "title": "",
+      "text": "10.4. Ngoài các quy định phạt vi phạm như nêu trên, bất cứ Bên nào vi phạm nghĩa vụ khác quy định tại Hợp đồng và Pháp luật đều chịu phạt vi phạm Hợp đồng bằng một khoản tương đương 08% giá trị phần nghĩa vụ bị vi phạm.",
+      "score": 0.9998
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.2",
+      "title": "",
+      "text": "11.2. Phạt vi phạm: - a) Trường hợp tiến độ thực hiện và bàn giao kết quả công việc bị chậm trễ so với kế hoạch tháng, và nguyên nhân được xác định là do lỗi của VTIT sau khi đã có đầy đủ thông tin, tài liệu từ Khách hàng, thì VTIT sẽ phải chịu phạt vi phạm 0,05% giá trị phần công việc bị chậm, tổng mức phạt vi phạm không quá 8% giá trị phần nghĩa vụ/công việc bị vi phạm (bị chậm). Trước khi áp dụng phạt, Khách hàng có trách nhiệm thông báo bằng văn bản và cho VTIT thời gian khắc phục hợp lý (tối thiểu 05 ngày làm việc).\n\n- b) Nếu kết quả công việc VTIT bàn giao không đạt yêu cầu theo Hợp đồng và Phiếu yêu cầu, và VTIT không khắc phục trong thời hạn hợp lý được Khách hàng thông báo bằng văn bản, thì VTIT phải chịu phạt 0,05 giá trị phần công việc không đạt yêu cầu, tổng mức phạt vi phạm không quá 8% giá trị phần công việc bị vi phạm.\n\n- c) Nếu một bên tự ý chấm dứt Hợp đồng mà không có sự thoả thuận trước bằng văn bản với bên kia hoặc không nằm trong các trường hợp được quyền đơn phương chấm dứt theo quy định tại Hợp đồng, quy định pháp\n\nluật thì phải chịu phạt 8% giá trị bị vi phạm. Trong trường hợp này, các Bên xác định giá trị bị vi phạm là giá trị Hợp đồng chưa thực hiện.\n\n- d) Nếu Khách hàng không thực hiện hoặc thực hiện không đầy đủ nghĩa vụ thanh toán theo quy định tại Hợp đồng thì Khách hàng phải chịu phạt 0,1% giá trị thanh toán bị chậm cho mỗi ngày chậm thanh toán nhưng tổng số tiền phạt vi phạm không vượt quá 8% giá trị thanh toán bị chậm.",
+      "score": 0.8441
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.2",
+      "title": "",
+      "text": "11.2. Phạt vi phạm: - a) Trường hợp tiến độ thực hiện và bàn giao kết quả công việc bị chậm trễ so với kế hoạch tháng, và nguyên nhân được xác định là do lỗi của VTIT sau khi đã có đầy đủ thông tin, tài liệu từ Khách hàng, thì VTIT sẽ phải chịu phạt vi phạm 0,05% giá trị phần công việc bị chậm, tổng mức phạt vi phạm không quá 8% giá trị phần nghĩa vụ/công việc bị vi phạm (bị chậm). Trước khi áp dụng phạt, Khách hàng có trách nhiệm thông báo bằng văn bản và cho VTIT thời gian khắc phục hợp lý (tối thiểu 05 ngày làm việc).\n\n- b) Nếu kết quả công việc VTIT bàn giao không đạt yêu cầu theo Hợp đồng và Phiếu yêu cầu, và VTIT không khắc phục trong thời hạn hợp lý được Khách hàng thông báo bằng văn bản, thì VTIT phải chịu phạt 0,05 giá trị phần công việc không đạt yêu cầu, tổng mức phạt vi phạm không quá 8% giá trị phần công việc bị vi phạm.\n\n- c) Nếu một bên tự ý chấm dứt Hợp đồng mà không có sự thoả thuận trước bằng văn bản với bên kia hoặc không nằm trong các trường hợp được quyền đơn phương chấm dứt theo quy định tại Hợp đồng, quy định pháp\n\nluật thì phải chịu phạt 8% giá trị bị vi phạm. Trong trường hợp này, các Bên xác định giá trị bị vi phạm là giá trị Hợp đồng chưa thực hiện.\n\n- d) Nếu Khách hàng không thực hiện hoặc thực hiện không đầy đủ nghĩa vụ thanh toán theo quy định tại Hợp đồng thì Khách hàng phải chịu phạt 0,1% giá trị thanh toán bị chậm cho mỗi ngày chậm thanh toán nhưng tổng số tiền phạt vi phạm không vượt quá 8% giá trị thanh toán bị chậm.",
+      "score": 0.844
+    }
+  ],
+  "10.5": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.5",
+      "title": "",
+      "text": "10.5. Ngoài mức phạt như quy định ở Điều này, bên vi phạm Hợp đồng có trách nhiệm bồi thường thiệt hại cho bên kia do hành vi vi phạm Hợp đồng gây ra và khoản lợi trực tiếp mà Bên vi phạm đáng lẽ được hưởng nếu không có hành vi vi phạm và các\n\nkhoản khác theo quy định của Pháp luật (nếu có).",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.5",
+      "title": "",
+      "text": "10.5. Ngoài mức phạt như quy định ở Điều này, bên vi phạm Hợp đồng có trách nhiệm bồi thường thiệt hại cho bên kia do hành vi vi phạm Hợp đồng gây ra và khoản lợi trực tiếp mà Bên vi phạm đáng lẽ được hưởng nếu không có hành vi vi phạm và các\n\nkhoản khác theo quy định của Pháp luật (nếu có).",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "10.5",
+      "title": "",
+      "text": "10.5. Ngoài mức phạt như quy định ở Điều này, bên vi phạm Hợp đồng có trách nhiệm bồi thường thiệt hại cho bên kia do hành vi vi phạm Hợp đồng gây ra và khoản lợi trực tiếp mà Bên vi phạm đáng lẽ được hưởng nếu không có hành vi vi phạm và các\n\nkhoản khác theo quy định của Pháp luật (nếu có).",
+      "score": 0.9984
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.3",
+      "title": "",
+      "text": "11.3. Bồi thường thiệt hại:\n\nNgoài mức phạt như quy định ở Điều 17.2 nêu trên, Bên vi phạm Hợp đồng có trách nhiệm bồi thường thiệt hại cho bên bị vi phạm do hành vi vi phạm Hợp đồng gây ra. Giá trị bồi thường thiệt hại bao gồm giá trị tổn thất thực tế, trực tiếp, có chứng từ chứng minh hợp lý mà Bên bị vi phạm phải chịu. Trừ khi Hợp đồng có quy định rõ khác bằng văn bản, VTIT không chịu trách nhiệm đối với các thiệt hại gián tiếp hoặc hệ quả phát sinh, bao gồm nhưng không giới hạn ở: mất dữ liệu,  mất  doanh  thu,  lợi  nhuận,  mất  cơ  hội  kinh  doanh,  gián  đoạn  hoạt  động  kinh doanh, thiệt hại tinh thần, các khoản trừng phạt hoặc các tổn thất tương tự khác.",
+      "score": 0.8611
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "11.3",
+      "title": "",
+      "text": "11.3. Bồi thường thiệt hại:\n\nNgoài mức phạt như quy định ở Điều 17.2 nêu trên, Bên vi phạm Hợp đồng có trách nhiệm bồi thường thiệt hại cho bên bị vi phạm do hành vi vi phạm Hợp đồng gây ra. Giá trị bồi thường thiệt hại bao gồm giá trị tổn thất thực tế, trực tiếp, có chứng từ chứng minh hợp lý mà Bên bị vi phạm phải chịu. Trừ khi Hợp đồng có quy định rõ khác bằng văn bản, VTIT không chịu trách nhiệm đối với các thiệt hại gián tiếp hoặc hệ quả phát sinh, bao gồm nhưng không giới hạn ở: mất dữ liệu,  mất  doanh  thu,  lợi  nhuận,  mất  cơ  hội  kinh  doanh,  gián  đoạn  hoạt  động  kinh doanh, thiệt hại tinh thần, các khoản trừng phạt hoặc các tổn thất tương tự khác.",
+      "score": 0.861
+    }
+  ],
+  "11.1": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.1",
+      "title": "",
+      "text": "11.1. Bất Khả Kháng là sự kiện xảy ra một cách khách quan không thể lường trước được và không thể khắc phục được mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép, bao gồm nhưng không giới hạn các sự kiện sau: chiến tranh, bạo loạn, đình công, hỏa hoạn, bão, lũ lụt, động đất, sóng thần, dịch bệnh, cách ly kiểm dịch, sự thay đổi trong chính sách, pháp luật, dẫn đến việc một Bên hoặc các Bên không thực hiện được đầy đủ các quyền và nghĩa vụ quy định tại Hợp đồng này.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.1",
+      "title": "",
+      "text": "11.1. Bất Khả Kháng là sự kiện xảy ra một cách khách quan không thể lường trước được và không thể khắc phục được mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép, bao gồm nhưng không giới hạn các sự kiện sau: chiến tranh, bạo loạn, đình công, hỏa hoạn, bão, lũ lụt, động đất, sóng thần, dịch bệnh, cách ly kiểm dịch, sự thay đổi trong chính sách, pháp luật, dẫn đến việc một Bên hoặc các Bên không thực hiện được đầy đủ các quyền và nghĩa vụ quy định tại Hợp đồng này.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "8.1",
+      "title": "",
+      "text": "8.1. 'Sự kiện Bất khả kháng' là các sự kiện xảy ra một cách khách quan, không thể lường trước được và không thể khắc phục được làm ảnh hưởng tới việc thực hiện Hợp đồng mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép của mỗi bên hoặc các bên. Sự kiện Bất khả kháng bao gồm nhưng không giới hạn thiên tai, hoả hoạn, lũ lụt, động đất, tai nạn, thảm họa, dịch bệnh, thay đổi quy định của pháp luật mà các bên không thể biết trước được vào thời điểm giao kết và thực hiện Hợp đồng và các Sự kiện Bất khả kháng khác nằm ngoài khả năng kiểm soát hợp lý của Các Bên.",
+      "score": 0.874
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "8.1",
+      "title": "",
+      "text": "8.1. 'Sự kiện Bất khả kháng' là các sự kiện xảy ra một cách khách quan, không thể lường trước được và không thể khắc phục được làm ảnh hưởng tới việc thực hiện Hợp đồng mặc dù đã áp dụng mọi biện pháp cần thiết và khả năng cho phép của mỗi bên hoặc các bên. Sự kiện Bất khả kháng bao gồm nhưng không giới hạn thiên tai, hoả hoạn, lũ lụt, động đất, tai nạn, thảm họa, dịch bệnh, thay đổi quy định của pháp luật mà các bên không thể biết trước được vào thời điểm giao kết và thực hiện Hợp đồng và các Sự kiện Bất khả kháng khác nằm ngoài khả năng kiểm soát hợp lý của Các Bên.",
+      "score": 0.8739
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.5",
+      "title": "",
+      "text": "11.5. Khi sự kiện bất khả kháng hoặc trở ngại khách quan xảy ra thì nghĩa vụ của các Bên theo Hợp đồng tạm thời không thực hiện và sẽ ngay lập tức phục hồi khi sự kiện bất khả kháng hoặc trở ngại khách quan chấm dứt hoặc bị loại bỏ.",
+      "score": 0.8301
+    }
+  ],
+  "11.2": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.2",
+      "title": "",
+      "text": "11.2. Trở ngại khách quan là những trở ngại do hoàn cảnh khách quan tác động làm cho các Bên không thể biết về việc quyền, lợi ích hợp pháp của mình bị xâm phạm hoặc không thể thực hiện được quyền, nghĩa vụ của mình.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.2",
+      "title": "",
+      "text": "11.2. Trở ngại khách quan là những trở ngại do hoàn cảnh khách quan tác động làm cho các Bên không thể biết về việc quyền, lợi ích hợp pháp của mình bị xâm phạm hoặc không thể thực hiện được quyền, nghĩa vụ của mình.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.5",
+      "title": "",
+      "text": "11.5. Khi sự kiện bất khả kháng hoặc trở ngại khách quan xảy ra thì nghĩa vụ của các Bên theo Hợp đồng tạm thời không thực hiện và sẽ ngay lập tức phục hồi khi sự kiện bất khả kháng hoặc trở ngại khách quan chấm dứt hoặc bị loại bỏ.",
+      "score": 0.8145
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.5",
+      "title": "",
+      "text": "11.5. Khi sự kiện bất khả kháng hoặc trở ngại khách quan xảy ra thì nghĩa vụ của các Bên theo Hợp đồng tạm thời không thực hiện và sẽ ngay lập tức phục hồi khi sự kiện bất khả kháng hoặc trở ngại khách quan chấm dứt hoặc bị loại bỏ.",
+      "score": 0.8143
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.5",
+      "title": "",
+      "text": "11.5. Khi sự kiện bất khả kháng hoặc trở ngại khách quan xảy ra thì nghĩa vụ của các Bên theo Hợp đồng tạm thời không thực hiện và sẽ ngay lập tức phục hồi khi sự kiện bất khả kháng hoặc trở ngại khách quan chấm dứt hoặc bị loại bỏ.",
+      "score": 0.8142
+    }
+  ],
+  "11.3": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.3",
+      "title": "",
+      "text": "11.3. Trường hợp một Bên không thể thực hiện các nghĩa vụ của mình do sự kiện bất khả kháng hoặc trở ngại khách quan ('Bên bị ảnh hưởng'), Bên bị ảnh hưởng sẽ ngay lập tức thông báo cho Bên còn lại ('Bên không bị ảnh hưởng') về sự kiện bất khả kháng hoặc trở ngại khách quan.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.3",
+      "title": "",
+      "text": "11.3. Trường hợp một Bên không thể thực hiện các nghĩa vụ của mình do sự kiện bất khả kháng hoặc trở ngại khách quan ('Bên bị ảnh hưởng'), Bên bị ảnh hưởng sẽ ngay lập tức thông báo cho Bên còn lại ('Bên không bị ảnh hưởng') về sự kiện bất khả kháng hoặc trở ngại khách quan.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.3",
+      "title": "",
+      "text": "11.3. Trường hợp một Bên không thể thực hiện các nghĩa vụ của mình do sự kiện bất khả kháng hoặc trở ngại khách quan ('Bên bị ảnh hưởng'), Bên bị ảnh hưởng sẽ ngay lập tức thông báo cho Bên còn lại ('Bên không bị ảnh hưởng') về sự kiện bất khả kháng hoặc trở ngại khách quan.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 0.8508
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 0.8508
+    }
+  ],
+  "11.5": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.5",
+      "title": "",
+      "text": "11.5. Khi sự kiện bất khả kháng hoặc trở ngại khách quan xảy ra thì nghĩa vụ của các Bên theo Hợp đồng tạm thời không thực hiện và sẽ ngay lập tức phục hồi khi sự kiện bất khả kháng hoặc trở ngại khách quan chấm dứt hoặc bị loại bỏ.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.5",
+      "title": "",
+      "text": "11.5. Khi sự kiện bất khả kháng hoặc trở ngại khách quan xảy ra thì nghĩa vụ của các Bên theo Hợp đồng tạm thời không thực hiện và sẽ ngay lập tức phục hồi khi sự kiện bất khả kháng hoặc trở ngại khách quan chấm dứt hoặc bị loại bỏ.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.5",
+      "title": "",
+      "text": "11.5. Khi sự kiện bất khả kháng hoặc trở ngại khách quan xảy ra thì nghĩa vụ của các Bên theo Hợp đồng tạm thời không thực hiện và sẽ ngay lập tức phục hồi khi sự kiện bất khả kháng hoặc trở ngại khách quan chấm dứt hoặc bị loại bỏ.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 0.8857
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 0.8857
+    }
+  ],
+  "11.6": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.6",
+      "title": "",
+      "text": "11.6. Bên bị ảnh hưởng bởi sự kiện bất khả kháng hoặc trở ngại khách quan sẽ không bị coi là vi phạm các quy định của Hợp đồng hoặc chịu trách nhiệm đối với Bên còn lại do việc chậm trễ thực hiện các nghĩa vụ của mình (quy định này chỉ áp dụng đối với những nghĩa vụ không thể thực hiện được do ảnh hưởng của sự kiện Bất khả kháng). Trường hợp sự kiện bất khả kháng hoặc trở ngại khách quan kéo dài hơn 30 (ba mươi) ngày thì các Bên sẽ thiện chí thương lượng để giải quyết các vấn đề phát sinh.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.5",
+      "title": "",
+      "text": "11.5. Khi sự kiện bất khả kháng hoặc trở ngại khách quan xảy ra thì nghĩa vụ của các Bên theo Hợp đồng tạm thời không thực hiện và sẽ ngay lập tức phục hồi khi sự kiện bất khả kháng hoặc trở ngại khách quan chấm dứt hoặc bị loại bỏ.",
+      "score": 0.8859
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "11.5",
+      "title": "",
+      "text": "11.5. Khi sự kiện bất khả kháng hoặc trở ngại khách quan xảy ra thì nghĩa vụ của các Bên theo Hợp đồng tạm thời không thực hiện và sẽ ngay lập tức phục hồi khi sự kiện bất khả kháng hoặc trở ngại khách quan chấm dứt hoặc bị loại bỏ.",
+      "score": 0.8857
+    }
+  ],
+  "12.1.2": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.2",
+      "title": "",
+      "text": "12.1.2. Khi có thỏa thuận bằng văn bản của cả Hai Bên chấm dứt Hợp đồng trước thời hạn.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.2",
+      "title": "",
+      "text": "12.1.2. Khi có thỏa thuận bằng văn bản của cả Hai Bên chấm dứt Hợp đồng trước thời hạn.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.2",
+      "title": "",
+      "text": "12.1.2. Khi có thỏa thuận bằng văn bản của cả Hai Bên chấm dứt Hợp đồng trước thời hạn.",
+      "score": 0.9986
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.1",
+      "title": "",
+      "text": "12.1.1. Hết thời hạn theo quy định tại khoản 1.3 Điều 1 và Hai Bên không thỏa thuận về việc gia hạn Hợp đồng.",
+      "score": 0.8623
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.1",
+      "title": "",
+      "text": "12.1.1. Hết thời hạn theo quy định tại khoản 1.3 Điều 1 và Hai Bên không thỏa thuận về việc gia hạn Hợp đồng.",
+      "score": 0.8622
+    }
+  ],
+  "12.1.3": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.3",
+      "title": "",
+      "text": "12.1.3. Một trong Hai Bên vi phạm nghĩa vụ quy định trong Hợp đồng này, và không có biện pháp khắc phục, sửa chữa vi phạm trong thời hạn 15 (mười lăm) ngày kể từ ngày nhận được thông báo yêu cầu khắc phục của Bên bị vi phạm và Bên bị vi phạm có văn bản yêu cầu chấm dứt Hợp đồng.",
+      "score": 0.9991
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.3",
+      "title": "",
+      "text": "12.1.3. Một trong Hai Bên vi phạm nghĩa vụ quy định trong Hợp đồng này, và không có biện pháp khắc phục, sửa chữa vi phạm trong thời hạn 15 (mười lăm) ngày kể từ ngày nhận được thông báo yêu cầu khắc phục của Bên bị vi phạm và Bên bị vi phạm có văn bản yêu cầu chấm dứt Hợp đồng.",
+      "score": 0.9985
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.3",
+      "title": "",
+      "text": "12.1.3. Một trong Hai Bên vi phạm nghĩa vụ quy định trong Hợp đồng này, và không có biện pháp khắc phục, sửa chữa vi phạm trong thời hạn 15 (mười lăm) ngày kể từ ngày nhận được thông báo yêu cầu khắc phục của Bên bị vi phạm và Bên bị vi phạm có văn bản yêu cầu chấm dứt Hợp đồng.",
+      "score": 0.9982
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2. Một trong Hai Bên có quyền chấm dứt Hợp đồng nếu Bên kia có hành vi vi phạm cơ bản nghĩa vụ hợp đồng, bao gồm nhưng không giới hạn ở:\n\n- a) Không thực hiện nghĩa vụ thanh toán trong thời hạn quá 30 ngày kể từ ngày đến hạn mà không có lý do chính đáng hoặc không được khắc phục sau khi nhận được thông báo bằng văn bản từ Bên còn lại;\n\n- b) Từ chối bàn giao hoặc từ chối thực hiện Hợp đồng hoặc đơn phương đình chỉ công việc trái Hợp đồng;\n\n- c) Một Bên vi phạm cam đoan và bảo đảm theo quy định tại khoản 10.1 Điều 11 Hợp đồng này.\n\n- d) VTIT có quyền chấm dứt Hợp đồng nếu Khách hàng mất khả năng thanh toán hoặc có căn cứ hợp lý để xác định Khách hàng không còn khả năng thanh toán các khoản đến hạn theo Hợp đồng.\n\n- e) Vi phạm nghiêm trọng nghĩa vụ Hợp đồng.\n\nTrong các trường hợp này, Bên bị vi phạm phải được thông báo bằng văn bản và có ít nhất 15 ngày làm việc để khắc phục trước khi Bên kia chính thức chấm dứt Hợp đồng.",
+      "score": 0.8736
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2. Một trong Hai Bên có quyền chấm dứt Hợp đồng nếu Bên kia có hành vi vi phạm cơ bản nghĩa vụ hợp đồng, bao gồm nhưng không giới hạn ở:\n\n- a) Không thực hiện nghĩa vụ thanh toán trong thời hạn quá 30 ngày kể từ ngày đến hạn mà không có lý do chính đáng hoặc không được khắc phục sau khi nhận được thông báo bằng văn bản từ Bên còn lại;\n\n- b) Từ chối bàn giao hoặc từ chối thực hiện Hợp đồng hoặc đơn phương đình chỉ công việc trái Hợp đồng;\n\n- c) Một Bên vi phạm cam đoan và bảo đảm theo quy định tại khoản 10.1 Điều 11 Hợp đồng này.\n\n- d) VTIT có quyền chấm dứt Hợp đồng nếu Khách hàng mất khả năng thanh toán hoặc có căn cứ hợp lý để xác định Khách hàng không còn khả năng thanh toán các khoản đến hạn theo Hợp đồng.\n\n- e) Vi phạm nghiêm trọng nghĩa vụ Hợp đồng.\n\nTrong các trường hợp này, Bên bị vi phạm phải được thông báo bằng văn bản và có ít nhất 15 ngày làm việc để khắc phục trước khi Bên kia chính thức chấm dứt Hợp đồng.",
+      "score": 0.8414
+    }
+  ],
+  "12.1.4": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.4",
+      "title": "",
+      "text": "12.1.4. Bên B vi phạm nghiêm trọng Hợp đồng.",
+      "score": 0.9998
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.4",
+      "title": "",
+      "text": "12.1.4. Bên B vi phạm nghiêm trọng Hợp đồng.",
+      "score": 0.9995
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1.4",
+      "title": "",
+      "text": "12.1.4. Bên B vi phạm nghiêm trọng Hợp đồng.",
+      "score": 0.9991
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1",
+      "title": "",
+      "text": "12.1.   Hợp đồng này chấm dứt khi có một trong các trường hợp sau:",
+      "score": 0.8519
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1",
+      "title": "",
+      "text": "12.1.   Hợp đồng này chấm dứt khi có một trong các trường hợp sau:",
+      "score": 0.8512
+    }
+  ],
+  "12.2": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2.   Trường hợp chấm dứt Hợp đồng theo điểm 12.1.1, 12.1.2 và 12.1.5 khoản 12.1 Điều 12, Hai Bên thực hiện theo các thỏa thuận tại Văn bản thỏa thuận chấm dứt Hợp đồng (nếu có).",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2.   Trường hợp chấm dứt Hợp đồng theo điểm 12.1.1, 12.1.2 và 12.1.5 khoản 12.1 Điều 12, Hai Bên thực hiện theo các thỏa thuận tại Văn bản thỏa thuận chấm dứt Hợp đồng (nếu có).",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.2",
+      "title": "",
+      "text": "12.2.   Trường hợp chấm dứt Hợp đồng theo điểm 12.1.1, 12.1.2 và 12.1.5 khoản 12.1 Điều 12, Hai Bên thực hiện theo các thỏa thuận tại Văn bản thỏa thuận chấm dứt Hợp đồng (nếu có).",
+      "score": 0.9996
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.1",
+      "title": "",
+      "text": "12.1. Hợp đồng chấm dứt trong các trường hợp sau:\n\n- a) Hợp đồng đã được Các Bên thực hiện đầy đủ nghĩa vụ theo quy định tại Hợp đồng.\n\n- b) Các Bên có thỏa thuận chấm dứt Hợp đồng bằng văn bản. Trong trường hợp này, Hai Bên sẽ thống nhất các điều kiện cụ thể liên quan đến việc chấm dứt, bao gồm nhưng không giới hạn ở: trách nhiệm thanh toán, thời điểm hiệu lực chấm dứt, nghĩa vụ bảo mật và xử lý dữ liệu.\n\n- c) Một trong Hai Bên bị tuyên bố phá sản, giải thể, hoặc bị cơ quan có thẩm quyền yêu cầu chấm dứt hoạt động kinh doanh.",
+      "score": 0.8829
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.1",
+      "title": "",
+      "text": "12.1. Hợp đồng chấm dứt trong các trường hợp sau:\n\n- a) Hợp đồng đã được Các Bên thực hiện đầy đủ nghĩa vụ theo quy định tại Hợp đồng.\n\n- b) Các Bên có thỏa thuận chấm dứt Hợp đồng bằng văn bản. Trong trường hợp này, Hai Bên sẽ thống nhất các điều kiện cụ thể liên quan đến việc chấm dứt, bao gồm nhưng không giới hạn ở: trách nhiệm thanh toán, thời điểm hiệu lực chấm dứt, nghĩa vụ bảo mật và xử lý dữ liệu.\n\n- c) Một trong Hai Bên bị tuyên bố phá sản, giải thể, hoặc bị cơ quan có thẩm quyền yêu cầu chấm dứt hoạt động kinh doanh.",
+      "score": 0.8818
+    }
+  ],
+  "12.3": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.3",
+      "title": "",
+      "text": "12.3.   Trường hợp chấm dứt Hợp đồng theo khoản 12.1.3 khoản 12.1 Điều 12, Bên vi phạm có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị phần nghĩa vụ bị vi phạm.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.3",
+      "title": "",
+      "text": "12.3.   Trường hợp chấm dứt Hợp đồng theo khoản 12.1.3 khoản 12.1 Điều 12, Bên vi phạm có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị phần nghĩa vụ bị vi phạm.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.3",
+      "title": "",
+      "text": "12.3.   Trường hợp chấm dứt Hợp đồng theo khoản 12.1.3 khoản 12.1 Điều 12, Bên vi phạm có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị phần nghĩa vụ bị vi phạm.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.5",
+      "title": "",
+      "text": "12.5.   Trong mọi trường hợp, nếu một Bên đơn phương chấm dứt Hợp đồng trái với quy định pháp luật và Hợp đồng, Bên đơn phương chấm dứt Hợp đồng có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị Hợp đồng cho Bên còn lại.",
+      "score": 0.9048
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.5",
+      "title": "",
+      "text": "12.5.   Trong mọi trường hợp, nếu một Bên đơn phương chấm dứt Hợp đồng trái với quy định pháp luật và Hợp đồng, Bên đơn phương chấm dứt Hợp đồng có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị Hợp đồng cho Bên còn lại.",
+      "score": 0.9048
+    }
+  ],
+  "12.4": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.4",
+      "title": "",
+      "text": "12.4.   Trường hợp chấm dứt Hợp đồng theo Khoản 12.1.4 khoản 12.1 Điều 12, Bên A là Bên duy nhất có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu bất cứ khoản phạt hay bồi thường thiệt hại nào. Ngoài các khoản phạt vi phạm Hợp đồng như đã nêu tại Hợp đồng, Bên B có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.4",
+      "title": "",
+      "text": "12.4.   Trường hợp chấm dứt Hợp đồng theo Khoản 12.1.4 khoản 12.1 Điều 12, Bên A là Bên duy nhất có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu bất cứ khoản phạt hay bồi thường thiệt hại nào. Ngoài các khoản phạt vi phạm Hợp đồng như đã nêu tại Hợp đồng, Bên B có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh.",
+      "score": 0.9998
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.4",
+      "title": "",
+      "text": "12.4.   Trường hợp chấm dứt Hợp đồng theo Khoản 12.1.4 khoản 12.1 Điều 12, Bên A là Bên duy nhất có quyền đơn phương chấm dứt Hợp đồng mà không phải chịu bất cứ khoản phạt hay bồi thường thiệt hại nào. Ngoài các khoản phạt vi phạm Hợp đồng như đã nêu tại Hợp đồng, Bên B có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh.",
+      "score": 0.9989
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.5",
+      "title": "",
+      "text": "12.5.   Trong mọi trường hợp, nếu một Bên đơn phương chấm dứt Hợp đồng trái với quy định pháp luật và Hợp đồng, Bên đơn phương chấm dứt Hợp đồng có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị Hợp đồng cho Bên còn lại.",
+      "score": 0.8829
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "12.1",
+      "title": "",
+      "text": "12.1. Hợp đồng chấm dứt trong các trường hợp sau:\n\n- a) Hợp đồng đã được Các Bên thực hiện đầy đủ nghĩa vụ theo quy định tại Hợp đồng.\n\n- b) Các Bên có thỏa thuận chấm dứt Hợp đồng bằng văn bản. Trong trường hợp này, Hai Bên sẽ thống nhất các điều kiện cụ thể liên quan đến việc chấm dứt, bao gồm nhưng không giới hạn ở: trách nhiệm thanh toán, thời điểm hiệu lực chấm dứt, nghĩa vụ bảo mật và xử lý dữ liệu.\n\n- c) Một trong Hai Bên bị tuyên bố phá sản, giải thể, hoặc bị cơ quan có thẩm quyền yêu cầu chấm dứt hoạt động kinh doanh.",
+      "score": 0.8564
+    }
+  ],
+  "12.5": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.5",
+      "title": "",
+      "text": "12.5.   Trong mọi trường hợp, nếu một Bên đơn phương chấm dứt Hợp đồng trái với quy định pháp luật và Hợp đồng, Bên đơn phương chấm dứt Hợp đồng có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị Hợp đồng cho Bên còn lại.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.5",
+      "title": "",
+      "text": "12.5.   Trong mọi trường hợp, nếu một Bên đơn phương chấm dứt Hợp đồng trái với quy định pháp luật và Hợp đồng, Bên đơn phương chấm dứt Hợp đồng có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị Hợp đồng cho Bên còn lại.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.3",
+      "title": "",
+      "text": "12.3.   Trường hợp chấm dứt Hợp đồng theo khoản 12.1.3 khoản 12.1 Điều 12, Bên vi phạm có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị phần nghĩa vụ bị vi phạm.",
+      "score": 0.9048
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.3",
+      "title": "",
+      "text": "12.3.   Trường hợp chấm dứt Hợp đồng theo khoản 12.1.3 khoản 12.1 Điều 12, Bên vi phạm có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị phần nghĩa vụ bị vi phạm.",
+      "score": 0.9047
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.3",
+      "title": "",
+      "text": "12.3.   Trường hợp chấm dứt Hợp đồng theo khoản 12.1.3 khoản 12.1 Điều 12, Bên vi phạm có trách nhiệm bồi thường toàn bộ thiệt hại thực tế, trực tiếp phát sinh và trả một khoản tiền phạt bằng 8% giá trị phần nghĩa vụ bị vi phạm.",
+      "score": 0.9045
+    }
+  ],
+  "12.6": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.6",
+      "title": "",
+      "text": "12.6.   Việc Hợp đồng này chấm dứt không ảnh hưởng đến quyền lợi và nghĩa vụ của mỗi bên phát sinh từ Hợp đồng cho đến ngày trước ngày Hợp đồng hết hạn hiệu lực, bị hủy bỏ hay bị đơn phương chấm dứt.",
+      "score": 0.9998
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.6",
+      "title": "",
+      "text": "12.6.   Việc Hợp đồng này chấm dứt không ảnh hưởng đến quyền lợi và nghĩa vụ của mỗi bên phát sinh từ Hợp đồng cho đến ngày trước ngày Hợp đồng hết hạn hiệu lực, bị hủy bỏ hay bị đơn phương chấm dứt.",
+      "score": 0.9998
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.6",
+      "title": "",
+      "text": "12.6.   Việc Hợp đồng này chấm dứt không ảnh hưởng đến quyền lợi và nghĩa vụ của mỗi bên phát sinh từ Hợp đồng cho đến ngày trước ngày Hợp đồng hết hạn hiệu lực, bị hủy bỏ hay bị đơn phương chấm dứt.",
+      "score": 0.9996
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1",
+      "title": "",
+      "text": "12.1.   Hợp đồng này chấm dứt khi có một trong các trường hợp sau:",
+      "score": 0.835
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "12.1",
+      "title": "",
+      "text": "12.1.   Hợp đồng này chấm dứt khi có một trong các trường hợp sau:",
+      "score": 0.8344
+    }
+  ],
+  "14": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "14",
+      "title": "BẢO MẬT THÔNG TIN",
+      "text": "Điều 14. BẢO MẬT THÔNG TIN\n\n\n\nHai Bên cam kết tuân thủ các quy định về bảo mật thông tin nêu tại Phụ lục 03 - Bảo mật thông tin và xử lý Dữ liệu cá nhân.",
+      "score": 0.9992
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "14",
+      "title": "BẢO MẬT THÔNG TIN",
+      "text": "Điều 14. BẢO MẬT THÔNG TIN\n\n\n\nHai Bên cam kết tuân thủ các quy định về bảo mật thông tin nêu tại Phụ lục 03 - Bảo mật thông tin và xử lý Dữ liệu cá nhân.",
+      "score": 0.999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "14",
+      "title": "BẢO MẬT THÔNG TIN",
+      "text": "Điều 14. BẢO MẬT THÔNG TIN\n\n\n\nHai Bên cam kết tuân thủ các quy định về bảo mật thông tin nêu tại Phụ lục 03 - Bảo mật thông tin và xử lý Dữ liệu cá nhân.",
+      "score": 0.9987
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.5",
+      "title": "",
+      "text": "6.5. Các Bên có nghĩa vụ tuân thủ Thỏa thuận về Bảo vệ dữ liệu cá nhân theo Phụ lục 03 đính kèm Hợp đồng này.",
+      "score": 0.818
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "6.5",
+      "title": "",
+      "text": "6.5. Các Bên có nghĩa vụ tuân thủ Thỏa thuận về Bảo vệ dữ liệu cá nhân theo Phụ lục 03 đính kèm Hợp đồng này.",
+      "score": 0.8179
+    }
+  ],
+  "15.2": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.2",
+      "title": "",
+      "text": "15.2 Bất cứ Bên nào trong Hợp đồng khi chưa được sự đồng ý bằng văn bản từ Bên còn lại đều không có quyền chuyển nhượng bất cứ quyền lợi và nghĩa vụ qui định trong Hợp đồng. Trước khi có được sự thống nhất bằng văn bản của cả Hai Bên thì bất cứ sự chuyển nhượng nào đều vô hiệu. Việc một Bên thuê bên thứ ba thực hiện một phần công việc theo Hợp đồng không được coi là hành vi chuyển nhượng Hợp đồng.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "9.1",
+      "title": "",
+      "text": "9.1. Trừ khi có sự đồng ý trước bằng văn bản của Bên còn lại, mỗi Bên không được phép chuyển nhượng toàn bộ hoặc một phần quyền và/hoặc nghĩa vụ của mình theo Hợp đồng này cho bất kỳ bên thứ ba nào khác.\n\nQuy định tại khoản này không áp dụng trong trường hợp một Bên thực hiện việc chuyển giao Hợp đồng theo quy định pháp luật trong quá trình sáp nhập, hợp nhất, chia tách, giải thể. Khi đó, Bên thực hiện chuyển giao có trách nhiệm thông báo trước cho Bên còn lại bằng văn bản và phối hợp để bảo đảm việc kế thừa quyền và nghĩa vụ theo Hợp đồng được thực hiện hợp pháp, liên tục và không ảnh hưởng đến quyền lợi của Bên còn lại.",
+      "score": 0.8863
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "9.3",
+      "title": "",
+      "text": "9.3. Việc một Bên thuê hoặc giao cho bên thứ ba thực hiện một phần hoặc toàn bộ công việc theo Hợp đồng không được coi là hành vi chuyển nhượng Hợp đồng và không vi phạm nghĩa vụ tại Hợp đồng này, với điều kiện Bên đó vẫn phải chịu trách nhiệm hoàn toàn và trực tiếp trước Bên còn lại về kết quả công việc, chất lượng dịch vụ và các nghĩa vụ khác theo Hợp đồng.",
+      "score": 0.8541
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "9.2",
+      "title": "",
+      "text": "9.2. Trong mọi trường hợp, Bên chuyển nhượng vẫn phải chịu trách nhiệm liên đới về việc đảm bảo Bên nhận chuyển nhượng tuân thủ đầy đủ các nghĩa vụ theo Hợp đồng này, trừ khi Các Bên có thỏa thuận khác bằng văn bản.",
+      "score": 0.8397
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL03.7",
+      "title": "ĐIỀU 4: ĐIỀU KHOẢN CHUNG",
+      "text": "ĐIỀU 4: ĐIỀU KHOẢN CHUNG\n\n- 4.1 Các Bên không được bàn giao hoặc chuyển nhượng toàn bộ hoặc một phần của Thỏa Thuận này mà không có sự đồng ý trước bằng văn bản của bên còn lại.\n- 4.2 Các nội dung trong Thỏa Thuận này sẽ không được xem là cấp quyền hoặc cho phép Bên Nhận, Bên Cần Biết sở hữu đối với tài sản trí tuệ, bao gồm nhưng không giới hạn, bằng sáng chế, các ứng dụng từ bằng sáng chế, nhãn hiệu, bản quyền hoặc các thông tin độc quyền khác./.\n\nCommented [LL27]: PC bổ sung\n\nCommented [LL28]: PC bổ sung",
+      "score": 0.8376
+    }
+  ],
+  "15.6": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.6",
+      "title": "",
+      "text": "15.6 Hợp đồng này có hiệu lực kể từ ngày cấp có thẩm quyền của Hai Bên ký, đóng dấu và tự động thanh lý khi Hai Bên hoàn thành các nghĩa vụ của mình theo Hợp đồng.",
+      "score": 0.9998
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "19.1",
+      "title": "",
+      "text": "19.1. Hợp đồng có hiệu lực kể từ ngày được đại diện hợp pháp của hai bên ký kết.",
+      "score": 0.8491
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "19.1",
+      "title": "",
+      "text": "19.1. Hợp đồng có hiệu lực kể từ ngày được đại diện hợp pháp của hai bên ký kết.",
+      "score": 0.8491
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.4",
+      "title": "",
+      "text": "15.4 Các phụ lục Hợp đồng, biên bản thỏa thuận và mọi sự sửa đổi nội dung các điều khoản của Hợp đồng này được Hai Bên thống nhất và có chữ ký của người đại diện\n\n- hợp pháp của Hai Bên sẽ có hiệu lực và được xem như một phần của Hợp đồng này mà Hai Bên phải tuân thủ.",
+      "score": 0.8488
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "19.2",
+      "title": "",
+      "text": "19.2. Hợp đồng có tính ràng buộc và có hiệu lực pháp luật đối với Các Bên cũng như các tổ chức kế thừa quyền lợi và trách nhiệm của Các Bên theo Hợp đồng.",
+      "score": 0.8102
+    }
+  ],
+  "2.1": [
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "2.1",
+      "title": "",
+      "text": "Thành phần Hợp đồng và thứ tự ưu tiên pháp lý như sau :\n\n2.1. Văn bản Hợp đồng;",
+      "score": 0.9725
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "2.1",
+      "title": "",
+      "text": "Thành phần Hợp đồng và thứ tự ưu tiên pháp lý như sau :\n\n2.1. Văn bản Hợp đồng;",
+      "score": 0.9722
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "2.2",
+      "title": "",
+      "text": "2.2. Các Phụ lục đính kèm Hợp đồng;",
+      "score": 0.8346
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "2.2",
+      "title": "",
+      "text": "2.2. Các Phụ lục đính kèm Hợp đồng;",
+      "score": 0.8345
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.4",
+      "title": "",
+      "text": "15.4 Các phụ lục Hợp đồng, biên bản thỏa thuận và mọi sự sửa đổi nội dung các điều khoản của Hợp đồng này được Hai Bên thống nhất và có chữ ký của người đại diện\n\n- hợp pháp của Hai Bên sẽ có hiệu lực và được xem như một phần của Hợp đồng này mà Hai Bên phải tuân thủ.",
+      "score": 0.8251
+    }
+  ],
+  "3.1": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.1",
+      "title": "",
+      "text": "3.1. Bên B thực hiện triển khai dịch vụ và cho thuê dịch vụ theo đúng thời gian nêu tại Điều 1 và các yêu cầu kỹ thuật tại Phụ lục 02: Yêu cầu kỹ thuật .",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.1",
+      "title": "",
+      "text": "3.1. Bên B thực hiện triển khai dịch vụ và cho thuê dịch vụ theo đúng thời gian nêu tại Điều 1 và các yêu cầu kỹ thuật tại Phụ lục 02: Yêu cầu kỹ thuật .",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.1",
+      "title": "",
+      "text": "3.1. Bên B thực hiện triển khai dịch vụ và cho thuê dịch vụ theo đúng thời gian nêu tại Điều 1 và các yêu cầu kỹ thuật tại Phụ lục 02: Yêu cầu kỹ thuật .",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.3.1",
+      "title": "",
+      "text": "3.3.1. Nghiệm thu triển khai dịch vụ :\n\nSau khi Bên B hoàn thành việc triển khai (bao gồm cài đặt phần mềm trên cơ sở vật chất của Bên A và đào tạo người dùng) theo kế hoạch dự kiến nêu tại Phụ lục 04 , Hai Bên thống nhất sẽ ký biên bản nghiệm thu :\n\nCommented [PTNH1]: VTIT update\n\nCommented [NTD(2R1]: Em đã tính theo tỷ lệ HĐ WNI. TTSX review lại.\n\n- a) Biên bản nghiệm thu đào tạo: Hai Bên thống nhất sẽ ký biên bản nghiệm thu đào tạo trong vòng 01 (một) ngày làm việc sau khi Bên B hoàn thành việc đào tạo cho người sử dụng;\n- b) Biên bản nghiệm thu kỹ thuật: Hai Bên thống nhất sẽ ký biên bản nghiệm thu kỹ thuật đối với chức năng phần mềm sau 03 (ba) ngày làm việc khi Bên B hoàn thành việc triển khai;\n- c) Biên bản nghiệm thu tổng thể: Trên cơ sở Biên bản nghiệm thu kỹ thuật và Biên bản nghiệm thu đào tạo, hai Bên sẽ tiến hành ký Biên bản nghiệm thu tổng thể sau 03 (ba) ngày làm việc kể từ khi hoàn thành triển khai các hạng mục dịch vụ.\n4. 3.3.2. Nghiệm thu chất lượng Dịch vụ hàng tháng:\n\nTrước ngày 10 (mười) hàng tháng của tháng kế tiếp, hai Bên sẽ tiến hành nghiệm thu chất lượng Dịch vụ của tháng trước đó. Đồng thời tại Biên bản nghiệm thu, hai Bên thống nhất các khoản giảm trừ phát sinh (nếu có);",
+      "score": 0.8001
+    }
+  ],
+  "3.2": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.2",
+      "title": "",
+      "text": "3.2. Nếu có những vướng mắc trong quá trình triển khai và nghiệm thu, Bên B thông báo bằng văn bản cho Bên A và trong vòng 03 (ba) ngày làm việc, Bên A sẽ tiến hành xem  xét,  đánh  giá  tình  hình  và  chủ  động  phối  hợp  thống  nhất  phương  án  giải quyết/khắc phục.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.2",
+      "title": "",
+      "text": "3.2. Nếu có những vướng mắc trong quá trình triển khai và nghiệm thu, Bên B thông báo bằng văn bản cho Bên A và trong vòng 03 (ba) ngày làm việc, Bên A sẽ tiến hành xem  xét,  đánh  giá  tình  hình  và  chủ  động  phối  hợp  thống  nhất  phương  án  giải quyết/khắc phục.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.2",
+      "title": "",
+      "text": "3.2. Nếu có những vướng mắc trong quá trình triển khai và nghiệm thu, Bên B thông báo bằng văn bản cho Bên A và trong vòng 03 (ba) ngày làm việc, Bên A sẽ tiến hành xem  xét,  đánh  giá  tình  hình  và  chủ  động  phối  hợp  thống  nhất  phương  án  giải quyết/khắc phục.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.3.1",
+      "title": "",
+      "text": "3.3.1. Nghiệm thu triển khai dịch vụ :\n\nSau khi Bên B hoàn thành việc triển khai (bao gồm cài đặt phần mềm trên cơ sở vật chất của Bên A và đào tạo người dùng) theo kế hoạch dự kiến nêu tại Phụ lục 04 , Hai Bên thống nhất sẽ ký biên bản nghiệm thu :\n\n- a) Biên bản nghiệm thu đào tạo: Hai Bên thống nhất sẽ ký biên bản nghiệm thu đào tạo trong vòng 01 (một) ngày làm việc sau khi Bên B hoàn thành việc đào tạo cho người sử dụng;\n- b) Biên bản nghiệm thu kỹ thuật: Hai Bên thống nhất sẽ ký biên bản nghiệm thu kỹ thuật đối với chức năng phần mềm sau 03 (ba) ngày làm việc khi Bên B hoàn thành việc triển khai;\n- c) Biên bản nghiệm thu tổng thể: Trên cơ sở Biên bản nghiệm thu kỹ thuật và Biên bản nghiệm thu đào tạo, hai Bên sẽ tiến hành ký Biên bản nghiệm thu tổng thể sau 03 (ba) ngày làm việc kể từ khi hoàn thành triển khai các hạng mục dịch vụ.",
+      "score": 0.811
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.3.1",
+      "title": "",
+      "text": "3.3.1. Nghiệm thu triển khai dịch vụ :\n\nSau khi Bên B hoàn thành việc triển khai (bao gồm cài đặt phần mềm trên cơ sở vật chất của Bên A và đào tạo người dùng) theo kế hoạch dự kiến nêu tại Phụ lục 04 , Hai Bên thống nhất sẽ ký biên bản nghiệm thu :\n\nCommented [PTNH1]: VTIT update\n\nCommented [NTD(2R1]: Em đã tính theo tỷ lệ HĐ WNI. TTSX review lại.\n\n- a) Biên bản nghiệm thu đào tạo: Hai Bên thống nhất sẽ ký biên bản nghiệm thu đào tạo trong vòng 01 (một) ngày làm việc sau khi Bên B hoàn thành việc đào tạo cho người sử dụng;\n- b) Biên bản nghiệm thu kỹ thuật: Hai Bên thống nhất sẽ ký biên bản nghiệm thu kỹ thuật đối với chức năng phần mềm sau 03 (ba) ngày làm việc khi Bên B hoàn thành việc triển khai;\n- c) Biên bản nghiệm thu tổng thể: Trên cơ sở Biên bản nghiệm thu kỹ thuật và Biên bản nghiệm thu đào tạo, hai Bên sẽ tiến hành ký Biên bản nghiệm thu tổng thể sau 03 (ba) ngày làm việc kể từ khi hoàn thành triển khai các hạng mục dịch vụ.\n4. 3.3.2. Nghiệm thu chất lượng Dịch vụ hàng tháng:\n\nTrước ngày 10 (mười) hàng tháng của tháng kế tiếp, hai Bên sẽ tiến hành nghiệm thu chất lượng Dịch vụ của tháng trước đó. Đồng thời tại Biên bản nghiệm thu, hai Bên thống nhất các khoản giảm trừ phát sinh (nếu có);",
+      "score": 0.8073
+    }
+  ],
+  "3.3": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL05.2",
+      "title": "Mẫu số 1: MẪU BIÊN BẢN NGHIỆM THU KỸ THUẬT",
+      "text": "Mẫu số 1: MẪU BIÊN BẢN NGHIỆM THU KỸ THUẬT\n\n(Kèm theo Hợp đồng số\n\n..........…………………….\n\n……………, ngày …… tháng …… năm 20…",
+      "score": 0.7502
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL05.2",
+      "title": "Mẫu số 1: MẪU BIÊN BẢN NGHIỆM THU KỸ THUẬT",
+      "text": "Mẫu số 1: MẪU BIÊN BẢN NGHIỆM THU KỸ THUẬT\n\n(Kèm theo Hợp đồng số\n\n..........…………………….\n\n……………, ngày …… tháng …… năm 20…",
+      "score": 0.7501
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL05.2",
+      "title": "Mẫu số 1: MẪU BIÊN BẢN NGHIỆM THU KỸ THUẬT",
+      "text": "Mẫu số 1: MẪU BIÊN BẢN NGHIỆM THU KỸ THUẬT\n\n(Kèm theo Hợp đồng số\n\n..........…………………….\n\n……………, ngày …… tháng …… năm 20…",
+      "score": 0.7499
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL03",
+      "title": "",
+      "text": "Phụ lục 03. \n\nGồm các mục:\n- BẢO MẬT THÔNG TIN VÀ XỬ LÝ DỮ LIỆU CÁ NHÂN\n- ĐIỀU 1: ĐỊNH NGHĨA\n- 1.1. Thông Tin\n- 1.2. Dữ liệu cá nhân\n- ĐIỀU 2: BẢO MẬT THÔNG TIN\n- ĐIỀU 3: XỬ LÝ DỮ LIỆU CÁ NHÂN\n- ĐIỀU 4: ĐIỀU KHOẢN CHUNG",
+      "score": 0.7476
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL03",
+      "title": "",
+      "text": "Phụ lục 03. \n\nGồm các mục:\n- BẢO MẬT THÔNG TIN VÀ XỬ LÝ DỮ LIỆU CÁ NHÂN\n- ĐIỀU 1: ĐỊNH NGHĨA\n- 1.1. Thông Tin\n- 1.2. Dữ liệu cá nhân\n- ĐIỀU 2: BẢO MẬT THÔNG TIN\n- ĐIỀU 3: XỬ LÝ DỮ LIỆU CÁ NHÂN\n- ĐIỀU 4: ĐIỀU KHOẢN CHUNG",
+      "score": 0.7463
+    }
+  ],
+  "3.3.1": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.3.1",
+      "title": "",
+      "text": "3.3.1. Nghiệm thu triển khai dịch vụ :\n\nSau khi Bên B hoàn thành việc triển khai (bao gồm cài đặt phần mềm trên cơ sở vật chất của Bên A và đào tạo người dùng) theo kế hoạch dự kiến nêu tại Phụ lục 04 , Hai Bên thống nhất sẽ ký biên bản nghiệm thu :\n\n- a) Biên bản nghiệm thu đào tạo: Hai Bên thống nhất sẽ ký biên bản nghiệm thu đào tạo trong vòng 01 (một) ngày làm việc sau khi Bên B hoàn thành việc đào tạo cho người sử dụng;\n- b) Biên bản nghiệm thu kỹ thuật: Hai Bên thống nhất sẽ ký biên bản nghiệm thu kỹ thuật đối với chức năng phần mềm sau 03 (ba) ngày làm việc khi Bên B hoàn thành việc triển khai;\n- c) Biên bản nghiệm thu tổng thể: Trên cơ sở Biên bản nghiệm thu kỹ thuật và Biên bản nghiệm thu đào tạo, hai Bên sẽ tiến hành ký Biên bản nghiệm thu tổng thể sau 03 (ba) ngày làm việc kể từ khi hoàn thành triển khai các hạng mục dịch vụ.\n4. 3.3.2. Nghiệm thu chất lượng Dịch vụ hàng tháng:\n\nTrước ngày 10 (mười) hàng tháng của tháng kế tiếp, hai Bên sẽ tiến hành nghiệm thu chất lượng Dịch vụ của tháng trước đó. Đồng thời tại Biên bản nghiệm thu, hai Bên thống nhất các khoản giảm trừ phát sinh (nếu có);",
+      "score": 0.8903
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL05.10",
+      "title": "Căn cứ:",
+      "text": "Căn cứ:\n\n- Hợp đồng số ………..ký ngày ………. giữa Tổng công ty Hàng không Việt Nam - CTCP và Công ty Trách nhiệm hữu hạn Một thành viên Đầu tư Công nghệ Viettel,\n\n- Biên bản nghiệm thu kĩ thuật ngày …./…./202..;\n\n- Biên bản xác nhận đào tạo ngày …/…./202..;\n\nTại trụ sở Tổng công ty Hàng không Việt Nam - CTCP (200 Nguyễn Sơn, P. Bồ Đề, , Tp Hà Nội), Bên A và Bên B thống nhất tiến hành nghiệm thu tổng thể Hợp đồng, nội dung cụ thể như sau:\n\n- Bên B đã hoàn thành việc triển khai theo đúng nội dung, phạm vi công việc và cam kết đảm bảo cung cấp dịch vụ theo các điều khoản của Hợp đồng số ……….\n\n- Hai bên thống nhất đưa thời gian vào sử dụng và tính phí dịch vụ từ ngày…/…/….\n\n- Bên B cam kết tiếp tục thực hiện điều chỉnh, bổ sung, sửa đổi các yêu cầu, change request ngoài phạm vi Hợp đồng; Phối hợp cùng Bên A tổ chức đào tạo mở rộng theo yêu cầu khác lịch trình của bên B; Đưa hệ thống vào khai thác theo yêu cầu của Bên A.\n\n- Bên B cam kết các quy định về bảo mật thông tin và hỗ trợ kĩ thuật theo đúng các điều khoản của Hợp đồng số ………….., ký ngày ………..\n\n- Ngày đưa vào vận hành: …………\n\nBiên bản được lập thành 04 (bốn) bản, mỗi Bên giữ 02 (hai) bản có giá trị pháp lý như nhau.\n\nĐẠI DIỆN BÊN A\n\nĐẠI DIỆN BÊN B\n\nCommented [NTMT-O32]: Khi nào ký xong BBNTTT mới phát sinh nghiệm thu chất lượng dịch vụ hang tháng\n\n|   TT | Nội dung công                 | Cam kết tiêu chuẩn   | Số yêu cầu hỗ trợ   | Số yêu cầu hỗ trợ không đạt cam kết   | Đánh giá   | Đánh giá   |\n|------|-------------------------------|----------------------|---------------------|---------------------------------------|------------|------------|\n|      | việc                          |                      |                     |                                       | Đạt        | Không đạt  |\n|    1 | Độ sẵn sàng (SA) của phần mềm | ≥ 98%                |                     |                                       |            |            |\n\n|    |                                                         |                    |                   | Số yêu cầu hỗ trợ không đạt   | Đánh giá   | Đánh giá   |\n|----|---------------------------------------------------------|--------------------|-------------------|-------------------------------|------------|------------|\n| TT | Nội dung công việc                                      | Cam kết tiêu chuẩn | Số yêu cầu hỗ trợ | cam kết                       | Đạt        | Không đạt  |\n| 1  | Thời gian khắc phục sự cố đối với dịch vụ ĐBHĐ phần mềm | 24x7x2+X           |                   |                               |            |            |\n\n| TT   | Nội dung công việc   | Thời gian thực hiện (bắt đầu/kết thúc)   | Đánh giá chất lượng Dịch vụ theo tiêu chuẩn kỹ thuật   | Cam kết theo hợp đồng   | Đánh giá mức độ vi phạm   |\n|------|----------------------|------------------------------------------|--------------------------------------------------------|-------------------------|---------------------------|\n\nTrang 51 / 52\n\n<!-- image -->",
+      "score": 0.8161
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "9",
+      "title": "GIẢM TRỪ DỊCH VỤ",
+      "text": "Điều 9. GIẢM TRỪ DỊCH VỤ\n\n\n\n## 9.1. Giảm trừ dịch vụ:\n\nTrang 7 / 52 Trường hợp chất lượng dịch vụ của Bên B không đạt mức cam kết quy định tại khoản Commented [PTNH14]:\n\nVTIT update\n\n- 8.1 Điều 8, Bên B sẽ giảm trừ phí dịch vụ của tháng có dịch vụ không đạt mức cam kết cho Bên A theo mức sau:\n\n| Độ sẵn sàng (SA) của phần mềm                                      | Mức giảm trừ khi dịch vụ không đạt tiêu chuẩn dịch vụ cam kết/ Đơn giá Hợp đồng tính theo tháng khi phân bổ đều   |\n|--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|\n| ≥99%                                                               | 0%                                                                                                                |\n| ≥98% và <99%                                                       | 1%                                                                                                                |\n| ≥96% và <98%                                                       | 4%                                                                                                                |\n| ≥94% và <96%                                                       | 6%                                                                                                                |\n| ≥92% và <94%                                                       | 8%                                                                                                                |\n| ≥90% và <92%                                                       | 10%                                                                                                               |\n| ≥80% và <90%                                                       | 15%                                                                                                               |\n| < 80%                                                              | Thực hiện như quy định tại khoản 9.2 Điều 9                                                                       |\n| Thời gian khắc phục sự cố đối với dịch vụ ĐBHĐ phần mềm 24x7x1/2+X | Mức giảm trừ cho 01 trường hợp vi phạm/ Đơn giá Hợp đồng tính theo tháng khi phân bổ đều                          |\n| X vượt quá 50%                                                     | 2%                                                                                                                |\n| X vượt quá 100%                                                    | 4%                                                                                                                |\n| X vượt quá 200%                                                    | 8%                                                                                                                |\n\nĐơn giá Hợp đồng tính theo tháng khi phân bổ đều được hiểu là Giá trị Hợp đồng dự kiến chia cho 60 tháng.\n\nTổng giá trị giảm trừ trong một tháng là tổng giá trị giảm trừ của các lỗi vi phạm chất lượng dịch vụ trong tháng và các lỗi được tính riêng rẽ với nhau.\n\n- 9.2. Trường hợp vi phạm nghiêm trọng Hợp đồng,\n\nTrường hợp độ sẵn sàng của hệ thống đạt SA &lt;80% hoặc thời gian Bên B khắc phục lỗi đảm bảo hoạt động phần mềm &gt; 3*X được coi là vi phạm nghiêm trọng Hợp đồng. Trường hợp vi phạm nghiêm trọng Hợp đồng, hai Bên thực hiện như sau:\n\n- 9.2.1 Thống nhất mức giảm trừ cho từng trường hợp cụ thể nhưng mức giảm trừ tối thiểu là 50% và tối đa 100% giá trị thanh toán của 1 tháng không đạt tiêu chuẩn dịch vụ cam kết, và/hoặc;\n- 9.2.2. Bên A có thể đơn phương chấm dứt Hợp đồng với Bên B mà không phải chịu bất cứ bồi thường thiệt hại nào.\n- 9.3 Trong các trường hợp sau, việc gián đoạn dịch vụ sẽ không được tính để giảm trừ phí dịch vụ:\n- 9.3.1. Các trường hợp miễn trừ vi phạm thời gian xử lý sự cố phần mềm:\n- a) Lỗi phát sinh do người dùng thao tác sai nghiệp vụ.\n\nCommented [PTNH15]: HĐ này là HĐ thuê nên khi phạt cần tính theo giá trị tháng phân bổ đều, chứ k tính theo đơn giá hàng tháng (đã giảm so với đơn giá phân bổ đều do phải trả tạm ứng 1 phần)\n\n- b) Lỗi phát sinh do hệ thống số liệu nguồn thay đổi hoặc bị lỗi.\n- c) Và các lỗi phát sinh nằm ngoài phạm vi cung cấp dịch vụ cung cấp phần mềm thuộc hợp đồng này.\n3. 9.3.2. Do bảo trì, bảo dưỡng, định kỳ kiểm tra hệ thống theo kế hoạch và đã được thông báo trước 02 (hai) ngày cho Bên A và phải được Bên A chấp thuận);\n4. 9.3.3. Do dừng dịch vụ để bảo trì bất thường (nếu có): trong trường hợp cần dừng hệ thống bất thường, Bên B phải thông báo cho Bên A trước ít nhất 02 (hai) giờ bằng văn bản hoặc điện thoại/fax/email và phải được Bên A chấp thuận;\n5. 9.3.4. Các lỗi phát sinh, do hệ quả trực tiếp hoặc gián tiếp:\n- a) Tấn công hàng loạt của các hacker;\n- b) Các sự cố/sự kiện/hiệu năng (Performance) liên quan đến lỗi phần cứng và mềm theo thông báo chính thức của nhà sản xuất;\n- c) Các sự cố xảy ra do đối tác thứ 3 cung cấp dịch vụ trực tiếp cho Bên A;\n- d) Các sự cố do cơ sở hạ tầng (không thuộc phạm vi Hợp đồng này) của Bên A;\n- e) Các trường hợp bất khả kháng quy định tại Điều 11.",
+      "score": 0.8134
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL02.9",
+      "title": "C. Triển khai đào tạo",
+      "text": "C. Triển khai đào tạo\n\n1. Đối tượng đào tạo: Người quản trị hệ thống và người sử dụng phần mềm;\n2. Nội dung: các chức năng và cách quản trị hệ thống;\n3. Số lượng: 50;\n4. Hình thức: trực tuyến, trường hợp trực tiếp phát sinh chi phí di chuyến/ăn ở cần xem xét và thống nhất giữa các bên;\n5. Tài liệu đào tạo: do Bên B chuẩn bị bao gồm tài liệu  đào tạo và hướng dẫn sử dụng;\n6. Trang thiết bị: Bên A chuẩn bị máy móc, trang thiết bị phục vụ việc đào tạo;\n7. Thời gian: tối thiếu 01 ngày làm việc;\n8. Thời điểm: dựa trên sự thống nhất giữa các bên.",
+      "score": 0.812
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL02.9",
+      "title": "C. Triển khai đào tạo",
+      "text": "C. Triển khai đào tạo\n\n1. Đối tượng đào tạo: Người quản trị hệ thống và người sử dụng phần mềm;\n2. Nội dung: các chức năng và cách quản trị hệ thống;\n3. Số lượng: 50;\n4. Hình thức: trực tuyến, trường hợp trực tiếp phát sinh chi phí di chuyến/ăn ở cần xem xét và thống nhất giữa các bên;\n5. Tài liệu đào tạo: do Bên B chuẩn bị bao gồm tài liệu  đào tạo và hướng dẫn sử dụng;\n6. Trang thiết bị: Bên A chuẩn bị máy móc, trang thiết bị phục vụ việc đào tạo;\n7. Thời gian: tối thiếu 01 ngày làm việc;\n8. Thời điểm: dựa trên sự thống nhất giữa các bên.",
+      "score": 0.8119
+    }
+  ],
+  "3.3.3": [
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "2.2",
+      "title": "",
+      "text": "2.2. Các Phụ lục đính kèm Hợp đồng;",
+      "score": 0.7881
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "2.2",
+      "title": "",
+      "text": "2.2. Các Phụ lục đính kèm Hợp đồng;",
+      "score": 0.788
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "17.4",
+      "title": "",
+      "text": "17.4. Nếu trong quá trình nghiệm thu, kết quả công việc không đáp ứng yêu cầu Hợp đồng thì Khách hàng có quyền yêu cầu VTIT khắc phục và chỉnh sửa, với điều kiện Khách hàng nêu rõ lý do bằng văn bản trong vòng 03 (ba) ngày làm việc kể từ ngày nhận bàn giao hoặc hoàn tất kiểm thử.",
+      "score": 0.7834
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL05.1",
+      "title": "CÁC MẪU BIỂU",
+      "text": "CÁC MẪU BIỂU\n\n(Kèm theo Hợp đồng số: …….……./2026/VNA-VTIT ký ngày………/……../2026)",
+      "score": 0.7817
+    }
+  ],
+  "4.2": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.2",
+      "title": "",
+      "text": "4.2. Thời gian tính phí dịch vụ: Tính kể từ Ngày đưa vào vận hành.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.2",
+      "title": "",
+      "text": "4.2. Thời gian tính phí dịch vụ: Tính kể từ Ngày đưa vào vận hành.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.2",
+      "title": "",
+      "text": "4.2. Thời gian tính phí dịch vụ: Tính kể từ Ngày đưa vào vận hành.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "16.3",
+      "title": "",
+      "text": "16.3. Trường hợp việc thay đổi thời gian cung cấp dịch vụ dẫn đến phát sinh chi phí bổ sung (bao gồm nhưng không giới hạn chi phí nhân sự, vận hành, tổ chức lại kế hoạch triển khai và các chi phí có liên quan khác để phục vụ việc cung cấp dịch vụ), VTIT có quyền đề xuất điều chỉnh giá trị Hợp đồng tương ứng với phần phát sinh, căn cứ theo tài liệu, kế hoạch triển khai thực tế và sự chấp thuận của Khách hàng.",
+      "score": 0.7894
+    }
+  ],
+  "4.3": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.3",
+      "title": "",
+      "text": "4.3. Hình thức và kỳ thanh toán: Thanh toán theo hình thức chuyển khoản bằng tiền VND, theo kỳ thanh toán nêu tại Phụ lục 01 .",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.3",
+      "title": "",
+      "text": "4.3. Hình thức và kỳ thanh toán: Thanh toán theo hình thức chuyển khoản bằng tiền VND, theo kỳ thanh toán nêu tại Phụ lục 01 .",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.3",
+      "title": "",
+      "text": "4.3. Hình thức và kỳ thanh toán: Thanh toán theo hình thức chuyển khoản bằng tiền VND, theo kỳ thanh toán nêu tại Phụ lục 01 .",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "6.1",
+      "title": "",
+      "text": "6.1. Thanh toán đầy đủ và đúng thời hạn theo quy định tại Điều 4 nêu trên.",
+      "score": 0.8092
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "15.4",
+      "title": "",
+      "text": "15.4. Chậm thanh toán:\n\nTrường hợp Khách hàng chậm thanh toán, Khách hàng phải trả cho VTIT lãi chậm trả tính trên số tiền chậm thanh toán theo lãi suất 0,05%/ngày kể từ ngày bắt đầu chậm thanh toán đến thời điểm Khách hàng hoàn thành nghĩa vụ thanh toán.",
+      "score": 0.7948
+    }
+  ],
+  "4.3.1": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.1",
+      "title": "",
+      "text": "4.1 Bảo đảm thực hiện hợp đồng:",
+      "score": 0.8539
+    }
+  ],
+  "4.3.2": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.1",
+      "title": "",
+      "text": "4.1 Bảo đảm thực hiện hợp đồng:",
+      "score": 0.8382
+    }
+  ],
+  "4.3.3": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.1",
+      "title": "",
+      "text": "4.1 Bảo đảm thực hiện hợp đồng:",
+      "score": 0.8689
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.6",
+      "title": "",
+      "text": "15.6 Hợp đồng này có hiệu lực kể từ ngày cấp có thẩm quyền của Hai Bên ký, đóng dấu và tự động thanh lý khi Hai Bên hoàn thành các nghĩa vụ của mình theo Hợp đồng.",
+      "score": 0.7981
+    }
+  ],
+  "4.5": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.5",
+      "title": "",
+      "text": "4.5. Những nội dung thay đổi không thuộc phạm vi tại Phụ lục 02 được gọi là 'Yêu cầu thay đổi (CR)'. Trong thời gian thực hiện Hợp đồng theo quy định tại Khoản 1.2 Điều 1, Bên B thực hiện miễn phí các CR của Bên A trong trường hợp chi phí để thực hiện các CR được Bên B đánh giá có giá trị nhỏ hơn 120.000.000 VND trong mỗi Quý. Giá trị CR được miễn phí của Quý trước chưa sử dụng không được cộng dồn cho Quý sau.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.5",
+      "title": "",
+      "text": "4.5. Những nội dung thay đổi không thuộc phạm vi tại Phụ lục 02 được gọi là 'Yêu cầu thay đổi (CR)'. Trong thời gian thực hiện Hợp đồng theo quy định tại Khoản 1.2 Điều 1, Bên B thực hiện miễn phí các CR của Bên A trong trường hợp chi phí để thực hiện các CR được Bên B đánh giá có giá trị nhỏ hơn 120.000.000 VND trong mỗi Quý. Giá trị CR được miễn phí của Quý trước chưa sử dụng không được cộng dồn cho Quý sau.",
+      "score": 0.9994
+    }
+  ],
+  "4.6": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.6",
+      "title": "",
+      "text": "4.6. Sau khi kết thúc thời gian thuê dịch vụ và nếu Bên A vẫn có nhu cầu tiếp tục thuê dịch vụ, Bên B tiếp tục cung cấp dịch vụ bảo đảm hoạt động phần mềm với đơn giá hàng tháng không quá 20% Chi phí phần mềm (tính theo năm).\n\nChi phí phần mềm là toàn bộ chi phí trực tiếp xây dựng, phát triển, nâng cấp, mở rộng phần mềm. Chi tiết kê khai Chi phí phần mềm của Bên B làm căn cứ để các Bên tính toán phí DV ĐBHĐ trong trường hợp tiếp tục thuê DV được nêu tại Phụ lục 01 .",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.6",
+      "title": "",
+      "text": "4.6. Sau khi kết thúc thời gian thuê dịch vụ và nếu Bên A vẫn có nhu cầu tiếp tục thuê dịch vụ, Bên B tiếp tục cung cấp dịch vụ bảo đảm hoạt động phần mềm với đơn giá hàng tháng không quá 20% Chi phí phần mềm (tính theo năm).\n\nChi phí phần mềm là toàn bộ chi phí trực tiếp xây dựng, phát triển, nâng cấp, mở rộng phần mềm. Chi tiết kê khai Chi phí phần mềm của Bên B làm căn cứ để các Bên tính toán phí DV ĐBHĐ trong trường hợp tiếp tục thuê DV được nêu tại Phụ lục 01 .",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.6",
+      "title": "",
+      "text": "4.6. Sau khi kết thúc thời gian thuê dịch vụ và nếu Bên A vẫn có nhu cầu tiếp tục thuê dịch vụ, Bên B tiếp tục cung cấp dịch vụ bảo đảm hoạt động phần mềm với đơn giá hàng tháng không quá 20% Chi phí phần mềm (tính theo năm).\n\nChi phí phần mềm là toàn bộ chi phí trực tiếp xây dựng, phát triển, nâng cấp, mở rộng phần mềm. Chi tiết kê khai Chi phí phần mềm của Bên B làm căn cứ để các Bên tính toán phí DV ĐBHĐ trong trường hợp tiếp tục thuê DV được nêu tại Phụ lục 01 .",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "15.5",
+      "title": "",
+      "text": "15.5 Trường hợp Bên A có nhu cầu tiếp tục sử dụng dịch vụ sau thời hạn nêu tại Khoản 1.2 Điều 1, Bên A sẽ có văn bản thông báo cho Bên B trước khi hợp đồng hết hạn 45 ngày và Hai Bên sẽ thực hiện các thủ tục đàm phán và ký bổ sung hợp đồng. Trong trường hợp này, Bên A chỉ phải thanh toán phí thuê Dịch vụ như quy định tại Khoản 4.6 Điều 4.",
+      "score": 0.8476
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "4.4",
+      "title": "",
+      "text": "4.4. Đối với tháng sử dụng dịch vụ đầu tiên và cuối cùng của Hợp đồng, trường hợp số ngày sử dụng dịch vụ thực tế của Bên A không đủ số ngày trong tháng, giá dịch vụ sẽ được tính theo: (đơn giá thuê theo tháng chia (:) số ngày của tháng sử dụng dịch vụ) nhân (x) số ngày thực tế sử dụng trong tháng.",
+      "score": 0.8225
+    }
+  ],
+  "5.1": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.1",
+      "title": "",
+      "text": "5.1. Quyền sử dụng phần mềm và quyền sở hữu dữ liệu hệ thống thuộc về Bên A, ngoại trừ mã nguồn mở; tài liệu, thư viện, công cụ mà bên B mua lại, sử dụng của bên thứ ba.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.1",
+      "title": "",
+      "text": "5.1. Quyền sử dụng phần mềm và quyền sở hữu dữ liệu hệ thống thuộc về Bên A, ngoại trừ mã nguồn mở; tài liệu, thư viện, công cụ mà bên B mua lại, sử dụng của bên thứ ba.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.1",
+      "title": "",
+      "text": "5.1. Quyền sử dụng phần mềm và quyền sở hữu dữ liệu hệ thống thuộc về Bên A, ngoại trừ mã nguồn mở; tài liệu, thư viện, công cụ mà bên B mua lại, sử dụng của bên thứ ba.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Sau khi kết thúc thời gian thuê dịch vụ, Bên B có trách nhiệm bàn giao miễn phí cơ sở dữ liệu của Bên A, bản sao mã nguồn phiên bản đang vận hành và tài liệu kỹ thuật cần thiết.\n\nBên B cấp cho Bên A và các Bên theo quy định tại Khoản 7.9 Điều 7 quyền sử dụng phần mềm không độc quyền, không hủy ngang, không giới hạn thời gian, phục vụ hoạt động nội bộ của Bên A. Bên A có quyền tự mình hoặc thuê bên thứ ba sửa chữa, bảo trì, nâng cấp hệ thống nhằm duy trì hoạt động nội bộ.",
+      "score": 0.8718
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Sau khi kết thúc thời gian thuê dịch vụ, Bên B có trách nhiệm bàn giao miễn phí cơ sở dữ liệu của Bên A, bản sao mã nguồn phiên bản đang vận hành và tài liệu kỹ thuật cần thiết.\n\nBên B cấp cho Bên A và các Bên theo quy định tại Khoản 7.9 Điều 7 quyền sử dụng phần mềm không độc quyền, không hủy ngang, không giới hạn thời gian, phục vụ hoạt động nội bộ của Bên A. Bên A có quyền tự mình hoặc thuê bên thứ ba sửa chữa, bảo trì, nâng cấp hệ thống nhằm duy trì hoạt động nội bộ.",
+      "score": 0.8717
+    }
+  ],
+  "5.2": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.2",
+      "title": "",
+      "text": "5.2. Trừ trường hợp các bên có thỏa thuận khác, quyền sở hữu trí tuệ đối với các phần mềm, ứng dụng, chương trình máy tính,… liên quan đến việc cung cấp dịch vụ theo Hợp đồng này thuộc về Bên B. Bên B chịu trách nhiệm pháp lý và các chi phí phát sinh liên quan đến việc khiếu kiện, khiếu nại về các vấn đề bản quyền của sản phẩm phần mềm do Bên B cung cấp.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.2",
+      "title": "",
+      "text": "5.2. Trừ trường hợp các bên có thỏa thuận khác, quyền sở hữu trí tuệ đối với các phần mềm, ứng dụng, chương trình máy tính,… liên quan đến việc cung cấp dịch vụ theo Hợp đồng này thuộc về Bên B. Bên B chịu trách nhiệm pháp lý và các chi phí phát sinh liên quan đến việc khiếu kiện, khiếu nại về các vấn đề bản quyền của sản phẩm phần mềm do Bên B cung cấp.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.2",
+      "title": "",
+      "text": "5.2. Trừ trường hợp các bên có thỏa thuận khác, quyền sở hữu trí tuệ đối với các phần mềm, ứng dụng, chương trình máy tính,… liên quan đến việc cung cấp dịch vụ theo Hợp đồng này thuộc về Bên B. Bên B chịu trách nhiệm pháp lý và các chi phí phát sinh liên quan đến việc khiếu kiện, khiếu nại về các vấn đề bản quyền của sản phẩm phần mềm do Bên B cung cấp.",
+      "score": 0.9998
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Sau khi kết thúc thời gian thuê dịch vụ, Bên B có trách nhiệm bàn giao miễn phí cơ sở dữ liệu của Bên A, bản sao mã nguồn phiên bản đang vận hành và tài liệu kỹ thuật cần thiết.\n\nBên B cấp cho Bên A và các Bên theo quy định tại Khoản 7.9 Điều 7 quyền sử dụng phần mềm không độc quyền, không hủy ngang, không giới hạn thời gian, phục vụ hoạt động nội bộ của Bên A. Bên A có quyền tự mình hoặc thuê bên thứ ba sửa chữa, bảo trì, nâng cấp hệ thống nhằm duy trì hoạt động nội bộ.",
+      "score": 0.852
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.1",
+      "title": "",
+      "text": "5.1. Quyền sử dụng phần mềm và quyền sở hữu dữ liệu hệ thống thuộc về Bên A, ngoại trừ mã nguồn mở; tài liệu, thư viện, công cụ mà bên B mua lại, sử dụng của bên thứ ba.",
+      "score": 0.852
+    }
+  ],
+  "5.3": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.3",
+      "title": "",
+      "text": "5.3. Bên B cam kết phần mềm và việc sở hữu, sử dụng phần mềm cung cấp theo hợp đồng này không vi phạm bất cứ quy định pháp luật nào, bao gồm nhưng không giới hạn pháp luật về quyền sở hữu trí tuệ (nhãn hiệu hàng hóa, bản quyền tác giả, quyền sở hữu công nghiệp, bí mật kinh doanh, giải pháp hữu ích…) của Việt Nam và các quy định trong các Điều ước quốc tế mà Việt Nam là thành viên hoặc tham gia ký kết hoặc công nhận.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.3",
+      "title": "",
+      "text": "5.3. Bên B cam kết phần mềm và việc sở hữu, sử dụng phần mềm cung cấp theo hợp đồng này không vi phạm bất cứ quy định pháp luật nào, bao gồm nhưng không giới hạn pháp luật về quyền sở hữu trí tuệ (nhãn hiệu hàng hóa, bản quyền tác giả, quyền sở hữu công nghiệp, bí mật kinh doanh, giải pháp hữu ích…) của Việt Nam và các quy định trong các Điều ước quốc tế mà Việt Nam là thành viên hoặc tham gia ký kết hoặc công nhận.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.3",
+      "title": "",
+      "text": "5.3. Bên B cam kết phần mềm và việc sở hữu, sử dụng phần mềm cung cấp theo hợp đồng này không vi phạm bất cứ quy định pháp luật nào, bao gồm nhưng không giới hạn pháp luật về quyền sở hữu trí tuệ (nhãn hiệu hàng hóa, bản quyền tác giả, quyền sở hữu công nghiệp, bí mật kinh doanh, giải pháp hữu ích…) của Việt Nam và các quy định trong các Điều ước quốc tế mà Việt Nam là thành viên hoặc tham gia ký kết hoặc công nhận.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.2",
+      "title": "",
+      "text": "5.2. Trừ trường hợp các bên có thỏa thuận khác, quyền sở hữu trí tuệ đối với các phần mềm, ứng dụng, chương trình máy tính,… liên quan đến việc cung cấp dịch vụ theo Hợp đồng này thuộc về Bên B. Bên B chịu trách nhiệm pháp lý và các chi phí phát sinh liên quan đến việc khiếu kiện, khiếu nại về các vấn đề bản quyền của sản phẩm phần mềm do Bên B cung cấp.",
+      "score": 0.8331
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.2",
+      "title": "",
+      "text": "5.2. Trừ trường hợp các bên có thỏa thuận khác, quyền sở hữu trí tuệ đối với các phần mềm, ứng dụng, chương trình máy tính,… liên quan đến việc cung cấp dịch vụ theo Hợp đồng này thuộc về Bên B. Bên B chịu trách nhiệm pháp lý và các chi phí phát sinh liên quan đến việc khiếu kiện, khiếu nại về các vấn đề bản quyền của sản phẩm phần mềm do Bên B cung cấp.",
+      "score": 0.8329
+    }
+  ],
+  "5.5": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Sau khi kết thúc thời gian thuê dịch vụ, Bên B có trách nhiệm bàn giao miễn phí cơ sở dữ liệu của Bên A, bản sao mã nguồn phiên bản đang vận hành và tài liệu kỹ thuật cần thiết.\n\nBên B cấp cho Bên A và các Bên theo quy định tại Khoản 7.9 Điều 7 quyền sử dụng phần mềm không độc quyền, không hủy ngang, không giới hạn thời gian, phục vụ hoạt động nội bộ của Bên A. Bên A có quyền tự mình hoặc thuê bên thứ ba sửa chữa, bảo trì, nâng cấp hệ thống nhằm duy trì hoạt động nội bộ.",
+      "score": 0.998
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Sau khi kết thúc thời gian thuê dịch vụ, Bên B có trách nhiệm bàn giao miễn phí cơ sở dữ liệu của Bên A, bản sao mã nguồn phiên bản đang vận hành và tài liệu kỹ thuật cần thiết.\n\nBên B cấp cho Bên A và các Bên theo quy định tại Khoản 7.9 Điều 7 quyền sử dụng phần mềm không độc quyền, không hủy ngang, không giới hạn thời gian, phục vụ hoạt động nội bộ của Bên A. Bên A có quyền tự mình hoặc thuê bên thứ ba sửa chữa, bảo trì, nâng cấp hệ thống nhằm duy trì hoạt động nội bộ.",
+      "score": 0.9979
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.5",
+      "title": "",
+      "text": "5.5. Sau khi kết thúc thời gian thuê dịch vụ, Bên B có trách nhiệm bàn giao miễn phí cơ sở dữ liệu của Bên A, bản sao mã nguồn phiên bản đang vận hành và tài liệu kỹ thuật cần thiết.\n\nBên B cấp cho Bên A và các Bên theo quy định tại Khoản 7.9 Điều 7 quyền sử dụng phần mềm không độc quyền, không hủy ngang, không giới hạn thời gian, phục vụ hoạt động nội bộ của Bên A. Bên A có quyền tự mình hoặc thuê bên thứ ba sửa chữa, bảo trì, nâng cấp hệ thống nhằm duy trì hoạt động nội bộ.",
+      "score": 0.9979
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.1",
+      "title": "",
+      "text": "5.1. Quyền sử dụng phần mềm và quyền sở hữu dữ liệu hệ thống thuộc về Bên A, ngoại trừ mã nguồn mở; tài liệu, thư viện, công cụ mà bên B mua lại, sử dụng của bên thứ ba.",
+      "score": 0.8717
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "5.1",
+      "title": "",
+      "text": "5.1. Quyền sử dụng phần mềm và quyền sở hữu dữ liệu hệ thống thuộc về Bên A, ngoại trừ mã nguồn mở; tài liệu, thư viện, công cụ mà bên B mua lại, sử dụng của bên thứ ba.",
+      "score": 0.8717
+    }
+  ],
+  "7.1": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.1",
+      "title": "",
+      "text": "7.1. Đảm bảo cung cấp dịch vụ theo đúng tiêu chuẩn cam kết và quy định tại các điều khoản của Hợp đồng và các Phụ lục kèm theo.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.1",
+      "title": "",
+      "text": "7.1. Đảm bảo cung cấp dịch vụ theo đúng tiêu chuẩn cam kết và quy định tại các điều khoản của Hợp đồng và các Phụ lục kèm theo.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.3",
+      "title": "",
+      "text": "10.3. VTIT cam đoan và bảo đảm rằng: - a) Có đầy đủ năng lực kỹ thuật, kinh nghiệm và nguồn lực cần thiết để thực hiện đúng và đầy đủ các nghĩa vụ đã cam kết trong Hợp đồng;\n\n- b) Trong quá trình thực hiện Hợp đồng, sẽ không vi quyền sở hữu trí tuệ của bên thứ ba;\n\n- c) Dịch vụ và sản phẩm bàn giao theo Hợp đồng sẽ đáp ứng các yêu cầu kỹ thuật, chức năng như đã thỏa thuận tại Hợp đồng và các Phụ lục kèm theo.",
+      "score": 0.811
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "4.2",
+      "title": "",
+      "text": "4.2. Nghĩa vụ của VTIT:\n\n- a) Cung cấp dịch vụ phần mềm cho Khách hàng theo đúng nội dung, phạm vi và tiêu chuẩn kỹ thuật được quy định tại Hợp đồng, Phiếu giao công việc, Danh sách công việc hoặc các tài liệu giao việc khác đã được Các Bên thống nhất bằng văn bản;\n\n- b) Có trách nhiệm tiếp nhận kế hoạch công việc và xây dựng kế hoạch triển khai, bàn giao phù hợp theo thỏa thuận của Các Bên. Kế hoạch công việc phải được xác nhận bằng văn bản giữa Các Bên trước khi triển khai;\n\n- c) Chịu trách nhiệm bảo quản, giữ gìn và sử dụng đúng mục đích các hệ thống, thiết bị, cơ sở vật chất mà Khách hàng đã bàn giao phục vụ cho việc thực hiện dịch vụ theo Hợp đồng (nếu có);\n\n- d) Thực hiện đầy đủ và đúng tiến độ các công việc được giao theo kế hoạch, đảm bảo tuân thủ yêu cầu kỹ thuật, chất lượng sản phẩm và bàn giao đầy đủ các tài liệu, sản phẩm liên quan theo đúng quy định trong Hợp đồng.\n\n- e) Tuân thủ các yêu cầu, hướng dẫn nghiệp vụ của Khách hàng trong phạm vi  Dịch  vụ  và  phù  hợp  với  Hợp  đồng/Phụ  lục,  với  điều  kiện  các  yêu cầu/hướng dẫn đó không làm thay đổi phạm vi, tiêu chuẩn kỹ thuật, tiến độ hoặc chi phí đã thỏa thuận;\n\n- f) Cung cấp đầy đủ, kịp thời các hồ sơ, tài liệu, biên bản, báo cáo liên quan phục vụ công tác nghiệm thu và thanh toán theo quy định tại Hợp đồng.\n\n7. 4.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật.",
+      "score": 0.8101
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "7.2",
+      "title": "",
+      "text": "7.2. Trong thời gian thực hiện Hợp đồng và trong vòng 12 tháng kể từ ngày Hợp đồng chấm dứt hoặc hết hạn vì bất kỳ lý do nào, Khách hàng cam kết:\n\n- a) Không trực tiếp hoặc gián tiếp tuyển dụng, thuê, mời làm việc, lôi kéo hoặc khuyến khích bất kỳ nhân sự nào (bao gồm cán bộ, nhân viên, thực tập sinh, cộng tác viên và các nhân sự khác) của VTIT mà Khách hàng đã biết hoặc tiếp xúc trong quá trình thực hiện Hợp đồng;\n\n- b) Không đề nghị, khuyến khích hoặc hỗ trợ bất kỳ nhân sự nào của VTIT chấm dứt hợp đồng lao động, hợp tác hoặc quan hệ làm việc với VTIT.",
+      "score": 0.8067
+    }
+  ],
+  "7.3": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.3",
+      "title": "",
+      "text": "7.3. Khắc phục sự cố đối với tất cả các loại sự cố phát sinh liên quan đến phần mềm trong thời gian thực hiện hợp đồng (không bao gồm các sự cố từ phần cứng hoặc từ tác nhân khác nằm ngoài phần mềm).\n- -Tổ chức 01 lớp đào tạo cho Bên A sử dụng các chức năng phần mềm cụ thể như sau:\n- -Địa điểm: Văn phòng làm việc của Bên A (tại số 200 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội) hoặc đào tạo trực tuyến;\n- -Hình thức: tổ chức tập trung hoặc đào tạo trực tuyến cho các cán bộ liên quan đến việc sử dụng và quản trị phần mềm trong 03 ngày;\n- -Nội dung yêu cầu đào tạo nêu tại Phụ lục 02: Yêu cầu kỹ thuật ;\n- -Thời điểm: do Hai bên thống nhất, đảm bảo trước thời điểm nghiệm thu tổng thể Hợp đồng.",
+      "score": 0.9991
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.3",
+      "title": "",
+      "text": "7.3. Khắc phục sự cố đối với tất cả các loại sự cố phát sinh liên quan đến phần mềm trong thời gian thực hiện hợp đồng (không bao gồm các sự cố từ phần cứng hoặc từ tác nhân khác nằm ngoài phần mềm).\n- -Tổ chức 01 lớp đào tạo cho Bên A sử dụng các chức năng phần mềm cụ thể như sau:\n- -Địa điểm: Văn phòng làm việc của Bên A (tại số 200 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội) hoặc đào tạo trực tuyến;\n- -Hình thức: tổ chức tập trung hoặc đào tạo trực tuyến cho các cán bộ liên quan đến việc sử dụng và quản trị phần mềm trong 03 ngày;\n- -Nội dung yêu cầu đào tạo nêu tại Phụ lục 02: Yêu cầu kỹ thuật ;\n- -Thời điểm: do Hai bên thống nhất, đảm bảo trước thời điểm nghiệm thu tổng thể Hợp đồng.",
+      "score": 0.9988
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.8",
+      "title": "",
+      "text": "7.8. Chịu trách nhiệm thực hiện các yêu cầu thay đổi và chỉnh sửa phần mềm theo yêu cầu của Bên A trong thời gian thực hiện Hợp đồng với các yêu cầu không làm thay đổi kiến trúc phần mềm (không làm thay đổi danh sách chức năng phần mềm được nêu tại Phụ lục 02 ) và không phát sinh chi phí, trừ trường hợp quy định tại Khoản 4.5 Điều 4.",
+      "score": 0.8268
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.8",
+      "title": "",
+      "text": "7.8. Chịu trách nhiệm thực hiện các yêu cầu thay đổi và chỉnh sửa phần mềm theo yêu cầu của Bên A trong thời gian thực hiện Hợp đồng với các yêu cầu không làm thay đổi kiến trúc phần mềm (không làm thay đổi danh sách chức năng phần mềm được nêu tại Phụ lục 02 ) và không phát sinh chi phí, trừ trường hợp quy định tại Khoản 4.5 Điều 4.",
+      "score": 0.8267
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.8",
+      "title": "",
+      "text": "7.8. Chịu trách nhiệm thực hiện các yêu cầu thay đổi và chỉnh sửa phần mềm theo yêu cầu của Bên A trong thời gian thực hiện Hợp đồng với các yêu cầu không làm thay đổi kiến trúc phần mềm (không làm thay đổi danh sách chức năng phần mềm được nêu tại Phụ lục 02 ) và không phát sinh chi phí, trừ trường hợp quy định tại Khoản 4.5 Điều 4.",
+      "score": 0.8267
+    }
+  ],
+  "7.4": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.4",
+      "title": "",
+      "text": "7.4. Cung cấp đầy đủ các tài liệu hướng dẫn sử dụng phần mềm trước thời điểm nghiệm thu tổng thể Hợp đồng.\n\nCommented [PTNH10]: HSYC và HSĐX (Mục 4 NLKN)\n\nCommented [NTD(11R10]: ok",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.4",
+      "title": "",
+      "text": "7.4. Cung cấp đầy đủ các tài liệu hướng dẫn sử dụng phần mềm trước thời điểm nghiệm thu tổng thể Hợp đồng.",
+      "score": 0.9167
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.4",
+      "title": "",
+      "text": "7.4. Cung cấp đầy đủ các tài liệu hướng dẫn sử dụng phần mềm trước thời điểm nghiệm thu tổng thể Hợp đồng.",
+      "score": 0.9165
+    },
+    {
+      "contract_id": 1,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "4.2",
+      "title": "",
+      "text": "4.2. Nghĩa vụ của VTIT:\n\n- a) Cung cấp dịch vụ phần mềm cho Khách hàng theo đúng nội dung, phạm vi và tiêu chuẩn kỹ thuật được quy định tại Hợp đồng, Phiếu giao công việc, Danh sách công việc hoặc các tài liệu giao việc khác đã được Các Bên thống nhất bằng văn bản;\n\n- b) Có trách nhiệm tiếp nhận kế hoạch công việc và xây dựng kế hoạch triển khai, bàn giao phù hợp theo thỏa thuận của Các Bên. Kế hoạch công việc phải được xác nhận bằng văn bản giữa Các Bên trước khi triển khai;\n\n- c) Chịu trách nhiệm bảo quản, giữ gìn và sử dụng đúng mục đích các hệ thống, thiết bị, cơ sở vật chất mà Khách hàng đã bàn giao phục vụ cho việc thực hiện dịch vụ theo Hợp đồng (nếu có);\n\n- d) Thực hiện đầy đủ và đúng tiến độ các công việc được giao theo kế hoạch, đảm bảo tuân thủ yêu cầu kỹ thuật, chất lượng sản phẩm và bàn giao đầy đủ các tài liệu, sản phẩm liên quan theo đúng quy định trong Hợp đồng.\n\n- e) Tuân thủ các yêu cầu, hướng dẫn nghiệp vụ của Khách hàng trong phạm vi  Dịch  vụ  và  phù  hợp  với  Hợp  đồng/Phụ  lục,  với  điều  kiện  các  yêu cầu/hướng dẫn đó không làm thay đổi phạm vi, tiêu chuẩn kỹ thuật, tiến độ hoặc chi phí đã thỏa thuận;\n\n- f) Cung cấp đầy đủ, kịp thời các hồ sơ, tài liệu, biên bản, báo cáo liên quan phục vụ công tác nghiệm thu và thanh toán theo quy định tại Hợp đồng.\n\n7. 4.3. Các quyền và nghĩa vụ khác theo thỏa thuận tại Hợp đồng này và quy định của pháp luật.",
+      "score": 0.8138
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "3.3.1",
+      "title": "",
+      "text": "3.3.1. Nghiệm thu triển khai dịch vụ :\n\nSau khi Bên B hoàn thành việc triển khai (bao gồm cài đặt phần mềm trên cơ sở vật chất của Bên A và đào tạo người dùng) theo kế hoạch dự kiến nêu tại Phụ lục 04 , Hai Bên thống nhất sẽ ký biên bản nghiệm thu :\n\nCommented [PTNH1]: VTIT update\n\nCommented [NTD(2R1]: Em đã tính theo tỷ lệ HĐ WNI. TTSX review lại.\n\n- a) Biên bản nghiệm thu đào tạo: Hai Bên thống nhất sẽ ký biên bản nghiệm thu đào tạo trong vòng 01 (một) ngày làm việc sau khi Bên B hoàn thành việc đào tạo cho người sử dụng;\n- b) Biên bản nghiệm thu kỹ thuật: Hai Bên thống nhất sẽ ký biên bản nghiệm thu kỹ thuật đối với chức năng phần mềm sau 03 (ba) ngày làm việc khi Bên B hoàn thành việc triển khai;\n- c) Biên bản nghiệm thu tổng thể: Trên cơ sở Biên bản nghiệm thu kỹ thuật và Biên bản nghiệm thu đào tạo, hai Bên sẽ tiến hành ký Biên bản nghiệm thu tổng thể sau 03 (ba) ngày làm việc kể từ khi hoàn thành triển khai các hạng mục dịch vụ.\n4. 3.3.2. Nghiệm thu chất lượng Dịch vụ hàng tháng:\n\nTrước ngày 10 (mười) hàng tháng của tháng kế tiếp, hai Bên sẽ tiến hành nghiệm thu chất lượng Dịch vụ của tháng trước đó. Đồng thời tại Biên bản nghiệm thu, hai Bên thống nhất các khoản giảm trừ phát sinh (nếu có);",
+      "score": 0.7976
+    }
+  ],
+  "7.5": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.5",
+      "title": "",
+      "text": "7.5. Cung cấp mã nguồn phần mềm hoặc dịch vụ ứng dụng do Bên B xây dựng, phát triển để phục vụ đánh giá ANTT theo yêu cầu của Bên A. Tạo các biến số, tiến trình giả trong quá trình kiểm thử và cung cấp cho Bên A trong vòng 20 ngày trước thời điểm dự kiến nghiệm thu tổng thể hợp đồng.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.5",
+      "title": "",
+      "text": "7.5. Cung cấp mã nguồn phần mềm hoặc dịch vụ ứng dụng do Bên B xây dựng, phát triển để phục vụ đánh giá ANTT theo yêu cầu của Bên A. Tạo các biến số, tiến trình giả trong quá trình kiểm thử và cung cấp cho Bên A trong vòng 20 ngày trước thời điểm dự kiến nghiệm thu tổng thể hợp đồng.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.6",
+      "title": "",
+      "text": "7.6. Chịu trách nhiệm khắc phục các khuyến cáo được phát hiện trong quá trình đánh giá, kiểm thử ANTT đối với mã nguồn phần mềm hoặc dịch vụ ứng dụng trước thời điểm dự kiến nghiệm thu tổng thể Hợp đồng. Số lần đánh giá ANTT là 02 lượt với tổng thời gian để Bên B khắc phục các khuyến cáo tối đa là 20 ngày. Thời gian kiểm thử ANTT không tính vào thời gian triển khai hợp đồng. Trong trường hợp Bên B không khắc phục được hết toàn bộ các khuyến cáo ANTT mà Bên A đã đưa ra, Bên B phải thực hiện thanh toán các chi phí đánh giá ANTT đối với các lượt tiếp theo cho Bên A theo đơn giá hạng mục đánh giá ANTT mà Bên A ký với đối tác. Bên A sẽ không phải chịu trách nhiệm về sự chậm trễ do Bên B khắc phục các khuyến cáo trong quá trình đánh giá ANTT kéo dài vượt 20 ngày.",
+      "score": 0.8748
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "17.3",
+      "title": "",
+      "text": "17.3. Kể từ ngày ký PAC, VTIT tiến hành chạy thử phần mềm tại địa điểm cài đặt do Khách hàng chỉ định trong thời gian tối đa 5 (năm) ngày làm việc , trừ khi Hai Bên có thỏa thuận khác. Khách hàng có trách nhiệm phối hợp hỗ trợ kỹ thuật, cung cấp đầu mối giám sát và phản hồi kịp thời trong suốt quá trình chạy thử. Nếu phần mềm hoạt động ổn định, đáp ứng yêu cầu kỹ thuật và nghiệp vụ thì Hai Bên sẽ ký Biên bản nghiệm thu tổng thể (FAC) trong thời hạn 03 (ba) ngày làm việc kể từ ngày kết thúc chạy thử.",
+      "score": 0.8219
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "17.2",
+      "title": "",
+      "text": "17.2. Sau khi ký HOC, theo yêu cầu của Khách hàng, Hai Bên sẽ phối hợp cài đặt phần mềm trên môi trường kiểm thử do Khách hàng chỉ định. VTIT chuẩn bị kịch bản kiểm thử và các điều kiện kỹ thuật cần thiết để tiến hành kiểm thử hệ thống. Khách hàng có trách nhiệm cung cấp đầy đủ dữ liệu giả lập, cấu hình môi trường và hỗ trợ kỹ thuật để việc kiểm thử được tiến hành đúng kế hoạch.\n\nTrong thời hạn 03 (ba) ngày làm việc kể từ khi kết thúc kiểm thử, Khách hàng có trách nhiệm xác nhận kết quả bằng văn bản và Hai Bên sẽ ký Biên bản nghiệm thu sơ bộ (PAC) .",
+      "score": 0.8181
+    }
+  ],
+  "7.6": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.6",
+      "title": "",
+      "text": "7.6. Chịu trách nhiệm khắc phục các khuyến cáo được phát hiện trong quá trình đánh giá, kiểm thử ANTT đối với mã nguồn phần mềm hoặc dịch vụ ứng dụng trước thời điểm dự kiến nghiệm thu tổng thể Hợp đồng. Số lần đánh giá ANTT là 02 lượt với tổng thời gian để Bên B khắc phục các khuyến cáo tối đa là 20 ngày. Thời gian kiểm thử ANTT không tính vào thời gian triển khai hợp đồng. Trong trường hợp Bên B không khắc phục được hết toàn bộ các khuyến cáo ANTT mà Bên A đã đưa ra, Bên B phải thực hiện thanh toán các chi phí đánh giá ANTT đối với các lượt tiếp theo cho Bên A theo đơn giá hạng mục đánh giá ANTT mà Bên A ký với đối tác. Bên A sẽ không phải chịu trách nhiệm về sự chậm trễ do Bên B khắc phục các khuyến cáo trong quá trình đánh giá ANTT kéo dài vượt 20 ngày.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.5",
+      "title": "",
+      "text": "7.5. Cung cấp mã nguồn phần mềm hoặc dịch vụ ứng dụng do Bên B xây dựng, phát triển để phục vụ đánh giá ANTT theo yêu cầu của Bên A. Tạo các biến số, tiến trình giả trong quá trình kiểm thử và cung cấp cho Bên A trong vòng 20 ngày trước thời điểm dự kiến nghiệm thu tổng thể hợp đồng.",
+      "score": 0.8749
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.5",
+      "title": "",
+      "text": "7.5. Cung cấp mã nguồn phần mềm hoặc dịch vụ ứng dụng do Bên B xây dựng, phát triển để phục vụ đánh giá ANTT theo yêu cầu của Bên A. Tạo các biến số, tiến trình giả trong quá trình kiểm thử và cung cấp cho Bên A trong vòng 20 ngày trước thời điểm dự kiến nghiệm thu tổng thể hợp đồng.",
+      "score": 0.8747
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "17.3",
+      "title": "",
+      "text": "17.3. Kể từ ngày ký PAC, VTIT tiến hành chạy thử phần mềm tại địa điểm cài đặt do Khách hàng chỉ định trong thời gian tối đa 5 (năm) ngày làm việc , trừ khi Hai Bên có thỏa thuận khác. Khách hàng có trách nhiệm phối hợp hỗ trợ kỹ thuật, cung cấp đầu mối giám sát và phản hồi kịp thời trong suốt quá trình chạy thử. Nếu phần mềm hoạt động ổn định, đáp ứng yêu cầu kỹ thuật và nghiệp vụ thì Hai Bên sẽ ký Biên bản nghiệm thu tổng thể (FAC) trong thời hạn 03 (ba) ngày làm việc kể từ ngày kết thúc chạy thử.",
+      "score": 0.8131
+    }
+  ],
+  "7.8": [
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.8",
+      "title": "",
+      "text": "7.8. Chịu trách nhiệm thực hiện các yêu cầu thay đổi và chỉnh sửa phần mềm theo yêu cầu của Bên A trong thời gian thực hiện Hợp đồng với các yêu cầu không làm thay đổi kiến trúc phần mềm (không làm thay đổi danh sách chức năng phần mềm được nêu tại Phụ lục 02 ) và không phát sinh chi phí, trừ trường hợp quy định tại Khoản 4.5 Điều 4.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.8",
+      "title": "",
+      "text": "7.8. Chịu trách nhiệm thực hiện các yêu cầu thay đổi và chỉnh sửa phần mềm theo yêu cầu của Bên A trong thời gian thực hiện Hợp đồng với các yêu cầu không làm thay đổi kiến trúc phần mềm (không làm thay đổi danh sách chức năng phần mềm được nêu tại Phụ lục 02 ) và không phát sinh chi phí, trừ trường hợp quy định tại Khoản 4.5 Điều 4.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.8",
+      "title": "",
+      "text": "7.8. Chịu trách nhiệm thực hiện các yêu cầu thay đổi và chỉnh sửa phần mềm theo yêu cầu của Bên A trong thời gian thực hiện Hợp đồng với các yêu cầu không làm thay đổi kiến trúc phần mềm (không làm thay đổi danh sách chức năng phần mềm được nêu tại Phụ lục 02 ) và không phát sinh chi phí, trừ trường hợp quy định tại Khoản 4.5 Điều 4.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.3",
+      "title": "",
+      "text": "7.3. Khắc phục sự cố đối với tất cả các loại sự cố phát sinh liên quan đến phần mềm trong thời gian thực hiện hợp đồng (không bao gồm các sự cố từ phần cứng hoặc từ tác nhân khác nằm ngoài phần mềm).\n- -Tổ chức 01 lớp đào tạo cho Bên A sử dụng các chức năng phần mềm cụ thể như sau:\n- -Địa điểm: Văn phòng làm việc của Bên A (tại số 200 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội) hoặc đào tạo trực tuyến;\n- -Hình thức: tổ chức tập trung hoặc đào tạo trực tuyến cho các cán bộ liên quan đến việc sử dụng và quản trị phần mềm trong 03 ngày;\n- -Nội dung yêu cầu đào tạo nêu tại Phụ lục 02: Yêu cầu kỹ thuật ;\n- -Thời điểm: do Hai bên thống nhất, đảm bảo trước thời điểm nghiệm thu tổng thể Hợp đồng.",
+      "score": 0.8271
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.3",
+      "title": "",
+      "text": "7.3. Khắc phục sự cố đối với tất cả các loại sự cố phát sinh liên quan đến phần mềm trong thời gian thực hiện hợp đồng (không bao gồm các sự cố từ phần cứng hoặc từ tác nhân khác nằm ngoài phần mềm).\n- -Tổ chức 01 lớp đào tạo cho Bên A sử dụng các chức năng phần mềm cụ thể như sau:\n- -Địa điểm: Văn phòng làm việc của Bên A (tại số 200 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội) hoặc đào tạo trực tuyến;\n- -Hình thức: tổ chức tập trung hoặc đào tạo trực tuyến cho các cán bộ liên quan đến việc sử dụng và quản trị phần mềm trong 03 ngày;\n- -Nội dung yêu cầu đào tạo nêu tại Phụ lục 02: Yêu cầu kỹ thuật ;\n- -Thời điểm: do Hai bên thống nhất, đảm bảo trước thời điểm nghiệm thu tổng thể Hợp đồng.",
+      "score": 0.8269
+    }
+  ],
+  "7.9": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.9",
+      "title": "",
+      "text": "7.9. Chấp nhận cho (i) các công ty mà VNA sở hữu vốn 51% trở lên và (ii) các hãng hàng không thuộc VNA Group (như Pacific Airlines, VASCO…) có quyền sử dụng hệ thống phần mềm đã triển khai cho Bên A theo Hợp đồng này mà không phát sinh thêm chi phí triển khai, với điều kiện trong phạm vi thực hiên của Hợp đồng này và không phát sinh thêm thời gian, nguồn lực của Bên B cho việc sử dụng tại khoản này.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.9",
+      "title": "",
+      "text": "7.9. Chấp nhận cho (i) các công ty mà VNA sở hữu vốn 51% trở lên và (ii) các hãng hàng không thuộc VNA Group (như Pacific Airlines, VASCO…) có quyền sử dụng hệ thống phần mềm đã triển khai cho Bên A theo Hợp đồng này mà không phát sinh thêm chi phí triển khai, với điều kiện trong phạm vi thực hiên của Hợp đồng này và không phát sinh thêm thời gian, nguồn lực của Bên B cho việc sử dụng tại khoản này.",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.9",
+      "title": "",
+      "text": "7.9. Chấp nhận cho (i) các công ty mà VNA sở hữu vốn 51% trở lên và (ii) các hãng hàng không thuộc VNA Group (như Pacific Airlines, VASCO…) có quyền sử dụng hệ thống phần mềm đã triển khai cho Bên A theo Hợp đồng này mà không phát sinh thêm chi phí triển khai, với điều kiện trong phạm vi thực hiên của Hợp đồng này và không phát sinh thêm thời gian, nguồn lực của Bên B cho việc sử dụng tại khoản này.",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.2",
+      "title": "",
+      "text": "10.2. Khách hàng cam đoan và bảo đảm rằng:\n\n- a) Có đầy đủ quyền sử dụng hợp pháp các tài sản, dữ liệu, thông tin cung cấp cho VTIT theo Hợp đồng này;\n\n- b) Thông tin, tài liệu, yêu cầu kỹ thuật, nghiệp vụ do Khách hàng cung cấp là chính xác, hợp pháp và không vi phạm quyền của bên thứ ba;\n\n- c) Việc ký kết và thực hiện Hợp đồng này không vi phạm bất kỳ nghĩa vụ hợp đồng nào hoặc quy định pháp luật nào mà Khách hàng bị ràng buộc.",
+      "score": 0.7764
+    },
+    {
+      "contract_id": 11,
+      "contract_name": "BM 01 - Hop dong cung cap dich vu phat trien phan mem",
+      "number": "10.1",
+      "title": "",
+      "text": "10.1. Các Bên cam đoan và bảo đảm rằng:\n\n- a) Có đầy đủ năng lực pháp lý, tư cách pháp nhân và quyền ký kết và thực hiện Hợp đồng này theo quy định của pháp luật;\n\n- b) Phần mềm, hệ thống là phù hợp với quy định của pháp luật hiện hành, không vi phạm bất kỳ quy định cấm nào, không bị cấm phát triển hoặc sử dụng theo pháp luật Việt Nam hoặc điều ước quốc tế có hiệu lực; việc xây dựng Phần mềm, hệ thống không làm phát sinh trách nhiệm pháp lý cho VTIT với tư cách là bên cung cấp dịch vụ.\n\n- c) Phần mềm/hệ thống và/hoặc Dịch vụ theo Hợp đồng không được sử dụng, trực tiếp hoặc gián tiếp, cho bất kỳ mục đích nào liên quan đến khủng bố,\n\ntài trợ khủng bố, tội phạm xuyên quốc gia/tội phạm quốc tế, rửa tiền, buôn bán người, hoặc các hành vi bị cấm theo pháp luật Việt Nam và/hoặc các điều ước quốc tế có hiệu lực; Khách hàng cam kết bảo đảm việc sử dụng là hợp pháp và bồi thường, giữ cho VTIT không bị thiệt hại trước mọi khiếu nại, yêu cầu, chế tài phát sinh từ việc Khách hàng vi phạm cam kết này.",
+      "score": 0.7726
+    }
+  ],
+  "8.1": [],
+  "8.2": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "8.2.1",
+      "title": "",
+      "text": "8.2.1. Cấp độ 1: Dịch vụ gián đoạn hoàn toàn hoặc bị gián đoạn phần lớn thời gian hoặc/và các chức năng quan trọng, thiết yếu không hoạt động, hoặc hoạt động không ổn định.",
+      "score": 0.7663
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "8.2.2",
+      "title": "",
+      "text": "8.2.2. Cấp độ 2: Dịch vụ bị gián đoạn một phần, các chức năng quan trọng, thiết yếu vẫn hoạt động ở mức chấp nhận được, không ảnh hưởng tới quá trình khai thác.",
+      "score": 0.762
+    }
+  ],
+  "8.3.1": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.3",
+      "title": "",
+      "text": "7.3. Khắc phục sự cố đối với tất cả các loại sự cố phát sinh liên quan đến phần mềm trong thời gian thực hiện hợp đồng (không bao gồm các sự cố từ phần cứng hoặc từ tác nhân khác nằm ngoài phần mềm).\n- -Tổ chức 01 lớp đào tạo cho Bên A sử dụng các chức năng phần mềm cụ thể như sau:\n- -Địa điểm: Văn phòng làm việc của Bên A (tại số 200 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội) hoặc đào tạo trực tuyến;\n- -Hình thức: tổ chức tập trung hoặc đào tạo trực tuyến cho các cán bộ liên quan đến việc sử dụng và quản trị phần mềm trong 03 ngày;\n- -Nội dung yêu cầu đào tạo nêu tại Phụ lục 02: Yêu cầu kỹ thuật ;\n- -Thời điểm: do Hai bên thống nhất, đảm bảo trước thời điểm nghiệm thu tổng thể Hợp đồng.",
+      "score": 0.7717
+    }
+  ],
+  "8.3.2": [],
+  "8.3.3": [
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "7.3",
+      "title": "",
+      "text": "7.3. Khắc phục sự cố đối với tất cả các loại sự cố phát sinh liên quan đến phần mềm trong thời gian thực hiện hợp đồng (không bao gồm các sự cố từ phần cứng hoặc từ tác nhân khác nằm ngoài phần mềm).\n- -Tổ chức 01 lớp đào tạo cho Bên A sử dụng các chức năng phần mềm cụ thể như sau:\n- -Địa điểm: Văn phòng làm việc của Bên A (tại số 200 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội) hoặc đào tạo trực tuyến;\n- -Hình thức: tổ chức tập trung hoặc đào tạo trực tuyến cho các cán bộ liên quan đến việc sử dụng và quản trị phần mềm trong 03 ngày;\n- -Nội dung yêu cầu đào tạo nêu tại Phụ lục 02: Yêu cầu kỹ thuật ;\n- -Thời điểm: do Hai bên thống nhất, đảm bảo trước thời điểm nghiệm thu tổng thể Hợp đồng.",
+      "score": 0.7721
+    }
+  ],
+  "PL02": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL02",
+      "title": "",
+      "text": "Phụ lục 02. \n\nGồm các mục:\n- YÊU CẦU KỸ THUẬT\n- A. Tiêu chí kỹ thuật\n- 1. Yêu cầu chung\n- 2. Tích hợp dữ liệu và quản lý danh mục\n- 3. Thông tin điều hành chuyến bay\n- 4. Quản lý tài liệu chuyến bay\n- 5. Quản lý, báo cáo đánh giá tối ưu khai thác\n- B. Bàn giao tài liệu kỹ thuật và hướng dẫn sử dụng\n- C. Triển khai đào tạo\n- D. Dịch vụ đảm bảo hoạt động\n- E. Nâng cấp hệ thống",
+      "score": 0.9994
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL02",
+      "title": "",
+      "text": "Phụ lục 02. \n\nGồm các mục:\n- YÊU CẦU KỸ THUẬT\n- A. Tiêu chí kỹ thuật\n- 1. Yêu cầu chung\n- 2. Tích hợp dữ liệu và quản lý danh mục\n- 3. Thông tin điều hành chuyến bay\n- 4. Quản lý tài liệu chuyến bay\n- 5. Quản lý, báo cáo đánh giá tối ưu khai thác\n- B. Bàn giao tài liệu kỹ thuật và hướng dẫn sử dụng\n- C. Triển khai đào tạo\n- D. Dịch vụ đảm bảo hoạt động\n- E. Nâng cấp hệ thống",
+      "score": 0.9993
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL02",
+      "title": "",
+      "text": "Phụ lục 02. \n\nGồm các mục:\n- YÊU CẦU KỸ THUẬT\n- A. Tiêu chí kỹ thuật\n- 1. Yêu cầu chung\n- 2. Tích hợp dữ liệu và quản lý danh mục\n- 3. Thông tin điều hành chuyến bay\n- 4. Quản lý tài liệu chuyến bay\n- 5. Quản lý, báo cáo đánh giá tối ưu khai thác\n- B. Bàn giao tài liệu kỹ thuật và hướng dẫn sử dụng\n- C. Triển khai đào tạo\n- D. Dịch vụ đảm bảo hoạt động\n- E. Nâng cấp hệ thống",
+      "score": 0.9991
+    },
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL05",
+      "title": "",
+      "text": "Phụ lục 05. \n\nGồm các mục:\n- CÁC MẪU BIỂU\n- Mẫu số 1: MẪU BIÊN BẢN NGHIỆM THU KỸ THUẬT\n- BÊN A:  TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n- 1. Chức năng phần mềm:\n- Mẫu số 2: MẪU BIÊN BẢN NGHIỆM THU ĐÀO TẠO\n- BÊN A:  TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n- 1. Nội dung đào tạo chi tiết\n- 2. Kết luận:\n- Mẫu số 3: BIÊN BẢN NGHIỆM THU TỔNG THỂ BIÊN BẢN NGHIỆM THU TỔNG THỂ\n- Căn cứ:\n- 4. Kết luận:",
+      "score": 0.8306
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL05",
+      "title": "",
+      "text": "Phụ lục 05. \n\nGồm các mục:\n- CÁC MẪU BIỂU\n- Mẫu số 1: MẪU BIÊN BẢN NGHIỆM THU KỸ THUẬT\n- BÊN A:  TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n- 1. Chức năng phần mềm:\n- Mẫu số 2: MẪU BIÊN BẢN NGHIỆM THU ĐÀO TẠO\n- BÊN A:  TỔNG CÔNG TY HÀNG KHÔNG VIỆT NAM - CTCP\n- 1. Nội dung đào tạo chi tiết\n- 2. Kết luận:\n- Mẫu số 3: BIÊN BẢN NGHIỆM THU TỔNG THỂ BIÊN BẢN NGHIỆM THU TỔNG THỂ\n- Căn cứ:\n- 4. Kết luận:",
+      "score": 0.8303
+    }
+  ],
+  "PL04": [
+    {
+      "contract_id": 5,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL04",
+      "title": "KẾ HOẠCH TRIỂN KHAI",
+      "text": "Phụ lục 04. KẾ HOẠCH TRIỂN KHAI\n\n(Kèm theo Hợp đồng số: …….……./2026/VNA-VTIT ký ngày………/……../2026)",
+      "score": 1.0
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL04",
+      "title": "KẾ HOẠCH TRIỂN KHAI",
+      "text": "Phụ lục 04. KẾ HOẠCH TRIỂN KHAI\n\n(Kèm theo Hợp đồng số: …….……./2026/VNA-VTIT ký ngày………/……../2026)",
+      "score": 1.0
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL04",
+      "title": "KẾ HOẠCH TRIỂN KHAI",
+      "text": "Phụ lục 04. KẾ HOẠCH TRIỂN KHAI\n\n(Kèm theo Hợp đồng số: …….……./2026/VNA-VTIT ký ngày………/……../2026)",
+      "score": 0.9999
+    },
+    {
+      "contract_id": 8,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL02.1",
+      "title": "YÊU CẦU KỸ THUẬT",
+      "text": "YÊU CẦU KỸ THUẬT\n\n(Kèm theo Hợp đồng số: …….……./2026/VNA-VTIT ký ngày………/……../2026)",
+      "score": 0.8271
+    },
+    {
+      "contract_id": 10,
+      "contract_name": "HĐ TOSS v 12.5.2026.parsed",
+      "number": "PL02.1",
+      "title": "YÊU CẦU KỸ THUẬT",
+      "text": "YÊU CẦU KỸ THUẬT\n\n(Kèm theo Hợp đồng số: …….……./2026/VNA-VTIT ký ngày………/……../2026)",
+      "score": 0.8271
+    }
+  ]
+}

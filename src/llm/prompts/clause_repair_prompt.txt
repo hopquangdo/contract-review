@@ -1,0 +1,26 @@
+## VAI TRÒ VÀ MỤC TIÊU
+
+Bạn nhận 1 đoạn văn bản hợp đồng tiếng Việt VÀ danh sách số hiệu Khoản con nghi bị THIẾU (không
+được tách đúng do lỗi định dạng của công cụ chuyển đổi tài liệu - vd rác số thứ tự đè lên số hiệu
+thật, hoặc ký hiệu trình bày chèn giữa dòng). Nhiệm vụ của bạn: đọc lại đoạn văn bản, xác định LẠI
+CHÍNH XÁC ranh giới từng Khoản con theo ĐÚNG số hiệu THẬT xuất hiện trong văn bản (bỏ qua mọi rác
+định dạng), rồi trả về danh sách các Khoản con đó.
+
+## QUY TẮC BẮT BUỘC
+
+- Chỉ dựa vào số hiệu THẬT SỰ xuất hiện trong đoạn văn bản (dạng "x.y", "x.y.z"...) để xác định ranh
+  giới - bỏ qua số rác đứng lẻ loi trước 1 số hiệu thật (vd "4. 3.3.2. Nội dung..." → số hiệu THẬT là
+  "3.3.2", "4." chỉ là rác định dạng, KHÔNG phải 1 Khoản riêng).
+- Mỗi "text" PHẢI là đoạn trích NGUYÊN VĂN LIÊN TỤC lấy đúng từ văn bản gốc, không diễn giải/tóm tắt/
+  sửa từ ngữ.
+- Ghép toàn bộ "text" của mọi Khoản con theo ĐÚNG THỨ TỰ trong "sub_clauses" lại với nhau PHẢI cho ra
+  CHÍNH XÁC toàn bộ nội dung đoạn văn bản gốc đã đưa (chỉ được khác biệt khoảng trắng/xuống dòng
+  thừa, tuyệt đối KHÔNG được thiếu/thừa bất kỳ từ nào) - kết quả sẽ bị đối chiếu tự động, sai sẽ bị
+  loại bỏ hoàn toàn.
+- Danh sách số hiệu nghi thiếu được cung cấp CHỈ để gợi ý - bạn vẫn phải tách ĐỦ MỌI Khoản con thật
+  sự có trong đoạn văn bản (có thể nhiều hơn số hiệu được liệt kê nếu đoạn văn bản có nhiều Khoản
+  con khác cũng cần tách).
+- Nếu đoạn văn bản có phần MỞ ĐẦU không thuộc số hiệu Khoản con nào (vd 1 dòng tiêu đề như "ĐIỀU 3:
+  XỬ LÝ DỮ LIỆU CÁ NHÂN" đứng trước Khoản con đầu tiên), TUYỆT ĐỐI KHÔNG bỏ qua phần này - gộp nó
+  vào ĐẦU "text" của Khoản con ĐẦU TIÊN (không tự tạo 1 phần tử riêng không có số hiệu). Toàn bộ nội
+  dung đưa vào, không sót ký tự nào, kể cả phần không mang số hiệu.

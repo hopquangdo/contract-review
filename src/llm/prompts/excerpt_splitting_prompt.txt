@@ -1,0 +1,52 @@
+## VAI TRÒ VÀ MỤC TIÊU
+
+Bạn nhận nội dung nguyên văn của MỘT Khoản hợp đồng tiếng Việt (dài, có nhiều mục con) và phải tách
+nó thành các Excerpt - đơn vị nhỏ hơn dùng để embedding/truy hồi. Đây LÀ việc tách theo Ý, KHÔNG phải
+tách cứng theo số thứ tự mục con (khác cách tách cơ học cũ) - mục tiêu là mỗi Excerpt đại diện đúng
+1 Ý pháp lý trọn vẹn, không cắt rời những phần phụ thuộc lẫn nhau vào nhau để hiểu đúng.
+
+## QUY TẮC GOM/NHÓM
+
+1. Nếu 1 câu dẫn mở đầu (vd "Trường hợp X xảy ra, hai Bên thực hiện như sau:") rồi liệt kê các mục
+   con là ĐIỀU KIỆN ÁP DỤNG hoặc HỆ QUẢ của chính câu dẫn đó, GOM câu dẫn + các mục con liên quan
+   trực tiếp vào CÙNG 1 Excerpt - tách rời câu dẫn khỏi mục con khiến mục con mất ngữ cảnh áp dụng.
+2. Nếu 2+ mục con nối nhau bằng "và/hoặc", "hoặc", hoặc rõ ràng là các LỰA CHỌN/PHƯƠNG ÁN của CÙNG
+   1 quy định (không phải 2 quy định độc lập), GOM chúng vào CÙNG 1 Excerpt.
+3. Nếu các mục con là những Ý ĐỘC LẬP, không phụ thuộc ngữ cảnh của nhau (mỗi mục tự đứng vững, hiểu
+   được không cần đọc mục khác), TÁCH RIÊNG mỗi mục thành 1 Excerpt - không gộp bừa để Excerpt quá
+   dài/lẫn nhiều chủ đề (làm giảm độ chính xác truy hồi).
+4. Excerpt không cần tuân theo ranh giới đánh số "x.y"/"a)" - ranh giới ĐÚNG là ranh giới Ý, số thứ
+   tự chỉ là gợi ý tham khảo, không phải quy tắc cắt.
+
+## RÀNG BUỘC BẮT BUỘC (quan trọng nhất)
+
+- Mỗi "text" trong "excerpts" PHẢI là đoạn trích NGUYÊN VĂN LIÊN TỤC lấy đúng từ Khoản gốc được đưa
+  vào - KHÔNG diễn giải lại, tóm tắt, hay thêm nội dung không có trong văn bản gốc.
+- KHÔNG bỏ sót bất kỳ nội dung PHÁP LÝ THẬT nào của Khoản gốc (mọi câu quy định quyền/nghĩa vụ,
+  điều kiện, con số, mốc thời gian... phải xuất hiện đủ trong 1 Excerpt nào đó).
+- Được phép (và NÊN) tự loại bỏ khỏi Excerpt các phần rõ ràng KHÔNG PHẢI nội dung hợp đồng, do lỗi
+  parser văn bản gốc để lại - ví dụ ghi chú review dạng "Commented [...]: ...", số thứ tự danh sách
+  rác chèn lộn xộn giữa câu (vd "...khoản 4. 3.3.2 Điều 8..." - "4." ở đây là rác, giữ "3.3.2"),
+  ký hiệu trình bày thừa ("#", "##", "-", "•" đứng trơ trọi không phải nội dung).
+
+## VÍ DỤ
+
+Đầu vào (1 Khoản):
+"Trường hợp độ sẵn sàng của hệ thống đạt SA <80% hoặc thời gian Bên B khắc phục lỗi đảm bảo hoạt
+động phần mềm > 3*X được coi là vi phạm nghiêm trọng Hợp đồng. Trường hợp vi phạm nghiêm trọng Hợp
+đồng, hai Bên thực hiện như sau:
+9.2.1 Thống nhất mức giảm trừ cho từng trường hợp cụ thể nhưng mức giảm trừ tối thiểu là 50% và tối
+đa 100% giá trị thanh toán của 1 tháng không đạt tiêu chuẩn dịch vụ cam kết, và/hoặc;
+9.2.2. Bên A có thể đơn phương chấm dứt Hợp đồng với Bên B mà không phải chịu bất cứ bồi thường
+thiệt hại nào."
+
+Output đúng: GOM cả 3 phần (câu dẫn + 9.2.1 + 9.2.2) thành 1 Excerpt DUY NHẤT, vì 9.2.1/9.2.2 là 2
+lựa chọn ("và/hoặc") của cùng 1 quy định, và cả 2 đều phụ thuộc điều kiện áp dụng nêu ở câu dẫn -
+tách rời sẽ làm mất liên kết "đây là 2 lựa chọn xử lý khi vi phạm nghiêm trọng" khi embedding riêng
+lẻ từng phần.
+
+Ngược lại, nếu ngay sau đó Khoản còn có "9.3 Trong các trường hợp sau, việc gián đoạn dịch vụ sẽ
+không được tính để giảm trừ phí dịch vụ:" với các mục a), b), c) là các trường hợp miễn trừ ĐỘC LẬP
+với nhau (không nối "và/hoặc", mỗi mục là 1 trường hợp miễn trừ riêng biệt) thì TÁCH mỗi mục a)/b)/c)
+thành Excerpt riêng theo đúng quy tắc 3 ở trên (trừ khi đủ ngắn thì có thể gộp câu dẫn 9.3 vào cùng
+Excerpt với mục a) đầu tiên để không có Excerpt nào cụt nghĩa).

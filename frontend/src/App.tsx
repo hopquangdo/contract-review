@@ -1,25 +1,31 @@
 import { useEffect, useRef, useState } from "react";
-import Sidebar from "./components/Sidebar";
-import InputBar from "./components/InputBar";
-import ContextRow from "./components/ContextRow";
-import EvidencePanel from "./components/EvidencePanel";
-import TraceMessage, { type TraceStep } from "./components/TraceMessage";
-import ChecklistReportView from "./components/ChecklistReportView";
-import { deleteContract, importContract as apiImportContract, listContracts, streamSingleQuestion, submitChecklist } from "./api";
-import type { ChecklistEvaluation, ChecklistInput, ChecklistReport, ClauseGroup, DocEntry, SingleAnswer } from "./types";
+import Header from "./components/Header";
+import ChecklistPanel from "./components/ChecklistPanel";
+import AnalysisPanel from "./components/AnalysisPanel";
+import FullGraphView from "./components/FullGraphView";
+import UploadPage from "./components/UploadPage";
+import { deleteContract, importContract as apiImportContract, isMockMode, listContracts, setMockMode, streamSingleQuestion } from "./api";
+import type { ChecklistInput, ChecklistInputItem, DocEntry } from "./types";
+import type { ReviewEntry } from "./review";
 
-type ChatMessage =
-  | { kind: "user"; id: string; text: string }
-  | { kind: "trace"; id: string; steps: TraceStep[]; answer: SingleAnswer | null; error: string | null; done: boolean }
-  | { kind: "checklist"; id: string; report: ChecklistReport | null; total: number }
-  | { kind: "invalid-file"; id: string; filename: string };
+type RunStatus = "idle" | "running" | "done";
+
+const RUN_CONCURRENCY = 3;
 
 function docKey(doc: { contract_id: number | null; name: string }): string {
   return doc.contract_id != null ? `id:${doc.contract_id}` : `pending:${doc.name}`;
 }
 
-let seq = 0;
-const nextId = () => `m${seq++}`;
+async function runWithConcurrency<T>(items: T[], limit: number, worker: (item: T) => Promise<void>): Promise<void> {
+  let idx = 0;
+  async function next(): Promise<void> {
+    const i = idx++;
+    if (i >= items.length) return;
+    await worker(items[i]);
+    return next();
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, () => next()));
+}
 
 export default function App() {
   const [documents, setDocuments] = useState<DocEntry[]>([]);
@@ -27,32 +33,22 @@ export default function App() {
   const [activeContractId, setActiveContractId] = useState<number | null>(null);
   const [activeDocName, setActiveDocName] = useState<string | null>(null);
   const [hasGraph, setHasGraph] = useState(false);
-  const [importStatus, setImportStatus] = useState<{ kind: "ok" | "warn" | "err"; text: string } | null>(null);
-  const [uploading, setUploading] = useState(false);
   const [connectionError, setConnectionError] = useState<string | null>(null);
 
-  const [messages, setMessages] = useState<ChatMessage[]>([]);
-  const [question, setQuestion] = useState("");
-  const [ctxPass, setCtxPass] = useState("");
-  const [ctxViolation, setCtxViolation] = useState("");
-  const [ctxNote, setCtxNote] = useState("");
-  const [attachedFile, setAttachedFile] = useState<File | null>(null);
+  const [checklistName, setChecklistName] = useState("");
+  const [checklistItems, setChecklistItems] = useState<ChecklistInputItem[]>([]);
+  const [entries, setEntries] = useState<ReviewEntry[]>([]);
+  const [runStatus, setRunStatus] = useState<RunStatus>("idle");
+  const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
+  const [showFullGraph, setShowFullGraph] = useState(false);
 
-  const [evidenceGroups, setEvidenceGroups] = useState<ClauseGroup[] | null>(null);
-  const [evidenceMsgId, setEvidenceMsgId] = useState<string | null>(null);
+  // Trang Upload riêng (chọn file hợp đồng + checklist trước khi phân tích) - mặc định hiện khi
+  // chưa có hợp đồng nào đang chọn, hoặc khi người dùng chủ động bấm "+ Upload hợp đồng" ở header.
+  const [showUploadPage, setShowUploadPage] = useState(true);
+  const [uploadSubmitting, setUploadSubmitting] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
 
-  const contractFileInputRef = useRef<HTMLInputElement>(null);
-  const messageScrollRef = useRef<HTMLDivElement>(null);
-
-  const scrollToBottom = () => {
-    requestAnimationFrame(() => {
-      if (messageScrollRef.current) messageScrollRef.current.scrollTop = messageScrollRef.current.scrollHeight;
-    });
-  };
-
-  useEffect(() => {
-    scrollToBottom();
-  }, [messages]);
+  const runIdRef = useRef(0);
 
   // Tải danh sách hợp đồng đã có lúc mở app, tự chọn hợp đồng gần nhất.
   useEffect(() => {
@@ -68,15 +64,101 @@ export default function App() {
           file: null,
         }));
         setDocuments(docs);
-        if (contracts.length) {
-          selectContract(docs[docs.length - 1]);
-        }
+        if (contracts.length) selectContract(docs[docs.length - 1]);
       } catch {
-        setConnectionError("Không kết nối được API (http://127.0.0.1:8000)");
+        setConnectionError("Could not connect to the API (http://127.0.0.1:8000)");
       }
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  // Chỉ chạy khi người dùng bấm nút "Phân tích" (xem handleStartAnalysis) hoặc ngay sau khi upload
+  // xong ở UploadPage - KHÔNG tự gọi LLM lúc chỉ CHỌN LẠI 1 hợp đồng đã có, để không tốn phí ngoài
+  // ý muốn.
+  async function runChecklist(contractId: number, items: ChecklistInputItem[]) {
+    const runId = ++runIdRef.current;
+    setRunStatus("running");
+    // Đánh dấu TẤT CẢ mục là "running" NGAY khi bắt đầu - việc backend giới hạn chạy song song
+    // tối đa RUN_CONCURRENCY mục cùng lúc là chi tiết nội bộ (ẩn với người dùng), không nên lộ ra
+    // UI thành "1 số mục chờ (pending), 1 số mục đang chạy" gây hiểu nhầm là còn xếp hàng thủ công.
+    setEntries(items.map((item) => ({ item, status: "running", answer: null, errorMessage: null })));
+    setSelectedItemId(items[0]?.id ?? null);
+
+    await runWithConcurrency(items, RUN_CONCURRENCY, async (item) => {
+      if (runIdRef.current !== runId) return;
+      try {
+        let finalAnswer: ReviewEntry["answer"] = null;
+        for await (const event of streamSingleQuestion(contractId, item.question, {
+          pass_criteria: item.pass_criteria,
+          violation_criteria: item.violation_criteria,
+          note: item.note,
+        })) {
+          if (runIdRef.current !== runId) return;
+          if (event.step === "evaluate") finalAnswer = event;
+          else if (event.step === "error") throw new Error(event.message);
+        }
+        if (runIdRef.current !== runId) return;
+        setEntries((prev) => prev.map((e) => (e.item.id === item.id ? { ...e, status: "done", answer: finalAnswer } : e)));
+      } catch (err) {
+        if (runIdRef.current !== runId) return;
+        setEntries((prev) => prev.map((e) => (e.item.id === item.id ? { ...e, status: "error", errorMessage: (err as Error).message } : e)));
+      }
+    });
+    if (runIdRef.current === runId) setRunStatus("done");
+  }
+
+  // Chỉ TẢI danh sách mục checklist mặc định (câu hỏi/tiêu chí) để hiện lên - chưa gọi LLM đánh giá
+  // gì cả. Dùng khi CHỌN LẠI 1 hợp đồng đã có sẵn (không đi qua UploadPage nên chưa có checklist
+  // do người dùng chọn).
+  async function loadDefaultChecklist() {
+    runIdRef.current++; // huỷ mọi lượt chạy đang dở của hợp đồng trước đó
+    setRunStatus("idle");
+    setEntries([]);
+    setSelectedItemId(null);
+    try {
+      const res = await fetch("/checklists/checklist-co-ban.json");
+      const data: ChecklistInput = await res.json();
+      applyChecklist(data);
+    } catch (e) {
+      setChecklistName(`Failed to load checklist: ${(e as Error).message}`);
+    }
+  }
+
+  function applyChecklist(data: ChecklistInput) {
+    setChecklistName(data.name);
+    setChecklistItems(data.items);
+    setEntries(data.items.map((item) => ({ item, status: "pending", answer: null, errorMessage: null })));
+  }
+
+  function handleStartAnalysis() {
+    if (activeContractId == null || checklistItems.length === 0) return;
+    void runChecklist(activeContractId, checklistItems);
+  }
+
+  // Phân tích RIÊNG 1 mục checklist (không đợi/không đụng tới các mục khác) - độc lập với runChecklist
+  // (chạy CẢ bộ) nên không dùng chung runIdRef/runStatus của lượt chạy hàng loạt, chỉ cập nhật đúng
+  // entry của mục này. Cho phép bấm lại dù mục đã "done" (phân tích lại 1 mục cụ thể).
+  async function runSingleItem(itemId: string) {
+    if (activeContractId == null) return;
+    const item = checklistItems.find((i) => i.id === itemId);
+    if (!item) return;
+    setEntries((prev) => prev.map((e) => (e.item.id === itemId ? { ...e, status: "running", answer: null, errorMessage: null } : e)));
+    setSelectedItemId(itemId);
+    try {
+      let finalAnswer: ReviewEntry["answer"] = null;
+      for await (const event of streamSingleQuestion(activeContractId, item.question, {
+        pass_criteria: item.pass_criteria,
+        violation_criteria: item.violation_criteria,
+        note: item.note,
+      })) {
+        if (event.step === "evaluate") finalAnswer = event;
+        else if (event.step === "error") throw new Error(event.message);
+      }
+      setEntries((prev) => prev.map((e) => (e.item.id === itemId ? { ...e, status: "done", answer: finalAnswer } : e)));
+    } catch (err) {
+      setEntries((prev) => prev.map((e) => (e.item.id === itemId ? { ...e, status: "error", errorMessage: (err as Error).message } : e)));
+    }
+  }
 
   function selectContract(doc: DocEntry) {
     const key = docKey(doc);
@@ -85,236 +167,118 @@ export default function App() {
     setActiveDocName(doc.name);
     setDocuments((docs) => docs.map((d) => ({ ...d, status: docKey(d) === key ? "analyzed" : d.status === "analyzed" ? "stale" : d.status })));
     setHasGraph(true);
-    setMessages([]);
-    setEvidenceGroups(null);
-    setEvidenceMsgId(null);
+    setShowUploadPage(false);
+    if (doc.contract_id != null) void loadDefaultChecklist();
   }
 
-  async function handleUploadFile(file: File) {
-    const pendingKey = docKey({ contract_id: null, name: file.name });
-    setDocuments((docs) => {
-      const marked = docs.map((d) => (d.status === "analyzed" ? { ...d, status: "stale" as const } : d));
-      if (!marked.some((d) => d.file === file)) {
-        return [...marked, { contract_id: null, name: file.name, size: file.size, status: "analyzing", file }];
-      }
-      return marked;
-    });
-    // Không hiện banner "Đang phân tích..." ở đây - trạng thái này đã hiện ngay dưới tên tài liệu
-    // trong danh sách (xem Sidebar::statusLabel), banner riêng chỉ dư thừa. Chỉ báo khi XONG/LỖI.
-    setImportStatus(null);
-    setUploading(true);
+  // Luồng UploadPage: import hợp đồng MỚI + checklist người dùng đã chọn (mặc định hoặc tự tải
+  // lên), rồi TỰ ĐỘNG chạy phân tích ngay - khớp đúng ý "upload xong là chạy luôn", không cần bấm
+  // thêm nút "Phân tích" lần nữa.
+  async function handleUploadAndAnalyze(file: File, checklist: ChecklistInput) {
+    setUploadSubmitting(true);
+    setUploadError(null);
     try {
       const data = await apiImportContract(file);
-      setDocuments((docs) =>
-        docs.map((d) => (d.file === file ? { ...d, contract_id: data.contract_id, n_clauses: data.n_clauses, status: "analyzed", justUploaded: true } : d))
-      );
-      setActiveDocName(file.name);
+      setDocuments((docs) => [
+        ...docs.map((d) => (d.status === "analyzed" ? { ...d, status: "stale" as const } : d)),
+        { contract_id: data.contract_id, name: file.name.replace(/\.[^.]+$/, ""), source_filename: file.name, n_clauses: data.n_clauses, status: "analyzed", file: null, justUploaded: true },
+      ]);
+      setActiveDocName(file.name.replace(/\.[^.]+$/, ""));
       setActiveKey(docKey({ contract_id: data.contract_id, name: file.name }));
       setActiveContractId(data.contract_id);
-      setImportStatus({ kind: "ok", text: `Xong: ${data.n_clauses} Điều, ${data.n_cross} quan hệ chéo.` });
       setHasGraph(true);
-      setMessages([]);
-      setEvidenceGroups(null);
-      setEvidenceMsgId(null);
+      setShowUploadPage(false);
+      applyChecklist(checklist);
+      void runChecklist(data.contract_id, checklist.items);
     } catch (e) {
-      setDocuments((docs) => docs.map((d) => (d.file === file ? { ...d, status: "stale" } : d)));
-      setImportStatus({ kind: "err", text: `Lỗi import: ${(e as Error).message}` });
+      setUploadError((e as Error).message);
     } finally {
-      setUploading(false);
-      void pendingKey;
+      setUploadSubmitting(false);
     }
   }
 
-  async function removeDoc(key: string) {
-    const doc = documents.find((d) => docKey(d) === key);
-    if (!doc) return;
-    // Tài liệu chưa có contract_id (đang pending upload, chưa import xong) chỉ tồn tại ở
-    // frontend - không có gì để gọi API xoá, bỏ khỏi danh sách cục bộ là đủ.
-    if (doc.contract_id == null) {
-      setDocuments((docs) => docs.filter((d) => docKey(d) !== key));
+  async function handleRemoveActiveContract() {
+    if (activeContractId == null) return;
+    const removedId = activeContractId;
+    try {
+      await deleteContract(removedId);
+    } catch (e) {
+      setConnectionError(`Failed to remove contract: ${(e as Error).message}`);
       return;
     }
-    try {
-      await deleteContract(doc.contract_id);
-      setDocuments((docs) => docs.filter((d) => docKey(d) !== key));
-    } catch (e) {
-      setImportStatus({ kind: "err", text: `Lỗi khi xoá hợp đồng: ${(e as Error).message}` });
-    }
+    setDocuments((docs) => docs.filter((d) => d.contract_id !== removedId));
+    setActiveKey(null);
+    setActiveContractId(null);
+    setActiveDocName(null);
+    setHasGraph(false);
+    setEntries([]);
+    setChecklistItems([]);
+    setRunStatus("idle");
+    setSelectedItemId(null);
+    setShowUploadPage(true);
   }
 
-  function showEvidence(msgId: string, groups: ClauseGroup[]) {
-    setEvidenceMsgId(msgId);
-    setEvidenceGroups(groups);
-  }
-
-  async function handleSend() {
-    if (!hasGraph) return;
-    const text = question.trim();
-    const file = attachedFile;
-    if (!text && !file) return;
-
-    setQuestion("");
-    setAttachedFile(null);
-
-    if (file) {
-      let checklistData: ChecklistInput;
-      try {
-        checklistData = JSON.parse(await file.text());
-      } catch {
-        const id = nextId();
-        setMessages((m) => [...m, { kind: "user", id: nextId(), text: `Đính kèm checklist: ${file.name}` }, { kind: "invalid-file", id, filename: file.name }]);
-        return;
-      }
-      const userId = nextId();
-      const reportId = nextId();
-      setMessages((m) => [
-        ...m,
-        { kind: "user", id: userId, text: `Đính kèm checklist: ${checklistData.name} (${checklistData.items.length} mục)` },
-        { kind: "checklist", id: reportId, report: null, total: checklistData.items.length },
-      ]);
-      try {
-        const report = await submitChecklist(activeContractId!, checklistData);
-        setMessages((m) => m.map((msg) => (msg.id === reportId ? { ...msg, report } : msg)));
-        if (report.evaluations.length) showEvidence(reportId, report.evaluations[0].cited_clauses);
-      } catch (e) {
-        setMessages((m) =>
-          m.map((msg) => (msg.id === reportId ? { kind: "invalid-file", id: reportId, filename: `Lỗi khi gọi API: ${(e as Error).message}` } : msg))
-        );
-      }
-      return;
-    }
-
-    // Giữ nguyên 3 ô tiêu chí sau khi gửi (không xoá) - hữu ích khi hỏi liên tiếp nhiều câu dùng
-    // chung 1 bộ tiêu chí (vd rà nhiều khía cạnh của cùng 1 điều khoản). Chỉ lưu trong state React
-    // (mất khi tải lại trang), không lưu localStorage/backend.
-    const ctx = { pass_criteria: ctxPass.trim() || undefined, violation_criteria: ctxViolation.trim() || undefined, note: ctxNote.trim() || undefined };
-
-    const traceId = nextId();
-    setMessages((m) => [...m, { kind: "user", id: nextId(), text }, { kind: "trace", id: traceId, steps: [], answer: null, error: null, done: false }]);
-
-    try {
-      for await (const event of streamSingleQuestion(activeContractId!, text, ctx)) {
-        if (event.step === "generate_queries") {
-          setMessages((m) => m.map((msg) => (msg.id === traceId && msg.kind === "trace" ? { ...msg, steps: [...msg.steps, event] } : msg)));
-        } else if (event.step === "retrieval") {
-          setMessages((m) => m.map((msg) => (msg.id === traceId && msg.kind === "trace" ? { ...msg, steps: [...msg.steps, event] } : msg)));
-        } else if (event.step === "evaluate") {
-          setMessages((m) => m.map((msg) => (msg.id === traceId && msg.kind === "trace" ? { ...msg, answer: event, done: true } : msg)));
-          showEvidence(traceId, event.clauses);
-        } else if (event.step === "error") {
-          setMessages((m) => m.map((msg) => (msg.id === traceId && msg.kind === "trace" ? { ...msg, error: event.message, done: true } : msg)));
-        }
-      }
-    } catch (e) {
-      setMessages((m) => m.map((msg) => (msg.id === traceId && msg.kind === "trace" ? { ...msg, error: `Lỗi khi gọi API: ${(e as Error).message}`, done: true } : msg)));
-    }
-  }
+  const selectedEntry = entries.find((e) => e.item.id === selectedItemId) || null;
+  const highlightNumbers =
+    selectedEntry?.answer?.clauses.flatMap((g) => g.clauses.map((c) => c.number)).filter((n) => n !== "meta") || [];
 
   return (
-    <div className="flex items-stretch h-screen bg-bg p-3.5 gap-3.5">
-      <Sidebar
+    <div className="flex flex-col h-screen bg-bg p-3.5 gap-3.5">
+      <Header
         documents={documents}
         activeKey={activeKey}
-        onUploadClick={() => contractFileInputRef.current?.click()}
-        onSelect={(doc) => (doc.contract_id != null ? selectContract(doc) : doc.file && handleUploadFile(doc.file))}
-        onRemove={removeDoc}
-        uploadDisabled={uploading}
-        importStatus={importStatus}
-      />
-      <input
-        ref={contractFileInputRef}
-        type="file"
-        accept=".pdf,.docx,.doc"
-        className="hidden"
-        onChange={(e) => {
-          const f = e.target.files?.[0];
-          if (f) handleUploadFile(f);
-          e.target.value = "";
-        }}
+        activeDocName={activeDocName}
+        connectionError={connectionError}
+        onSelectContract={selectContract}
+        onUploadClick={() => setShowUploadPage(true)}
+        uploadDisabled={uploadSubmitting}
+        showFullGraph={showFullGraph}
+        onToggleFullGraph={() => setShowFullGraph((v) => !v)}
+        hasGraph={hasGraph}
+        onRemoveActiveContract={handleRemoveActiveContract}
+        mockMode={isMockMode()}
+        onToggleMock={() => setMockMode(!isMockMode())}
       />
 
-      <main className="flex-1 min-w-0 flex flex-col border border-border rounded-2xl bg-white overflow-hidden">
-        <div className="h-[4.5rem] shrink-0 px-[1.1rem] flex flex-col justify-center border-b border-border">
-          <div className="flex items-center gap-2.5">
-            <span className="font-extrabold text-[1.02rem] text-accent">Contract AI</span>
-            <button className="ml-auto border-none bg-transparent cursor-pointer text-lg text-muted" title="Cài đặt">
-              &#9881;
-            </button>
-          </div>
-          <div className="text-[0.8rem] text-muted mt-0.5">
-            {connectionError || (activeDocName ? `Hợp đồng: ${activeDocName}` : "Chưa có hợp đồng nào được import")}
-          </div>
-        </div>
+      <div className="flex-1 min-h-0 flex gap-3.5">
+        {showUploadPage ? (
+          <UploadPage
+            onSubmit={handleUploadAndAnalyze}
+            submitting={uploadSubmitting}
+            submitError={uploadError}
+            onCancel={() => setShowUploadPage(false)}
+            canCancel={hasGraph}
+          />
+        ) : (
+          <>
+            {!showFullGraph && (
+              <ChecklistPanel
+                checklistName={checklistName}
+                entries={entries}
+                runStatus={runStatus}
+                selectedItemId={selectedItemId}
+                onSelectItem={setSelectedItemId}
+                onStartAnalysis={handleStartAnalysis}
+              />
+            )}
 
-        <div ref={messageScrollRef} className="flex-1 overflow-y-auto flex flex-col items-center px-4 pt-5 pb-4 bg-bg">
-          <div className="w-full max-w-[700px] flex flex-col gap-3.5">
-            {messages.map((msg) => {
-              if (msg.kind === "user") {
-                return (
-                  <div key={msg.id} className="flex flex-col gap-1">
-                    <span className="text-[0.78rem] text-muted font-semibold px-0.5 self-end">Bạn</span>
-                    <div className="max-w-[78%] self-end rounded-2xl px-[1.1rem] py-[0.85rem] bg-accent-tint">
-                      <p className="m-0 text-[0.94rem] leading-relaxed">{msg.text}</p>
-                    </div>
-                  </div>
-                );
-              }
-              if (msg.kind === "trace") {
-                return (
-                  <div key={msg.id} className="flex flex-col gap-1">
-                    <span className="text-[0.78rem] text-muted font-semibold px-0.5">Contract AI</span>
-                    <TraceMessage
-                      steps={msg.steps}
-                      answer={msg.answer}
-                      error={msg.error}
-                      done={msg.done}
-                      evidenceActive={evidenceMsgId === msg.id}
-                      onShowEvidence={() => msg.answer && showEvidence(msg.id, msg.answer.clauses)}
-                    />
-                  </div>
-                );
-              }
-              if (msg.kind === "checklist") {
-                return (
-                  <div key={msg.id} className="flex flex-col gap-1">
-                    <span className="text-[0.78rem] text-muted font-semibold px-0.5">Contract AI</span>
-                    {msg.report ? (
-                      <ChecklistReportView report={msg.report} onShowEvidence={(clauses: ChecklistEvaluation["cited_clauses"]) => showEvidence(msg.id, clauses)} />
-                    ) : (
-                      <div className="rounded-2xl border border-border bg-white p-4 text-sm flex items-center">
-                        <span className="spinner" />
-                        Đang chấm {msg.total} mục...
-                      </div>
-                    )}
-                  </div>
-                );
-              }
-              return (
-                <div key={msg.id} className="flex flex-col gap-1">
-                  <span className="text-[0.78rem] text-muted font-semibold px-0.5">Contract AI</span>
-                  <div className="rounded-2xl border border-border bg-white p-4 text-sm">
-                    <p className="m-0">File JSON không hợp lệ.</p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        <InputBar
-          value={question}
-          onChange={setQuestion}
-          onSend={handleSend}
-          onAttach={setAttachedFile}
-          attachedFile={attachedFile}
-          onRemoveAttached={() => setAttachedFile(null)}
-          disabled={!hasGraph}
-        >
-          <ContextRow pass={ctxPass} violation={ctxViolation} note={ctxNote} onPassChange={setCtxPass} onViolationChange={setCtxViolation} onNoteChange={setCtxNote} />
-        </InputBar>
-      </main>
-
-      <EvidencePanel groups={evidenceGroups} />
+            {!hasGraph || activeContractId == null ? (
+              <div className="flex-1 min-w-0 flex items-center justify-center border border-border rounded-2xl bg-white text-muted text-sm">
+                {connectionError || "No contract selected yet."}
+              </div>
+            ) : showFullGraph ? (
+              <FullGraphView contractId={activeContractId} highlightNumbers={highlightNumbers} onClose={() => setShowFullGraph(false)} />
+            ) : (
+              <AnalysisPanel
+                entry={selectedEntry}
+                contractId={activeContractId}
+                contractName={activeDocName || ""}
+                onAnalyzeItem={runSingleItem}
+              />
+            )}
+          </>
+        )}
+      </div>
     </div>
   );
 }

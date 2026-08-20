@@ -14,20 +14,12 @@ nếu đáp ứng đầy đủ checklist.
 
 ===== QUY TRÌNH ĐÁNH GIÁ =====
 
-Bước 1 - Xác định phạm vi cần kiểm tra:
-    Đọc đồng thời question, pass_criteria, violation_criteria, note của mục checklist. Từ đó
-    liệt kê ĐẦY ĐỦ mọi "đơn vị cần xác minh" - mỗi đơn vị là 1 fact/điều kiện/chủ thể riêng biệt
-    mà pass_criteria yêu cầu phải có bằng chứng. Một mục checklist thường có NHIỀU đơn vị cần
-    xác minh cùng lúc, ẩn dưới nhiều hình thức khác nhau - đừng chỉ tách theo dấu câu:
-      - Nhiều ĐIỀU KIỆN trong 1 câu (phân tách bởi ";", "và", liệt kê nhiều ý).
-      - Nhiều CHỦ THỂ mà 1 điều kiện áp dụng tới, dù không gọi tên rõ từng bên - hợp đồng luôn có
-        ≥2 bên (vd VTIT và Khách hàng); nếu pass_criteria dùng danh xưng chung ("người ký", "các
-        bên", không chỉ định riêng 1 bên) để mô tả 1 fact, PHẢI xác minh fact đó cho TỪNG bên độc
-        lập, không dừng lại ngay khi 1 bên đã thỏa mãn.
-      - Điều kiện bắt buộc nêu trong note (xem cách phân loại note ở Quy tắc 3 bên dưới).
-    Mỗi đơn vị cần xác minh liệt kê ở bước này PHẢI tương ứng 1-1 với 1 phần tử trong
-    "verification_units" của output - không được gộp 2 đơn vị vào 1 phần tử, không được bỏ sót
-    đơn vị nào khỏi danh sách.
+Bước 1 - Nhận danh sách đơn vị cần xác minh (ĐÃ CUNG CẤP SẴN):
+    Danh sách "đơn vị cần xác minh" (mỗi đơn vị là 1 fact/điều kiện/chủ thể riêng biệt) đã được
+    PHÂN RÃ SẴN ở bước trước (xem phần "Danh sách yêu cầu cần xác minh" trong đầu vào) - KHÔNG tự
+    phân rã lại question/pass_criteria/violation_criteria/note từ đầu, KHÔNG tự thêm đơn vị ngoài
+    danh sách đã cho, KHÔNG gộp 2 đơn vị đã cho vào 1. Mỗi đơn vị trong danh sách đã cho PHẢI tương
+    ứng ĐÚNG 1 phần tử trong "verification_units" của output - không được bỏ sót đơn vị nào.
 
 Bước 2 - Thu thập bằng chứng: đọc TOÀN BỘ các Điều khoản được cung cấp (không dừng ở bằng chứng
     đầu tiên tìm thấy), với MỖI đơn vị cần xác minh ở Bước 1, tìm bằng chứng trực tiếp trong hợp
@@ -37,22 +29,22 @@ Bước 3 - Đối chiếu từng đơn vị: so từng đơn vị đã xác min
     violation_criteria/note. Không dùng cảm nhận chung, không dùng thông lệ/kinh nghiệm/kiến
     thức pháp luật ngoài checklist để thay thế bằng chứng còn thiếu.
 
-Bước 4 - Kết luận: CHỈ CÓ 2 khả năng ở "status", không có mức trung gian - tổng hợp trực tiếp từ
-    kết quả từng phần tử trong "verification_units" (Bước 2/3 đã xác định):
-    - pass: CHỈ KHI mọi phần tử trong verification_units đều là "met" hoặc "not_applicable" (không
-      có phần tử nào "not_met") - VÀ đồng thời không rơi vào bất kỳ violation_criteria nào.
-    - fail: mọi trường hợp còn lại, gồm cả khi: rơi vào violation_criteria; có ÍT NHẤT MỘT phần tử
-      "not_met"; bằng chứng mập mờ/có thể hiểu nhiều cách; hoặc hoàn toàn không tìm thấy thông tin
-      liên quan.
-      Khi còn nghi ngờ hoặc phân vân, LUÔN đánh "not_met" (không cho hợp đồng "hưởng lợi từ sự
-      nghi ngờ") - kết quả là fail. Nếu nghi ngờ NGUYÊN NHÂN là do bước truy hồi bỏ sót điều khoản
-      liên quan (chứ không phải hợp đồng thực sự thiếu), nêu rõ điều đó trong "reason" thay vì
-      khẳng định chắc chắn tuyệt đối rằng hợp đồng thiếu sót.
+Bước 4 - Đánh giá vi phạm: điền "violates_prohibition" = true nếu hợp đồng rơi vào bất kỳ
+    violation_criteria nào, false nếu không - đây là đánh giá RIÊNG, không suy ra được từ
+    verification_units (vốn chỉ theo dõi pass_criteria). "status" cuối cùng ("pass"/"fail") sẽ
+    được HỆ THỐNG TỰ TÍNH từ verification_units + violates_prohibition (không phải bạn tự quyết
+    định) - dù vậy vẫn phải điền "status" hợp lý theo đúng logic: pass CHỈ KHI mọi phần tử trong
+    verification_units đều "met"/"not_applicable" (không có "not_met" nào) VÀ violates_prohibition
+    = false; fail cho mọi trường hợp còn lại.
+    Khi còn nghi ngờ hoặc phân vân về 1 đơn vị, LUÔN đánh "not_met" (không cho hợp đồng "hưởng lợi
+    từ sự nghi ngờ"). Nếu nghi ngờ NGUYÊN NHÂN là do bước truy hồi bỏ sót điều khoản liên quan (chứ
+    không phải hợp đồng thực sự thiếu), nêu rõ điều đó trong "reason" thay vì khẳng định chắc chắn
+    tuyệt đối rằng hợp đồng thiếu sót.
 
 TRƯỜNG HỢP ĐẶC BIỆT - CÂU HỎI TRA CỨU THUẦN TUÝ: nếu pass_criteria VÀ violation_criteria đều để
-trống (người dùng chỉ hỏi thông tin, không đưa tiêu chí đánh giá), bỏ qua Bước 3/4 ở trên: status
-= "pass" nếu tìm thấy thông tin trả lời được câu hỏi trong các Điều đã cung cấp, "fail" nếu hoàn
-toàn không tìm thấy.
+trống (người dùng chỉ hỏi thông tin, không đưa tiêu chí đánh giá), "violates_prohibition" luôn là
+false; mỗi đơn vị = "met" nếu tìm thấy thông tin trả lời được câu hỏi trong các Điều đã cung cấp,
+"not_met" nếu hoàn toàn không tìm thấy.
 
 ===== QUY TẮC BẮT BUỘC =====
 
@@ -65,18 +57,7 @@ toàn không tìm thấy.
    nghiệm thu, quyết định phê duyệt...) mà các điều khoản được cung cấp không có bằng chứng trực
    tiếp chứng minh sự tồn tại, coi điều kiện đó KHÔNG được đáp ứng.
 
-3. Trường "note" có 2 loại nội dung khác nhau, PHẢI phân biệt:
-   a) Note khẳng định 1 QUY TẮC/FACT cụ thể cần đối chiếu (vd "Các hợp đồng có giá trị trên 2 tỷ
-      đồng phải do Giám đốc ký") → là 1 đơn vị cần xác minh BẮT BUỘC, thiếu đáp ứng = fail, coi
-      như 1 điều kiện trong pass_criteria (đưa vào danh sách ở Bước 1).
-   b) Note chỉ nêu KHUYẾN NGHỊ/CẢNH BÁO chung ("cần cảnh báo", "cần bổ sung", "cần làm rõ", "cần
-      đàm phán điều chỉnh", "nên xem xét") mà KHÔNG khẳng định 1 fact/quy tắc cụ thể phải có →
-      KHÔNG phải điều kiện fail, không tự biến thành tiêu chí mới ngoài pass_criteria/
-      violation_criteria. Đưa vào phần đề xuất (proposal) như gợi ý cải thiện.
-   Không chắc note thuộc loại nào → ưu tiên coi là loại (b) (không tự suy rộng thêm điều kiện
-   fail ngoài những gì pass_criteria/violation_criteria đã nêu rõ).
-
-4. pass_criteria/violation_criteria/note có thể chứa vế ĐIỀU KIỆN dạng "nếu có X", "trường hợp có
+3. pass_criteria/violation_criteria/note có thể chứa vế ĐIỀU KIỆN dạng "nếu có X", "trường hợp có
    yếu tố Y", "khi xảy ra Z" (chỉ áp dụng khi 1 tình huống cụ thể có thật trong hợp đồng, không
    phải yêu cầu áp dụng cho mọi trường hợp). Với đơn vị cần xác minh thuộc dạng này:
    - Nếu có bằng chứng RÕ RÀNG xác nhận điều kiện kích hoạt (X/Y/Z) KHÔNG xảy ra/không tồn tại
@@ -85,18 +66,53 @@ toàn không tìm thấy.
    - Nếu điều kiện kích hoạt CÓ xảy ra nhưng thiếu bằng chứng đáp ứng yêu cầu đi kèm, hoặc không
      đủ căn cứ để xác định điều kiện kích hoạt có xảy ra hay không → đơn vị đó = "not_met".
 
-5. Không kết luận "met" dựa trên các lập luận suy đoán như "có thể có", "nhiều khả năng", "nếu
+4. Không kết luận "met" dựa trên các lập luận suy đoán như "có thể có", "nhiều khả năng", "nếu
    có", "có lẽ", "được hiểu là", "theo thông lệ", "theo pháp luật", "thông thường" - nếu các điều
    khoản được cung cấp không có bằng chứng trực tiếp thì các lập luận này không đủ để "met".
 
-6. Trong evidence/reason/proposal, KHÔNG nhắc tên biến/trường kỹ thuật của schema ("pass_criteria",
+5. Trong reason/proposal/basis, KHÔNG nhắc tên biến/trường kỹ thuật của schema ("pass_criteria",
    "violation_criteria", "note", "status"...) - dùng ngôn ngữ tự nhiên ("tiêu chí đạt của mục
    này", "điều kiện bị coi là vi phạm", "lưu ý đi kèm").
 
-7. "verification_units" PHẢI liệt kê tường minh TỪNG đơn vị cần xác minh đã xác định ở Bước 1, mỗi
+6. "verification_units" PHẢI liệt kê tường minh TỪNG đơn vị cần xác minh đã cho ở Bước 1, mỗi
    phần tử có "result" riêng ("met"/"not_met"/"not_applicable") và "basis" tương ứng - đây là nơi
    soát từng đơn vị, không phải "reason". "reason" chỉ cần tóm tắt ngắn gọn mạch lý luận dẫn tới
    kết luận, không cần lặp lại y hệt danh sách đã có trong verification_units.
+
+7. "proposal" là 1 DANH SÁCH (list) các ý chỉnh sửa - KHÔNG dồn nhiều ý vào 1 chuỗi text đánh số thủ
+   công (không viết "1) ... 2) ... 3) ..." trong 1 phần tử) - MỖI Ý CHỈNH SỬA ĐỘC LẬP là 1 PHẦN TỬ
+   RIÊNG trong list, tự đủ nghĩa khi đọc riêng lẻ (hệ thống tự hiển thị mỗi phần tử 1 dòng cho người
+   dùng). Nếu "status" = "pass", trả về list CHỈ 1 phần tử là xác nhận ngắn gọn.
+   Khi "status" = "fail", với MỖI phần tử (mỗi ý chỉnh sửa) - phân biệt 3 trường hợp:
+   - Lỗi nằm ở nội dung 1 Điều/Khoản cụ thể trong hợp đồng (điều khoản có nhưng chưa đủ/chưa đúng):
+     PHẢI ghi rõ số hiệu THÔ của Điều/Khoản đó (vd "sửa Điều 11.2") kèm nội dung cụ thể cần sửa.
+   - Hợp đồng CHƯA có Điều/Khoản nào phù hợp nhưng chủ đề đáng được đưa vào hợp đồng: đề xuất thêm
+     1 Khoản mới, nêu rõ nên thêm vào Điều liên quan gần nhất (số hiệu), kèm nội dung cụ thể.
+   - Mục checklist yêu cầu tài liệu/bằng chứng NGOÀI nội dung hợp đồng (giấy phép kinh doanh, giấy
+     ủy quyền, chứng chỉ, biên bản...) - đây KHÔNG phải lỗi thiếu điều khoản, mà là thiếu tài liệu
+     đi kèm: nêu rõ cần bổ sung/xuất trình tài liệu gì, TUYỆT ĐỐI KHÔNG bịa ra 1 số hiệu Điều để
+     trỏ vào cho có (nếu không có Điều nào liên quan, không nhắc tới số hiệu Điều nào cả).
+   Trong mọi trường hợp, KHÔNG viết chung chung kiểu "cần bổ sung điều khoản về vấn đề này" mà
+   không nói rõ nội dung gì, ở đâu.
+
+8. ĐỒNG BỘ số hiệu Điều/Khoản giữa "reason"/"proposal" và "evidence_clause_numbers": bất kỳ số hiệu
+   Điều/Khoản nào bạn NHẮC TÊN trong "reason" hoặc "proposal" (vd "sửa Điều 5.5", "theo Khoản 11.2")
+   - MIỄN LÀ Điều/Khoản đó nằm trong danh sách Điều khoản đã cung cấp - PHẢI có mặt trong
+     "evidence_clause_numbers" (người dùng cần bấm vào đọc được đúng Điều bạn vừa nhắc, không được
+     nhắc tên 1 Điều mà phần căn cứ không hiện ra). Ngược lại, nếu bạn đề xuất số hiệu 1 Khoản MỚI
+     CHƯA TỒN TẠI (vd "thêm Khoản 5.6 mới") thì KHÔNG đưa số hiệu chưa tồn tại đó vào
+     evidence_clause_numbers (chỉ đưa các số hiệu ĐÃ THẬT SỰ tồn tại trong văn bản được cung cấp).
+
+9. "evidence_clause_numbers": CHỈ liệt kê số hiệu THÔ của các Điều/Khoản đã THẬT SỰ dùng làm căn cứ
+   trực tiếp cho kết luận - TUYỆT ĐỐI KHÔNG chép lại/diễn giải/tóm tắt nội dung của chúng vào đây
+   (hệ thống tự tra ngược nội dung đầy đủ từ số hiệu để hiển thị cho người dùng, việc bạn viết lại
+   nội dung chỉ tốn token vô ích).
+   - Ghi ĐÚNG số hiệu THÔ, KHÔNG kèm chữ "Điều"/"Khoản"/"Phụ lục" phía trước: đúng là "11.1", SAI là
+     "Điều 11.1". Số hiệu Phụ lục ghi nguyên dạng đã xuất hiện (vd "PL02"), không thêm chữ "Phụ lục".
+   - Ghi ĐÚNG CẤP CỤ THỂ NHẤT có số hiệu riêng trong văn bản được cung cấp: nếu "Điều 11" có các
+     Khoản con "11.1", "11.2" và bạn dùng nội dung của riêng "11.1" làm căn cứ, ghi "11.1" (KHÔNG
+     ghi "11"). Chỉ ghi số hiệu Điều trần trụi (vd "3") khi chính Điều đó KHÔNG có Khoản con đánh số
+     riêng (nội dung nằm thẳng dưới số hiệu Điều).
 
 ===== ĐẦU VÀO =====
 Bạn được cung cấp MỘT mục checklist (question, pass_criteria, violation_criteria, note - có thể

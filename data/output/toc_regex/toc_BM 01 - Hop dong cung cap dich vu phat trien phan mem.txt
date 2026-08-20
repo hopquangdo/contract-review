@@ -1,0 +1,109 @@
+# Regex TOC - BM 01 - Hop dong cung cap dich vu phat trien phan mem.md
+Tổng số Clause tách được: 80
+
+[preamble] Thông tin chung và các bên tham gia hợp đồng
+
+== Section I. CÁC ĐIỀU KHOẢN CHUNG ==
+Điều 0 Thông tin chung và các bên tham gia hợp đồng
+Điều 1. ĐỐI TƯỢNG HỢP ĐỒNG
+  Khoản 1.1
+  Khoản 1.2
+Điều 2. THÀNH PHẦN HỢP ĐỒNG
+  Khoản 2.1
+  Khoản 2.2
+  Khoản 2.3
+  Khoản 2.4
+Điều 3. QUYỀN VÀ NGHĨA VỤ CỦA KHÁCH HÀNG
+  Khoản 3.1
+  Khoản 3.2
+  Khoản 3.3
+Điều 4. QUYỀN VÀ NGHĨA VỤ CỦA VTIT
+  Khoản 4.1
+  Khoản 4.2
+  Khoản 4.3
+Điều 5. QUYỀN SỞ HỮU TRÍ TUỆ
+  Khoản 5.1
+  Khoản 5.2
+  Khoản 5.3
+  Khoản 5.4
+  Khoản 5.5
+Điều 6. BẢO MẬT THÔNG TIN VÀ BẢO VỆ DỮ LIỆU CÁ NHÂN
+  Khoản 6.1
+  Khoản 6.2
+  Khoản 6.3
+  Khoản 6.4
+  Khoản 6.5
+Điều 7. QUAN HỆ LAO ĐỘNG VÀ KHÔNG LÔI KÉO
+  Khoản 7.1
+  Khoản 7.2
+  Khoản 7.3
+  Khoản 7.4
+Điều 8. SỰ KIỆN BẤT KHẢ KHÁNG
+  Khoản 8.1
+  Khoản 8.2
+  Khoản 8.3
+  Khoản 8.4
+  Khoản 8.5
+  Khoản 8.6
+Điều 9. CHUYỂN NHƯỢNG HỢP ĐỒNG
+  Khoản 9.1
+  Khoản 9.2
+  Khoản 9.3
+Điều 10. CAM ĐOAN VÀ BẢO ĐẢM
+  Khoản 10.1
+  Khoản 10.2
+  Khoản 10.3
+Điều 11. PHẠT VI PHẠM VÀ BỒI THƯỜNG THIỆT HẠI
+  Khoản 11.1
+  Khoản 11.2
+  Khoản 11.3
+  Khoản 11.4
+Điều 12. CHẤM DỨT HỢP ĐỒNG
+  Khoản 12.1
+  Khoản 12.2
+  Khoản 12.3
+  Khoản 12.4
+Điều 13. LUẬT ÁP DỤNG VÀ GIẢI QUYẾT TRANH CHẤP
+  Khoản 13.1
+  Khoản 13.2
+  Khoản 13.3
+
+== Section II. CÁC ĐIỀU KHOẢN THƯƠNG MẠI ==
+Điều 14. PHẠM VI DỊCH VỤ VÀ CHỈ TIÊU KỸ THUẬT
+  Khoản 14.1
+  Khoản 14.2
+  Khoản 14.3
+  Khoản 14.4
+Điều 15. GIÁ TRỊ HỢP ĐỒNG VÀ THANH TOÁN
+  Khoản 15.1
+  Khoản 15.2
+  Khoản 15.3
+  Khoản 15.4
+Điều 16. THỜI GIAN CUNG CẤP DỊCH VỤ
+  Khoản 16.1
+  Khoản 16.2
+  Khoản 16.3
+  Khoản 16.4
+Điều 17. BÀN GIAO VÀ NGHIỆM THU CÔNG VIỆC
+  Khoản 17.1
+  Khoản 17.2
+  Khoản 17.3
+  Khoản 17.4
+  Khoản 17.5
+  Khoản 17.6
+  Khoản 17.7
+  Khoản 17.8
+  Khoản 17.9
+Điều 18. BẢO HÀNH
+  Khoản 18.1
+  Khoản 18.2
+  Khoản 18.3
+  Khoản 18.4
+  Khoản 18.5
+  Khoản 18.6
+
+== Section III. ĐIỀU KHOẢN CUỐI ==
+Điều 19. ĐIỀU KHOẢN CUỐI
+  Khoản 19.1
+  Khoản 19.2
+  Khoản 19.3
